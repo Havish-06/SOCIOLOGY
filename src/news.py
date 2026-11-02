@@ -11,6 +11,7 @@ Outputs:
     attention_summary.csv onset/peak dates per series, lead days, best cross-correlation lag
 """
 import argparse
+import re
 import time
 from pathlib import Path
 
@@ -54,6 +55,12 @@ def load_trends_csv(path):
     s = pd.to_numeric(df.iloc[:, 1].astype(str).str.replace("<1", "0.5"), errors="coerce")
     s.index = pd.to_datetime(df.iloc[:, 0], utc=True)
     return s.rename("trends")
+
+
+def incident_start(value):
+    """First day of an incident date written as 'YYYY-MM', 'YYYY-MM-DD' or 'YYYY (note)'; None if no year."""
+    m = re.match(r"(\d{4})(?:-(\d{2}))?", str(value))
+    return pd.Timestamp(f"{m.group(1)}-{m.group(2) or '01'}-01") if m else None
 
 
 def onset(series, frac=0.1):
@@ -128,7 +135,10 @@ def main():
     for _, c in cases.iterrows():
         if c["case_id"] not in set(cd["case_id"]) or pd.isna(c.get("news_query")):
             continue
-        t0 = pd.Timestamp(str(c["incident_date"])[:7] + "-01")
+        t0 = incident_start(c["incident_date"])
+        if t0 is None:
+            print(f"skip {c['case_id']}: no usable incident_date")
+            continue
         news = gdelt_daily(c["news_query"], t0 - pd.Timedelta(days=args.days_before), t0 + pd.Timedelta(days=args.days_after))
         tpath = Path(args.trends_dir) / f"{c['case_id']}.csv"
         trends = load_trends_csv(tpath) if tpath.exists() else None

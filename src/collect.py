@@ -1,8 +1,12 @@
 """Collect YouTube comments and commenter-channel metadata via the YouTube Data API v3.
 
 Usage:
-    python -m src.collect --cases data/cases.csv            # every video_id listed in the case table
+    python -m src.collect --videos data/videos.csv          # every usable video in the video table
     python -m src.collect --video-ids abc123 def456 --case-id test
+
+data/videos.csv has one row per video: case_id, video_id, role (case | control),
+video_type (original | reupload | news | response | commentary), status. Rows whose
+status starts with "unavailable" or "rejected" are skipped.
 
 Needs YOUTUBE_API_KEY in the environment (or in a .env file).
 Quota: commentThreads.list / comments.list / channels.list cost 1 unit per call
@@ -122,21 +126,17 @@ def fetch_video_meta(video_ids, key):
     return pd.DataFrame(rows)
 
 
-def videos_from_cases(path):
-    """(case_id, video_id, role) for every case video and every control (non-controversial) clip."""
-    cases = pd.read_csv(path)
-    triples = []
-    for _, c in cases.iterrows():
-        for col, role in [("video_ids", "case"), ("control_video_ids", "control")]:
-            if col in c and pd.notna(c[col]):
-                triples += [(c["case_id"], v.strip(), role) for v in str(c[col]).split(";") if v.strip()]
-    return triples
+def videos_from_table(path):
+    """(case_id, video_id, role, video_type) for every usable row of the video table."""
+    v = pd.read_csv(path, dtype=str).fillna("")
+    v = v[~v["status"].str.startswith(("unavailable", "rejected"))]
+    return list(v[["case_id", "video_id", "role", "video_type"]].itertuples(index=False, name=None))
 
 
 def main():
     load_dotenv()
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cases", help="case table with a semicolon-separated video_ids column")
+    ap.add_argument("--videos", help="video table, e.g. data/videos.csv")
     ap.add_argument("--video-ids", nargs="*", default=[])
     ap.add_argument("--case-id", default="adhoc")
     ap.add_argument("--out", default=str(RAW))
@@ -146,14 +146,15 @@ def main():
     if not key:
         raise SystemExit("Set YOUTUBE_API_KEY (see .env.example)")
 
-    triples = videos_from_cases(args.cases) if args.cases else [(args.case_id, v, "case") for v in args.video_ids]
+    triples = (videos_from_table(args.videos) if args.videos
+               else [(args.case_id, v, "case", "unknown") for v in args.video_ids])
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
 
     frames = []
-    for case_id, vid, role in triples:
+    for case_id, vid, role, vtype in triples:
         try:
-            df = fetch_comments(vid, key, case_id).assign(video_role=role)
+            df = fetch_comments(vid, key, case_id).assign(video_role=role, video_type=vtype)
         except RuntimeError as e:
             print(f"skip {vid}: {e}")
             continue
@@ -165,7 +166,7 @@ def main():
 
     comments = pd.concat(frames, ignore_index=True)
     comments.to_csv(out / "comments.csv", index=False)
-    fetch_video_meta([v for _, v, _ in triples], key).to_csv(out / "videos.csv", index=False)
+    fetch_video_meta([t[1] for t in triples], key).to_csv(out / "video_meta.csv", index=False)
     channels = fetch_channels(comments["author_channel_id"], key)
     channels.to_csv(out / "channels.csv", index=False)
     print(f"total {len(comments)} comments, {len(channels)} commenter channels -> {out}")

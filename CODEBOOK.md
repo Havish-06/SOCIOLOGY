@@ -13,10 +13,14 @@ Rules for all coders:
 
 ## Part A — Joke-level labels (one row per case in `data/cases.csv`)
 
+The study covers **any topic that brings stand-up comedians under scrutiny**. Topic (A2) is the main variable;
+genre (A1) records *how* the joke is told, so we can test whether scrutiny follows the topic or the style.
+
 ### A1. Genre (more than one allowed)
 | Code | Definition | Source |
 |---|---|---|
-| `dark` | Treats as funny a subject normally serious, painful or sacred (death, violence, disease, disability, the sacred, social hierarchy) | Willinger et al. 2017 |
+| `dark` | **Both** (1) a grave subject (death, violence, suffering, disease, disability, the sacred, a stigmatised position in a hierarchy) **and** (2) the laugh comes *from* that gravity, not from merely mentioning it | Willinger et al. 2017 |
+| `roast` | Mocks a particular person (a celebrity, a guest, an audience member) | — |
 | `gallows` | Dark humour told by or for people who are themselves suffering or oppressed | Obrdlik 1942 |
 | `satire_juvenalian` | Biting, contemptuous attack on people or institutions with power | Holbert et al. 2011 |
 | `satire_horatian` | Gentle, playful mockery of power or social folly | Holbert et al. 2011 |
@@ -24,7 +28,7 @@ Rules for all coders:
 | `observational` | Everyday-life humour with no taboo subject | — |
 
 ### A2. Taboo domain (more than one allowed)
-`religion` · `caste` · `gender_sexuality` · `death_violence` · `disease_disability` · `regional_national_icon` · `politics` · `bodies_looks` · `none`
+`religion` · `caste` · `gender_sexuality` · `family` · `politics_state` · `regional_national_icon` · `celebrity_public_figure` · `bodies_looks` · `death_violence_tragedy` · `disease_disability` · `none`
 Source: Allan & Burridge 2006 (taboo domains). **Added for India:** `caste` and `regional_national_icon`.
 
 ### A3. Target and direction

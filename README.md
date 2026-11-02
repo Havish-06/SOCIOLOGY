@@ -1,12 +1,16 @@
-# How Online Outrage Against Indian Dark Comedy Escalates — Team K
+# Laughter Under Scrutiny: Joke Topics, Public Backlash and Escalation in India — Team K
 
-Sociology project: what kinds of friction dark-comedy clips generate in India, which taboos
-provoke which response (online only / legal / extra-legal / both), and how much of the
-online outrage is real, widespread and organic. Focus: mid-range comedians (~100K–2M subscribers).
+Sociology project: which subjects of humour expose Indian stand-up comedians to public scrutiny, what
+response follows (online only / legal / extra-legal / both), and how much of the online outrage
+is real, widespread and organic. All styles of humour are included (dark, satire, crude, roast);
+style is recorded as a variable. Comedians of every audience size are included (small <100K,
+mid 100K–2M, large >2M subscribers); mid-range channels carry extra weight in the comment
+analysis because their comment sections have less spam and fan-army noise.
 
 - **Proposal (revised, current):** `Sociology_Proposal_Revised.docx`. The original is kept as `Sociology_Proposal_*.docx`.
 - **Codebook:** [CODEBOOK.md](CODEBOOK.md): every joke and comment label, with decision rules and the prior work it builds on
-- **Case table:** [data/cases.csv](data/cases.csv): 17 incidents with outcome, actors, sources and verification status
+- **Case table:** [data/cases.csv](data/cases.csv): 23 incidents with topic, genre, context, outcome, actors, sources, subscriber counts and verification status
+- **Video table:** [data/videos.csv](data/videos.csv): candidate YouTube videos per case (original / reupload / news / response / commentary; case or control), checked to exist
 - **Event timelines:** [data/events.csv](data/events.csv): dated FIRs, arrests, threats and cancellations per case
 - **Dashboard:** open [dashboard/index.html](dashboard/index.html) in a browser (shows DEMO numbers until the pipeline has run)
 
@@ -23,8 +27,8 @@ copy .env.example .env            # then paste your YouTube Data API key into .e
 
 | Step | Command | Output |
 |---|---|---|
-| 1. Fill `video_ids` (case clips, reuploads, news coverage, response video) and `control_video_ids` (a non-controversial clip by the same comedian) in `data/cases.csv` | — | — |
-| 2. Collect comments + commenter account metadata | `python -m src.collect --cases data/cases.csv` | `data/raw/` |
+| 1. Review `data/videos.csv`: watch each candidate, set `status` to `confirmed` or `rejected`, add control clips | — | — |
+| 2. Collect comments + commenter account metadata | `python -m src.collect --videos data/videos.csv` | `data/raw/` |
 | 3. Authenticity audit | `python -m src.spam --comments data/raw/comments.csv --channels data/raw/channels.csv` | `data/processed/` |
 | 4. Hand-coding sheet (stratified, anonymised) | `python -m src.sample sheet --flagged data/processed/comments_flagged.csv --n 60` | `data/coding/sheet.csv` |
 | 5. Inter-coder reliability | `python -m src.sample kappa --a data/coding/coder_A.csv --b data/coding/coder_B.csv` | kappa table |

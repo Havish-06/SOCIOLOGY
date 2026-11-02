@@ -19,6 +19,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from src.news import incident_start
 from src.spam import gini, top_share
 
 REACTIONS = ["support", "mock_offended", "neutral_discussion", "backlash", "threat",
@@ -97,7 +98,7 @@ def demo_metrics(cases):
         auth = [1 - coord - 0.04 - 0.01, 0.04, coord, 0.01]
         n_acc = int(rng.integers(2000, 20000))
         counts = rng.zipf(1.6 + 0.2 * (2 - esc), n_acc).clip(max=300)
-        t0 = pd.Timestamp(str(c["incident_date"])[:7] + "-01") if str(c["incident_date"])[:4].isdigit() else pd.Timestamp("2025-01-01")
+        t0 = incident_start(c["incident_date"]) or pd.Timestamp("2025-01-01")
         dates = pd.date_range(t0 - pd.Timedelta(days=10), periods=60, freq="D")
         lag = int(rng.integers(-3, 4))
         base = np.exp(-0.5 * ((np.arange(60) - 14) / 3) ** 2)
