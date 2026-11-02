@@ -16,12 +16,16 @@ from pathlib import Path
 import pandas as pd
 from sklearn.metrics import cohen_kappa_score
 
-# Codebook v0: refine after the first pilot round of coding.
+# Codebook v0 (definitions and sources in CODEBOOK.md): refine after the first pilot round of coding.
 CODE_COLUMNS = {
     "reaction": "support | mock_offended | neutral_discussion | backlash | threat | demand_legal_action | spam_irrelevant",
     "target": "comedian | joke_content | offended_group | platform | state | other",
     "taboo": "religion | caste | gender_sexuality | politics_nation | personal_trauma | regional_icon | other",
+    "sacred_object": "deity | icon | nation | none",
+    "frame": "play (\"it's just a joke\") | serious (insult / crime) | none",
+    "stigmatises_comedian": "yes (attacks comedian's religion/caste/region/gender) | no",
     "intensity": "1 (mild) .. 5 (violent)",
+    "pushback_type": "replies only: facts | hypocrisy | consequences | affiliation | denouncing | humour_sarcasm | positive_tone | hostile",
     "looks_inauthentic": "yes | no | unsure",
 }
 
@@ -43,10 +47,13 @@ def make_sheet(flagged, n_per_cell, seed=42):
     return sheet
 
 
-def kappa(a, b, columns=("reaction", "target", "taboo", "looks_inauthentic")):
+def kappa(a, b, columns=("reaction", "target", "taboo", "sacred_object", "frame", "stigmatises_comedian",
+                         "looks_inauthentic")):
     m = a.merge(b, on="comment_id", suffixes=("_a", "_b"))
     rows = []
     for col in columns:
+        if f"{col}_a" not in m or f"{col}_b" not in m:
+            continue
         both = m[[f"{col}_a", f"{col}_b"]].dropna()
         both = both[(both[f"{col}_a"] != "") & (both[f"{col}_b"] != "")]
         if len(both):

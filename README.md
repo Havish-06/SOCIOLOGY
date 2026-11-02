@@ -5,6 +5,7 @@ provoke which response (online only / legal / extra-legal / both), and how much 
 online outrage is real, widespread and organic. Focus: mid-range comedians (~100K–2M subscribers).
 
 - **Proposal (revised, current):** `Sociology_Proposal_Revised.docx`. The original is kept as `Sociology_Proposal_*.docx`.
+- **Codebook:** [CODEBOOK.md](CODEBOOK.md): every joke and comment label, with decision rules and the prior work it builds on
 - **Case table:** [data/cases.csv](data/cases.csv): 17 incidents with outcome, actors, sources and verification status
 - **Event timelines:** [data/events.csv](data/events.csv): dated FIRs, arrests, threats and cancellations per case
 - **Dashboard:** open [dashboard/index.html](dashboard/index.html) in a browser (shows DEMO numbers until the pipeline has run)
