@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comedy Friction Map</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+    --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+    --seq-0: #f0efec; --seq-1: #cde2fb; --seq-2: #9ec5f4; --seq-3: #6da7ec; --seq-4: #3987e5; --seq-5: #256abf; --seq-6: #184f95;
+    --warn-bg: #fff4d6; --warn-ink: #6b4a00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+      --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+      --seq-0: #383835; --seq-1: #104281; --seq-2: #184f95; --seq-3: #1c5cab; --seq-4: #256abf; --seq-5: #2a78d6; --seq-6: #3987e5;
+      --warn-bg: #3a2c00; --warn-ink: #fab219;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+    --seq-0: #383835; --seq-1: #104281; --seq-2: #184f95; --seq-3: #1c5cab; --seq-4: #256abf; --seq-5: #2a78d6; --seq-6: #3987e5;
+    --warn-bg: #3a2c00; --warn-ink: #fab219;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1200px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 0 0 4px; }
+  .sub { color: var(--ink-2); margin: 0 0 16px; }
+  .note { color: var(--muted); font-size: 12px; margin: 4px 0 12px; }
+  .banner { background: var(--warn-bg); color: var(--warn-ink); border-radius: 8px; padding: 10px 14px; margin: 12px 0; font-weight: 600; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 860px) { .row { grid-template-columns: 1fr; } }
+  .filters { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+  select, button.seg { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: separate; border-spacing: 2px; width: 100%; }
+  th { font-weight: 600; color: var(--ink-2); font-size: 12px; text-align: left; padding: 4px 6px; }
+  td { padding: 6px; vertical-align: top; }
+  .fm td { background: var(--seq-0); border-radius: 6px; min-width: 130px; }
+  .fm th.rowh { white-space: nowrap; }
+  .chip { display: inline-block; margin: 2px; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); font: inherit; font-size: 12px; cursor: pointer; }
+  .chip[aria-pressed="true"] { outline: 2px solid var(--s1); outline-offset: 1px; }
+  .chip .tier { color: var(--muted); font-size: 11px; margin-left: 4px; }
+  .hm td { text-align: center; font-variant-numeric: tabular-nums; border-radius: 4px; min-width: 56px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 12px 0; }
+  .tile { background: var(--page); border-radius: 8px; padding: 10px 12px; }
+  .tile .v { font-size: 22px; font-weight: 600; }
+  .tile .k { color: var(--ink-2); font-size: 12px; }
+  .facts dt { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  .facts dd { margin: 0; }
+  .chart { position: relative; height: 280px; }
+  .chart.short { height: 120px; }
+  #tip { position: fixed; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.15); display: none; max-width: 280px; z-index: 10; }
+  .data td, .data th { border-bottom: 1px solid var(--grid); font-size: 12px; }
+  a { color: var(--s1); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Comedy Friction Map</h1>
+  <p class="sub">Which taboos in Indian dark comedy lead to which kind of friction, and how real is the online outrage? Team K, Sociology project.</p>
+  <div id="banner"></div>
+
+  <div class="filters">
+    <label>Tier <select id="tier">
+      <option value="all">All cases</option><option value="mid">Mid-range only</option>
+      <option value="reference">Reference only</option><option value="amateur">Amateur only</option>
+    </select></label>
+    <span class="note" id="gen"></span>
+  </div>
+
+  <section class="card">
+    <h2>Friction map: taboo × outcome</h2>
+    <p class="note">Each chip is one controversy. Darker cells hold more cases. Click a chip to open the case below.</p>
+    <div class="scroll"><table class="fm" id="fm"></table></div>
+  </section>
+
+  <div class="row">
+    <section class="card">
+      <h2>Reaction mix by taboo</h2>
+      <p class="note">Share of comments in each reaction category, averaged over the cases in the current filter.</p>
+      <div class="scroll"><table class="hm" id="hm"></table></div>
+    </section>
+    <section class="card">
+      <h2>Hostility from non-organic accounts</h2>
+      <p class="note">Share of hostile comments written by spam, coordinated or uncertain accounts. Label = outcome.</p>
+      <div class="chart" id="nonorgWrap"><canvas id="nonorg" aria-label="Bar chart of non-organic share of hostile comments per case"></canvas></div>
+    </section>
+  </div>
+
+  <section class="card" id="detail">
+    <h2 id="dTitle">Case</h2>
+    <p class="note" id="dSub"></p>
+    <div class="tiles" id="tiles"></div>
+    <div class="row">
+      <div>
+        <h2>Attention over time</h2>
+        <p class="note">Each series indexed to its own peak (= 100) so comments and news coverage share one axis. ▲ marks dated events.</p>
+        <div class="chart"><canvas id="timeline" aria-label="Indexed comments, hostile comments and news coverage over time"></canvas></div>
+      </div>
+      <div>
+        <h2>Who does the talking</h2>
+        <p class="note">Lorenz curve of comments per account. The further below the diagonal, the more a few accounts dominate.</p>
+        <div class="chart"><canvas id="lorenz" aria-label="Lorenz curve of comments per account"></canvas></div>
+      </div>
+    </div>
+    <h2 style="margin-top:16px">Authenticity mix</h2>
+    <div class="chart short"><canvas id="auth" aria-label="Stacked bar of comment authenticity categories"></canvas></div>
+    <h2 style="margin-top:16px">Reply threads</h2>
+    <div class="tiles" id="threadTiles"></div>
+    <dl class="facts" id="facts"></dl>
+  </section>
+
+  <section class="card">
+    <h2>All cases (table view)</h2>
+    <div class="scroll"><table class="data" id="tbl"></table></div>
+  </section>
+</main>
+<div id="tip" role="tooltip"></div>
+
+<script src="data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+<script>
+const D = window.DASHBOARD_DATA;
+const OUTCOMES = ["none", "legal", "extralegal", "both"];
+const OUTCOME_LABEL = { none: "Online only", legal: "Legal", extralegal: "Extra-legal", both: "Both" };
+const REACTION_LABEL = { support: "Support", mock_offended: "Mock offended", neutral_discussion: "Neutral",
+  backlash: "Backlash", threat: "Threat", demand_legal_action: "Demand legal", spam_irrelevant: "Spam" };
+const CAT_LABEL = { organic: "Organic", uncertain: "Uncertain", likely_coordinated: "Likely coordinated", commercial_spam: "Commercial spam" };
+const pct = v => v == null ? "–" : (100 * v).toFixed(v < 0.1 ? 1 : 0) + "%";
+const fmt = n => n == null ? "–" : Number(n).toLocaleString();
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const year = c => /^\d{4}/.test(c.incident_date || "") ? c.incident_date.slice(0, 4) : "(date?)";
+let selected = null, charts = {};
+
+// ---------- tooltip for HTML cells ----------
+const tip = document.getElementById("tip");
+document.addEventListener("mousemove", e => {
+  const t = e.target.closest("[data-tip]");
+  if (!t) { tip.style.display = "none"; return; }
+  tip.innerHTML = t.dataset.tip; tip.style.display = "block";
+  const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
+  tip.style.left = x + "px"; tip.style.top = (e.clientY + 14) + "px";
+});
+
+function visibleCases() {
+  const tier = document.getElementById("tier").value;
+  return D.cases.filter(c => tier === "all" || c.tier === tier);
+}
+
+// sequential shade for counts/shares
+function seq(v, max) {
+  if (!v) return "var(--seq-0)";
+  const step = Math.min(6, Math.max(1, Math.ceil(6 * v / max)));
+  return `var(--seq-${step})`;
+}
+const inkOn = (v, max) => (v && Math.ceil(6 * v / max) >= 4) ? "#ffffff" : "var(--ink)";
+
+// ---------- friction map ----------
+function renderMap(cases) {
+  const fams = [...new Set(cases.map(c => c.taboo_family))].sort();
+  const cell = (f, o) => cases.filter(c => c.taboo_family === f && c.outcome_type === o);
+  const max = Math.max(1, ...fams.flatMap(f => OUTCOMES.map(o => cell(f, o).length)));
+  let h = `<tr><th></th>${OUTCOMES.map(o => `<th>${OUTCOME_LABEL[o]}</th>`).join("")}</tr>`;
+  for (const f of fams) {
+    h += `<tr><th class="rowh">${esc(f.replace(/_/g, " "))}</th>`;
+    for (const o of OUTCOMES) {
+      const cs = cell(f, o);
+      h += `<td style="background:${seq(cs.length, max)}" data-tip="${esc(f.replace(/_/g, " "))} × ${OUTCOME_LABEL[o]}: ${cs.length} case(s)">` +
+        cs.map(c => `<button class="chip" data-case="${c.case_id}" aria-pressed="${c.case_id === selected}">${esc(c.comedian)} ${year(c)}<span class="tier">${c.tier}</span></button>`).join("") + `</td>`;
+    }
+    h += `</tr>`;
+  }
+  const el = document.getElementById("fm");
+  el.innerHTML = h;
+  el.querySelectorAll(".chip").forEach(b => b.onclick = () => select(b.dataset.case));
+}
+
+// ---------- reaction heatmap ----------
+function renderHeatmap(cases) {
+  const fams = [...new Set(cases.map(c => c.taboo_family))].sort();
+  const mix = f => {
+    const ms = cases.filter(c => c.taboo_family === f).map(c => D.metrics[c.case_id]?.reaction_mix).filter(Boolean);
+    return Object.fromEntries(D.reactions.map(r => [r, ms.length ? ms.reduce((s, m) => s + (m[r] || 0), 0) / ms.length : null]));
+  };
+  const rows = fams.map(f => [f, mix(f)]);
+  const max = Math.max(0.01, ...rows.flatMap(([, m]) => Object.values(m).filter(v => v != null)));
+  let h = `<tr><th></th>${D.reactions.map(r => `<th>${REACTION_LABEL[r] || r}</th>`).join("")}</tr>`;
+  for (const [f, m] of rows) {
+    h += `<tr><th>${esc(f.replace(/_/g, " "))}</th>` + D.reactions.map(r =>
+      `<td style="background:${seq(m[r], max)};color:${inkOn(m[r], max)}" data-tip="${esc(f)} · ${REACTION_LABEL[r]}: ${pct(m[r])}">${pct(m[r])}</td>`).join("") + `</tr>`;
+  }
+  document.getElementById("hm").innerHTML = h;
+}
+
+// ---------- shared chart styling ----------
+function baseOpts(extra = {}) {
+  return {
+    responsive: true, maintainAspectRatio: false, animation: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: css("--ink-2"), boxWidth: 12, boxHeight: 12 } },
+      tooltip: { backgroundColor: css("--surface"), titleColor: css("--ink"), bodyColor: css("--ink"), borderColor: css("--axis"), borderWidth: 1 },
+    },
+    scales: {
+      x: { grid: { display: false }, ticks: { color: css("--muted"), maxRotation: 0, autoSkipPadding: 16 }, border: { color: css("--axis") } },
+      y: { grid: { color: css("--grid") }, ticks: { color: css("--muted") }, border: { display: false } },
+    },
+    ...extra,
+  };
+}
+function draw(id, cfg) { charts[id]?.destroy(); charts[id] = new Chart(document.getElementById(id), cfg); }
+
+function renderNonOrganic(cases) {
+  const rows = cases.map(c => [c, D.metrics[c.case_id]?.hostile_non_organic]).filter(([, v]) => v != null)
+    .sort((a, b) => b[1] - a[1]);
+  document.getElementById("nonorgWrap").style.height = Math.max(200, 26 * rows.length + 40) + "px";
+  const o = baseOpts({ indexAxis: "y", interaction: { mode: "nearest", intersect: true } });
+  o.plugins.legend.display = false;
+  o.scales.x = { ...o.scales.x, grid: { color: css("--grid") }, ticks: { color: css("--muted"), callback: v => v + "%" }, min: 0 };
+  o.scales.y = { ...o.scales.y, grid: { display: false }, ticks: { color: css("--ink-2") } };
+  o.plugins.tooltip.callbacks = { label: ctx => `${ctx.raw.toFixed(1)}% of hostile comments · outcome: ${OUTCOME_LABEL[rows[ctx.dataIndex][0].outcome_type]}` };
+  o.onClick = (e, els) => els.length && select(rows[els[0].index][0].case_id);
+  draw("nonorg", { type: "bar", data: {
+    labels: rows.map(([c]) => `${c.comedian} ${year(c)} · ${OUTCOME_LABEL[c.outcome_type]}`),
+    datasets: [{ data: rows.map(([, v]) => 100 * v), backgroundColor: css("--s1"), borderRadius: 4, barThickness: 14 }] }, options: o });
+}
+
+// ---------- case detail ----------
+function tile(k, v) { return `<div class="tile"><div class="v">${v}</div><div class="k">${k}</div></div>`; }
+
+function renderDetail(id) {
+  const c = D.cases.find(x => x.case_id === id), m = D.metrics[id] || {};
+  document.getElementById("dTitle").textContent = `${c.comedian}, ${c.incident_date || ""}`;
+  document.getElementById("dSub").textContent = `${(c.taboo_family || "").replace(/_/g, " ")}: ${c.taboo_detail || ""} · ${OUTCOME_LABEL[c.outcome_type] || c.outcome_type} · ${c.tier} tier`;
+  document.getElementById("tiles").innerHTML =
+    tile("Comments analysed", fmt(m.n_comments)) + tile("Commenting accounts", fmt(m.n_accounts)) +
+    tile("Comments from top 5% of accounts", pct(m.top5_share)) + tile("Hostile comments from non-organic accounts", pct(m.hostile_non_organic)) +
+    tile("Mean likes: hostile vs other", m.hostile_mean_likes == null ? "–" : `${m.hostile_mean_likes.toFixed(1)} vs ${m.other_mean_likes.toFixed(1)}`);
+
+  // timeline, indexed to own peak
+  const t = m.timeline;
+  const series = [["comments", "All comments", "--s1"], ["hostile", "Hostile comments", "--s2"], ["news_articles", "News articles", "--s3"], ["trends", "Google search interest", "--s4"]]
+    .filter(([k]) => t && t[k] && t[k].some(v => v > 0));
+  const idx = arr => { const mx = Math.max(...arr); return arr.map(v => mx ? +(100 * v / mx).toFixed(1) : 0); };
+  const evs = D.events.filter(e => e.case_id === id && t && t.dates.includes(e.date));
+  const o = baseOpts();
+  o.scales.y = { ...o.scales.y, min: 0, max: 105, ticks: { color: css("--muted"), stepSize: 25 } };
+  o.plugins.tooltip.callbacks = {
+    label: ctx => ctx.dataset.label === "Events" ? ` ▲ ${evs[ctx.dataIndex]?.description ?? ""}`
+      : ` ${ctx.dataset.label}: ${fmt(t[series[ctx.datasetIndex][0]][ctx.dataIndex])} (index ${ctx.raw})` };
+  const ds = series.map(([k, label, col]) => ({ label, data: idx(t[k]), borderColor: css(col), backgroundColor: css(col),
+    borderWidth: 2, pointRadius: 0, pointHoverRadius: 5, pointHoverBorderColor: css("--surface"), pointHoverBorderWidth: 2, tension: 0.2 }));
+  if (evs.length) ds.push({ label: "Events", type: "scatter", data: evs.map(e => ({ x: e.date, y: 102 })), pointStyle: "triangle",
+    pointRadius: 7, backgroundColor: css("--ink-2"), borderColor: css("--surface"), borderWidth: 2 });
+  draw("timeline", { type: "line", data: { labels: t ? t.dates : [], datasets: ds }, options: o });
+
+  // lorenz
+  const lo = baseOpts({ interaction: { mode: "nearest", intersect: false } });
+  lo.scales.x = { type: "linear", min: 0, max: 100, grid: { color: css("--grid") }, ticks: { color: css("--muted"), callback: v => v + "%" }, title: { display: true, text: "Accounts (least to most active)", color: css("--muted") } };
+  lo.scales.y = { min: 0, max: 100, grid: { color: css("--grid") }, ticks: { color: css("--muted"), callback: v => v + "%" }, title: { display: true, text: "Share of comments", color: css("--muted") } };
+  lo.plugins.tooltip.callbacks = { label: ctx => ` ${ctx.dataset.label}: bottom ${ctx.raw.x.toFixed(0)}% of accounts wrote ${ctx.raw.y.toFixed(0)}% of comments` };
+  draw("lorenz", { type: "line", data: { datasets: [
+    { label: `This case (Gini ${m.gini == null ? "–" : m.gini.toFixed(2)})`, data: (m.lorenz || []).map(([x, y]) => ({ x: 100 * x, y: 100 * y })),
+      borderColor: css("--s1"), backgroundColor: css("--s1"), borderWidth: 2, pointRadius: 0, pointHoverRadius: 5 },
+    { label: "Perfect equality", data: [{ x: 0, y: 0 }, { x: 100, y: 100 }], borderColor: css("--axis"), borderDash: [4, 4], borderWidth: 1.5, pointRadius: 0 }] }, options: lo });
+
+  // authenticity stacked bar
+  const ao = baseOpts({ indexAxis: "y", interaction: { mode: "nearest", intersect: true } });
+  ao.scales.x = { stacked: true, min: 0, max: 100, grid: { color: css("--grid") }, ticks: { color: css("--muted"), callback: v => v + "%" } };
+  ao.scales.y = { stacked: true, display: false };
+  ao.plugins.tooltip.callbacks = { label: ctx => ` ${ctx.dataset.label}: ${ctx.raw.toFixed(1)}% of comments` };
+  const cols = ["--s1", "--s2", "--s3", "--s4"];  // validated adjacent order; yellow must not sit beside orange
+  draw("auth", { type: "bar", data: { labels: ["Comments"], datasets: D.categories.map((k, i) => ({
+    label: CAT_LABEL[k], data: [100 * ((m.authenticity || {})[k] || 0)], backgroundColor: css(cols[i]),
+    borderColor: css("--surface"), borderWidth: { right: 2 }, borderSkipped: false, barThickness: 28 })) }, options: ao });
+
+  const th = m.threads || {};
+  document.getElementById("threadTiles").innerHTML =
+    tile("Hostile threads that get pushback", pct(th.pct_hostile_threads_with_pushback)) +
+    tile("Change in hostile share of later replies when reply 1 pushes back", th.calming_effect_r1 == null ? "–" : (th.calming_effect_r1 >= 0 ? "−" : "+") + (100 * Math.abs(th.calming_effect_r1)).toFixed(0) + " pts") +
+    tile("Pushback from the comedian's regular viewers", pct(th.pushback_from_regulars)) +
+    tile("Median minutes to first pushback", th.median_minutes_to_pushback == null ? "–" : th.median_minutes_to_pushback.toFixed(0));
+
+  const links = String(c.sources || "").split(/;\s*/).filter(Boolean).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace("www.", ""))}</a>`).join(" · ");
+  document.getElementById("facts").innerHTML =
+    [["State / legal action", c.state_legal_action], ["Non-state action", c.nonstate_action], ["Comedian's response", c.comedian_response],
+     ["Trigger", c.trigger_platform], ["Notes", c.notes], ["Verification", c.status]]
+      .map(([k, v]) => `<dt>${k}</dt><dd>${esc(v || "–")}</dd>`).join("") + (links ? `<dt>Sources</dt><dd>${links}</dd>` : "");
+}
+
+function renderTable(cases) {
+  const cols = [["comedian", "Comedian"], ["incident_date", "Date"], ["tier", "Tier"], ["taboo_family", "Taboo"], ["outcome_type", "Outcome"], ["comedian_response", "Response"], ["status", "Status"]];
+  document.getElementById("tbl").innerHTML = `<tr>${cols.map(([, h]) => `<th>${h}</th>`).join("")}<th>Hostile non-organic</th></tr>` +
+    cases.map(c => `<tr>${cols.map(([k]) => `<td>${esc(c[k])}</td>`).join("")}<td>${pct(D.metrics[c.case_id]?.hostile_non_organic)}</td></tr>`).join("");
+}
+
+function select(id) {
+  selected = id;
+  document.querySelectorAll(".chip").forEach(b => b.setAttribute("aria-pressed", b.dataset.case === id));
+  renderDetail(id);
+  document.getElementById("detail").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function renderAll() {
+  const cases = visibleCases();
+  if (!cases.some(c => c.case_id === selected)) selected = cases[0]?.case_id;
+  renderMap(cases); renderHeatmap(cases); renderNonOrganic(cases); renderTable(cases);
+  if (selected) renderDetail(selected);
+}
+
+document.getElementById("banner").innerHTML = D.demo
+  ? `<div class="banner">⚠ DEMO DATA. Case facts are real and verified; every number and chart is randomly generated until the pipeline has run. Do not cite.</div>` : "";
+document.getElementById("gen").textContent = `Data generated ${D.generated}`;
+document.getElementById("tier").onchange = renderAll;
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderAll);
+renderAll();
+</script>
+</body>
+</html>

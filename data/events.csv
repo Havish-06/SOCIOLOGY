@@ -1,0 +1,16 @@
+case_id,date,event_type,actor_type,description,source
+agrima_2020,2020-07-11,apology,comedian,Second apology addressed to Maharashtra CM and leaders,https://sabrangindia.in/why-social-media-sites-must-exercise-social-responsibility-and-nip-hate-speech-bud
+agrima_2020,2020-07-12,threat,individual,YouTuber Shubham Mishra posts rape-threat video; detained by Vadodara police (date approx.),https://scroll.in/latest/967318/scroll_in
+fernandes_2024,2024-06-29,cancellation,politician,Hyderabad show (scheduled this date) cancelled after BJP MLA T Raja Singh's threat,https://scroll.in/latest/1069957/scroll_in
+more_2025,2025-02-02,violence,fan_group,Assaulted by 10-12 men after Solapur show,https://theprint.in/india/12-booked-over-assault-on-stand-up-comedian-in-solapur/2481385
+kamra_2025,2025-03-23,vandalism,party_workers,Shinde Sena workers vandalise Habitat studio,https://scroll.in/latest/1080569/shiv-sena-workers-vandalise-venue-where-comedian-kunal-kamra-joked-about-eknath-shinde
+kamra_2025,2025-03-24,fir,police,FIR against Kamra for defamation on Shinde Sena MLA's complaint,https://scroll.in/latest/1080569/shiv-sena-workers-vandalise-venue-where-comedian-kunal-kamra-joked-about-eknath-shinde
+munawar_2021,2021-01-01,arrest,police,Arrested in Indore on complaint by BJP MLA's son (some reports say Jan 2),https://scroll.in/latest/988048/scroll_in
+munawar_2021,2021-02-05,court,court,Supreme Court grants interim bail,https://scroll.in/latest/988048/scroll_in
+jain_univ_2023,2023-02-13,arrest,police,7 students + 2 staff arrested under SC/ST Act (some reports Feb 14),https://scroll.in/latest/1043825/students-principal-among-9-arrested-in-bengaluru-for-remarks-about-ambedkar-in-skit
+parithabangal_2025,2025-08-04,upload,comedian,'Society Paavangal' skit published,https://www.thenewsminute.com/tamil-nadu/police-complaint-filed-against-parithabangal-yt-channel-for-skit-against-casteism
+parithabangal_2025,2025-08-06,complaint,individual,Thevar lawyer files complaint with Coimbatore police,https://www.thenewsminute.com/tamil-nadu/police-complaint-filed-against-parithabangal-yt-channel-for-skit-against-casteism
+katikala_2026,2026-04-11,fir,party_member,FIR on Jana Sena member's complaint,https://www.thenewsminute.com/andhra-pradesh/andhra-cops-pick-up-stand-up-comedian-anudeep-from-up-over-jokes-on-pawan-kalyan
+katikala_2026,2026-04-14,arrest,police,Picked up by AP police in Prayagraj,https://www.thenewsminute.com/andhra-pradesh/andhra-cops-pick-up-stand-up-comedian-anudeep-from-up-over-jokes-on-pawan-kalyan
+katikala_2026,2026-04-17,release,court,Released from custody,https://www.medianama.com/2026/04/223-andhra-pradesh-police-detain-stand-up-comedian-anudeep-katikala-youtube-video-jokes/
+sarat_2026,2026-04-25,disruption,party_supporters,TDP supporters disrupt Bengaluru show,https://thesouthfirst.com/andhrapradesh/tdp-supporters-disrupt-comedians-bengaluru-show-over-two-year-old-remarks-on-naidu-lokesh/
