@@ -153,7 +153,7 @@ def audit(comments, channels=None, dup_threshold=0.9, new_account_days=30):
     handle = df["author_name"].fillna("")
     if channels is not None and len(channels):
         ch = channels.copy()
-        ch["channel_published_at"] = pd.to_datetime(ch["channel_published_at"], utc=True)
+        ch["channel_published_at"] = pd.to_datetime(ch["channel_published_at"], utc=True, format="ISO8601")
         df = df.merge(ch, on="author_channel_id", how="left")
         df["account_age_days"] = (df["published_at"] - df["channel_published_at"]).dt.days
         handle = df["channel_custom_url"].astype(object).fillna(df["author_name"]).fillna("")
