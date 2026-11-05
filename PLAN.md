@@ -71,27 +71,27 @@ analysed in full depth using **the same template**, and then all cases are compa
 
 ## 3. Research question
 
-### Main question (draft; team to approve in Step 0)
+### Main question
 
-> **When a joke by an Indian comedian becomes a public controversy, why does it end so differently
-> (online criticism only, legal action, extra-legal action, or both), and how do the joke's topic, its genre
-> (especially dark comedy compared with satire, crude humour and roasts) and its context shape that outcome?**
+> **Which topics bring Indian stand-up comedians under public scrutiny, and when a joke becomes a
+> controversy, why does it end so differently (online criticism only, legal action, extra-legal action,
+> or both)? How do the joke's topic, its target and its context shape that outcome?**
 
 ### Sub-questions
 
 | # | Sub-question | Theory it uses | Where the answer comes from |
 |---|---|---|---|
-| SQ1 | Which topics and genres appear in controversies, and does **dark comedy** draw different reactions or outcomes from satire, crude humour and roasts? | Definition of dark comedy; benign-violation theory | Template sections B and F across all cases |
+| SQ1 | Which **topics** (religion, caste, politics and the nation, gender and sexuality, regional icons, disability, and others) appear in controversies, and do the topic and the direction of the joke (punching up or down) go with different reactions and outcomes? Genre (dark comedy, satire, crude humour, roast) is recorded for every joke and checked as a secondary factor. | Durkheim on the sacred; benign-violation theory; punching up/down | Template sections B and F across all cases |
 | SQ2 | How does **context**, and especially context *collision* (someone else resurfacing or reframing a clip) vs *collusion* (the comedian publishing it), relate to how far a controversy escalates? | Goffman's frames; Marwick & boyd; Davis & Jurgenson | Template sections C and F |
 | SQ3 | **Who mobilises, through which channel, and how do they frame the joke?** Is the comedian (and their venue or organisers) stigmatised? Was something treated as sacred, and *whose* sacred? | Goffman and Link & Phelan on stigma; Becker on labelling; Durkheim on the sacred and punishment | Template sections D, E, G and H |
 
-### Why the dark comedy focus stays
+### Why topic, not genre, is the focus
 
-The supervisor's first question was *"What is dark comedy?"*. We answer it by defining dark comedy precisely
-(Appendix C) and making it the **central comparison**: is dark comedy treated differently from other genres?
-Political satire is **not** dark comedy under our definition (satire targets power; dark comedy draws its
-laugh from something grave), so satire, crude humour and roasts serve as comparison groups. This keeps the
-widened case set while still answering the supervisor directly.
+The project asks what comedians are scrutinised *for*. A controversy is almost always about what a joke was
+about and whom it touched (a deity, a caste group, a political leader, parents), not about its comic style.
+Genre is still recorded for every joke using the definitions in Appendix C, so we can check whether, for
+example, dark comedy behaves differently from satire on the same topic. But it is not the main comparison,
+and the case list is not balanced by genre. Team decision, 2026-11-05 (see `DECISIONS.md`).
 
 ### What we do *not* claim
 
@@ -105,11 +105,12 @@ controversies differ from one another and what is associated with each outcome. 
 
 Full text is in Section 2 of `Sociology_Proposal_Revised.docx`. The parts every case analysis must apply:
 
-**Dark comedy.** A joke is dark comedy when (1) its subject is grave (death, violence, suffering, disease or
-disability, the sacred, or a stigmatised position in a hierarchy) **and** (2) the laugh comes *from* that
-gravity rather than from merely mentioning it (Willinger et al., 2017). Benign-violation theory (McGraw &
-Warren, 2010): humour needs a violation that also seems harmless; dark comedy sits closest to the point
-where the violation stops seeming harmless, so we expect it to be most sensitive to context.
+**Topic and genre.** The **topic** is what the joke is about and whom it touches (religion, caste, politics
+and the nation, gender and sexuality, regional icons, disability, celebrities, looks); it is the main
+variable. **Genre** (dark comedy, satire, crude/shock, roast, observational; Appendix C) is recorded as a
+secondary variable. Benign-violation theory (McGraw & Warren, 2010): humour needs a violation that also seems
+harmless, and what counts as harmless depends on the topic and on who is listening, which is why topic and
+context are analysed together.
 
 **Stigma.**
 - Goffman (1963): stigma reduces a person "from a whole and usual person to a tainted, discounted one".
@@ -234,13 +235,13 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
      - confirm the sacred-objects list (Section 4), especially whether "family and parents" counts
      - who owns which cases (Step 5)
      - whether to do the optional interviews (Step 7)
-     - whether to tell the supervisor about the change (recommended; see the draft note below)
+     - whether to send the supervisor a short update (optional; see the note below)
   3. Record the decisions in `DECISIONS.md` (date, decision, reason).
-- **Draft note to the supervisor (optional):**
-  > Following your feedback, we have defined dark comedy and built our framework on stigma, context collapse
-  > and Durkheim. We are now carrying out a structured comparative case study of 20–30 Indian comedy
-  > controversies, comparing dark comedy with satire, crude humour and roasts, and applying the framework to
-  > each case through news, official records and public comments. We would welcome any comments on this direction.
+- **Note to the supervisor (optional; the supervisor has said the original proposal no longer binds us):**
+  > We are carrying out a structured comparative case study of 20–30 Indian comedy controversies, asking which
+  > topics bring stand-up comedians under scrutiny and why some controversies end in legal or extra-legal
+  > action while others fizzle. Each case is read through stigma, context collapse and Durkheim, using news,
+  > official records and public comments.
 - **Output:** `DECISIONS.md`.
 - **Done when:** the questions above are decided and recorded.
 
@@ -273,12 +274,12 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
      - (c) the controversy happened between 2018 and 2026
      - (d) enough material to fill the template (at minimum: a description of the joke, a dated timeline, the outcome)
   3. **Balance targets** (aim for, not rigid quotas):
-     - **Genre:** at least 4 dark comedy cases; at least 3 each of satire, crude/shock and roast; a few observational or mixed
+     - **Topic (main):** at least 2–3 cases each for religion, caste (both directions), politics and the nation, gender and sexuality, and regional icons; at least one each for disability, celebrities and looks
      - **Outcome:** at least 4 each of online-only, legal, extra-legal, and both. **Online-only cases that fizzled are essential** (they are the contrast that makes escalation explainable)
-     - **Topic:** religion, caste (both directions), politics, gender and sexuality, regional or national icons, disability, celebrities, looks
+     - **Genre (recorded, no quota):** note the spread of dark, satire, crude/shock, roast and observational; do not pick cases to fill genre slots
      - **Audience size:** small, mid and large comedians
      - **Pairs:** keep the matched pairs (same comedian twice; same week, different route; caste joke up vs down)
-  4. **Fill a selection matrix** (genre × outcome) and look for empty cells. Empty cells are informative,
+  4. **Fill a selection matrix** (topic × outcome) and look for empty cells. Empty cells are informative,
      but if an empty cell is due to missing research rather than reality, search for a case to fill it.
   5. Team picks the final 20–30. Record rejected candidates and the reason (e.g. "only one source").
 - **Output:** `analysis/case_pool.csv` (all candidates, with included yes/no and reason) and the final list in `DECISIONS.md`.
@@ -336,7 +337,7 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
   2. **Agreement report:** share of cases where the blind second coding matched the draft on each
      judgement (and Cohen's kappa where the numbers allow, via `src/sample.py kappa`). Report it honestly.
   3. **Answer each sub-question:**
-     - SQ1: compare dark comedy cases with satire, crude and roast cases on outcome and reaction framing
+     - SQ1: compare topics (and punching up vs down within a topic) on outcome and reaction framing; then check whether genre adds anything once topic is held constant
      - SQ2: compare collision cases with collusion cases on how far they escalated
      - SQ3: compare who mobilised, through which channel, how they framed the joke, and whether the comedian or venue was stigmatised; check the Durkheim expectations (Section 2.4 of the revised proposal)
   4. **Paired comparisons:** for each matched pair, write what differed and what stayed the same, and which
@@ -368,7 +369,7 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
 
 - **Suggested structure of the final paper:**
   1. Introduction (puzzle, why it matters)
-  2. Conceptual framework (dark comedy, stigma, context, Durkheim; from the revised proposal)
+  2. Conceptual framework (topic and genre, stigma, context, Durkheim; adapted from the revised proposal)
   3. Literature and gaps (trimmed from the revised proposal)
   4. Method (this plan's Sections 5–8, including the AI disclosure and limitations)
   5. Cases overview (table of all cases)
@@ -497,7 +498,7 @@ These go into the final paper's limitations section. Each lists what we do about
 To be settled in Step 0 or as noted.
 
 1. **Approve the main question and sub-questions** (Section 3).
-2. **Does the supervisor need to approve the change in method?** Is a resubmission or note expected? (Recommended: send the short note in Step 0.)
+2. ~~Does the supervisor need to approve the change in method?~~ Settled: no. The original proposal no longer binds us; a short update is optional.
 3. **Deadline.** The final submission date is not recorded in the repository. Fill it into Section 15.
 4. **Number of cases:** 20, 25 or 30? (Recommended: 25.)
 5. **Sacred-objects list:** confirm it, and decide whether family and parents count (relevant to India's Got Latent and Swati Sachdeva).
@@ -604,7 +605,7 @@ police, court, commission, platform, venue, media.
 - Context collapse: what changed in the joke's meaning as it travelled? Collusion or collision, and did that matter?
 - Durkheim: was a sacred object (fixed list) touched? Whose sacred? Who claimed to speak for the group?
   Was the reaction formal punishment (state) or passionate collective reaction (crowd)?
-- Dark comedy: if this is dark comedy, did its gravity make it more fragile out of context? If not, how did its genre matter?
+- Topic: what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
 
 ## I. Comparison notes
 - Matched pair(s): which cases this should be compared with, and why
@@ -659,12 +660,12 @@ Status, sources and details for each are in `data/cases.csv`. Several fields the
 - Abish Mathew and others in the May 2021 call-out wave that followed the Neville Shah clip
 - Saloni Gaur ("Nazma Aapi") political satire videos
 - Shyam Rangeela's Modi impressions (check whether any incident falls inside 2018–2026)
-- Further dark comedy cases (jokes on death, disability, tragedy) that drew **little or no** backlash, to balance the genre comparison
+- Jokes on the most-scrutinised topics (religion, caste, politics) that drew **little or no** backlash, to sharpen the topic comparison
 - Further regional-language cases (Tamil, Telugu, Kannada, Malayalam, Bengali, Marathi)
 
 **Gaps in the current pool to fill in Step 2:**
 - only one case each for regional icon, national trauma and looks
-- few clearly dark comedy cases with online-only outcomes
+- few online-only cases on religion and politics
 - the 2018–2019 period has a single case
 
 ---

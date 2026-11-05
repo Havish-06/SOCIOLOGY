@@ -73,7 +73,7 @@ police, court, commission, platform, venue, media.
 - Context collapse: what changed in the joke's meaning as it travelled? Collusion or collision, and did that matter?
 - Durkheim: was a sacred object (fixed list) touched? Whose sacred? Who claimed to speak for the group?
   Was the reaction formal punishment (state) or passionate collective reaction (crowd)?
-- Dark comedy: if this is dark comedy, did its gravity make it more fragile out of context? If not, how did its genre matter?
+- Topic: what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
 
 ## I. Comparison notes
 - Matched pair(s): which cases this should be compared with, and why

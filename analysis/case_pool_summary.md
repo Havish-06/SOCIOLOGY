@@ -57,18 +57,28 @@ anywhere, so the case is narrowed to it.
 
 ### Balance of the 25
 
-| | online only | legal | extra-legal | both | total |
+By topic (main comparison; each case placed under its main topic):
+
+| Topic | online only | legal | extra-legal | both | total |
 |---|---|---|---|---|---|
-| **includes dark comedy** | 4 | 4 | 0 | 2 | 10 |
-| **no dark comedy** | 2 | 3 | 4 | 6 | 15 |
+| Politics | 0 | 1 | 2 | 2 | 5 |
+| Gender, sexuality, family | 2 | 2 | 0 | 1 | 5 |
+| Religion | 0 | 1 | 0 | 2 | 3 |
+| Caste | 1 | 1 | 0 | 1 | 3 |
+| Region and regional icons | 1 | 0 | 1 | 1 | 3 |
+| Nation and national trauma | 0 | 1 | 0 | 1 | 2 |
+| Disability and mental health | 1 | 1 | 0 | 0 | 2 |
+| Celebrity and looks | 1 | 0 | 1 | 0 | 2 |
 | **total** | 6 | 7 | 4 | 8 | 25 |
 
 Genre counts (a case can have more than one): dark 11 (including Munawar, alleged), satire 10, crude 6, roast 6, observational 2.
 
-**An early pattern to test, not a finding.** On this first-pass coding, **no dark comedy case ended in extra-legal
-action only**, and satire cases mostly ended in **both** legal and extra-legal action. If this holds after
-verification, it suggests that jokes against the powerful bring in party workers and mobs, while dark jokes go to
-complaints, commissions and courts, or fizzle. This bears directly on SQ1 and the Durkheim expectations.
+**Early patterns to test, not findings.** On this first-pass coding, **no politics or religion case stayed
+online only**, and politics is the only topic where extra-legal action is common. **Gender and sexuality cases
+never drew extra-legal action**: they went to commissions and courts, or fizzled. If this holds after
+verification, it suggests that jokes touching leaders and the sacred bring in party workers and mobs, while
+jokes about gender and family are handled through formal complaints. Genre is a secondary check: no dark
+comedy case ended in extra-legal action only. This bears on SQ1 and the Durkheim expectations.
 
 ### Matched pairs built into the 25
 
