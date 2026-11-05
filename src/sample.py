@@ -14,13 +14,14 @@ import os
 from pathlib import Path
 
 import pandas as pd
+from dotenv import load_dotenv
 from sklearn.metrics import cohen_kappa_score
 
 # Codebook v0 (definitions and sources in CODEBOOK.md): refine after the first pilot round of coding.
 CODE_COLUMNS = {
     "reaction": "support | mock_offended | neutral_discussion | backlash | threat | demand_legal_action | spam_irrelevant",
     "target": "comedian | joke_content | offended_group | platform | state | other",
-    "taboo": "religion | caste | gender_sexuality | politics_nation | personal_trauma | regional_icon | other",
+    "taboo": "religion | caste | gender_sexuality | family | politics_state | regional_national_icon | celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability | none",
     "sacred_object": "deity | icon | nation | none",
     "frame": "play (\"it's just a joke\") | serious (insult / crime) | none",
     "stigmatises_comedian": "yes (attacks comedian's religion/caste/region/gender) | no",
@@ -64,6 +65,7 @@ def kappa(a, b, columns=("reaction", "target", "taboo", "sacred_object", "frame"
 
 
 def main():
+    load_dotenv()
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("sheet")
