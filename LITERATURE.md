@@ -27,12 +27,80 @@ citing (page numbers, edition). Read at least the starred (★) works in each st
 
 ---
 
+## How previous work shapes our methodology
+
+We do not only cite these studies; each part of our method is borrowed from, or adapted from, a specific
+earlier study. The table says what we take and where it appears in our own work (`PLAN.md` and the case
+template `cases/_template.md`).
+
+### Research design
+
+| What we do | Taken from | What exactly we borrow | Where it is in our method |
+|---|---|---|---|
+| Compare many controversies, each analysed with the same questions | George & Bennett (2005) | Structured, focused comparison | Whole design (PLAN.md Section 5) |
+| Treat each controversy as a "humour scandal" and ask who mobilised, who gained and who lost | Kuipers (2011), Danish cartoons | The scandal lens: humour regimes, power, winners and losers | Template F: *winners and losers*; SQ3 |
+| Compare controversies through how the news framed them, and how humour changes meaning when it changes media context | Ödmark (2021), three Swedish humour controversies | Small-n comparison of controversies; framing analysis of coverage; Meyer's (2000) four humour functions | Template E: *dominant media frame*; *humour function before and after travelling*; SQ2 |
+| Include controversies that fizzled, not only escalated ones | Lesson from single-case scandal studies (Kuipers 2011; Klausen 2009), which cannot explain why other jokes did *not* explode | Need for contrast cases | Selection rule in PLAN.md Step 2 (online-only cases are essential) |
+| Matched pairs of similar cases | George & Bennett (2005); Mill's method of difference | Hold most things constant, vary one | PLAN.md Step 6 (paired comparisons) |
+
+### Variables we record for every case
+
+| Variable (template section) | Taken from | Why |
+|---|---|---|
+| Topic (B) | Davies (1990, 2011) on joke targets; Allan & Burridge (2006) on taboo | Topics of jokes follow social patterns; taboo domains give our topic list |
+| Genre (B) | Willinger et al. (2017); Holbert et al. (2011); Obrdlik (1942) | Definitions of dark comedy, satire types and gallows humour |
+| Direction: punching up or down (B) | Krefting (2014), "charged humour"; Shivaprasad (2020) on caste in Indian stand-up | Who is joking about whom matters, judged against local hierarchies |
+| Performance setting and intimacy (C) | Mintz (1985); Brodie (2014) | The comic's licence depends on a co-present audience that accepts the comic frame |
+| Language and register (C) | Kuipers (2006); Friedman (2014); Bhargava & Singhal (2023) | Humour taste marks class; English and vernacular stand-up reach different publics |
+| Collusion or collision; months between performance and controversy (C) | Marwick & boyd (2011); Davis & Jurgenson (2014) | Who moved the clip to a new audience, deliberately or not |
+| Distance of the objectors: temporal and social (C) | McGraw & Warren (2010); McGraw et al. (2012) on psychological distance | A violation feels benign when distant and harmful when close: tests why resurfaced clips and directly targeted groups react more |
+| Days to peak and to fading (D) | Pfeffer, Zorbach & Carley (2014) | Online firestorms rise and fade quickly; we measure whether legal action outlasts the online storm |
+| Norm said to be broken (E) | Rost, Stahel & Frey (2016); Durkheim | Backlash as enforcement of a social norm; tells us *which* norm each group defends |
+| Comment frame: play vs serious (E) | Douglas (1968); Bateson (1955); Mulkay (1988) | Whether a remark is accepted as "a joke" is socially decided |
+| Intent attributed to the comedian (comment code) | Graefer & Das (2020) | Audiences judge offence by inferred intent and context |
+| Attacks on the comedian's identity; label used (E, H) | Goffman (1963); Becker (1963) | Stigma and labelling ("anti-Hindu", "anti-national", "obscene") |
+| Highest stigma step; courtesy stigma (F) | Link & Phelan (2001); Goffman (1963) | Our four-step escalation ladder; spread of stigma to venues |
+| Sacred object touched (fixed list) (H) | Durkheim (1912) | The sacred is set apart and defended; fixed in advance to avoid circular coding |
+| Complainant and whether they claim to speak for a group (F) | Nair (2023) | "Hurt sentiments" complaints as a political tool used mainly by majorities |
+| Legal basis: religious offence, enmity, obscenity, defamation, SC/ST Act, contempt (F) | Bhatia (2016) | Different legal categories carry different thresholds and politics |
+| Comedian's own narrative (G) | Vásquez (*Narrative Inquiry*); Nicolaï & Maeseele (2024) | Comics' stock responses: contrition, defiance, "humourless audience", blaming social media |
+
+### Reading comments
+
+| What we do | Taken from |
+|---|---|
+| Comment labels (reaction, target, frame, stigma, intensity, pushback) | `CODEBOOK.md` Part B: TRAC, HASOC, SemEval stance, Benesch, Mathew et al. |
+| Treat comments as evidence of framing, never as public opinion | Lesson from online-outrage research: firestorms are driven by small, vocal groups (Rost et al. 2016) |
+| Check for copy-paste campaigns before quoting | Coordinated-behaviour research (Pacheco et al.); our `src/spam.py` |
+
+### Interpreting the results (discussion)
+
+| Question in the discussion | Taken from |
+|---|---|
+| Do controversies mark the edges of Indian stand-up as a "comic public sphere"? | Public-sphere studies (*Contemporary South Asia* 2017); Bhargava & Singhal (2023) |
+| Is backlash a passionate collective reaction that reaffirms a group, and whose group? | Durkheim (1893, 1912); Erikson (1966) |
+| Who is allowed to ridicule whom? | Billig (2005); Krefting (2014); Shivaprasad (2020); Ahmad (2026) on Dalit comedy |
+| Is the state a neutral referee or an instrument of offended groups? | Nair (2023); Bhatia (2016); Kaur & Mazzarella (2009) |
+
+### What we do differently from them
+
+- **More cases.** Scandal studies usually examine 1–3 cases; we compare about 25 with one template.
+- **Outcome type as the thing to explain.** Earlier work describes controversies; we explain why they end
+  online only, in court, in the street, or in both.
+- **India's plural sacred.** European scandal studies deal with one dominant public; we ask *whose* sacred
+  was touched and which group claimed to speak for it.
+- **Several kinds of evidence per case.** News, legal records, comments and the comedian's statements,
+  not news framing alone.
+
+---
+
 ## 1. Theories of humour: why a joke works or offends
 
 | Work | What they did | Key idea |
 |---|---|---|
 | Hobbes (1651), *Leviathan*; Bergson (1900), *Laughter* | Philosophy | **Superiority**: we laugh at others' inferiority; laughter as social correction |
 | Freud (1905), *Jokes and Their Relation to the Unconscious* | Psychoanalysis | **Relief**: jokes release forbidden aggression and sexuality; tendentious jokes |
+| McGraw, Warren, Williams & Leonard (2012), "Too close for comfort, or too far to care?", *Psychological Science* 23(10) | Experiments | Psychological distance decides whether a violation feels benign: tragedy is funnier when distant |
 | Kant, Schopenhauer; Raskin (1985), *Semantic Mechanisms of Humor*; Attardo & Raskin (1991) | Philosophy; linguistics | **Incongruity**: humour comes from two clashing scripts |
 | ★ McGraw & Warren (2010), "Benign violations", *Psychological Science* 21(8) | Lab experiments | Humour needs a **violation** that also seems **benign**; it fails when the violation seems real or harmful |
 | Willinger et al. (2017), *Cognitive Processing* 18 | Experiments on black-humour comprehension | Defines dark (black) humour: a grave subject with the laugh coming from that gravity |
@@ -53,6 +121,8 @@ citing (page numbers, edition). Read at least the starred (★) works in each st
 | Mulkay (1988), *On Humour* | Discourse analysis | Humour is a separate "mode" of discourse with its own rules; serious and humorous modes can collide |
 | Davies (1990), *Ethnic Humor Around the World*; (2011) *Jokes and Targets* | Comparative study of joke repertoires across countries | Ethnic jokes follow patterns (centre vs periphery); jokes are not straightforward evidence of hostility |
 | ★ Billig (2005), *Laughter and Ridicule: Towards a Social Critique of Humour* | Theory | Ridicule is a disciplinary force; humour is not innocent and is central to maintaining social order |
+| Meyer (2000), "Humor as a double-edged sword: four functions of humor in communication", *Communication Theory* 10(3) | Theory | Humour unites (identification, clarification) and divides (enforcement, differentiation); used by Ödmark (2021) and by us |
+| Bateson (1955), "A theory of play and fantasy" | Theory | The "this is play" frame; a message is a joke only if the frame is shared |
 | Fine & De Soucey (2005), "Joking cultures", *Humor* 18(1) | Ethnography of small groups | Groups develop shared joking cultures that mark insiders |
 | ★ Kuipers (2006), *Good Humor, Bad Taste: A Sociology of the Joke* | Interviews and survey, the Netherlands | Humour styles map onto **class and education**; taste in jokes is used to draw social boundaries (Bourdieu) |
 | Kuipers (2008), "The sociology of humor", in Raskin (ed.), *The Primer of Humor Research* | Review chapter | Standard map of the field |

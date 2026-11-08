@@ -28,11 +28,16 @@ last updated: <YYYY-MM-DD>
 
 ## C. Context (four layers)
 - Performance: who the original audience was; how clearly it was framed as comedy
+  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
+    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
+  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
 - Circulation: collusion | collision | live_only
   - who first spread it beyond the original audience:
   - months between performance and controversy:
   - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
 - Reception: who reacted; how far they were from the original audience (summary; detail in E)
+  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
+    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
 - Societal: elections, recent related events, other controversies in the preceding month
 
 ## D. Timeline
@@ -42,11 +47,18 @@ Event types: performance, upload, resurfaced, viral, statement, complaint, fir, 
 threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
 Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
 police, court, commission, platform, venue, media.
+- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
 
 ## E. Reaction
 - Who objected (organisations, politicians, communities) and their exact framing words:
+- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
+  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
+- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
+  for the original audience: identification | clarification | enforcement | differentiation
+  as framed by the objectors: identification | clarification | enforcement | differentiation
 - Who defended the comedian:
-- How the media framed it (compare two or three outlets):
+- How the media framed it (compare two or three outlets; Ödmark 2021 framing analysis):
+  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
 - Comments (Section 10 of PLAN.md):
   - videos / reels read, with type and collection date:
   - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
@@ -57,18 +69,25 @@ police, court, commission, platform, venue, media.
 ## F. Outcome
 - Outcome type: online_only | legal | extralegal | both
 - Legal actions (complaint, FIR with sections, arrest, summons, court orders):
+  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
+  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
+    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
 - Extra-legal actions (threats, vandalism, disruption, cancellation, assault):
 - Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
 - Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
 - How it ended:
+- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
 
 ## G. Comedian's response
 - Response: apology | refusal | clarification | deletion | silence | combination
 - When (relative to the escalation):
 - Did the response change the course of events? Evidence:
+- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
+  blames_clipping_or_social_media | free_speech | none
 
 ## H. Theory reading
-- Stigma: was the comedian labelled as deviant? With what label? Did the comedian's own identity matter?
+- Stigma: was the comedian labelled as deviant? With what label? Did the comedian's own identity matter
+  (only identity the comedian has stated publicly; Shivaprasad 2020 and Krefting 2014 on who gets to joke about what)?
   Did stigma spread to others?
 - Context collapse: what changed in the joke's meaning as it travelled? Collusion or collision, and did that matter?
 - Durkheim: was a sacred object (fixed list) touched? Whose sacred? Who claimed to speak for the group?
