@@ -42,8 +42,17 @@ step produces, and what the known limitations and open questions are.
 | **Supervisor feedback** | *"What is dark comedy? Read on sociology of stigma. How do you treat context? Think through the idea of context collapse. Read on Durkheim."* |
 | **Revised proposal** (`Sociology_Proposal_Revised.docx`, Havish, 2026-11-02) | Added a conceptual framework answering every feedback point (dark comedy defined; stigma; four layers of context; collusion vs collision; Durkheim). Widened the scope from dark comedy to all comedy genres, with genre recorded per joke. Added a large computational methodology: YouTube comment collection, bot/spam audit, hand-coding with kappa, a machine-learning classifier, reply-thread statistics, news lead-lag analysis, QCA, a 150–300-person survey and a dashboard. |
 | **Code and data** (same commits) | 23 researched cases (`data/cases.csv`), 25 dated events (`data/events.csv`), 78 candidate YouTube videos (`data/videos.csv`), Python pipeline in `src/`, tests, and a dashboard showing demo (fake) numbers. **Nothing has been run on real data yet.** |
+| **Video review and fixes** (2026-11-04) | 73 videos confirmed and 5 rejected in `data/videos.csv`; date-parsing and anonymisation fixes in `src/` |
+| **This plan** (2026-11-03 to 11-08) | Proposed as a case study; research question changed from dark comedy to **joke topic** (genre kept as a secondary variable); supervisor confirmed the original proposal no longer binds us; plan adopted |
+| **Previous work** (2026-11-08) | `LITERATURE.md` reviews humour studies and comedy-controversy research and maps each study onto our method; the borrowed fields were added to the case template |
 
-The proposal has already been submitted and graded. This plan is about **carrying out the project**.
+The proposal has already been submitted and graded, and the supervisor has said we are free to choose our
+direction. This plan is about **carrying out the project**.
+
+**Why this topic.** Two controversies led us here: *India's Got Latent* (2025), where one remark brought FIRs in
+several states, the removal of every episode and the Supreme Court, and Pranit More's "Rs 370 biryani" crowd
+work (2026), where a short clip from a Gurugram room became a women's-commission complaint and an FIR. Both are
+in the case pool; *Latent* is the suggested pilot.
 
 ---
 
@@ -369,13 +378,23 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
 ### Step 8: Write up
 
 - **Suggested structure of the final paper:**
-  1. Introduction (puzzle, why it matters)
+  1. Introduction: open with *India's Got Latent* and the Rs 370 biryani clip; the puzzle (why some jokes end
+     in FIRs, some in mobs, some in nothing); why it matters
   2. Conceptual framework (topic and genre, stigma, context, Durkheim; adapted from the revised proposal)
   3. Literature and gaps (from `LITERATURE.md`), ending with how each stream is used in our method
   4. Method (this plan's Sections 5–8, including the AI disclosure and limitations)
   5. Cases overview (table of all cases)
   6. Findings by sub-question, with paired comparisons and the typology
-  7. Discussion: what the findings say about stigma, context collapse and Durkheim in a plural society
+  7. Discussion (led by the findings, not by a fixed list of theories):
+     - restate the main answer in one paragraph
+     - interpret each major finding: *why* it happens, using stigma, context collapse and Durkheim where they
+       help (e.g. whether different groups defend their "sacred" through different channels: party cadres,
+       formal complaints, commissions), and saying so where a theory fails to predict
+     - explain the counter-examples and surprises
+     - relate to previous work (`LITERATURE.md`): where we agree with, extend or contradict it
+     - rival explanations (elections, fame, platform, amount of news coverage)
+     - implications: self-censorship, the state as referee or instrument, platforms and clipping
+     - the limits of the interpretation (then the full limitations section)
   8. Limitations
   9. Conclusion
   - Appendix: one-page summary of each case
@@ -500,7 +519,7 @@ These go into the final paper's limitations section. Each lists what we do about
 
 To be settled in Step 0 or as noted.
 
-1. **Approve the main question and sub-questions** (Section 3).
+1. ~~Approve the main question and sub-questions~~ Settled: approved with topic as the focus (Section 3).
 2. ~~Does the supervisor need to approve the change in method?~~ Settled: no. The original proposal no longer binds us; a short update is optional.
 3. **Deadline.** The final submission date is not recorded in the repository. Fill it into Section 15.
 4. **Number of cases:** 20, 25 or 30? (Recommended: 25.)
@@ -509,7 +528,7 @@ To be settled in Step 0 or as noted.
 7. **Languages:** who on the team reads which languages (Hindi, Telugu, Tamil, Marathi)?
 8. **Interviews:** do them or not? Is ethics approval needed?
 9. **Course AI policy:** confirm what disclosure is required.
-10. **Havish's pipeline work:** agree as a team which parts are kept (Section 12).
+10. ~~Havish's pipeline work~~ Settled: kept or dropped as in Section 12.
 
 ---
 

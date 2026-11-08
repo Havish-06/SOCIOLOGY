@@ -1,4 +1,7 @@
-# Codebook v0 — Team K
+# Codebook v1 — Team K
+
+Used with the case-study plan (`PLAN.md`). Part A labels go into section B of each case file; Part B labels are
+used when reading comments (PLAN.md Section 10). How each label connects to previous work: `LITERATURE.md`.
 
 Every label below is adapted from earlier work, so our results can be compared with it. Each label notes
 its source and what we changed. Full references are in the proposal (`Sociology_Proposal_Revised.docx`, Table 4).
@@ -104,6 +107,15 @@ Sources: Benesch et al. 2016; Mathew et al. 2019 (YouTube counter-speech).
 
 ### B9. looks_inauthentic
 `yes` · `no` · `unsure`. This is human judgement, used to check the automatic flags in `src/spam.py`.
+
+### B10. norm_invoked
+The social norm the comment says the joke broke: `religious_feeling` · `national_honour` · `women_dignity` ·
+`family_parents` · `caste_dignity` · `decency_obscenity` · `leader_honour` · `none`.
+Sources: Rost, Stahel & Frey 2016 (online firestorms as norm enforcement); Durkheim 1912.
+
+### B11. intent_attributed
+`harm` (says the comedian meant to insult or hurt) · `joke` (says it was meant as a joke) · `not_stated`.
+Source: Graefer & Das 2020 (audiences judge offence by inferred intent and context).
 
 ---
 

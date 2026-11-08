@@ -28,6 +28,8 @@ CODE_COLUMNS = {
     "intensity": "1 (mild) .. 5 (violent)",
     "pushback_type": "replies only: facts | hypocrisy | consequences | affiliation | denouncing | humour_sarcasm | positive_tone | hostile",
     "looks_inauthentic": "yes | no | unsure",
+    "norm_invoked": "religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | none",
+    "intent_attributed": "harm | joke | not_stated",
 }
 
 
