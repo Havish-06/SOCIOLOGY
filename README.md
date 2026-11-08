@@ -9,6 +9,7 @@ analysis because their comment sections have less spam and fan-army noise.
 
 - **Project plan (adopted, current):** [PLAN.md](PLAN.md): structured comparative case study of 20–30 cases. Replaces the proposal's methodology and deliverables; the pipeline below is kept only partly (see PLAN.md Section 12)
 - **Proposal (revised):** `Sociology_Proposal_Revised.docx`. The original is kept as `Sociology_Proposal_*.docx`.
+- **Previous work:** [LITERATURE.md](LITERATURE.md): what humour studies and research on comedy controversies have done, how, and where our project fits
 - **Codebook:** [CODEBOOK.md](CODEBOOK.md): every joke and comment label, with decision rules and the prior work it builds on
 - **Case table:** [data/cases.csv](data/cases.csv): 23 incidents with topic, genre, context, outcome, actors, sources, subscriber counts and verification status
 - **Video table:** [data/videos.csv](data/videos.csv): candidate YouTube videos per case (original / reupload / news / response / commentary; case or control), checked to exist
