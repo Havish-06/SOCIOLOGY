@@ -6,3 +6,6 @@ data/processed/
 data/coding/
 *.pyc
 ~$*
+data/comments/
+data/manual/
+.agent/
