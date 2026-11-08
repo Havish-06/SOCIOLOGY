@@ -85,14 +85,33 @@ police, court, commission, platform, venue, media.
 - Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
   blames_clipping_or_social_media | free_speech | none
 
-## H. Theory reading
-- Stigma: was the comedian labelled as deviant? With what label? Did the comedian's own identity matter
-  (only identity the comedian has stated publicly; Shivaprasad 2020 and Krefting 2014 on who gets to joke about what)?
-  Did stigma spread to others?
-- Context collapse: what changed in the joke's meaning as it travelled? Collusion or collision, and did that matter?
-- Durkheim: was a sacred object (fixed list) touched? Whose sacred? Who claimed to speak for the group?
-  Was the reaction formal punishment (state) or passionate collective reaction (crowd)?
-- Topic: what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
+## H. Interpretation
+Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
+(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
+Never assume a lens fits; record where it fails.
+
+| Lens | Verdict | Evidence (with source numbers) |
+|---|---|---|
+| Scandal: who made the accusation public; winners and losers | | |
+| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
+| Strategic offence: offence manufactured or amplified for political gain | | |
+| Mobilisation: organisation, resources, political opportunity, framing | | |
+| Law as a weapon: the process as punishment | | |
+| Organised online publics / digital nationalism | | |
+| Moral outrage and platform amplification | | |
+| Context collapse: meaning change; collusion or collision | | |
+| Stigma and labelling: label, ladder step, courtesy stigma | | |
+| Durkheim: whose sacred; formal punishment vs collective reaction | | |
+| Humour theory: why it stopped seeming harmless; function shift | | |
+| Identity and power: comedian's publicly stated identity; up or down | | |
+| Fandom / anti-fandom (celebrity cases) | | |
+| Apology and image repair | | |
+| Other explanation not in the toolkit | | |
+
+- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
+- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
+  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
+- **Rival explanations ruled out, and why:**
 
 ## I. Comparison notes
 - Matched pair(s): which cases this should be compared with, and why

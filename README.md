@@ -7,8 +7,9 @@ controversy, why does it end so differently: online criticism only, legal action
 Every case is analysed with the same template, using news, legal records, YouTube and Instagram comments and the
 comedian's own statements, and then all cases are compared side by side. **Topic** is the main comparison; genre
 (dark comedy, satire, crude, roast) is recorded for every joke as a secondary variable. Comedians of every audience
-size are included. The framework is stigma (Goffman, Link & Phelan, Becker), context collapse (Marwick & boyd;
-Davis & Jurgenson) and Durkheim on the sacred and punishment.
+size are included. Cases are interpreted with a toolkit of sociological lenses, used wherever the evidence supports them: stigma,
+context collapse, Durkheim, scandal, moral panic, strategic offence, mobilisation, law as a weapon, organised online
+publics, platform outrage, humour theory, identity and power, fandom and apology (PLAN.md Section 4).
 
 **Where it started.** *India's Got Latent* (2025) and Pranit More's "Rs 370 biryani" crowd work (2026) are the two
 controversies that led us to this topic; *Latent* is the suggested pilot case.

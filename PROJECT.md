@@ -14,8 +14,10 @@ under public scrutiny, and why controversies end so differently**.
 We compare about **25 controversies from 2018 to 2026** using a **structured, focused comparison** (George &
 Bennett, 2005): every case is researched and written up with the same template, and the cases are then compared
 side by side. Evidence comes from news reports, legal records, YouTube and Instagram comments and the comedians'
-own statements. The analysis draws on three bodies of sociological theory: **stigma** (Goffman, Link & Phelan,
-Becker), **context collapse** (Marwick & boyd; Davis & Jurgenson) and **Durkheim** on the sacred and punishment.
+own statements. Cases are interpreted with a toolkit of sociological lenses, chosen for what helps answer the question: scandal,
+moral panic, strategic offence, social mobilisation, law as a weapon, organised online publics, platform
+outrage, context collapse, stigma, Durkheim on the sacred and punishment, humour theory, identity and power,
+fandom, and apology.
 
 The final output is a research paper, about 25 verified case files, a master comparison table, and a findings
 report with a typology of escalation paths.
@@ -74,7 +76,10 @@ with each outcome.
 
 ---
 
-## 5. Theoretical framework
+## 5. Theoretical framework and interpretive toolkit
+
+Four ideas run through the whole project (below). Around them sits a wider **toolkit of lenses**: each case is
+interpreted with whichever lenses the evidence supports, not forced into a fixed set of theories.
 
 **Stigma and labelling.** Goffman (1963) describes stigma as reducing a person "from a whole and usual person to
 a tainted, discounted one". Becker (1963) shows that deviance is a label applied by others. In comedy
@@ -94,6 +99,45 @@ so we always ask **whose** sacred was touched and who claimed to speak for the g
 **Humour theory.** Benign-violation theory (McGraw & Warren, 2010) holds that humour needs a violation that also
 seems harmless; whether it seems harmless depends on psychological distance (McGraw et al., 2012). This explains
 why the same joke can amuse one audience and enrage another.
+
+### The interpretive toolkit
+
+| Lens | Question it asks of a case | Mainly helps with | Key sources |
+|---|---|---|---|
+| **Scandal** | Who turned a transgression into a public accusation, and how did publicity make it a scandal? Who gained and who lost? | SQ2, SQ3 | Adut (2008); Thompson (2000); Kuipers (2011) |
+| **Moral panic and moral entrepreneurs** | Was the comedian cast as a "folk devil"? Was the reaction out of proportion? Who acted as moral entrepreneur? Did one panic set off a wave of cases? | SQ3; clustering of cases | Cohen (1972); Goode & Ben-Yehuda (1994); Becker (1963) |
+| **Strategic offence ("hate spin")** | Was offence manufactured or amplified by political entrepreneurs for gain? Who claimed hurt, and who benefited? | SQ3; legal outcomes | George (2016); Nair (2023) |
+| **Mobilisation: framing, resources, political opportunity** | Did the objectors have organisations, cadres and allies in power? Did an election or a friendly government open an opportunity? How did they frame the grievance? | SQ3; why some go to the police and others to the street | Benford & Snow (2000); McCarthy & Zald (1977); Tarrow (2011) |
+| **Law as a weapon; "the process is the punishment"** | Was the legal route used to punish through FIRs, travel and court dates, even when the case later failed? | Legal outcomes | Feeley (1979); Bhatia (2016); Nair (2023) |
+| **Digital nationalism and organised online publics** | Did organised online networks drive the backlash? Did they use humour and "fun" themselves? | SQ2, SQ3 | Udupa (2019); Udupa & Pohjonen (2019) |
+| **Moral outrage and platforms** | Did moralised clips, captions and algorithms spread the outrage? Was the backlash norm enforcement? | SQ2 | Crockett (2017); Brady et al. (2017); Rost, Stahel & Frey (2016) |
+| **Context collapse** | What changed in the joke's meaning as it travelled? Collusion or collision? | SQ2 | Marwick & boyd (2011); Davis & Jurgenson (2014) |
+| **Stigma and labelling** | Was the comedian relabelled as deviant? How far up the stigma ladder did it go? Did it spread to venues? | SQ3 | Goffman (1963); Link & Phelan (2001); Becker (1963) |
+| **Durkheim: the sacred, punishment, boundaries** | Was something sacred touched, and whose? Was the reaction formal (state) or passionate and collective (crowd)? | SQ1, SQ3 | Durkheim (1893, 1912); Erikson (1966) |
+| **Humour theory** | Why did the joke stop seeming harmless for some audiences? Did its function shift from uniting to dividing? Which "humour regime" did it break? | SQ1, SQ2 | McGraw & Warren (2010); McGraw et al. (2012); Meyer (2000); Kuipers (2011) |
+| **Identity and power: who may joke about whom** | Did the comedian's religion, caste, gender or region shape the reaction? Was the joke punching up or down? | SQ1, SQ3 | Krefting (2014); Shivaprasad (2020); Crenshaw (1991) |
+| **Fandom and anti-fandom** | Was the backlash driven by fans defending a celebrity, or anti-fans of the comedian? | SQ3 (celebrity cases) | Gray (2003); Gray, Sandvoss & Harrington (2007) |
+| **Apology and image repair** | Did the comedian's apology, refusal or deletion calm or inflame the controversy? | Comedian's response | Goffman (1971); Benoit (1995) |
+| **Chilling effect** | What does the case teach other comedians about which topics to avoid? | Implications; interviews | Schauer (1978) |
+
+**How we interpret, following earlier comparative case studies.**
+
+1. **Process tracing within each case** (George & Bennett, 2005; Collier, 2011; Beach & Pedersen, 2013). The dated
+   timeline is used to reconstruct *how* the controversy unfolded, step by step, and to check which lens's expected
+   traces actually appear. For example, strategic offence predicts that a political actor resurfaces the clip and
+   files the complaint; a moral panic predicts disproportionate media coverage and a wave of copycat complaints.
+2. **Rival explanations for every case** (Yin, 2018). Each case is read against several lenses, and the case file
+   records which ones the evidence supports, partly supports or contradicts. A lens is never assumed to fit.
+3. **Analytic eclecticism** (Sil & Katzenstein, 2010). Controversies have several causes, so we combine lenses where
+   the evidence demands it instead of forcing every case into one theory.
+4. **Cross-case comparison of mechanisms.** In the comparison stage we ask which mechanisms recur with which outcomes
+   (for example, whether "organised party cadres + political opportunity" goes with extra-legal action).
+
+Earlier studies of this kind interpret cases in the same way: Cohen (1972) traces the stages of a moral panic;
+Adut (2008) compares scandals by who made the accusation public; George (2016) compares offence campaigns across
+India, Indonesia and the United States by who manufactured the offence and how the state responded; Kuipers (2011)
+asks who won and lost in a humour scandal; Ödmark (2021) compares how the function of humour changed across three
+controversies.
 
 ---
 
@@ -245,7 +289,7 @@ Every case is written up in [`cases/_template.md`](cases/_template.md) with the 
 | E. Reaction | Who objected and their words; the norm they said was broken; who defended the comedian; dominant media frame; humour function before and after; comment themes |
 | F. Outcome | Outcome type; legal actions with complainant and legal basis; extra-legal actions; highest stigma step; courtesy stigma; how it ended; winners and losers |
 | G. Comedian's response | Apology, refusal, clarification, deletion or silence; timing; effect; the comedian's narrative |
-| H. Theory reading | Stigma, context collapse, Durkheim and topic, applied to the case |
+| H. Interpretation | Process tracing of the timeline; a verdict and evidence for each lens in the toolkit; the best explanation of the outcome; rival explanations ruled out |
 | I. Comparison notes | Matched pairs; what the case adds |
 | J. Sources | Numbered sources with confidence; disputes; open questions |
 
@@ -294,6 +338,8 @@ Comments are evidence of how people framed the joke. They are **never** treated 
 
 ## 10. Cross-case analysis
 
+0. **Mechanisms table** (`analysis/mechanisms.csv`): the lens verdicts from every case, showing which mechanisms
+   recur with which outcomes.
 1. **Master comparison table** (`analysis/comparison.csv`): one row per case, with topic, genre, direction, form,
    collapse type, gap in months, caption, sacred object, norm invoked, who mobilised, channel used, legal basis,
    highest stigma step, courtesy stigma, comedian's response, outcome, audience size and election period.
@@ -327,7 +373,7 @@ commissions and courts or fizzled, never to mobs.
 | **Optional** | Anonymised interview summaries; a visual case map built from the comparison table |
 
 **The discussion section** is led by the findings. It restates the main answer; interprets each major finding
-using stigma, context collapse and Durkheim where they help (for example, whether different groups defend their
+using whichever lenses in the toolkit the evidence supports (for example, whether different groups defend their
 "sacred" through different channels: party cadres, formal complaints or commissions) and says so where a theory
 fails; explains counter-examples; relates the results to previous work; considers rival explanations (elections,
 fame, platform, news coverage); and draws out implications for self-censorship, the role of the state and the
@@ -416,28 +462,44 @@ interpretive conclusions were reviewed and agreed by the team."
 
 ## References
 
+Adut, A. (2008). *On scandal: Moral disturbances in society, politics, and art*. Cambridge University Press.
 Ahmad, M. N. (2026). Can Dalit laugh? Humour as resistance and politics of Dalit-comedy in India. *Comedy Studies*, 17(1).
+Beach, D., & Pedersen, R. B. (2013). *Process-tracing methods: Foundations and guidelines*. University of Michigan Press.
 Becker, H. S. (1963). *Outsiders: Studies in the sociology of deviance*. Free Press.
+Benford, R. D., & Snow, D. A. (2000). Framing processes and social movements. *Annual Review of Sociology*, 26, 611–639.
+Benoit, W. L. (1995). *Accounts, excuses, and apologies: A theory of image restoration strategies*. SUNY Press.
 Bhargava, R., & Singhal, A. (2023). Stand-up: The "comic" public sphere in India. *International Journal of Communication*, 17, 5852–5869.
 Bhatia, G. (2016). *Offend, shock, or disturb: Free speech under the Indian Constitution*. Oxford University Press.
 Billig, M. (2005). *Laughter and ridicule: Towards a social critique of humour*. Sage.
+Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017). Emotion shapes the diffusion of moralized content in social networks. *PNAS*, 114(28), 7313–7318.
 Brodie, I. (2014). *A vulgar art: A new approach to stand-up comedy*. University Press of Mississippi.
 Chilana, R., & Bhargava, R. (Eds.). (2024). *Politics of recognition and representation in Indian stand-up comedy*. Palgrave Macmillan.
+Cohen, S. (1972). *Folk devils and moral panics*. MacGibbon & Kee.
+Collier, D. (2011). Understanding process tracing. *PS: Political Science & Politics*, 44(4), 823–830.
+Crenshaw, K. (1991). Mapping the margins. *Stanford Law Review*, 43(6), 1241–1299.
+Crockett, M. J. (2017). Moral outrage in the digital age. *Nature Human Behaviour*, 1, 769–771.
 Davis, J. L., & Jurgenson, N. (2014). Context collapse: Theorizing context collusions and collisions. *Information, Communication & Society*, 17(4), 476–485.
 Douglas, M. (1968). The social control of cognition: Some factors in joke perception. *Man*, 3(3), 361–376.
 Durkheim, É. (1893/1984). *The division of labour in society*. Macmillan.
 Durkheim, É. (1912/1995). *The elementary forms of religious life*. Free Press.
 Erikson, K. T. (1966). *Wayward Puritans: A study in the sociology of deviance*. Wiley.
+Feeley, M. M. (1979). *The process is the punishment: Handling cases in a lower criminal court*. Russell Sage Foundation.
 Friedman, S. (2014). *Comedy and distinction: The cultural currency of a 'good' sense of humour*. Routledge.
+George, C. (2016). *Hate spin: The manufacture of religious offense and its threat to democracy*. MIT Press.
 George, A. L., & Bennett, A. (2005). *Case studies and theory development in the social sciences*. MIT Press.
 Goffman, E. (1963). *Stigma: Notes on the management of spoiled identity*. Prentice-Hall.
 Goffman, E. (1974). *Frame analysis*. Harper & Row.
+Goffman, E. (1971). *Relations in public*. Basic Books.
+Goode, E., & Ben-Yehuda, N. (1994). *Moral panics: The social construction of deviance*. Blackwell.
 Graefer, A., & Das, R. (2020). Towards a contextual approach: Audiences, television and 'offensive' humour. *European Journal of Cultural Studies*.
+Gray, J. (2003). New audiences, new textualities: Anti-fans and non-fans. *International Journal of Cultural Studies*, 6(1), 64–81.
+Gray, J., Sandvoss, C., & Harrington, C. L. (Eds.). (2007). *Fandom: Identities and communities in a mediated world*. NYU Press.
 Krefting, R. (2014). *All joking aside: American humor and its discontents*. Johns Hopkins University Press.
 Kuipers, G. (2006). *Good humor, bad taste: A sociology of the joke*. Mouton de Gruyter.
 Kuipers, G. (2011). The politics of humour in the public sphere: Cartoons, power and modernity in the first transnational humour scandal. *European Journal of Cultural Studies*, 14(1), 63–80.
 Link, B. G., & Phelan, J. C. (2001). Conceptualizing stigma. *Annual Review of Sociology*, 27, 363–385.
 Lockyer, S., & Pickering, M. (Eds.). (2005). *Beyond a joke: The limits of humour*. Palgrave Macmillan.
+McCarthy, J. D., & Zald, M. N. (1977). Resource mobilization and social movements. *American Journal of Sociology*, 82(6), 1212–1241.
 Marwick, A. E., & boyd, d. (2011). I tweet honestly, I tweet passionately. *New Media & Society*, 13(1), 114–133.
 McGraw, A. P., & Warren, C. (2010). Benign violations: Making immoral behavior funny. *Psychological Science*, 21(8), 1141–1149.
 McGraw, A. P., Warren, C., Williams, L. E., & Leonard, B. (2012). Too close for comfort, or too far to care? *Psychological Science*, 23(10), 1215–1223.
@@ -447,9 +509,16 @@ Nair, N. (2023). *Hurt sentiments: Secularism and belonging in South Asia*. Harv
 Nicolaï, J., & Maeseele, P. (2024). Stand-up in the age of outrage. *European Journal of Humour Research*.
 Ödmark, S. (2021). De-contextualisation fuels controversy: The double-edged sword of humour in a hybrid media environment. *European Journal of Humour Research*, 9(3), 49–64.
 Rost, K., Stahel, L., & Frey, B. S. (2016). Digital social norm enforcement: Online firestorms in social media. *PLoS ONE*, 11(6), e0155923.
+Schauer, F. (1978). Fear, risk and the First Amendment: Unraveling the chilling effect. *Boston University Law Review*, 58, 685–732.
 Shivaprasad, M. (2020). Humour and the margins: Stand-up comedy and caste in India. *IAFOR Journal of Media, Communication & Film*, 7(1).
+Sil, R., & Katzenstein, P. J. (2010). *Beyond paradigms: Analytic eclecticism in the study of world politics*. Palgrave Macmillan.
 Smith, D. R. (2018). *Comedy and critique: Stand-up comedy and the professional ethos of laughter*. Bristol University Press.
+Tarrow, S. (2011). *Power in movement* (3rd ed.). Cambridge University Press.
+Thompson, J. B. (2000). *Political scandal: Power and visibility in the media age*. Polity.
+Udupa, S. (2019). Nationalism in the digital age: Fun as a metapractice of extreme speech. *International Journal of Communication*, 13, 3143–3163.
+Udupa, S., & Pohjonen, M. (2019). Extreme speech and global digital cultures. *International Journal of Communication*, 13, 3049–3067.
 Willinger, U., et al. (2017). Cognitive and emotional demands of black humour processing. *Cognitive Processing*, 18, 159–167.
+Yin, R. K. (2018). *Case study research and applications* (6th ed.). Sage.
 
 Further references, including work on joke and comment classification, are in [`LITERATURE.md`](LITERATURE.md)
 and [`CODEBOOK.md`](CODEBOOK.md). Page numbers and editions should be checked against the original sources

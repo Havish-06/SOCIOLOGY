@@ -1,7 +1,7 @@
 # Previous Work: Humour Studies and Comedy Controversies — Team K
 
 What researchers have already done on humour, offence and comedy controversies, how they did it, what they
-found, and where our project fits. Organised into nine streams, moving from general humour theory to Indian
+found, and where our project fits. Organised into ten streams, moving from general humour theory to Indian
 stand-up controversies.
 
 **How to use this file.** Each stream lists the key works, *what they did* (method and data), *what they
@@ -24,6 +24,7 @@ citing (page numbers, edition). Read at least the starred (★) works in each st
 | 7. Humour, the sacred and the state in South Asia | Legal history, political theory, anthropology | Laws (s.295A), court cases, censorship episodes | The Indian legal and political machinery of "hurt sentiments" |
 | 8. Indian stand-up comedy | Discourse analysis, content analysis of YouTube videos, interviews | Comedians' videos, audiences | The Indian scene: who performs, for whom, about what |
 | 9. Classifying jokes and reactions | Annotation schemes, NLP datasets | Labelled jokes and comments | Our codebook labels (already in `CODEBOOK.md`) |
+| 10. Explaining escalation | Comparative case studies, ethnography, theory | Scandals, moral panics, offence campaigns, courts, online publics | **Our interpretive toolkit**: why a controversy escalates and through which route |
 
 ---
 
@@ -73,7 +74,11 @@ template `cases/_template.md`).
 | Treat comments as evidence of framing, never as public opinion | Lesson from online-outrage research: firestorms are driven by small, vocal groups (Rost et al. 2016) |
 | Check for copy-paste campaigns before quoting | Coordinated-behaviour research (Pacheco et al.); our `src/spam.py` |
 
-### Interpreting the results (discussion)
+### Interpreting each case and the results
+
+Cases are not read only through stigma, context collapse and Durkheim. Each case gets a verdict for every lens
+in the interpretive toolkit (stream 10 and PLAN.md Section 4), using process tracing and rival explanations.
+
 
 | Question in the discussion | Taken from |
 |---|---|
@@ -239,6 +244,47 @@ its BNS successor) is itself a political tool, which our "who mobilises, through
 celebrates stand-up as resistance. **No study we found compares controversies across cases or explains why
 some end in FIRs and others in mobs or nothing.** News and commentary cover Faruqui, Kamra and *Latent*, but
 we found no peer-reviewed comparative analysis of them.
+
+---
+
+## 10. Explaining escalation: scandal, panic, mobilisation, law and platforms
+
+These works explain *why* a controversy escalates and through which route. They form most of our interpretive
+toolkit (PLAN.md Section 4).
+
+| Work | What they did | Key idea we use |
+|---|---|---|
+| ★ Adut (2008), *On Scandal: Moral Disturbances in Society, Politics, and Art*, Cambridge UP ✔ | Comparative historical study of scandals (Oscar Wilde, Watergate, Lewinsky and others) | A scandal is made by **public accusation and publicity**, not by the transgression itself |
+| Thompson (2000), *Political Scandal: Power and Visibility in the Media Age* | Theory and historical cases | Scandals are struggles over symbolic power in mediated visibility |
+| ★ Cohen (1972), *Folk Devils and Moral Panics* | Case study of the Mods and Rockers | Stages of a moral panic; folk devils; disproportionate reaction; moral entrepreneurs |
+| Goode & Ben-Yehuda (1994), *Moral Panics: The Social Construction of Deviance* | Theory and cases | Criteria for a moral panic: concern, hostility, consensus, disproportion, volatility |
+| ★ George (2016), *Hate Spin: The Manufacture of Religious Offense and Its Threat to Democracy*, MIT Press ✔ | Comparative study of India, Indonesia and the United States | Offence is often **manufactured** by political entrepreneurs; laws against offence empower the most intolerant |
+| Benford & Snow (2000), "Framing processes and social movements", *Annual Review of Sociology* 26 | Review | Diagnostic and prognostic framing of grievances |
+| McCarthy & Zald (1977), "Resource mobilization and social movements", *American Journal of Sociology* 82(6) | Theory | Mobilisation depends on organisations and resources, not grievance alone |
+| Tarrow (2011), *Power in Movement* | Comparative theory | Political opportunity: allies in power, elections, openings for action |
+| ★ Feeley (1979), *The Process Is the Punishment* | Court ethnography | Arrest, bail and repeated court dates punish even when no conviction follows |
+| ★ Udupa (2019), "Nationalism in the digital age: fun as a metapractice of extreme speech", *International Journal of Communication* 13 ✔ | Ethnography of Hindu nationalist online volunteers | Organised online publics use "fun" to mobilise and attack, with deniability |
+| Udupa & Pohjonen (2019), "Extreme speech and global digital cultures", *International Journal of Communication* 13 | Special-section introduction | Extreme speech as a cultural practice, not only hate speech |
+| Crockett (2017), "Moral outrage in the digital age", *Nature Human Behaviour* 1 | Theory and evidence review | Platforms lower the cost and raise the reward of expressing outrage |
+| Brady et al. (2017), "Emotion shapes the diffusion of moralized content in social networks", *PNAS* 114(28) | Analysis of 563,312 tweets | Each moral-emotional word raises sharing, mostly within one's own group |
+| Gray (2003), "New audiences, new textualities: anti-fans and non-fans", *International Journal of Cultural Studies* 6(1) | Theory | Anti-fans and fan defence as audience behaviour |
+| Benoit (1995), *Accounts, Excuses, and Apologies* | Theory of image repair | Denial, evasion, reducing offensiveness, corrective action, mortification |
+| Goffman (1971), *Relations in Public* | Theory | Apologies as "remedial work" that splits the self into guilty and repentant parts |
+| Crenshaw (1991), "Mapping the margins", *Stanford Law Review* 43(6) | Legal theory | Intersecting identities shape how people are treated |
+| Schauer (1978), "Fear, risk and the First Amendment: unraveling the chilling effect", *Boston University Law Review* 58 | Legal theory | Fear of legal process deters lawful speech |
+
+### How similar projects interpreted their cases
+
+| Method of interpretation | Source | How we use it |
+|---|---|---|
+| **Process tracing**: reconstruct the sequence and check which mechanism's expected traces appear | George & Bennett (2005); Collier (2011); Beach & Pedersen (2013) | The timeline (template D) is traced step by step in section H |
+| **Rival explanations**: test several explanations against each case | Yin (2018), *Case Study Research and Applications* | Each lens gets a verdict (supported, partly, not supported) with evidence |
+| **Analytic eclecticism**: combine theories where outcomes have several causes | Sil & Katzenstein (2010), *Beyond Paradigms* | One "best explanation" paragraph per case, combining lenses |
+| Stages of a reaction | Cohen (1972) | Moral-panic lens; typology of escalation paths |
+| Who makes the accusation public | Adut (2008) | Scandal lens |
+| Who manufactures offence and how the state responds, across countries | George (2016) | Strategic-offence and law lenses |
+| Winners and losers of a humour scandal | Kuipers (2011) | Template F |
+| Change in humour's function across cases | Ödmark (2021) | Template E |
 
 ---
 

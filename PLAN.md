@@ -148,6 +148,49 @@ religious founders and texts; regional icons (e.g. Shivaji); Ambedkar; the natio
 the family and parents (a candidate, to be decided in Step 0). This list is set before outcomes are compared
 and is changed only by recorded team decision.
 
+### Interpretive toolkit
+
+Stigma, context collapse and Durkheim are the core framework, but they are not the only lenses. We interpret
+every case with whatever helps answer the research question, drawing on the full toolkit below. Sources and
+detail: `LITERATURE.md`, stream 10.
+
+| Lens | Question it asks of a case | Mainly helps with | Key sources |
+|---|---|---|---|
+| **Scandal** | Who turned a transgression into a public accusation, and how did publicity make it a scandal? Who gained and who lost? | SQ2, SQ3 | Adut (2008); Thompson (2000); Kuipers (2011) |
+| **Moral panic and moral entrepreneurs** | Was the comedian cast as a "folk devil"? Was the reaction out of proportion? Who acted as moral entrepreneur? Did one panic set off a wave of cases? | SQ3; clustering of cases | Cohen (1972); Goode & Ben-Yehuda (1994); Becker (1963) |
+| **Strategic offence ("hate spin")** | Was offence manufactured or amplified by political entrepreneurs for gain? Who claimed hurt, and who benefited? | SQ3; legal outcomes | George (2016); Nair (2023) |
+| **Mobilisation: framing, resources, political opportunity** | Did the objectors have organisations, cadres and allies in power? Did an election or a friendly government open an opportunity? How did they frame the grievance? | SQ3; why some go to the police and others to the street | Benford & Snow (2000); McCarthy & Zald (1977); Tarrow (2011) |
+| **Law as a weapon; "the process is the punishment"** | Was the legal route used to punish through FIRs, travel and court dates, even when the case later failed? | Legal outcomes | Feeley (1979); Bhatia (2016); Nair (2023) |
+| **Digital nationalism and organised online publics** | Did organised online networks drive the backlash? Did they use humour and "fun" themselves? | SQ2, SQ3 | Udupa (2019); Udupa & Pohjonen (2019) |
+| **Moral outrage and platforms** | Did moralised clips, captions and algorithms spread the outrage? Was the backlash norm enforcement? | SQ2 | Crockett (2017); Brady et al. (2017); Rost, Stahel & Frey (2016) |
+| **Context collapse** | What changed in the joke's meaning as it travelled? Collusion or collision? | SQ2 | Marwick & boyd (2011); Davis & Jurgenson (2014) |
+| **Stigma and labelling** | Was the comedian relabelled as deviant? How far up the stigma ladder did it go? Did it spread to venues? | SQ3 | Goffman (1963); Link & Phelan (2001); Becker (1963) |
+| **Durkheim: the sacred, punishment, boundaries** | Was something sacred touched, and whose? Was the reaction formal (state) or passionate and collective (crowd)? | SQ1, SQ3 | Durkheim (1893, 1912); Erikson (1966) |
+| **Humour theory** | Why did the joke stop seeming harmless for some audiences? Did its function shift from uniting to dividing? Which "humour regime" did it break? | SQ1, SQ2 | McGraw & Warren (2010); McGraw et al. (2012); Meyer (2000); Kuipers (2011) |
+| **Identity and power: who may joke about whom** | Did the comedian's religion, caste, gender or region shape the reaction? Was the joke punching up or down? | SQ1, SQ3 | Krefting (2014); Shivaprasad (2020); Crenshaw (1991) |
+| **Fandom and anti-fandom** | Was the backlash driven by fans defending a celebrity, or anti-fans of the comedian? | SQ3 (celebrity cases) | Gray (2003); Gray, Sandvoss & Harrington (2007) |
+| **Apology and image repair** | Did the comedian's apology, refusal or deletion calm or inflame the controversy? | Comedian's response | Goffman (1971); Benoit (1995) |
+| **Chilling effect** | What does the case teach other comedians about which topics to avoid? | Implications; interviews | Schauer (1978) |
+
+**How we interpret, following earlier comparative case studies.**
+
+1. **Process tracing within each case** (George & Bennett, 2005; Collier, 2011; Beach & Pedersen, 2013). The dated
+   timeline is used to reconstruct *how* the controversy unfolded, step by step, and to check which lens's expected
+   traces actually appear. For example, strategic offence predicts that a political actor resurfaces the clip and
+   files the complaint; a moral panic predicts disproportionate media coverage and a wave of copycat complaints.
+2. **Rival explanations for every case** (Yin, 2018). Each case is read against several lenses, and the case file
+   records which ones the evidence supports, partly supports or contradicts. A lens is never assumed to fit.
+3. **Analytic eclecticism** (Sil & Katzenstein, 2010). Controversies have several causes, so we combine lenses where
+   the evidence demands it instead of forcing every case into one theory.
+4. **Cross-case comparison of mechanisms.** In the comparison stage we ask which mechanisms recur with which outcomes
+   (for example, whether "organised party cadres + political opportunity" goes with extra-legal action).
+
+Earlier studies of this kind interpret cases in the same way: Cohen (1972) traces the stages of a moral panic;
+Adut (2008) compares scandals by who made the accusation public; George (2016) compares offence campaigns across
+India, Indonesia and the United States by who manufactured the offence and how the state responded; Kuipers (2011)
+asks who won and lost in a humour scandal; Ödmark (2021) compares how the function of humour changed across three
+controversies.
+
 ---
 
 ## 5. Method in one page
@@ -250,7 +293,7 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
 - **Note to the supervisor (optional; the supervisor has said the original proposal no longer binds us):**
   > We are carrying out a structured comparative case study of 20–30 Indian comedy controversies, asking which
   > topics bring stand-up comedians under scrutiny and why some controversies end in legal or extra-legal
-  > action while others fizzle. Each case is read through stigma, context collapse and Durkheim, using news,
+  > action while others fizzle. Each case is interpreted with a toolkit of sociological lenses (stigma, context collapse, Durkheim, scandal, moral panic, mobilisation and others), using news,
   > official records and public comments.
 - **Output:** `DECISIONS.md`.
 - **Done when:** the questions above are decided and recorded.
@@ -349,7 +392,9 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
   3. **Answer each sub-question:**
      - SQ1: compare topics (and punching up vs down within a topic) on outcome and reaction framing; then check whether genre adds anything once topic is held constant
      - SQ2: compare collision cases with collusion cases on how far they escalated
-     - SQ3: compare who mobilised, through which channel, how they framed the joke, and whether the comedian or venue was stigmatised; check the Durkheim expectations (Section 2.4 of the revised proposal)
+     - SQ3: compare who mobilised, through which channel, how they framed the joke, and whether the comedian or venue was stigmatised; check the Durkheim expectations
+  3b. **Mechanisms across cases:** tabulate the lens verdicts from section H of every case (`analysis/mechanisms.csv`)
+     and ask which mechanisms recur with which outcomes, and which never appear
   4. **Paired comparisons:** for each matched pair, write what differed and what stayed the same, and which
      difference best explains the different outcomes.
   5. **Typology of escalation paths:** group cases into recurring paths (e.g. *resurfaced clip → party
@@ -358,7 +403,7 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
      A pattern with no counter-examples checked is not a finding.
   7. **Optional, simple QCA-style truth table:** cases × 4–5 conditions × outcome, as a visual check of
      which combinations go with which outcome. Not as a formal causal claim.
-- **Output:** `analysis/comparison.csv`, `analysis/findings.md` (patterns, pairs, typology, counter-examples, agreement report), figures.
+- **Output:** `analysis/comparison.csv`, `analysis/mechanisms.csv`, `analysis/findings.md` (patterns, pairs, typology, counter-examples, agreement report), figures.
 - **Done when:** each sub-question has an answer supported by named cases, with counter-examples addressed.
 
 ### Step 7 (optional): Interviews
@@ -387,9 +432,11 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
   6. Findings by sub-question, with paired comparisons and the typology
   7. Discussion (led by the findings, not by a fixed list of theories):
      - restate the main answer in one paragraph
-     - interpret each major finding: *why* it happens, using stigma, context collapse and Durkheim where they
-       help (e.g. whether different groups defend their "sacred" through different channels: party cadres,
-       formal complaints, commissions), and saying so where a theory fails to predict
+     - interpret each major finding: *why* it happens, using whichever lenses in the toolkit (Section 4) the
+       evidence supports: scandal, moral panic, strategic offence, mobilisation, law as a weapon, organised online
+       publics, platforms, context collapse, stigma, Durkheim, humour theory, identity and power, fandom, apology
+       (e.g. whether different groups defend their "sacred" through different channels: party cadres, formal
+       complaints, commissions), and saying so where a theory fails to predict
      - explain the counter-examples and surprises
      - relate to previous work (`LITERATURE.md`): where we agree with, extend or contradict it
      - rival explanations (elections, fame, platform, amount of news coverage)
@@ -456,6 +503,7 @@ analysis/
   case_pool.csv             all candidates, included yes/no, reason
   second_coding.csv         blind second coding of key judgements
   comparison.csv            master comparison table, one row per case
+  mechanisms.csv            lens verdicts from section H of every case
   findings.md               cross-case findings
 data/
   cases.csv, events.csv, videos.csv   existing tables (kept, updated as cases are finalised)
@@ -639,14 +687,33 @@ police, court, commission, platform, venue, media.
 - Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
   blames_clipping_or_social_media | free_speech | none
 
-## H. Theory reading
-- Stigma: was the comedian labelled as deviant? With what label? Did the comedian's own identity matter
-  (only identity the comedian has stated publicly; Shivaprasad 2020 and Krefting 2014 on who gets to joke about what)?
-  Did stigma spread to others?
-- Context collapse: what changed in the joke's meaning as it travelled? Collusion or collision, and did that matter?
-- Durkheim: was a sacred object (fixed list) touched? Whose sacred? Who claimed to speak for the group?
-  Was the reaction formal punishment (state) or passionate collective reaction (crowd)?
-- Topic: what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
+## H. Interpretation
+Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
+(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
+Never assume a lens fits; record where it fails.
+
+| Lens | Verdict | Evidence (with source numbers) |
+|---|---|---|
+| Scandal: who made the accusation public; winners and losers | | |
+| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
+| Strategic offence: offence manufactured or amplified for political gain | | |
+| Mobilisation: organisation, resources, political opportunity, framing | | |
+| Law as a weapon: the process as punishment | | |
+| Organised online publics / digital nationalism | | |
+| Moral outrage and platform amplification | | |
+| Context collapse: meaning change; collusion or collision | | |
+| Stigma and labelling: label, ladder step, courtesy stigma | | |
+| Durkheim: whose sacred; formal punishment vs collective reaction | | |
+| Humour theory: why it stopped seeming harmless; function shift | | |
+| Identity and power: comedian's publicly stated identity; up or down | | |
+| Fandom / anti-fandom (celebrity cases) | | |
+| Apology and image repair | | |
+| Other explanation not in the toolkit | | |
+
+- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
+- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
+  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
+- **Rival explanations ruled out, and why:**
 
 ## I. Comparison notes
 - Matched pair(s): which cases this should be compared with, and why
