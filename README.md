@@ -17,6 +17,7 @@ controversies that led us to this topic; *Latent* is the suggested pilot case.
 
 | File | What it is |
 |---|---|
+| [PROJECT.md](PROJECT.md) | **The whole project in one document:** question, framework, previous work, method, cases, outputs, ethics, limitations, timeline |
 | [PLAN.md](PLAN.md) | **The project plan (adopted).** Question, framework, method, every step, roles, verification rules, limitations, timeline |
 | [DECISIONS.md](DECISIONS.md) | Dated log of team decisions, plus the questions still open for the team meeting |
 | [LITERATURE.md](LITERATURE.md) | Previous work in humour studies and comedy controversies, and **how each study shapes our method** |
