@@ -7,7 +7,7 @@ style is recorded as a variable. Comedians of every audience size are included (
 mid 100K–2M, large >2M subscribers); mid-range channels carry extra weight in the comment
 analysis because their comment sections have less spam and fan-army noise.
 
-- **Project plan (proposed, current):** [PLAN.md](PLAN.md): structured comparative case study of 20–30 cases. Replaces the proposal's methodology and deliverables; the pipeline below is kept only partly (see PLAN.md Section 12)
+- **Project plan (adopted, current):** [PLAN.md](PLAN.md): structured comparative case study of 20–30 cases. Replaces the proposal's methodology and deliverables; the pipeline below is kept only partly (see PLAN.md Section 12)
 - **Proposal (revised):** `Sociology_Proposal_Revised.docx`. The original is kept as `Sociology_Proposal_*.docx`.
 - **Codebook:** [CODEBOOK.md](CODEBOOK.md): every joke and comment label, with decision rules and the prior work it builds on
 - **Case table:** [data/cases.csv](data/cases.csv): 23 incidents with topic, genre, context, outcome, actors, sources, subscriber counts and verification status

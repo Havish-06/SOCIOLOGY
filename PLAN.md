@@ -1,6 +1,6 @@
 # Project Plan: Structured Comparative Case Study — Team K
 
-**Status:** proposed, awaiting team agreement (written 2026-11-03)
+**Status:** adopted 2026-11-08 (written 2026-11-03; research question revised to focus on joke topic, see `DECISIONS.md`)
 **Supersedes:** the *methodology* (Section 5) and *deliverables* (Section 6) of `Sociology_Proposal_Revised.docx`.
 The *conceptual framework* (Section 2) of that proposal is kept and reused.
 
