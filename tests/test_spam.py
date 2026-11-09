@@ -3,7 +3,8 @@ import pandas as pd
 import pytest
 
 from src.sample import kappa, make_sheet
-from src.spam import audit, gini, summarise, top_share
+from src.spam import (audit, copied_flags, cotiming_null, gini, hashtag_campaign_flags, sensitivity, summarise,
+                      top_share, validate)
 
 T0 = pd.Timestamp("2025-03-01", tz="UTC")
 
@@ -85,3 +86,42 @@ def test_sheet_and_kappa():
     b.loc[b.index[:3], "reaction"] = "backlash"
     k = kappa(a, b).set_index("code")
     assert k.loc["reaction", "agreement"] < 1
+
+
+def test_copied_comment_by_other_account():
+    df = pd.DataFrame({
+        "author_channel_id": ["UCa", "UCb", "UCa"],
+        "published_at": [T0, T0 + pd.Timedelta(hours=5), T0 + pd.Timedelta(hours=6)],
+        "dup_group": [7, 7, 7],
+    })
+    assert copied_flags(df).tolist() == [False, True, False]  # original and its author's repeat are not copies
+
+
+def test_hashtag_campaign_needs_many_accounts_in_one_window():
+    rows = [{"video_id": "v1", "author_channel_id": f"UC{i}", "text": "#ArrestHimNow shame",
+             "published_at": T0 + pd.Timedelta(minutes=i)} for i in range(6)]
+    rows += [{"video_id": "v1", "author_channel_id": f"UCs{i}", "text": "#comedy gold",
+              "published_at": T0 + pd.Timedelta(hours=3 * i)} for i in range(6)]  # same tag, spread out
+    flags = hashtag_campaign_flags(pd.DataFrame(rows))
+    assert flags[:6].all() and not flags[6:].any()
+
+
+def test_new_signals_and_null_model_on_synthetic_campaign():
+    comments, channels = synthetic()
+    df, acc = audit(comments, channels)
+    bots = acc[acc["author_channel_id"].str.startswith("UCbot")]
+    assert bots["batch_created"].all()  # 12 accounts created on the same recent day
+    null = cotiming_null(df, n_shuffles=5)
+    assert null["observed_accounts"] >= 12
+    assert null["expected_false_share"] < 0.5  # the planted campaign is far above chance
+
+
+def test_sensitivity_and_validate():
+    comments, channels = synthetic()
+    sens = sensitivity(comments, channels, dup_thresholds=(0.9,), windows_s=(60, 120))
+    assert (sens["pct_likely_coordinated"] > 0).all()
+    df, _ = audit(comments, channels)
+    coded = df[["comment_id", "author_channel_id"]].assign(
+        looks_inauthentic=np.where(df["author_channel_id"].str.match(r"UC(bot|spam)"), "yes", "no"))
+    v = validate(df, coded)
+    assert v.attrs["precision_flagged"] == pytest.approx(1.0)

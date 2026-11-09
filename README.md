@@ -71,7 +71,8 @@ copy .env.example .env            # then paste your own YouTube Data API key and
 | Tool | Command | Use in the plan |
 |---|---|---|
 | Download comments | `python -m src.collect --videos data/videos.csv` (or `--video-ids <id> --case-id <case>`) | Step 5.3 |
-| Quick copy-paste / spam check | `python -m src.spam --comments data/raw/comments.csv --channels data/raw/channels.csv` | Optional, before quoting comments |
+| Spam and coordination audit (with chance check; add `--sensitivity`) | `python -m src.spam --comments data/raw/comments.csv --channels data/raw/channels.csv` | Every case, before reading comments |
+| Check the spam flags against hand-coding | `python -m src.spam --validate data/coding/coded.csv --flagged data/processed/comments_flagged.csv` | After coding |
 | Coding sheet and agreement (Cohen's kappa) | `python -m src.sample sheet ...` / `python -m src.sample kappa --a A.csv --b B.csv` | Steps 5.5 and 6 |
 
 Not used in the current plan (kept in the repository): `src/threads.py`, `src/news.py`,

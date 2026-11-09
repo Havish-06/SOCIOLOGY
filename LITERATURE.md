@@ -1,7 +1,7 @@
 # Previous Work: Humour Studies and Comedy Controversies — Team K
 
 What researchers have already done on humour, offence and comedy controversies, how they did it, what they
-found, and where our project fits. Organised into ten streams, moving from general humour theory to Indian
+found, and where our project fits. Organised into eleven streams, moving from general humour theory to Indian
 stand-up controversies.
 
 **How to use this file.** Each stream lists the key works, *what they did* (method and data), *what they
@@ -25,6 +25,7 @@ citing (page numbers, edition). Read at least the starred (★) works in each st
 | 8. Indian stand-up comedy | Discourse analysis, content analysis of YouTube videos, interviews | Comedians' videos, audiences | The Indian scene: who performs, for whom, about what |
 | 9. Classifying jokes and reactions | Annotation schemes, NLP datasets | Labelled jokes and comments | Our codebook labels (already in `CODEBOOK.md`) |
 | 10. Explaining escalation | Comparative case studies, ethnography, theory | Scandals, moral panics, offence campaigns, courts, online publics | **Our interpretive toolkit**: why a controversy escalates and through which route |
+| 11. Detecting spam and coordination | Network analysis, anomaly detection, classifiers | Social-media accounts and comments | How we tell organic outrage from organised campaigns |
 
 ---
 
@@ -72,7 +73,7 @@ template `cases/_template.md`).
 |---|---|
 | Comment labels (reaction, target, frame, stigma, intensity, pushback) | `CODEBOOK.md` Part B: TRAC, HASOC, SemEval stance, Benesch, Mathew et al. |
 | Treat comments as evidence of framing, never as public opinion | Lesson from online-outrage research: firestorms are driven by small, vocal groups (Rost et al. 2016) |
-| Check for copy-paste campaigns before quoting | Coordinated-behaviour research (Pacheco et al.); our `src/spam.py` |
+| Spam and coordination audit before reading comments: copy-paste, copied comments, hashtag pushes, co-timing, bursts, batch-created accounts; chance check, sensitivity check, human validation | Stream 11: Pacheco et al. (2021); Giglietto et al. (2020); Jakesch et al. (2021); Cresci (2020, 2023); Alberto et al. (2015) |
 
 ### Interpreting each case and the results
 
@@ -247,6 +248,14 @@ we found no peer-reviewed comparative analysis of them.
 
 ---
 
+## 9. Classifying jokes and reactions
+
+Covered in full in `CODEBOOK.md` and Section 3, stream 7 of the revised proposal: Allan & Burridge (taboo),
+Zillmann & Cantor (disparagement), Ford & Ferguson (prejudiced norms), Martin et al. (humour styles),
+Holbert et al. (satire types), and NLP schemes (TRAC, HASOC, SemEval stance, HaHackathon, HateXplain).
+
+---
+
 ## 10. Explaining escalation: scandal, panic, mobilisation, law and platforms
 
 These works explain *why* a controversy escalates and through which route. They form most of our interpretive
@@ -288,11 +297,27 @@ toolkit (PLAN.md Section 4).
 
 ---
 
-## 9. Classifying jokes and reactions
+## 11. Detecting spam and coordinated commenting
 
-Covered in full in `CODEBOOK.md` and Section 3, stream 7 of the revised proposal: Allan & Burridge (taboo),
-Zillmann & Cantor (disparagement), Ford & Ferguson (prejudiced norms), Martin et al. (humour styles),
-Holbert et al. (satire types), and NLP schemes (TRAC, HASOC, SemEval stance, HaHackathon, HateXplain).
+Why it matters for us: the strategic-offence and online-publics lenses ask whether backlash was organic or
+organised. These works give the methods for telling the two apart. Our implementation is `src/spam.py`.
+
+| Work | What they did | What we take |
+|---|---|---|
+| ★ Pacheco et al. (2021), "Uncovering coordinated networks on social media: methods and case studies", *ICWSM* 15, 455–466 ✔ | Unsupervised network method: link accounts that share unexpectedly similar behaviour (same text, images, hashtags, timing); five case studies | Co-timing network; text-reuse clusters; "unexpectedly similar" = compare with chance |
+| ★ Giglietto et al. (2020), coordinated link-sharing behaviour; CooRnet ✔ | Accounts that repeatedly share the same item within a short window | Repetition across several videos, not one coincidence; our `min_videos = 2` |
+| ★ Jakesch, Garimella, Eckles & Naaman (2021), "Trend Alert: how a cross-platform organization manipulated Twitter trends in the Indian general election", *Proc. ACM HCI* 5 (CSCW2) ✔ | Joined 600 pro-BJP WhatsApp groups; found 75 campaigns with lists of **pre-written tweets** | Indian campaigns push identical or near-identical text and hashtags; our copy-paste and hashtag signals |
+| ★ Cresci (2020), "A decade of social bot detection", *Communications of the ACM* ✔ | Review | Field has moved from single-account to **group-based** detection; bots evolve, so detectors must be validated |
+| Cresci et al. (2023), "Demystifying misconceptions in social bots research" ✔ | Critique | Bot research suffers from hype and bias: report precision, test robustness, avoid overclaiming |
+| Alberto, Lochter & Almeida (2015), "TubeSpam: comment spam filtering on YouTube", *ICMLA* ✔ | Classifiers on the labelled YouTube Spam Collection (1,956 comments) | Commercial-spam patterns; YouTube spam is short and full of slang, so rules need human checks |
+| Kirdemir et al., "Towards characterizing coordinated inauthentic behaviors on YouTube" ✔ | Multi-layer YouTube method: anomaly and peak detection, rolling correlations, rules | Burst detection on YouTube timelines |
+| Shajari et al. (2023), commenter behaviour on YouTube channels; Graph2Vec commenter mobs ✔ | Co-commenter networks over 596,982 comments | Accounts that comment together across videos as "mobs" |
+| Survey (2024), "Detection and characterization of coordinated online behavior" (arXiv 2408.01257) ✔ | Review of methods across platforms | Overview of the methods above |
+
+**What we do differently.** These methods were built for Twitter and Facebook with full metadata; YouTube's API
+gives less (no follower graph, no IP). We therefore combine several weak signals, require two kinds of evidence
+before labelling an account, test the timing signal against shuffled data, rerun under other thresholds, and
+validate against human coders.
 
 ---
 

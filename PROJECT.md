@@ -310,6 +310,24 @@ Matched pairs are analysed together. With four team members, each owns about six
 
 Comments are evidence of how people framed the joke. They are **never** treated as a measure of public opinion.
 
+**Why we collect comments.** News and legal records tell us what institutions did; comments are the only
+place we can see how ordinary viewers received the joke. They answer specific parts of the research questions:
+
+| What comments show | Question it answers |
+|---|---|
+| Who reacted, and whether they were the comedian's usual audience or newcomers arriving through a clip or news story | SQ2: degree of context collapse, collusion vs collision |
+| Whether people treated it as a joke ("it's comedy") or as an insult or crime ("hurting sentiments") | SQ2: did the comic frame survive the move to a new audience? |
+| The norm people said was broken, the sacred object they invoked, the intent they attributed | SQ1 and SQ3: what made this topic sensitive, and *whose* sacred |
+| Whether attacks targeted the joke or the comedian's identity (religion, caste, gender) | SQ3: stigma and labelling |
+| Calls for FIRs, arrests or boycotts, and when they appeared relative to the complaint | SQ3: mobilisation; did online anger come before or after the legal route? |
+| Who defended the comedian and how | Counter-mobilisation |
+| **Whether the outrage was organic or organised** | Strategic-offence and online-publics lenses: was the backlash a spontaneous public reaction, or pushed by coordinated accounts? |
+
+The last row is why spam and coordination detection matters. If a large share of hostile comments come from
+copy-paste campaigns, batch-created accounts or accounts acting in lockstep, that is evidence that offence was
+**manufactured or amplified** (George, 2016; Jakesch et al., 2021), not just felt. If the hostility is organic,
+the "manufactured offence" explanation is weakened for that case. Either result is a finding.
+
 - **Videos (up to three per case), in order of priority:** the original clip on the comedian's channel; a
   reupload; the comedian's response; news coverage (marked, because its commenters are news viewers).
 - **Sample per video:** the 50 most-liked top-level comments plus 50 random ones (fixed random seed). For
@@ -317,9 +335,44 @@ Comments are evidence of how people framed the joke. They are **never** treated 
 - **Recorded for each comment** ([`CODEBOOK.md`](CODEBOOK.md)): reaction (support, mock the offended, neutral,
   backlash, threat, demand legal action, spam); frame (play or serious); target; whether it attacks the
   comedian's identity; sacred object invoked; norm invoked; intent attributed to the comedian.
-- **Spam check:** obvious copy-paste campaigns are flagged with `src/spam.py` before comments are quoted.
+- **Spam and coordination check:** run on every case before comments are read (details below).
 - **Reported in the case file:** main themes, their frequency in the sample, two or three paraphrased examples
   each, and anything unusual.
+
+**Spam and coordination detection (`src/spam.py`).** Run on every case's comments before any comment is read,
+counted or quoted. Methods follow the coordination-detection literature (`LITERATURE.md`, stream 11):
+
+| Signal | What it catches | Based on |
+|---|---|---|
+| Commercial patterns | Links, "check my channel", WhatsApp/Telegram, crypto, phone numbers, Hinglish money scams | YouTube comment-spam research (Alberto et al., 2015) |
+| Copy-paste campaign | Near-identical text (character n-gram similarity ≥ 0.9, works for Hindi and Telugu scripts) from ≥ 3 accounts | Pre-written "toolkit" text (Jakesch et al., 2021); text-reuse coordination (Pacheco et al., 2021) |
+| Copied comment | An account re-posting someone else's earlier comment (like-farming bots) | Comment-copying spam |
+| Hashtag / slogan push | The same hashtag from ≥ 5 accounts on one video within an hour | Hashtag campaigns (Jakesch et al., 2021) |
+| Co-timing network | Accounts that repeatedly comment within the same minute on the same videos, across ≥ 2 videos | Pacheco et al. (2021); Giglietto et al. (2020) |
+| Burst | Comments in a 10-minute bin far above the video's normal rate | Temporal anomaly detection (Kirdemir et al.) |
+| New account | Channel created < 30 days before the comment | Account-level bot features (Cresci, 2020) |
+| Batch-created accounts | ≥ 5 commenters on a case whose channels were created on the same recent day | Group-level detection (Cresci, 2020) |
+| Auto handle | YouTube's `@user-xxxx` or name+digits handles | Account-level features |
+
+**How flags become categories.** No single signal labels an account, because organic virality can produce
+any one of them. An account is `likely_coordinated` only with a coordination signal **plus** an account red flag,
+or two independent coordination signals; `commercial_spam` for commercial patterns or copying by a red-flag
+account; `uncertain` for one weak signal; otherwise `organic`.
+
+**How we make sure it works** (following the warnings in Cresci et al., 2023, about hyped bot-detection results):
+1. **Chance check:** the co-timing signal is rerun on data where authors are shuffled within each video;
+   `coordination_null.csv` reports how many accounts would be flagged by chance. If that share is not small,
+   the window is tightened.
+2. **Sensitivity check:** `--sensitivity` reruns everything across a grid of thresholds. A result that only
+   appears at one setting is not reported as a finding.
+3. **Human validation:** coders judge a stratified sample (`looks_inauthentic` in the coding sheet), and
+   `--validate` reports how often humans agree with each category. This precision figure is reported.
+4. **Results with and without flagged comments:** comment themes are reported for organic comments, and the
+   share of hostility coming from non-organic accounts is reported separately.
+
+**Limits.** YouTube already removes much spam before we see it; deleted accounts and comments are invisible;
+the API gives no IP or device data, so a determined campaign using aged, real-looking accounts can pass. The flags
+are therefore evidence of coordination, never proof, and the case file says so.
 
 ### Verification rules
 
