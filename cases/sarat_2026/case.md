@@ -1,134 +1,103 @@
-# sarat_2026: Sarat Uday, 2026
+# sarat_2026: TDP supporters disrupt Sarat Uday's Bengaluru show over old jokes, 2026
 
 case_id: sarat_2026
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Pranav   drafter: AI   verifier: Siddanth (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Dec 2024 YouTube video 'Andhra Politics' mocking TDP/JSP/YSRCP leaders: Lokesh as internet meme freezing in an interview, Naidu and the Tirupati laddu ghee row  
-> likely genre: satire · direction: up · collapse: collision · outcome: extralegal  
-> pairs with: katikala_2026; rafiq_2026  
-> clip / comments: Dec 2024 video likely on his channel (unconfirmed); CCTV/stage footage of disruption circulated (Outlook)  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** comment collection and spam audit (Telugu: AI translation + English coverage).
+> **Pending (owner):** watch the Dec 2024 video and the disruption footage.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Sarat Uday (Telugu stand-up) [1][2]
+- Date of performance: YouTube video "Andhra Politics", December 2024          Date of the main event: 2026-04-25 (show disrupted)
+- Venue / setting: Ministry of Comedy, Koramangala          City / state: Bengaluru, Karnataka (outside Andhra)
+- Platform where it first circulated: YouTube (2024); disruption footage on social media (2026)
+- Language of the joke: Telugu
+- Audience size at the time: TODO   tier: small (per data/cases.csv)
+- Comparison case (not stand-up)? No
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: mocking TDP, Jana Sena and YSRCP leaders, including minister Nara Lokesh as an internet meme freezing
+  in an interview, and CM Chandrababu Naidu over the Tirupati laddu ghee row [1][4]
+- Source of the wording: described in news; **to be confirmed against the video**
+- Topic(s): politics_state
+- Genre(s): satire
+- Why this genre: targets the Chief Minister and a minister (state power)
+- Target: TDP leaders (and others)          Direction: up
+- Form: standup_set (online)          Main technique: irony; exaggeration
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: his YouTube audience (2024); a live Bengaluru show (2026)
+  - setting: online video; club show          - language and register: Telugu
+- Circulation: collision
+  - who first spread it: TDP supporters recirculated the old video [1]
+  - months between performance and controversy: about 16
+  - caption: accusatory (insult to Naidu and Lokesh)
+- Reception: TDP supporters (in Bengaluru); the TDP leadership afterwards [1][3]
+  - distance of the objectors: temporal: 16 months; social: speak for the target (party)
+- Societal: TDP leads the Andhra government; the same month, Andhra police detained katikala_2026 and rafiq_2026
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| Dec 2024 | Video posted; threats and online abuse; public apology | comedian, individual | confirmed | [1] |
+| 2026-04-25 | TDP supporters come on stage at his Bengaluru show, demand an apology and chants of "Jai TDP / Jai Lokesh"; he refuses the chants but apologises again; venue owner calls police; group leaves; show resumes | party_supporters | confirmed | [1][2][4][5] |
+| 2026-04-27 | TDP state president Palla Srinivasa Rao condemns the disruption: dissent must operate within the law; "file cases instead" | party | confirmed | [3][6] |
+
+- Days to peak: 1–2   to fading: about a week
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected: TDP supporters (on stage) [1][2]
+- Norm the objectors said was broken: leader_honour
+- Humour function: before: clarification (political satire); after: differentiation
+- Who defended the comedian: the venue owner, audience; the TDP leadership itself condemned the disruption [3]
+- Media framing: **other: disruption_of_show**, then **free_speech** with the party's "file cases instead" line
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: extralegal
+- Legal actions: none          Extra-legal actions: show disrupted; forced on-stage apology; earlier threats [1][2]
+- Highest stigma step reached: 3 status loss (disrupted show, forced apology)
+- Courtesy stigma? yes: the venue's show was disrupted
+- How it ended: party disowned its supporters; show resumed
+- Winners and losers: winners: none clear; losers: Uday, the venue
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: apology (forced, on stage) and refusal of the chants
+- Did the response change the course of events? The disruption ended after the apology
+- Comedian's own narrative: other: artists should be prosecuted under law if they break it, not mobbed
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | partly | |
+| Moral panic | partly | A cluster of Andhra cases in one month |
+| Strategic offence | partly | Supporters acted; the party distanced itself |
+| Mobilisation | supported | Party supporters organised the disruption, outside their home state |
+| Law as a weapon | not relevant | Party said "file cases instead", but none filed |
+| Organised online publics | pending | |
+| Moral outrage and platforms | partly | Old video recirculated |
+| Context collapse | supported | Collision, 16 months later |
+| Stigma and labelling | partly | |
+| Durkheim | partly | Leader as sacred to supporters |
+| Humour theory | partly | |
+| Identity and power | supported | Small comedian vs a CM and minister |
+| Fandom | partly | Political fandom of Lokesh |
+| Apology | supported | Forced apology ended the disruption |
+| Other | supported | Outside Andhra, the ruling party had no police leverage, so supporters used the street |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** Supporters of a ruling party resurfaced an old satire and acted directly at a show in another
+  state, where their party had no police leverage. The party then disowned the disruption and pointed to the legal
+  route ("file cases instead"). The same party network chose the street outside its state and the police inside it
+  (katikala_2026, rafiq_2026).
+- **Topic:** politics; geography (inside or outside the party's state) shaped the route.
+- **Rival explanations ruled out:** content (satire similar to katikala_2026, which went to the police).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): katikala_2026 (same week, Andhra politics: police route vs mob route)
+- What this case adds: jurisdiction as a condition for the state route
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: none major ("two-year-old" in media is loose; about 16 months).

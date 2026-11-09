@@ -1,134 +1,111 @@
-# bharti_2022: Bharti Singh, 2022
+# bharti_2022: Bharti Singh's beard-and-moustache joke, 2022
 
 case_id: bharti_2022
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Siddanth   drafter: AI   verifier: Yogansh (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Old show clip (with Jasmin Bhasin): 'beard-moustache has many benefits... put some in your mouth, tastes like seviyan'; read as mocking Sikh kesh  
-> likely genre: observational; crude_shock · direction: contested · collapse: collision · outcome: legal  
-> pairs with: munawar_2021 (religion; majority vs minority institution); kapil_2024  
-> clip / comments: Original show and air date of the clip unconfirmed; clip circulated on social media May 2022  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** comment collection and spam audit (clips and news videos in `data/videos.csv`).
+> **Pending (owner):** identify the original show and air date; confirm wording.
+> Comparison case: a TV comedy show, not a stand-up set.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Bharti Singh (TV comedian), with actor Jasmin Bhasin in the clip [1][4]
+- Date of performance: an older TV show clip (show and date unconfirmed)          Date the controversy began: mid-May 2022 (resurfaced)
+- Venue / setting: TV comedy show          City / state: Mumbai (show); FIRs in Punjab
+- Platform where it first circulated: TV; resurfaced on social media
+- Language of the joke: Hindi / Punjabi
+- Audience size at the time: TODO   tier: large (TV fame)
+- Comparison case (not stand-up)? Yes (TV show)
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: "beard and moustache have many benefits… put some in your mouth, it tastes like seviyan"; read by
+  Sikh bodies as mocking kesh (uncut hair, a Sikh article of faith) [1][4][5]
+- Source of the wording: quoted in news; **to be confirmed against the clip**
+- Topic(s): religion
+- Genre(s): observational | crude_shock
+- Why this genre: an everyday grooming joke with a mild bodily gag; the offence came from reading it as about a sacred symbol
+- Target: beards in general (as she said) or Sikh kesh (as complainants read it)          Direction: contested
+- Form: tv_show          Main technique: exaggeration
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: TV studio audience; light entertainment
+  - setting: TV show          - language and register: Hindi / Punjabi
+- Circulation: collision
+  - who first spread it: social-media users; then the SGPC [1]
+  - months between performance and controversy: unknown (old clip)
+  - caption: accusatory (mocking Sikh beards)
+- Reception: SGPC (the elected body managing gurdwaras); Ravidas Tiger Force; Sikh groups and the Akali Dal women's
+  wing (protests); the National Commission for Minorities [1][2][3]
+  - distance of the objectors: social: claim to speak for the target religion
+- Societal: Punjab, where Sikh institutions are organised and politically influential
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| mid-May 2022 | Clip resurfaces; SGPC objects | religious_org | confirmed | [1] |
+| 2022-05-16 | FIR under IPC 295A at Kotwali police station, Amritsar, on SGPC complaint | police, religious_org | confirmed (date approx.) | [1][4] |
+| ~2022-05-17 | Separate case at Adampur police station, Jalandhar, on complaint of Ravidas Tiger Force chief Jassi Tallan (295A) | police, community_org | confirmed | [3] |
+| 2022-05 | Protests in Amritsar (SAD women's wing, Sikh groups) | community_org | confirmed | [1] |
+| 2022-05 | National Commission for Minorities seeks reports from Punjab and Maharashtra chief secretaries | commission | confirmed | [2] |
+| 2022-05 | Singh apologises; says the joke was not about any community | comedian | confirmed | [4][5] |
+
+- Days to peak: 2–4   to fading: about two weeks
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected: SGPC (FIR); Ravidas Tiger Force (FIR); SAD women's wing and Sikh groups (peaceful protests); the NCM [1][2][3]
+- Norm the objectors said was broken: religious_feeling
+- Humour function: before: identification (light TV banter); after: differentiation (mockery of a sacred symbol)
+- Who defended the comedian: few public defenders
+- Media framing: **hurt_sentiments** dominant
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: legal (peaceful protests are not extra-legal by our definitions)
+- Legal actions against the comedian: two FIRs (Amritsar, Jalandhar) under 295A; NCM sought reports [1][2][3]
+  - complainant: SGPC (religious institution) and Ravidas Tiger Force (community organisation), speaking for Sikhs
+  - legal basis: religious_offence (IPC 295A)
+- Extra-legal actions: none (protests were peaceful)
+- Highest stigma step reached: 3 (FIRs; status loss limited)
+- Courtesy stigma? no
+- How it ended: apology; final outcome of FIRs unconfirmed
+- Winners and losers: winners: SGPC (assertion of authority); losers: Singh
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: apology          When: within days          Effect: protests subsided; FIRs remained
+- Comedian's own narrative: contrition (not about any community)
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | supported | A religious institution made the accusation public |
+| Moral panic | not supported | |
+| Strategic offence | partly | Two groups competed to file cases; no party-political gain evident |
+| Mobilisation | supported | An institution with legal resources (SGPC) and a community organisation |
+| Law as a weapon | partly | 295A FIRs; no arrest |
+| Organised online publics | pending | |
+| Moral outrage and platforms | partly | Old clip resurfaced |
+| Context collapse | supported | Collision; TV banter reread as religious mockery |
+| Stigma and labelling | partly | |
+| Durkheim | supported | Kesh as a sacred religious symbol; formal complaint by the institution that guards it |
+| Humour theory | supported | Benign grooming joke to TV viewers; profanation to Sikh institutions |
+| Identity and power | partly | A Punjabi (non-Sikh-identified) TV comedian; minority institution |
+| Fandom | not relevant | |
+| Apology | supported | Apology calmed protests |
+| Other | — | |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** A light grooming joke touched a sacred symbol of a minority religion with strong, organised
+  institutions. Those institutions used formal channels (FIRs, the minorities commission) and peaceful protest rather
+  than street violence.
+- **Topic:** religion (minority); institutionalised religion uses formal routes.
+- **Rival explanations ruled out:** content severity (a mild joke).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): munawar_2021 (religion: majority vs minority institution; formal vs both routes); kapil_2024
+  (mainstream TV comedian: legal vs online only)
+- What this case adds: a minority religious institution's formal route
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: date of the FIR (approx.).
+Open questions: original show and date; outcome of FIRs. (A 2019 case involving Singh, Raveena Tandon and Farah Khan is a different case.)

@@ -1,134 +1,122 @@
-# more_2026: Pranit More (audience member Himanshu Jangra), 2026
+# more_2026: Pranit More and the "Rs 370 biryani" crowd work, Gurugram, 2026
 
 case_id: more_2026
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Yogansh   drafter: AI   verifier: Havish (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Crowd work at The Laugh Store, Gurugram: audience member said a woman owed him sexual favours after he paid Rs 370 for biryani on a date; More laughed along  
-> likely genre: crude_shock · direction: down · collapse: collusion · outcome: legal  
-> pairs with: latent_2025 (sexual content, legal); more_2025 (within-comedian)  
-> clip / comments: Clip posted on social media by More's team; current availability unconfirmed  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** comment collection and spam/coordination audit (few comments on candidate videos).
+> **Pending (owner):** watch the clip and confirm wording; confirm the show date.
+> One of the two cases that motivated the project.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Pranit More; the remark came from audience member Himanshu Jangra [1][2][3]
+- Date of performance: show at The Laugh Store, Gurugram (date unconfirmed)          Date the controversy began: about 2026-06-10
+- Venue / setting: comedy club          City / state: Gurugram, Haryana
+- Platform where it first circulated: Instagram / YouTube clip posted by More's team (counsel later said a PR team
+  posted it without his approval) [4]
+- Language of the joke: Hindi / Hinglish
+- Audience size at the time: TODO (2.55M on 2026-11-02)   tier: large
+- Other fame: see more_2025
+- Comparison case (not stand-up)? No (crowd work in a stand-up show)
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: in crowd work, Jangra said that after paying Rs 370 for biryani on a date he expected sexual favours
+  from the woman; More laughed along and built on it (as reported) [1][2][7]
+- Source of the wording: quoted in news; **to be confirmed against the clip**
+- Topic(s): gender_sexuality
+- Genre(s): crude_shock
+- Why this genre: a remark about sexual entitlement played for shock laughter
+- Target: women (the date)          Direction: down
+- Form: crowd_work          Main technique: other: crowd work (improvised exchange)
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: club audience; improvised crowd work, the comic frame shared in the room
+  - setting: comedy club, ticketed          - language and register: Hinglish
+- Circulation: collusion (clip posted by the comedian's team) [4]
+  - who first spread it beyond the original audience: users on X and Instagram who called it misogynistic
+  - months between performance and controversy: 0
+  - caption: accusatory ("misogynistic", "rape culture" framing) [7]
+- Reception: women's groups online, the National Commission for Women, police in Maharashtra and Haryana,
+  Mumbai's mayor [1][3][6]
+  - distance of the objectors: social: speak for the target group (women)
+- Societal: 16 months after latent_2025; NCW and cyber cells already active against comedians; set off a wave of
+  resurfaced clips (virli_2026, mohanraj_2026)
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| ~2026-06-10 | Clip goes viral | individual | confirmed | [1][2] |
+| 2026-06-11 | Maharashtra Cyber FIR (BNS and IT Act) | police | reported | [2] |
+| 2026-06-12/13 | NCW takes suo motu cognisance, writes to Haryana DGP, summons More and Jangra for 22 June | commission | confirmed | [3][7] |
+| 2026-06-13 | Mumbai Mayor Ritu Tawde (BJP) calls for stand-up to be stopped; CM Fadnavis declines a ban | politician | confirmed | [6] |
+| 2026-06-13/14 | More's public apologies ("I deserve this hate", attribution disputed) | comedian | confirmed | [8] |
+| 2026-06 | Jangra dismissed by his employer | other | reported | [2] |
+| 2026-06-16/17 | Gurugram DLF Phase-2 police FIR against More, Jangra and the venue owner: IT Act s.67; BNS 294, 353(3), 75(2), 75(3) | police | confirmed | [1] |
+| 2026-06-22 | More and Jangra appear before the NCW; apology reportedly rejected | commission | reported | [7][9] |
+| 2026-09-21 | Supreme Court issues notice on More's plea to club the two FIRs; More says he is ready to face trial | court | confirmed | [4][5] |
+
+- Days to peak: about 3–7 (FIRs, NCW, mayor)   to fading: legal phase ongoing (FIRs pending as of 2026-11)
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected and their framing words: the NCW ("misogynistic remarks") [7]; women users online; Mumbai's mayor
+  (stop stand-up) [6]; police in two states
+- Norm the objectors said was broken: women_dignity | decency_obscenity
+- Humour function: before: identification (club banter); after: enforcement / differentiation (normalising sexual entitlement)
+- Who defended the comedian: CM Fadnavis rejected a ban on stand-up [6]; some comedians defended crowd work as
+  improvised
+- Media framing: dominant **other: misogyny** (women's dignity), then legal reporting
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: legal
+- Legal actions against the comedian: Maharashtra Cyber FIR; Gurugram FIR (also against the venue owner); NCW summons
+  and hearing; Supreme Court petition to club FIRs [1][2][3][4]
+  - complainant: NCW (statutory body, suo motu), speaking for women
+  - legal basis: obscenity (IT Act s.67; BNS 294) | other: sexual harassment and assault on modesty provisions (BNS 75, 353)
+- Extra-legal actions: none found (online abuse aside)
+- Highest stigma step reached: 4 discrimination (two FIRs, commission summons, calls for a ban)
+- Courtesy stigma? yes: venue owner named in the FIR; audience member lost his job
+- How it ended: pending in the Supreme Court
+- Winners and losers: winners: the NCW (visibility), politicians calling for bans; losers: More, Jangra, the venue
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: apology (twice)          When: within three days
+- Did the response change the course of events? No: the FIRs and NCW hearing followed
+- Comedian's own narrative: contrition; later "ready to face trial" [4]
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | supported | NCW and politicians made the accusation public [3][6] |
+| Moral panic | supported | Wave of resurfaced clips (virli_2026, mohanraj_2026); calls to stop stand-up [6] |
+| Strategic offence | partly | A mayor used it to call for a ban; the NCW acted on its own mandate |
+| Mobilisation | supported | A statutory body with power to summon, and police in two states |
+| Law as a weapon | supported | Two FIRs in two states, summons, Supreme Court petition [1][2][4] |
+| Organised online publics | pending | |
+| Moral outrage and platforms | supported | Short clip posted by his own team went viral |
+| Context collapse | supported | Collusion: improvised crowd work, shared in the room, posted to millions |
+| Stigma and labelling | supported | "Misogynist"; step 4; spread to venue and audience member |
+| Durkheim | supported | Women's dignity as a protected value; formal punishment by state bodies |
+| Humour theory | supported | Benign in the room; read as endorsing sexual entitlement outside it |
+| Identity and power | supported | Punching down at women |
+| Fandom | not relevant | |
+| Apology | supported | Apology rejected; escalation continued |
+| Other | supported | latent_2025 had created a template and active institutions |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** A clip of improvised crowd work, posted by the comedian's own team, showed laughter at a remark
+  about sexual entitlement. Institutions that had become active against comedians since latent_2025 (the NCW, cyber
+  cells) took it up within days, which made it a legal case in two states. Apologies did not stop the process.
+- **Topic:** gender; women's dignity has a statutory defender (the NCW), so the route is formal, not street action.
+- **Rival explanations ruled out:** fame alone (more_2025 involved the same comedian and ended differently).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): more_2025 (same comedian: fan mob vs commission); latent_2025 (sexual content, state route);
+  virli_2026 and mohanraj_2026 (resurfaced in the same wave)
+- What this case adds: the women's-commission route and the start of the 2026 wave
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: who said "I deserve this hate" (More or KEM student Sejal Pawar, from a separate clip); whether
+the NCW formally rejected the apology.
+Open questions: exact show date; the separate KEM cadaver clip is not part of this case.

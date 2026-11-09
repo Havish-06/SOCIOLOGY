@@ -1,134 +1,104 @@
-# faruqui_2024: Munawar Faruqui, 2024
+# faruqui_2024: Munawar Faruqui's "Konkani log" crowd work, 2024
 
 case_id: faruqui_2024
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Siddanth   drafter: AI   verifier: Yogansh (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Crowd-work line 'Konkani log ch*** banate hai' (Konkanis fool people) at a Taloja, Navi Mumbai show  
-> likely genre: crude_shock · direction: lateral · collapse: collision · outcome: extralegal  
-> pairs with: munawar_2021 (same comedian, religion vs regional joke; the 'habitual offender' frame); agrima_2020 (Maharashtra regional pride)  
-> clip / comments: Audience clip circulated on X; apology video on X  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** find the audience clip and apology video (both on X); add to `data/videos.csv`;
+> comments and spam audit.
+> **Pending (owner):** confirm wording.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Munawar Faruqui [1][2]
+- Date of performance: show at Taloja, Navi Mumbai (August 2024)          Date the controversy began: about 2024-08-10
+- Venue / setting: live show          City / state: Navi Mumbai, Maharashtra
+- Platform where it first circulated: an audience member's clip on X
+- Language of the joke: Hindi
+- Audience size at the time: TODO   tier: large (Bigg Boss 17 winner, 2024)
+- Comparison case (not stand-up)? No
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: in crowd work, "Konkani log ch*** banate hai" (Konkani people make fools of others) [1][5]
+- Source of the wording: quoted in news; **to be confirmed against the clip**
+- Topic(s): regional_national_icon (regional identity: Konkan)
+- Genre(s): crude_shock
+- Why this genre: a crude, slur-based regional stereotype in crowd work (could also be read as regional banter)
+- Target: people from the Konkan region          Direction: lateral
+- Form: crowd_work          Main technique: other: crowd work
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: a live audience; improvised banter
+  - setting: live show          - language and register: Hindi, crude register
+- Circulation: collision (an audience member's clip, not posted by him)
+  - who first spread it: audience clip on X; then BJP MLA Nitesh Rane [1][6]
+  - months between performance and controversy: 0
+  - caption: accusatory (insult to Konkanis)
+- Reception: Nitesh Rane (BJP MLA from the Konkan region); users calling for MNS action [1][6]
+  - distance of the objectors: social: speak for the target group
+- Societal: Maharashtra assembly election was due in late 2024 (held November 2024); Konkan identity is part of
+  Marathi regional politics
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| Aug 2024 | Show at Taloja | comedian | confirmed | [1] |
+| ~2024-08-10 | Audience clip goes viral | individual | confirmed | [5] |
+| 2024-08-11/12 | BJP MLA Nitesh Rane threatens to "send him to Pakistan", calls him a "green snake"; users urge MNS action | politician | confirmed | [1][6] |
+| 2024-08-12 | Faruqui posts an apology video on X | comedian | confirmed | [1][2][3] |
+| — | No FIR found | — | confirmed absence | [1] |
+
+- Days to peak: 1–2   to fading: about a week after the apology
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected: Nitesh Rane ("send him to Pakistan", "green snake") [1][6]; online users
+- Norm the objectors said was broken: other: regional dignity (Konkani)
+- Humour function: before: identification (crowd banter); after: differentiation — and in Rane's words, religious
+  othering of the comedian
+- Who defended the comedian: few
+- Media framing: **other: regional_insult**; Rane's threats reported without strong criticism in entertainment outlets
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: extralegal (threats by a politician; no legal action)
+- Legal actions: none found          Extra-legal actions: public threats from an MLA [1][6]
+- Highest stigma step reached: 2 separation (calls to expel him: "send him to Pakistan")
+- Courtesy stigma? no
+- How it ended: apology; faded
+- Winners and losers: winner: Nitesh Rane (visibility before elections); loser: Faruqui (forced apology)
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: apology          When: within two days          Effect: ended the episode
+- Comedian's own narrative: contrition
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | supported | An MLA made it public with threats |
+| Moral panic | not supported | |
+| Strategic offence | supported | A regional slur became an occasion for religious othering ("Pakistan", "green snake") before an election |
+| Mobilisation | partly | One politician; calls for MNS action; no organised action |
+| Law as a weapon | not relevant | |
+| Organised online publics | pending | |
+| Moral outrage and platforms | partly | |
+| Context collapse | supported | Collision: an audience member's clip |
+| Stigma and labelling | supported | The label shifted from the joke to his religion |
+| Durkheim | partly | Regional identity, not a fixed sacred object |
+| Humour theory | partly | |
+| Identity and power | supported | A Muslim comedian; religious slurs in response to a regional joke |
+| Fandom | not relevant | |
+| Apology | supported | Quick apology ended it |
+| Other | supported | Prior stigma from munawar_2021 ("habitual offender") |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** A crude regional jibe from a comedian already stigmatised since 2021 was answered by a BJP MLA
+  with religious, not regional, insults ahead of a state election. The quick apology ended it before any legal step.
+- **Topic:** regional identity; the comedian's prior label and religion shaped the response more than the joke.
+- **Rival explanations ruled out:** obscenity or religion in the joke (neither).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): munawar_2021 (same comedian); agrima_2020 (Maharashtra regional pride); raina_2026 (regional identity, online only)
+- What this case adds: stigma that carries over from an earlier case
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: none.

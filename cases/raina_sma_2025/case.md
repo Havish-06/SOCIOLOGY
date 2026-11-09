@@ -1,134 +1,121 @@
-# raina_sma_2025: Samay Raina; Vipul Goyal; Balraj Paramjeet Singh Ghai; Sonali Thakkar (aka Sonali Aditya Desai); Nishant Jagdish Tanwar, 2025
+# raina_sma_2025: Samay Raina's SMA joke and the Supreme Court disability case, 2025
 
 case_id: raina_sma_2025
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Havish   drafter: AI   verifier: Pranav (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Jokes ridiculing persons with disabilities; Raina's bit on a two-month-old with SMA needing a Rs 16 crore drug, plus a joke on a blind person; the other four's specific jokes not described in sources found  
-> likely genre: dark · direction: down · collapse: collusion · outcome: legal  
-> pairs with: latent_2025 (same comedian; obscenity vs disability; police-led vs court-led)  
-> clip / comments: Raina's SMA bit circulated as a clip; whether from a stand-up special or IGL is disputed; the other four clips not located  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** comment collection and spam/coordination audit.
+> **Pending (owner):** find and watch the SMA clip (show of origin is disputed); confirm wording.
+> Narrowed from the five-comedian petition to Raina's SMA joke, the only one documented in detail.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Samay Raina. The same petition named Vipul Goyal, Balraj Ghai, Sonali Thakkar and Nishant Tanwar,
+  whose jokes are not described in detail in the sources [1][3]
+- Date of performance: unknown (before April 2025)          Date the controversy began: April 2025 (first Supreme
+  Court remarks on 2025-04-21, on a petition by the Cure SMA Foundation of India) [2]
+- Venue / setting: disputed: a stand-up set or India's Got Latent          City / state: not established
+- Platform where it first circulated: YouTube clip
+- Language of the joke: Hindi / Hinglish
+- Audience size at the time: Raina's channel 12.1M (2026-11-02; TODO at the time)   tier: large
+- Other fame: see latent_2025, which was running in court at the same time before the same bench
+- Comparison case (not stand-up)? No (comedy performance; origin to be confirmed)
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: a bit about a two-month-old child with spinal muscular atrophy (SMA) needing a drug costing about
+  Rs 16 crore, plus a joke about a blind person (as described in court reports) [2][4]
+- Source of the wording: described in court reports; **clip to be located and watched by Havish**
+- Topic(s): disease_disability
+- Genre(s): dark
+- Why this genre: a grave subject (a fatal childhood disease, disability) with the laugh drawn from it
+- Target: persons with disabilities and their families          Direction: down
+- Form: standup_set (to confirm)
+- Main technique: irony / exaggeration (to confirm from clip)
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: comedy audience; framing as comedy presumably clear (clip to check)
+  - setting: to confirm          - language and register: Hinglish
+- Circulation: collusion (clip on YouTube, posted by the comedian's side)
+  - who first spread it beyond the original audience: the petitioner presented clips in court [4]
+  - months between performance and controversy: unknown
+  - caption: not applicable (surfaced through a petition, not a viral post)
+- Reception: a civil-society foundation for SMA patients; the Supreme Court bench [1][2]
+  - distance of the objectors: social: speak for the target group (families of SMA patients)
+- Societal: the same Supreme Court bench was hearing the latent_2025 case; the court was already discussing guidelines
+  for online content
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| 2025-04-21 | Supreme Court says it is "disturbed" by Raina's remarks, on the Cure SMA Foundation's petition (W.P.(C) 460/2025) | court, community_org | confirmed | [2] |
+| 2025-05-05 | Court summons all five comedians through the Mumbai Police Commissioner | court | confirmed | [1] |
+| 2025-08-25 | Court orders unconditional public apologies on YouTube and social media; asks the government to draft guidelines; penalty reserved | court | confirmed | [3][4][5] |
+| 2025-10-26 | Raina posts an apology on his birthday ("we will be more mindful") | comedian | confirmed | [6] |
+| 2025-11 | Court orders the comedians to host fundraising shows featuring persons with disabilities | court | confirmed | [7] |
+| 2026-07-14 | Court says Raina "took the court for a ride" over non-compliance; Rs 3 lakh costs reported | court | reported (costs in two sources only) | [8][9] |
+| 2026-08-14 | Criminal proceedings against the five reported quashed | court | reported (single source) | [10] |
+
+- Days to peak: not a viral storm; attention peaked at each hearing   to fading: legal process ran about 16 months
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected: the Cure SMA Foundation of India (counsel Aparajita Singh argued influencers should use their reach for
+  awareness) [4]; the Supreme Court bench
+- Norm the objectors said was broken: other: dignity of persons with disabilities
+- Humour function: for the original audience: identification (shared dark humour); as framed by the objectors:
+  differentiation / enforcement (ridicule of a vulnerable group)
+- Who defended the comedian: little public defence found
+- Media framing: court reporting; dominant frame **other: disability_dignity**, with **responsibility** as generic frame
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: legal
+- Legal actions against the comedian: Supreme Court writ petition by a civil-society foundation; summons; order to
+  apologise publicly; order to hold fundraising shows; costs for non-compliance (reported) [1][3][7][8]
+  - complainant: Cure SMA Foundation of India (patient-advocacy group), speaking for families of SMA patients
+  - legal basis: other: constitutional writ (Article 32) on dignity of persons with disabilities; no FIR found
+- Extra-legal actions: none found
+- Highest stigma step reached: 3 status loss (court-ordered public apology and compelled shows; no arrest)
+- Courtesy stigma? yes: four other comedians named in the same petition
+- How it ended: apologies posted; fundraising shows ordered; criminal proceedings reported quashed (single source)
+- Winners and losers: winners: disability-rights advocates (visibility, funds); losers: Raina (court sanction, costs)
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: apology (court-ordered); earlier deletion of Latent episodes was for the other case
+- When: months into the legal process (2025-10-26)
+- Did the response change the course of events? Partly: compliance later questioned by the court
+- Comedian's own narrative: contrition ("more mindful")
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | partly | Became public through a petition and court remarks, not virality |
+| Moral panic | partly | Followed latent_2025 before the same bench; part of the 2025 wave |
+| Strategic offence | not supported | Petitioner is an advocacy group with a direct stake, not a political actor |
+| Mobilisation | supported | An organised group with legal resources chose the court route [2][4] |
+| Law as a weapon | partly | Court process imposed apologies and shows; no criminal case found |
+| Organised online publics | pending | |
+| Moral outrage and platforms | not supported | Little viral outrage |
+| Context collapse | partly | Clip reached the people it mocked through the petition |
+| Stigma and labelling | partly | Labelled "insensitive"; step 3 |
+| Durkheim | partly | Not a sacred object on our fixed list; a moral boundary around vulnerable groups |
+| Humour theory | supported | Benign for a dark-comedy audience; a direct violation for the targeted group |
+| Identity and power | supported | Punching down at a vulnerable group drove the response |
+| Fandom | not relevant | |
+| Apology | supported | Apology demanded by the court as remedy |
+| Other | supported | Same bench and timing as latent_2025 |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** A dark joke punching down at children with a fatal disease reached an organised patient group,
+  which used the courts rather than the police or the street. The Supreme Court, already hearing the latent_2025 case,
+  turned it into restorative sanctions (apology, fundraising shows) rather than criminal punishment.
+- **Topic:** disability; punching down at a vulnerable group draws advocacy-group litigation, not mobs.
+- **Rival explanations ruled out:** political gain (no party involvement found).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): latent_2025 (same comedian: obscenity, police-led vs disability, court-led); shah_2021 (dark joke on
+  disability, fizzled)
+- What this case adds: the civil-society court route and restorative sanctions
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: show of origin; costs (two sources); quashing (one source).
+Open questions: the other four comedians' jokes; whether any FIR existed.

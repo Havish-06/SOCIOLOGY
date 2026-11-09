@@ -1,134 +1,104 @@
-# rangeela_2021: Shyam Rangeela, 2021
+# rangeela_2021: Shyam Rangeela's Modi-mimicry video at a petrol pump, 2021
 
 case_id: rangeela_2021
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Pranav   drafter: AI   verifier: Siddanth (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Modi-mimicry video shot at a Sri Ganganagar petrol pump mocking petrol at Rs 100 ('no government gave petrol its real value')  
-> likely genre: satire · direction: up · collapse: collusion · outcome: legal  
-> pairs with: kamra_2025 (satire of a ruler, legal response); virdas_2021  
-> clip / comments: Video on his YouTube (over 1M views per NH)  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** add the video to `data/videos.csv`; comment collection and spam audit.
+> **Pending (owner):** watch the video; check whether the complaint led anywhere.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Shyam Rangeela (mimicry artist and comedian, known for impersonating PM Modi) [1][2]
+- Date of performance: video posted 2021-02-16          Date the controversy began: complaint about 2021-02-19/20
+- Venue / setting: a petrol pump in Sri Ganganagar (video shot on location)          City / state: Sri Ganganagar, Rajasthan
+- Platform where it first circulated: YouTube (over 1 million views reported) [1]
+- Language of the joke: Hindi
+- Audience size at the time: TODO   tier: to confirm
+- Other fame: Modi impressions since 2017 (Laughter Challenge)
+- Comparison case (not stand-up)? No (comedy video; mimicry)
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: as Modi, he mocked petrol crossing Rs 100 a litre: "no government gave petrol its real value" [1][2]
+- Source of the wording: quoted in news; **to be confirmed against the video**
+- Topic(s): politics_state
+- Genre(s): satire
+- Why this genre: impersonates and mocks the PM over fuel prices
+- Target: the Prime Minister and the government          Direction: up
+- Form: social video (impersonation)          Main technique: parody_impersonation
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: online video for his followers
+  - setting: on-location video          - language and register: Hindi
+- Circulation: collusion
+  - who first spread it: his own channel; widely shared during fuel-price protests
+  - months between performance and controversy: 0
+  - caption: neutral (the complaint concerned how it was filmed)
+- Reception: the petrol pump owner; reportedly the oil company [1][4]
+  - distance of the objectors: social: third party (business)
+- Societal: fuel prices at record highs in February 2021; opposition protests
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| 2021-02-16 | Video posted | comedian | confirmed | [1] |
+| ~2021-02-19/20 | Pump owner (Surendra or Suresh Agarwal) files a complaint at Sadar police station alleging Rangeela posed as a journalist; reports say the oil company directed the complaint | individual, company | confirmed (complaint); reported (company role) | [1][2][4][5] |
+| 2021-02 | Rangeela refuses to delete the video; apologises only to anyone harmed | comedian | confirmed | [3] |
+| — | Outcome of the complaint not found | — | unknown | |
+
+- Days to peak: 3–4   to fading: about a week
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected: the pump owner (complaint), the oil company (reported) [1][4]
+- Norm the objectors said was broken: other: misrepresentation (filming under a false identity)
+- Humour function: before: clarification (satire of fuel prices); after: n/a (complaint was procedural)
+- Who defended the comedian: opposition-leaning outlets framed the complaint as targeting satire [1]
+- Media framing: **legal_overreach** (National Herald, Logical Indian); OpIndia reported the company's complaint neutrally
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: legal (police complaint)
+- Legal actions against the comedian: police complaint at Sadar police station [1][5]
+  - complainant: a petrol-pump owner, reportedly directed by the oil company
+  - legal basis: other: impersonation / cheating (posing as a journalist), sections not reported
+- Extra-legal actions: none found
+- Highest stigma step reached: 1
+- Courtesy stigma? no
+- How it ended: unknown; video stayed up
+- Winners and losers: Rangeela gained visibility; no clear loser
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: refusal (no deletion), limited apology          Narrative: defiance
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | not supported | |
+| Moral panic | not supported | |
+| Strategic offence | partly | A procedural complaint about filming, possibly to deter satire of the PM |
+| Mobilisation | partly | A company, not a party |
+| Law as a weapon | partly | Complaint used against a satirist; no follow-through found |
+| Organised online publics | pending | |
+| Moral outrage and platforms | not supported | |
+| Context collapse | not supported | |
+| Stigma and labelling | not supported | |
+| Durkheim | not supported | The PM is not a sacred object on our list |
+| Humour theory | not relevant | |
+| Identity and power | supported | Punching up at the PM |
+| Fandom | not relevant | |
+| Apology | partly | |
+| Other | supported | The legal hook was procedural (how it was filmed), not the content |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** Satire of the Prime Minister drew only a procedural complaint from a business about how the
+  video was filmed. No party, cadre or statutory body mobilised, so the case stayed minor.
+- **Topic:** politics (national); a counter-example to "politics never stays mild".
+- **Rival explanations ruled out:** content-based offence (complaint was about filming).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): kamra_2025 (satire of a ruler: mild vs both routes); virdas_2021
+- What this case adds: a politics case with a minimal, procedural response
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: the pump owner's first name; the oil company's role.
+Open questions: outcome of the complaint. (A separate 2023 forest-department notice over feeding a nilgai is not part of this case.)

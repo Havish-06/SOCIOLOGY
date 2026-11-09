@@ -1,134 +1,108 @@
-# sachdeva_2025: Swati Sachdeva, 2025
+# sachdeva_2025: Swati Sachdeva's "mother and vibrator" bit, 2025
 
 case_id: sachdeva_2025
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Havish   drafter: AI   verifier: Pranav (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Bit from 'Family First': her mother finds her vibrator and tries to be a 'cool mom'; twist that it belongs to her father  
-> likely genre: crude_shock · direction: self · collapse: collusion · outcome: online_only  
-> pairs with: sachdeva_reservation (same comedian)  
-> clip / comments: Likely still on her YouTube channel (unconfirmed)  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** comment collection and spam/coordination audit.
+> **Pending (owner):** watch the clip (likely on her YouTube channel) and confirm wording; Social Blade count.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Swati Sachdeva (stand-up comedian) [1][2]
+- Date of performance: set "Family First" (date to confirm)          Date the controversy began: late March 2025 [1][2]
+- Venue / setting: stand-up show          City / state: to confirm
+- Platform where it first circulated: YouTube / Instagram clip, then X
+- Language of the joke: Hindi / Hinglish
+- Audience size at the time: TODO (Social Blade)   tier: mid (per data/cases.csv; confirm)
+- Other fame: known for frank jokes on sex and sexuality [6]
+- Comparison case (not stand-up)? No
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: her "cool" mother finds a vibrator in her room, hesitates to say the word, and Sachdeva jokes "ye
+  pakka mera vibrator udhaar maangne wali hai" (she's surely going to ask to borrow my vibrator); when the mother
+  accidentally switches it on, the twist is that it belongs to her father (some reports: her son-in-law) [1][3][5]
+- Source of the wording: quoted in news (wording differs across reports); **to be confirmed against the clip**
+- Topic(s): family | gender_sexuality
+- Genre(s): crude_shock
+- Why this genre: a sexual taboo involving parents; the laugh comes from the transgression
+- Target: herself and her family (the taboo of parental sexuality)          Direction: self
+- Form: standup_set          Main technique: story
+- Note: in-room audience applauded; reported as "applauded by the live audience" [3]
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: a ticketed stand-up audience that laughed and applauded; frame clear in the room
+  - setting: club / auditorium          - language and register: Hinglish
+- Circulation: collusion (posted by the comedian)
+  - who first spread it beyond the original audience: users on X, weeks after the latent_2025 row [1][5]
+  - months between performance and controversy: 0–1 (to confirm)
+  - caption: accusatory ("disgusting filth", "vulgar", "incest joke") [1][4]
+- Reception: online users demanding government action [1][4]
+  - distance of the objectors: social: third party
+- Societal: about six weeks after latent_2025; news explicitly linked it ("after Ranveer Allahbadia") [5][7]
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| (to confirm) | Set uploaded | comedian | reported | [2] |
+| late Mar 2025 | Clip viral; users call it "filth", demand action | individual | confirmed | [1][2][4] |
+| late Mar 2025 | News frames it as the next case after the Latent row | media | confirmed | [5][7] |
+| — | No complaint, FIR, threat or response found | — | confirmed absence (as of 2026-11-09) | [3] |
+
+- Days to peak: about 1–2   to fading: about a week (to confirm with GDELT)
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected and their framing words: online users: "disgusting filth", "shameless", "spreading obscenity in the name
+  of comedy", demands for government action; some personal attacks on her career [1][3]
+- Norm the objectors said was broken: family_parents | decency_obscenity
+- Humour function: for the original audience: identification; as framed by the objectors: differentiation
+- Who defended the comedian: some users; the live audience's applause noted in coverage [3]
+- Media framing: mostly entertainment-news reports of "backlash"; dominant frame **obscenity**; some pieces framed it
+  as a debate on comedy boundaries (**comedy_standards**)
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: online_only
+- Legal actions: none found          Extra-legal actions: none found
+- Highest stigma step reached: 1 labelling and stereotyping
+- Courtesy stigma? no
+- How it ended: faded; no response from the comedian found
+- Winners and losers: none clear
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: silence          When: —          Effect: the controversy faded without it
+- Comedian's own narrative: none
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | not supported | No public accuser with institutional standing |
+| Moral panic | partly | Part of the post-Latent wave in media framing ("after Ranveer Allahbadia") [5][7] |
+| Strategic offence | not supported | No political actor found |
+| Mobilisation | not supported | No organisation or complaint |
+| Law as a weapon | not relevant | |
+| Organised online publics | pending | |
+| Moral outrage and platforms | supported | Short moralised clip, accusatory captions [1][4] |
+| Context collapse | supported | Collusion; frame intact in the room, lost online |
+| Stigma and labelling | partly | Labelled "shameless"; personal attacks; step 1 |
+| Durkheim | partly | Family as sacred, as in latent_2025, but no punitive response |
+| Humour theory | supported | Applause in the room vs "filth" online |
+| Identity and power | partly | A woman joking about sexuality drew personal, gendered attacks (to check in comments) |
+| Fandom | not relevant | |
+| Apology | not relevant | No apology; no escalation |
+| Other | supported | No statutory body or politician picked it up; lower profile than Latent |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** The same topic and genre as latent_2025 (family, crude), but no politician, statutory body or
+  organisation made the accusation public, and the comedian did not respond. Without an institutional accuser the
+  storm stayed online and faded. This is the key contrast for the "who mobilises" question.
+- **Topic:** family; shows that a sacred topic is not enough to trigger the state route.
+- **Rival explanations ruled out:** genre (same as latent_2025); timing (same wave).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): latent_2025 (same topic and genre, opposite outcome); more_2026 (sexual humour, commission route)
+- What this case adds: the clearest "fizzled" counterpart to latent_2025
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: whether the twist was "father" or "son-in-law".
+Open questions: date and venue of the set.

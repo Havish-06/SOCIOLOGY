@@ -1,134 +1,116 @@
-# fernandes_2024: Daniel Fernandes, 2024
+# fernandes_2024: Daniel Fernandes's joke on Jains buying goats before Bakrid, 2024
 
 case_id: fernandes_2024
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Havish   drafter: AI   verifier: Pranav (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Joke on news of Jains buying 124 goats before Bakrid to save them - suggested they were meat exporters profiting from slaughter; 'Salim bhai' phone-call bit  
-> likely genre: satire; observational · direction: contested · collapse: collusion · outcome: both  
-> pairs with: fernandes_2025 (same comedian: apologised vs refused)  
-> clip / comments: Video removed by comedian; reuploads unconfirmed  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** comment collection and spam/coordination audit (original removed; use reuploads
+> or news videos in `data/videos.csv`).
+> **Pending (owner):** find a reupload and confirm wording; Social Blade count at the time.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Daniel Fernandes [1][2]
+- Date of performance: a topical video posted after news on 18 June 2024          Date the controversy began: late June 2024
+- Venue / setting: online video (topical bit)          City / state: Mumbai-based comedian; shows affected in Hyderabad and Chennai
+- Platform where it first circulated: YouTube / Instagram
+- Language of the joke: English / Hinglish
+- Audience size at the time: TODO   tier: mid (per data/cases.csv)
+- Other fame: subject of the first academic study of Indian English stand-up as a public sphere (Contemporary South Asia, 2017)
+- Comparison case (not stand-up)? No
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: on news that members of the Jain community bought 124 goats before Bakrid to save them from slaughter,
+  Fernandes joked that the buyers were really meat exporters profiting from the trade, with a mock phone call to
+  "Salim bhai" [1]
+- Source of the wording: described in news; **original video removed; find a reupload**
+- Topic(s): religion
+- Genre(s): satire | observational
+- Why this genre: a topical jab at a community's publicised act of piety; not grave and not shock humour
+- Target: members of the Jain community (their publicised piety)          Direction: contested (Jains are a religious
+  minority but economically prominent, and were backed here by a ruling-party MLA)
+- Form: social video (stand-up style)          Main technique: irony
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: posted online to the comedian's followers
+  - setting: online video          - language and register: English / Hinglish
+- Circulation: collusion (posted by the comedian)
+  - who first spread it beyond the original audience: members of the Jain community online; then BJP MLA T Raja Singh's video [1][2]
+  - months between performance and controversy: 0
+  - caption: accusatory (insult to Jains)
+- Reception: Jain community members; BJP MLA T Raja Singh (Hyderabad) [2][3]
+  - distance of the objectors: social: target group and a politician speaking for it
+- Societal: Bakrid week, a period of heightened attention to animal slaughter and religious identity
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| after 2024-06-18 | Video posted | comedian | confirmed | [1] |
+| late Jun 2024 | Threats by email and social media | individual | confirmed | [1] |
+| late Jun 2024 | BJP MLA T Raja Singh posts a video saying workers would "thrash" him if he performed in Hyderabad | politician | confirmed | [2][3][4] |
+| late Jun 2024 | Callers impersonating police threaten the Hyderabad venue | individual | reported | [1] |
+| late Jun 2024 | A group files a complaint at a Chennai police station | community_org | reported (one source) | [1] |
+| 2024-06-29 | Hyderabad show cancelled (police say no permission was sought; comedian cites threats); about four shows in Hyderabad and Chennai cancelled | venue, police | confirmed | [3][4][5] |
+| 2024-06-29 | Apology on Instagram, promising not to mention Jains again; video removed | comedian | confirmed | [1][3] |
+
+- Days to peak: about 7–10   to fading: about two weeks after the apology
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected and their framing words: Jain community members; T Raja Singh (threat that party workers would beat him) [2][3]
+- Norm the objectors said was broken: religious_feeling
+- Humour function: before: clarification (satirical commentary on a news item); after: differentiation (insult to a community)
+- Who defended the comedian: comedians and some commentators; ThePrint profiled his fear of writing [1]
+- Media framing: dominant frame **hurt_sentiments** in early reports; digital outlets added a **free_speech / threats** frame
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: both
+- Legal actions: a police complaint in Chennai (reported) [1]
+  - complainant: a community group (affiliation not reported); legal basis: religious_offence (to confirm)
+- Extra-legal actions: threats; a politician's public threat of violence; impersonated police calls; show cancellations [1][2][3]
+- Highest stigma step reached: 3 status loss (cancelled shows)
+- Courtesy stigma? yes: venues threatened and shows cancelled
+- How it ended: apology and takedown; shows cancelled
+- Winners and losers: winners: T Raja Singh (visibility as defender of a community); losers: Fernandes (shows, income),
+  venues
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: apology and deletion
+- When: at the height of the threats
+- Did the response change the course of events? Yes: the controversy faded after the apology
+- Comedian's own narrative: contrition (and fear, in later interviews: "won't write out of fear") [1]
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | supported | A politician made the accusation public with a threat video [2][3] |
+| Moral panic | not supported | Local, short-lived |
+| Strategic offence | supported | A ruling-party MLA known for communal speech took up a minority community's grievance to threaten a comedian [2] |
+| Mobilisation | supported | Party workers invoked; venue pressure; political opportunity in Hyderabad |
+| Law as a weapon | partly | One reported complaint; the main pressure was extra-legal |
+| Organised online publics | pending | |
+| Moral outrage and platforms | partly | |
+| Context collapse | partly | Collusion; satire read as insult by the target group |
+| Stigma and labelling | partly | |
+| Durkheim | supported | Religious piety as sacred; collective reaction rather than state punishment |
+| Humour theory | supported | Satire of a community's act lost its benign frame for that community |
+| Identity and power | supported | Contested direction: minority by religion, powerful by class and political backing |
+| Fandom | not relevant | |
+| Apology | supported | Apology ended the controversy |
+| Other | — | |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** A satirical joke about a religious community's public piety was taken up by a politician
+  with a record of threatening rhetoric, who turned it into a threat of street action. Venues, not the state, carried
+  the cost. The comedian's quick apology ended the episode.
+- **Topic:** religion; the route was extra-legal because a political actor with cadres took it up.
+- **Rival explanations ruled out:** genre (satire, not dark); a court route (only one minor complaint).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): fernandes_2025 (same comedian: apologised here, refused there); munawar_2021 (religion, both routes)
+- What this case adds: a politician defending a minority community; venue pressure as the main sanction
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: whether the Hyderabad show was cancelled because of threats or missing permission (both reported);
+Siasat reports the show took place before the threat video (minority version).
+Open questions: the Chennai complaint's details.

@@ -1,134 +1,104 @@
-# kapil_2024: Kapil Sharma, 2024
+# kapil_2024: Kapil Sharma's remark to director Atlee on The Great Indian Kapil Show, 2024
 
 case_id: kapil_2024
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Yogansh   drafter: AI   verifier: Havish (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Question to director Atlee on The Great Indian Kapil Show (Netflix) read as mocking his looks/dark skin  
-> likely genre: roast · direction: down · collapse: collusion · outcome: online_only  
-> pairs with: bharti_2022 (mainstream TV comic; online_only vs legal)  
-> clip / comments: Episode on Netflix; clips circulated on X/Instagram  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** comment collection and spam audit (clips and news videos in `data/videos.csv`).
+> **Pending (owner):** watch the clip; record both readings of the remark.
+> Comparison case: a TV/streaming comedy show, not a stand-up set.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Kapil Sharma (host) [1][2]
+- Date of performance: episode aired about 2024-12-14 (promotion of *Baby John*)          Date the controversy began: 2024-12-15/16
+- Venue / setting: Netflix talk show          City / state: Mumbai
+- Platform where it first circulated: Netflix; clips on X and Instagram
+- Language of the joke: Hindi
+- Audience size at the time: TODO   tier: large (TV star; YouTube undercounts his fame)
+- Other fame: India's best-known TV comedian
+- Comparison case (not stand-up)? Yes (talk show)
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: a question to director Atlee, read by many as mocking his looks and dark skin (whether people failed
+  to recognise him as a director when they first met him); Atlee replied that one should "judge by heart" [1][2]
+- Source of the wording: described in news; Sharma denies referring to looks — **record both readings after watching**
+- Topic(s): bodies_looks
+- Genre(s): roast
+- Why this genre: mocks a specific guest's appearance (on the critical reading)
+- Target: Atlee          Direction: contested (colourism punches down; Atlee is a powerful director)
+- Form: tv_show          Main technique: irony / question
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: studio audience of a mainstream family show; promotional episode
+  - setting: streaming talk show          - language and register: Hindi
+- Circulation: collusion (aired by Netflix)
+  - who first spread it: users on X, including singer Chinmayi Sripaada [1][3]
+  - months between performance and controversy: 0
+  - caption: accusatory ("racist", "colourist")
+- Reception: social-media users, especially from South India; singer Chinmayi Sripaada [1]
+  - distance of the objectors: social: speak for the target (dark-skinned people, South Indians)
+- Societal: long-running criticism of colourism in Indian entertainment; North–South cultural tension
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| ~2024-12-14 | Episode airs; Atlee responds on the show | comedian | confirmed | [1][2] |
+| 2024-12-15/16 | Backlash on social media, including Chinmayi Sripaada | individual | confirmed | [1][2] |
+| 2024-12-17 | Sharma on X: asks where he talked about looks, "don't spread hate" | comedian | confirmed | [3] |
+| — | No complaint, FIR or extra-legal action found | — | confirmed absence | [1] |
+
+- Days to peak: 2–3   to fading: about a week
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected: online users; Chinmayi Sripaada [1]
+- Norm the objectors said was broken: other: anti-colourism / dignity of dark-skinned people
+- Humour function: before: identification (family-show banter); after: differentiation (colourism, North vs South)
+- Who defended the comedian: fans; Sharma himself denied the reading [3]
+- Media framing: **other: colourism / racism**
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: online_only
+- Legal actions: none found          Extra-legal actions: none found
+- Highest stigma step reached: 1 labelling ("racist")
+- Courtesy stigma? no
+- How it ended: faded after Sharma's denial
+- Winners and losers: none clear
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: clarification (denial)          When: three days later
+- Did the response change the course of events? No change in course; faded
+- Comedian's own narrative: other: denial (misread; "don't spread hate")
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | not supported | |
+| Moral panic | not supported | |
+| Strategic offence | not supported | |
+| Mobilisation | not supported | No organisation; no statutory body for colourism |
+| Law as a weapon | not relevant | |
+| Organised online publics | pending | |
+| Moral outrage and platforms | partly | Clip spread, short-lived |
+| Context collapse | partly | Collusion; meaning contested rather than lost |
+| Stigma and labelling | partly | "Racist" label; step 1 |
+| Durkheim | not supported | No sacred object |
+| Humour theory | partly | Ambiguous remark; benign or not depending on reading |
+| Identity and power | supported | Colourism; North–South axis |
+| Fandom | partly | Fans defended a TV star |
+| Apology | partly | Denial, not apology; no escalation |
+| Other | supported | Looks are not protected by any sacred-object claim or specific law |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** A remark about appearance is not tied to any sacred object or legal provision, and no group
+  with organisation or statutory backing took it up. Criticism stayed online and faded after the host's denial.
+- **Topic:** looks; the least "sacred" topic in the set, with the mildest outcome.
+- **Rival explanations ruled out:** fame (a very famous comedian, yet nothing escalated).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): bharti_2022 (mainstream TV comic: online only vs legal)
+- What this case adds: a famous comedian, a non-sacred topic, and no escalation
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: meaning of the remark (Sharma denies referring to looks).

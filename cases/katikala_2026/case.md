@@ -1,134 +1,111 @@
-# katikala_2026: Anudeep Katikala, 2026
+# katikala_2026: Anudeep Katikala arrested over jokes on Pawan Kalyan's family, 2026
 
 case_id: katikala_2026
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Pranav   drafter: AI   verifier: Siddanth (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Telugu stand-up on Tollywood stars and fandom: joked Niharika Konidela (divorced 2023) could get advice from uncle Pawan Kalyan (divorced twice); also jokes on Ram Charan, Balakrishna, Jr NTR  
-> likely genre: satire; roast · direction: up · collapse: collusion · outcome: both  
-> pairs with: rafiq_2026; sarat_2026  
-> clip / comments: Video linked by Medianama/TNM as live at time of arrest; current status unconfirmed  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** comment collection and spam audit (Telugu comments: AI translation + English coverage).
+> **Pending (owner):** watch the video; confirm upload date.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Anudeep Katikala (Hyderabad-based Telugu stand-up) [1][2]
+- Date of performance: YouTube video (upload date unconfirmed)          Date the controversy began: early April 2026 (FIR 2026-04-11)
+- Venue / setting: stand-up video          City / state: Hyderabad (comedian); FIR in Kakinada, Andhra Pradesh
+- Platform where it first circulated: YouTube
+- Language of the joke: Telugu
+- Audience size at the time: TODO   tier: small (per data/cases.csv)
+- Comparison case (not stand-up)? No
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: jokes on Tollywood stars and fan culture, including that actor Niharika Konidela (divorced in 2023)
+  could get advice from her uncle, Deputy CM Pawan Kalyan (divorced twice); also jokes on Ram Charan, Balakrishna and
+  Jr NTR [1][6]
+- Source of the wording: described in news; **to be confirmed against the video (Telugu)**
+- Topic(s): politics_state | celebrity_public_figure
+- Genre(s): satire | roast
+- Why this genre: mocks a powerful politician-star and his fan culture; names individuals
+- Target: Pawan Kalyan (Deputy CM of Andhra Pradesh, Jana Sena leader) and his family          Direction: up
+- Form: standup_set          Main technique: irony
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: his YouTube audience (Telugu youth)
+  - setting: online video          - language and register: Telugu
+- Circulation: collusion
+  - who first spread it: Jana Sena supporters and Pawan Kalyan's fan network [4][7]
+  - months between performance and controversy: 0–1 (to confirm)
+  - caption: accusatory (insult to Pawan Kalyan and women of his family)
+- Reception: Jana Sena party office-bearers; the Andhra Pradesh police; fans [1][2]
+  - distance of the objectors: social: speak for the target (party and fan base)
+- Societal: Pawan Kalyan is a film star turned Deputy CM; in Telugu politics, star fandom and party loyalty overlap;
+  the same week, police detained another comedian (rafiq_2026, reserve) and supporters disrupted sarat_2026
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| (to confirm) | Video posted | comedian | confirmed | [2] |
+| before 2026-04-14 | Katikala posts an apology video | comedian | confirmed | [1] |
+| 2026-04-11 | FIR at Kakinada I Town police station on complaint by Jana Sena East Godavari joint secretary Bade Venkata Krishna: BNS 356(2) defamation, 353(2) public mischief, 79 insulting modesty of a woman, IT Act 67 | party member, police | confirmed | [1][3] |
+| 2026-04-14 | Picked up by AP police in Prayagraj (UP) and taken to Kakinada | police | confirmed (arrest vs detention disputed) | [1][4][6] |
+| 2026-04-17 | Released by the Kakinada magistrate | court | confirmed | [2] |
+| 2026-04 | Abuse and threats from fans continue; he says he wanted to normalise feminism and divorce | fan_group | confirmed | [7] |
+
+- Days to peak: 3–6   to fading: about two weeks
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected: Jana Sena office-bearers; Pawan Kalyan's fans [1][7]
+- Norm the objectors said was broken: leader_honour | women_dignity (the family's women)
+- Humour function: before: clarification (satire of star-politician culture); after: differentiation
+- Who defended the comedian: free-speech commentators; comedians; digital outlets [4][5][6]
+- Media framing: **legal_overreach / free_speech** in digital-native outlets; **insult_to_leader** in reports of the FIR
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: both
+- Legal actions against the comedian: FIR; interstate pick-up and detention; magistrate release [1][2][3]
+  - complainant: a Jana Sena district office-bearer (ruling coalition party), speaking for the party leader and his family
+  - legal basis: defamation (BNS 356(2)) | public mischief (BNS 353(2)) | other: insulting modesty of a woman (BNS 79) | obscenity (IT Act 67)
+- Extra-legal actions: threats and abuse from fans [7]
+- Highest stigma step reached: 4 discrimination (detention)
+- Courtesy stigma? no
+- How it ended: released after three days; apology already posted
+- Winners and losers: winners: Jana Sena (show of power); losers: Katikala
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: apology (before the arrest), later clarification of intent [1][7]
+- Did the response change the course of events? No: the arrest came after the apology
+- Comedian's own narrative: contrition, then clarification ("wanted to normalise feminism, divorce")
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | supported | Party office-bearer's complaint made it public |
+| Moral panic | partly | A cluster of Andhra cases in one week |
+| Strategic offence | supported | Women's-modesty and obscenity sections stretched to a joke about divorce |
+| Mobilisation | supported | Ruling-coalition party; police acting across states |
+| Law as a weapon | supported | Interstate pick-up, three days in custody, no trial [1][2] |
+| Organised online publics | pending | Fan networks |
+| Moral outrage and platforms | partly | |
+| Context collapse | partly | |
+| Stigma and labelling | partly | |
+| Durkheim | partly | Leader as sacred to party and fans |
+| Humour theory | partly | |
+| Identity and power | supported | Small comedian vs a deputy CM |
+| Fandom | supported | Star fan culture merged with party loyalty |
+| Apology | supported | Apology did not prevent arrest |
+| Other | — | |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** A small comedian mocked a film-star Deputy CM whose party and fan base overlap. A party
+  office-bearer filed a complaint stacking defamation, women's-modesty and obscenity sections, and police in a state
+  ruled by that coalition travelled to another state to pick him up. The process (arrest, custody) was the punishment.
+- **Topic:** politics with celebrity; fused party-fandom networks give access to both police and online abuse.
+- **Rival explanations ruled out:** obscenity of the joke (a joke about divorce; the obscenity section reflects legal stacking).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): sarat_2026 (same week, Andhra politics: police route vs mob route); kamra_2025 (politics, both routes)
+- What this case adds: state route for a ruling party in Andhra; legal stacking
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Unresolved disputes: arrest vs detention (Outlook: detention).
+Open questions: upload date.

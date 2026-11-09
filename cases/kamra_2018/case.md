@@ -1,134 +1,102 @@
-# kamra_2018: Kunal Kamra, 2018
+# kamra_2018: Kunal Kamra's show cancelled by MS University, Vadodara, 2018
 
 case_id: kamra_2018
-status: not_started   (draft | verified | final)
+status: draft   (draft | verified | final)
 owner: Pranav   drafter: AI   verifier: Siddanth (also does the blind second coding, before reading the draft)
-last updated: <YYYY-MM-DD>
+last updated: 2026-11-09
 
-> **Starting point from the case pool (first-pass, unverified; replace as you research):**
-> topic: Political/'anti-national' content: ex-students' letter said he 'mimics national anthem' and backs the 'tukde-tukde gang'; MS University of Baroda (Vadodara) cancelled his campus-auditorium show  
-> likely genre: satire · direction: up · collapse: collusion · outcome: extralegal  
-> pairs with: rajwani_2018 (same year, Mumbai club; religion vs politics); munawar_2021 / kamra_2025 (later venue-cancellation pattern)  
-> clip / comments: Kamra's YouTube sets (e.g. 2017 'Patriotism and the Government') exist; the specific objected material isn't identified  
-> Full first-pass notes and sources: `analysis/case_pool.csv`.
+> **Pending (Havish + AI together):** pick videos (his 2017 sets) and run comments and spam audit; note that the
+> objection was to his body of work, not one clip.
+> **Pending (owner):** identify which material the complaint letter cited.
 
 ## A. Basic facts
-- Comedian(s):
-- Date of performance:            Date the controversy began:
-- Venue / setting:                City / state:
-- Platform where it first circulated:
-- Language of the joke:
-- Audience size at the time (subscribers, Social Blade, date checked):   tier: small | mid | large
-- Other fame (TV, streaming, Bigg Boss, etc.):
-- Comparison case (not stand-up)? yes / no
+- Comedian(s): Kunal Kamra [1][2]
+- Date of performance: a campus show planned for 2018-08-11          Date the controversy began: cancellation reported 2018-07-23
+- Venue / setting: university auditorium          City / state: Vadodara, Gujarat
+- Platform where it first circulated: a complaint letter; news reports
+- Language of the joke: Hindi / English (his YouTube sets)
+- Audience size at the time: TODO   tier: to confirm
+- Other fame: known for political satire against the government
+- Comparison case (not stand-up)? No
 
 ## B. The joke
-- What was said (transcript or quotation):
-- Source of the wording: clip watched by <name> | transcript | quoted in <source>
-- Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
-  celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
-- Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
-- Target:                  Direction: up | down | lateral | self | contested
-- Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
-- Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
+- What was said: no single joke; a letter from about 11 former students said he "mimics the national anthem" and
+  supports the "tukde-tukde gang" [1][3]
+- Source of the wording: complaint letter as quoted in news
+- Topic(s): politics_state | regional_national_icon (nation, national anthem)
+- Genre(s): satire
+- Why this genre: his body of work mocks the government and nationalism
+- Target: the government; nationalist politics          Direction: up
+- Form: standup_set (body of work)          Main technique: irony
 
 ## C. Context (four layers)
-- Performance: who the original audience was; how clearly it was framed as comedy
-  - setting: club | auditorium | college | online special | tv | social_post; ticketed? approx. audience size
-    (Brodie 2014: stand-up licence rests on intimacy with a co-present audience)
-  - language and register: English | Hindi/Hinglish | regional language (Kuipers 2006; Friedman 2014: humour taste marks class)
-- Circulation: collusion | collision | live_only
-  - who first spread it beyond the original audience:
-  - months between performance and controversy:
-  - caption / title of the most-viewed circulating version: neutral | accusatory (quote it)
-- Reception: who reacted; how far they were from the original audience (summary; detail in E)
-  - distance of the objectors (McGraw & Warren 2010; McGraw et al. 2012: a violation stops being benign when it is close):
-    temporal (months since performance) | social (objectors are the target group | speak for the target group | third party)
-- Societal: elections, recent related events, other controversies in the preceding month
+- Performance: none (the show never happened); the objection concerned his online videos
+  - setting: university auditorium (planned)          - language and register: Hindi / English
+- Circulation: collusion (his own videos)
+  - who first spread it: former students who wrote to the university [1]
+  - months between performance and controversy: n/a (body of work)
+  - caption: accusatory ("anti-national")
+- Reception: a group of former students; the university administration [1][2]
+  - distance of the objectors: social: claim to speak for the nation
+- Societal: Gujarat under BJP rule; the "anti-national" label was widely used against government critics in 2016–2018
 
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-Event types: performance, upload, resurfaced, viral, statement, complaint, fir, arrest, summons, court,
-threat, vandalism, disruption, violence, cancellation, apology, refusal, release, resolution.
-Actor types: comedian, fan_group, individual, party_worker, politician, religious_org, community_org,
-police, court, commission, platform, venue, media.
-- Days from first viral spread to peak attention:        to fading (Pfeffer et al. 2014: firestorms rise and fade fast)
+| Jul 2018 | Letter from about 11 former students calls his content "anti-national" | individual | confirmed | [1][3] |
+| 2018-07-23 | University cancels the auditorium booking, citing security | venue | confirmed | [1][2][3][4] |
+| 2018-07 | Kamra says he learned of it from the media; replies with a sarcastic tweet | comedian | confirmed | [2] |
+
+- Days to peak: 1   to fading: a few days
 
 ## E. Reaction
-- Who objected (organisations, politicians, communities) and their exact framing words:
-- Norm the objectors said was broken (Rost et al. 2016: firestorms as norm enforcement; Durkheim):
-  religious_feeling | national_honour | women_dignity | family_parents | caste_dignity | decency_obscenity | leader_honour | other
-- Humour function, before and after travelling (Meyer 2000; Ödmark 2021):
-  for the original audience: identification | clarification | enforcement | differentiation
-  as framed by the objectors: identification | clarification | enforcement | differentiation
-- Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
-  - who broke the story, and how the framing changed between the first week and the legal phase:
-  dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
-  - videos / reels read, with type and collection date:
-  - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
-  - play frame vs serious frame:
-  - attacks on the joke vs attacks on the comedian's identity:
-  - anything notable (copy-paste waves, sudden floods, language shifts):
+- Who objected: former students ("anti-national", "mimics national anthem", "tukde-tukde gang") [1][3]
+- Norm the objectors said was broken: national_honour
+- Humour function: before: clarification (political satire); after: differentiation ("anti-national")
+- Who defended the comedian: comedians and liberal commentators
+- Media framing: **other: anti_national** in some outlets (Swarajya headline "controversial comedian"), **free_speech** in others
+- Comments: **pending**
 
 ## F. Outcome
-- Outcome type: online_only | legal | extralegal | both
-- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
-  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
-  - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
-  - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
-    obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
-- Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
-- Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
-- How it ended:
-- Winners and losers (Kuipers 2011): who gained visibility, followers, votes or authority; who lost:
+- Outcome type: extralegal (cancellation by an institution after non-state pressure; no state instrument)
+- Legal actions: none          Extra-legal actions: pre-emptive cancellation of a show [1][2]
+- Highest stigma step reached: 3 status loss (cancelled show)
+- Courtesy stigma? no (the university withdrew rather than being targeted)
+- How it ended: show cancelled
+- Winners and losers: winners: the complainants; losers: Kamra
 
 ## G. Comedian's response
-- Response: apology | refusal | clarification | deletion | silence | combination
-- When (relative to the escalation):
-- Did the response change the course of events? Evidence:
-- Comedian's own narrative (Vásquez; Nicolaï & Maeseele 2024): contrition | defiance | humourless_audience |
-  blames_clipping_or_social_media | free_speech | none
+- Response: refusal (sarcastic tweet)          Effect: none          Narrative: defiance
 
 ## H. Interpretation
-Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
-Never assume a lens fits; record where it fails.
-
-| Lens | Verdict | Evidence (with source numbers) |
+| Lens | Verdict | Evidence |
 |---|---|---|
-| Scandal: who made the accusation public; winners and losers | | |
-| Moral panic: folk devil, disproportion, moral entrepreneurs, wave of cases | | |
-| Strategic offence: offence manufactured or amplified for political gain | | |
-| Mobilisation: organisation, resources, political opportunity, framing | | |
-| Law as a weapon: the process as punishment | | |
-| Organised online publics / digital nationalism | | |
-| Moral outrage and platform amplification | | |
-| Context collapse: meaning change; collusion or collision | | |
-| Stigma and labelling: label, ladder step, courtesy stigma | | |
-| Durkheim: whose sacred; formal punishment vs collective reaction | | |
-| Humour theory: why it stopped seeming harmless; function shift | | |
-| Identity and power: comedian's publicly stated identity; up or down | | |
-| Fandom / anti-fandom (celebrity cases) | | |
-| Apology and image repair | | |
-| Other explanation not in the toolkit | | |
+| Scandal | partly | Small; reported nationally |
+| Moral panic | not supported | |
+| Strategic offence | partly | The "anti-national" label as a political tool |
+| Mobilisation | partly | A small group used an institutional channel (letter to the university) |
+| Law as a weapon | not relevant | |
+| Organised online publics | pending | |
+| Moral outrage and platforms | not supported | |
+| Context collapse | not supported | No single clip; objection to his persona |
+| Stigma and labelling | supported | Labelled "anti-national" (Becker) [1][3] |
+| Durkheim | supported | Nation and anthem as sacred (fixed list) |
+| Humour theory | not relevant | No specific joke |
+| Identity and power | supported | Punching up at the government in a BJP-ruled state |
+| Fandom | not relevant | |
+| Apology | not relevant | |
+| Other | supported | Institutions cancel pre-emptively to avoid trouble ("security") |
 
-- **Best explanation of this outcome** (one paragraph, combining lenses where needed):
-- **Topic:** what made this topic sensitive here: a sacred object, a group's standing, a political leader? Did the
-  genre (e.g. a dark joke's gravity, a roast's personal target) change how it travelled?
-- **Rival explanations ruled out, and why:**
+- **Best explanation:** A comedian already labelled "anti-national" was cancelled pre-emptively by an institution after
+  a small complaint, citing security. No specific joke, law or crowd was needed: the label itself, in a politically
+  aligned setting, was enough.
+- **Topic:** the nation; labelling the comedian rather than the joke.
+- **Rival explanations ruled out:** a specific offensive joke (none was cited).
 
 ## I. Comparison notes
-- Matched pair(s): which cases this should be compared with, and why
-- What this case adds to the overall comparison
+- Matched pair(s): kamra_2025 (same comedian, satire: campus cancellation vs vandalism and FIRs); munawar_2021 (later cancellations)
+- What this case adds: pre-emptive institutional cancellation driven by a label
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
-others (wire copy counts once). Record the search terms and date of each search.
-Unresolved disputes:
-Open questions about this case:
+Numbered list in `sources.md`.
+Open questions: which videos the letter referred to.
