@@ -1,7 +1,7 @@
 # Project Plan: Structured Comparative Case Study — Team K
 
 **Status:** adopted 2026-11-08 (written 2026-11-03; research question revised to focus on joke topic, see `DECISIONS.md`)
-**Supersedes:** the *methodology* (Section 5) and *deliverables* (Section 6) of `Sociology_Proposal_Revised.docx`.
+**Supersedes:** the *methodology* (Section 5) and *deliverables* (Section 6) of `archive/proposals/Sociology_Proposal_Revised.docx`.
 The *conceptual framework* (Section 2) of that proposal is kept and reused.
 
 This document is meant to be read by any team member or AI assistant picking up the project cold.
@@ -22,7 +22,7 @@ step produces, and what the known limitations and open questions are.
 8. [Verification rules](#8-verification-rules)
 9. [The steps, in detail](#9-the-steps-in-detail)
 10. [Comment-reading protocol](#10-comment-reading-protocol)
-11. [Folder structure for the new work](#11-folder-structure-for-the-new-work)
+11. [Folder structure](#11-folder-structure)
 12. [What happens to the existing repository](#12-what-happens-to-the-existing-repository)
 13. [Limitations](#13-limitations)
 14. [Open questions and decisions still needed](#14-open-questions-and-decisions-still-needed)
@@ -38,9 +38,9 @@ step produces, and what the known limitations and open questions are.
 
 | Stage | What happened |
 |---|---|
-| **Original proposal** (`Sociology_Proposal_25e2c07a2c042fbbc1c92091ea1ca304.docx`) | Titled *"How Online Outrage Against Indian Dark Comedy Escalates"*. Three research questions: range of reactions to dark comedy (RQ1), legal vs extra-legal escalation (RQ2), whether online outrage represents wider opinion (RQ3). No methodology section; "dark comedy" not defined. |
+| **Original proposal** (`archive/proposals/Sociology_Proposal_25e2c07a2c042fbbc1c92091ea1ca304.docx`) | Titled *"How Online Outrage Against Indian Dark Comedy Escalates"*. Three research questions: range of reactions to dark comedy (RQ1), legal vs extra-legal escalation (RQ2), whether online outrage represents wider opinion (RQ3). No methodology section; "dark comedy" not defined. |
 | **Supervisor feedback** | *"What is dark comedy? Read on sociology of stigma. How do you treat context? Think through the idea of context collapse. Read on Durkheim."* |
-| **Revised proposal** (`Sociology_Proposal_Revised.docx`, Havish, 2026-11-02) | Added a conceptual framework answering every feedback point (dark comedy defined; stigma; four layers of context; collusion vs collision; Durkheim). Widened the scope from dark comedy to all comedy genres, with genre recorded per joke. Added a large computational methodology: YouTube comment collection, bot/spam audit, hand-coding with kappa, a machine-learning classifier, reply-thread statistics, news lead-lag analysis, QCA, a 150–300-person survey and a dashboard. |
+| **Revised proposal** (`archive/proposals/Sociology_Proposal_Revised.docx`, Havish, 2026-11-02) | Added a conceptual framework answering every feedback point (dark comedy defined; stigma; four layers of context; collusion vs collision; Durkheim). Widened the scope from dark comedy to all comedy genres, with genre recorded per joke. Added a large computational methodology: YouTube comment collection, bot/spam audit, hand-coding with kappa, a machine-learning classifier, reply-thread statistics, news lead-lag analysis, QCA, a 150–300-person survey and a dashboard. |
 | **Code and data** (same commits) | 23 researched cases (`data/cases.csv`), 25 dated events (`data/events.csv`), 78 candidate YouTube videos (`data/videos.csv`), Python pipeline in `src/`, tests, and a dashboard showing demo (fake) numbers. **Nothing has been run on real data yet.** |
 | **Video review and fixes** (2026-11-04) | 73 videos confirmed and 5 rejected in `data/videos.csv`; date-parsing and anonymisation fixes in `src/` |
 | **This plan** (2026-11-03 to 11-08) | Proposed as a case study; research question changed from dark comedy to **joke topic** (genre kept as a secondary variable); supervisor confirmed the original proposal no longer binds us; plan adopted |
@@ -112,7 +112,7 @@ controversies differ from one another and what is associated with each outcome. 
 
 ## 4. Conceptual framework (summary)
 
-Full text is in Section 2 of `Sociology_Proposal_Revised.docx`. The parts every case analysis must apply:
+Full text is in Section 2 of `archive/proposals/Sociology_Proposal_Revised.docx`. The parts every case analysis must apply:
 
 **Topic and genre.** The **topic** is what the joke is about and whom it touches (religion, caste, politics
 and the nation, gender and sexuality, regional icons, disability, celebrities, looks); it is the main
@@ -586,32 +586,45 @@ cannot be searched back to the author; raw comment files stay git-ignored.
 
 ---
 
-## 11. Folder structure for the new work
+## 11. Folder structure
 
 ```
-PLAN.md                     this file
-DECISIONS.md                dated log of team decisions (created in Step 0)
+README.md                   front page: what the project is, where to start
+PROJECT.md                  the whole project in one document
+PLAN.md                     this file: step-by-step instructions
+DECISIONS.md                dated log of team decisions
+LITERATURE.md               previous work and how it shapes the method
+CODEBOOK.md                 joke and comment labels with decision rules
 cases/
   _template.md              the frozen template (Appendix A)
-  <case_id>/
+  <case_id>/                one folder per final case (24), created from the template
     case.md                 the full case analysis
-    sources.md              numbered source list with dates accessed
+    sources.md              searches and numbered source list with dates accessed
 analysis/
-  case_pool.csv             all candidates, included yes/no, reason
+  case_pool.csv             all 45 candidates, final yes/no, reason
+  case_pool_summary.md      how the list was built; balance; matched pairs; reserves
+  final_cases.csv           the 24 final cases
   second_coding.csv         blind second coding of key judgements
   comparison.csv            master comparison table, one row per case
   mechanisms.csv            lens verdicts from section H of every case
-  findings.md               cross-case findings
+  news_coding.csv           framing codes for 6–10 news articles per case
+  findings.md               cross-case findings (Step 6)
 data/
-  cases.csv, events.csv, videos.csv   existing tables (kept, updated as cases are finalised)
+  cases.csv, events.csv, videos.csv   earlier case, event and video tables (case_pool.csv supersedes cases.csv)
   comments/                 downloaded and sampled comments    (git-ignored, contains IDs)
   manual/                   manually copied Instagram comments (git-ignored)
   raw/, processed/          outputs of src/ scripts            (git-ignored)
-interviews/                 anonymised interview summaries only
+src/
+  collect.py                download YouTube comments and commenter account data
+  spam.py                   spam and coordination audit, chance check, sensitivity, validation
+  sample.py                 coding sheets and Cohen's kappa
+  news.py                   optional GDELT news-coverage timing
+tests/                      tests for src/ on synthetic data (python -m pytest -q)
+interviews/                 anonymised interview summaries only (optional)
+archive/                    earlier proposals, dashboard and unused scripts, kept for reference
 ```
 
-Case IDs follow the existing pattern `<comedian>_<year>` (e.g. `kamra_2025`).
-`data/comments/` and `data/manual/` must be added to `.gitignore` in Step 1.
+Case IDs follow the pattern `<comedian>_<year>` (e.g. `kamra_2025`).
 
 ---
 
@@ -619,22 +632,21 @@ Case IDs follow the existing pattern `<comedian>_<year>` (e.g. `kamra_2025`).
 
 | Item | Decision | Reason |
 |---|---|---|
-| `Sociology_Proposal_Revised.docx`, Section 2 (framework) | **Keep** | Answers the supervisor's feedback; becomes Section 2 of the final paper and section H of the template |
-| Revised proposal, Sections 5–6 (method, deliverables) | **Replaced** by this plan | See Section 2 |
-| `CODEBOOK.md` Part A (joke labels) | **Keep** | Definitions for template section B |
-| `CODEBOOK.md` Part B (comment labels) | **Keep, light use** | Used in the comment-reading protocol |
-| `data/cases.csv`, `data/events.csv` | **Keep** | Starting point for the case pool and timelines |
-| `data/videos.csv` | **Keep** | Starting list of videos for comment collection |
-| `src/collect.py` | **Keep, use** | Downloads YouTube comments |
-| `src/sample.py` | **Keep** | Its `kappa` command can report agreement in Step 6 |
-| `src/spam.py` | **Optional** | Quick copy-paste check only |
-| `src/threads.py`, `src/export_dashboard.py` | **Not used** | Belonged to the statistical design |
+| Revised proposal, Section 2 (framework) | **Reused** in PROJECT.md and the template; file moved to `archive/proposals/` | Answers the supervisor's feedback |
+| Revised proposal, Sections 5–6 (method, deliverables) | **Replaced** by this plan; file in `archive/proposals/` | See Section 2 |
+| Original proposal | Moved to `archive/proposals/` | Kept for reference |
+| `CODEBOOK.md` | **Use** | Part A for template section B; Part B for reading comments |
+| `data/cases.csv`, `data/events.csv` | **Keep** | Starting point for timelines; `analysis/case_pool.csv` supersedes `cases.csv` |
+| `data/videos.csv` | **Use** | Starting list of videos for comment collection |
+| `src/collect.py` | **Use** | Downloads YouTube comments |
+| `src/spam.py` | **Use, every case** | Spam and coordination audit before comments are read (Section 10) |
+| `src/sample.py` | **Use** | Coding sheets; kappa for the agreement report |
 | `src/news.py` | **Optional** | GDELT coverage timing per case (Section 6, news protocol) |
-| `tests/` | **Use** | Tests the spam audit and coding tools on synthetic data |
-| `dashboard/` | **Not used now** | Shows fake numbers; may be rebuilt as an optional bonus at the end |
-| `.agent/` | **Unrelated** | Settings for an AI design tool; untracked, not part of the project |
+| `tests/` | **Use** | Tests the tools above on synthetic data |
+| `src/threads.py`, `src/export_dashboard.py` | Moved to `archive/src/` | Belonged to the earlier statistical design |
+| `dashboard/` | Moved to `archive/dashboard/` | Shows demo numbers; may be rebuilt from `analysis/comparison.csv` as an optional bonus |
 
-Nothing is deleted. Unused parts simply stay in the repository.
+Nothing was deleted; archived parts are in `archive/` with a README.
 
 ---
 
@@ -940,4 +952,4 @@ Full definitions, decision rules and sources are in `CODEBOOK.md`.
 
 - George, A. L., & Bennett, A. (2005). *Case studies and theory development in the social sciences*. MIT Press.
 
-All other references are listed in `Sociology_Proposal_Revised.docx`.
+All other references are listed in `archive/proposals/Sociology_Proposal_Revised.docx`.

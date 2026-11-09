@@ -522,9 +522,11 @@ biryani case (`more_2026`) and Kunal Kamra 2025 (`kamra_2025`). The full project
 | [`LITERATURE.md`](LITERATURE.md) | Full review of previous work |
 | [`CODEBOOK.md`](CODEBOOK.md) | Definitions and decision rules for every label |
 | [`cases/_template.md`](cases/_template.md) | The case template |
-| [`analysis/`](analysis/) | Case pool, comparison table and findings |
+| [`cases/`](cases/) | One folder per final case: `case.md` and `sources.md` |
+| [`analysis/`](analysis/) | Case pool, final list, comparison, mechanisms, second coding, news coding, findings |
 | [`data/`](data/) | Case, event and video tables |
 | `src/` | `collect.py` (comments), `spam.py` (spam and coordination audit), `sample.py` (coding sheets and agreement), `news.py` (optional news-coverage timing) |
+| [`archive/`](archive/) | Earlier material kept for reference |
 
 ---
 

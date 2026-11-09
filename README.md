@@ -35,8 +35,15 @@ Supporting data:
 | [data/events.csv](data/events.csv) | Dated FIRs, arrests, threats, apologies per case |
 | [data/videos.csv](data/videos.csv) | Candidate YouTube videos per case; 73 confirmed, 5 rejected |
 
-Superseded, kept for reference: `Sociology_Proposal_Revised.docx` (its conceptual framework is reused; its
-method and deliverables are replaced by PLAN.md) and the original proposal `Sociology_Proposal_*.docx`.
+Working folders:
+
+| Folder | What goes there |
+|---|---|
+| [cases/](cases/) | One folder per final case (24), each with `case.md` (pre-filled from the template) and `sources.md` |
+| [analysis/](analysis/) | Case pool, final list, comparison, mechanisms, second coding, news coding, findings |
+| [src/](src/) and [tests/](tests/) | Comment collection, spam and coordination audit, coding sheets, news timing |
+| [interviews/](interviews/) | Anonymised summaries, if interviews are done |
+| [archive/](archive/) | Earlier proposals, the demo dashboard and unused scripts, kept for reference |
 
 ## What happens next
 
@@ -77,8 +84,8 @@ copy .env.example .env            # then paste your own YouTube Data API key and
 | News-coverage timing from GDELT (optional) | `python -m src.news --comments data/processed/comments_flagged.csv` | Did news start before or after the outrage? |
 | Tests | `python -m pytest -q` | Check the spam audit and coding tools still work |
 
-Not used in the current plan (kept in the repository): `src/threads.py`, `src/export_dashboard.py` and
-`dashboard/` (demo numbers only). See PLAN.md Section 12.
+Archived (not used in the current plan): the thread analysis, the dashboard exporter and the demo dashboard,
+in [archive/](archive/). See PLAN.md Section 12.
 
 **Platforms.** YouTube Data API v3 is free (10,000 units/day). Instagram comments are copied by hand (no scraping).
 X/Twitter has no free API (about US$0.005 per post read) and is not used. News articles are collected and coded
