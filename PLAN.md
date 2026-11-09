@@ -568,7 +568,7 @@ To be settled in Step 0 or as noted.
 
 1. ~~Approve the main question and sub-questions~~ Settled: approved with topic as the focus (Section 3).
 2. ~~Does the supervisor need to approve the change in method?~~ Settled: no. The original proposal no longer binds us; a short update is optional.
-3. **Deadline.** The final submission date is not recorded in the repository. Fill it into Section 15.
+3. **Deadline.** Presentation on 14–15 November 2026 (Section 15). Final paper deadline still to be confirmed.
 4. **Number of cases:** 20, 25 or 30? (Recommended: 25.)
 5. ~~Sacred-objects list~~ Settled: family and parents count.
 6. **Bundled or non-stand-up cases:** keep `disability_sc_2025` as one case or split it; keep `tangade_dalit`, which is a pattern of trolling rather than one incident?
@@ -581,7 +581,28 @@ To be settled in Step 0 or as noted.
 
 ## 15. Timeline
 
-Relative to the start date agreed in Step 0. Adjust once the deadline is known.
+### Presentation sprint: 9–15 November 2026
+
+The first deliverable is a **presentation on 14–15 November**. It shows the plan, the framework, previous work
+and early results from three pilot cases. The full project continues afterwards on the week plan below.
+
+| Date | Work | Milestone |
+|---|---|---|
+| Sun 9 – Mon 10 | Everyone reads PROJECT.md, PLAN.md and LITERATURE.md; short team meeting on the remaining open questions; API keys set up | Plan agreed |
+| Mon 10 – Wed 12 | Three pilot cases taken through the full workflow (Step 5): `latent_2025` and `more_2026` (the two cases that motivated the project) and `kamra_2025` (a politics case with both legal and extra-legal action, for contrast) | Three cases `final`; template fixes recorded |
+| Wed 12 – Thu 13 | Early comparison of the three cases (what differs in topic, context, who mobilised, route, outcome); build the slides | Slides drafted |
+| Fri 14 | Rehearse; fix slides | Ready to present |
+| 14–15 Nov | **Presentation** | |
+
+**Suggested slides (about 12–15):** the puzzle (*Latent* and the Rs 370 biryani clip); research question and
+sub-questions; key concepts; framework and interpretive toolkit; previous work and the gap; how previous work
+shapes our method; research design and case selection; the 25 cases and matched pairs; the per-case workflow and
+template; verification and reliability; early results from the three pilot cases; what comes next and final outputs;
+limitations.
+
+### Full project
+
+Weeks counted from after the presentation. Adjust once the final paper deadline is known.
 
 | Week | Steps | Milestone |
 |---|---|---|

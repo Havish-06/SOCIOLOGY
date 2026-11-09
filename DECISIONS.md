@@ -9,7 +9,7 @@ Open items come from `PLAN.md` Section 14 and are settled in the Step 0 team mee
 |---|---|---|---|
 | 1 | Main question and sub-questions (PLAN.md Section 3) | Approve as drafted, or edit | Approved with topic as the focus (see Decided) |
 | 2 | Tell the supervisor about the change in method? | Recommended: send the short note in PLAN.md Step 0 | Not required (see Decided) |
-| 3 | Final submission deadline | Unknown; needed for the timeline | |
+| 3 | Final submission deadline | Unknown; needed for the timeline | Presentation 14–15 Nov 2026; final paper date still to confirm |
 | 4 | Number of cases | 20 / 25 / 30 (recommended: 25) | |
 | 5 | Sacred-objects list; do family and parents count? | Confirm list in PLAN.md Section 4 | Yes, family and parents count (see Decided) |
 | 6 | Bundled or non-stand-up cases (`disability_sc_2025`, `tangade_dalit`) | Keep / split / drop | |
@@ -36,6 +36,7 @@ Open items come from `PLAN.md` Section 14 and are settled in the Step 0 team mee
 | 2026-11-08 | Previous work reviewed in `LITERATURE.md`; each part of the method is tied to an earlier study, and borrowed fields added to the case template (performance setting, objector distance, norm invoked, humour function, media frame, complainant and legal basis, winners and losers, comedian's narrative) and to the comment codes (norm invoked, intent attributed) | Supervisor asked us to take inspiration from previous work and show how we use it |
 | 2026-11-08 | Discussion section led by findings, structure in PLAN.md Step 8; introduction opens with *India's Got Latent* and the Rs 370 biryani case | These two cases motivated the project; theories are used where they explain findings, not as a fixed list |
 | 2026-11-08 | Work moved to branch `project-plan` for the team to review before merging to main | Everyone verifies before the project starts |
+| 2026-11-09 | First deliverable: **presentation on 14–15 November 2026** (plan, framework, previous work, early results). Three pilot cases before then: `latent_2025`, `more_2026`, `kamra_2025` | Five days is enough for three fully verified cases, not the whole project; sprint plan in PLAN.md Section 15 |
 | 2026-11-09 | AI use is allowed without limit under the course policy | Disclosure statement kept in the paper for transparency |
 | 2026-11-09 | Coding rules: (13) police action against attackers or threateners is **not** "legal", recorded in the timeline only; (14) administrative action (permission refused, demolition, venue sealed) **is** legal, sub-label `administrative`; (15) forced or pressured apologies **are** extra-legal; (16) tweets and social-media replies are **not** comic performances, except as reserves | Recommendations accepted |
 | 2026-11-09 | Sacred objects include **the family and parents** | Insult to parents was the core of the *India's Got Latent* backlash; Durkheim's sacred covers what a group sets apart and protects |
