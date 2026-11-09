@@ -58,10 +58,10 @@ police, court, commission, platform, venue, media.
   as framed by the objectors: identification | clarification | enforcement | differentiation
 - Who defended the comedian:
 - How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
+  README, Part B (News protocol), news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
   - who broke the story, and how the framing changed between the first week and the legal phase:
   dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (Section 10 of PLAN.md):
+- Comments (README, Part B, Comment protocol):
   - videos / reels read, with type and collection date:
   - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
   - play frame vs serious frame:
@@ -90,7 +90,7 @@ police, court, commission, platform, venue, media.
 
 ## H. Interpretation
 Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(PLAN.md Section 4). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
+(README, Part A §5). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
 Never assume a lens fits; record where it fails.
 
 | Lens | Verdict | Evidence (with source numbers) |
