@@ -273,9 +273,9 @@ X/Twitter is not used (no free API).
 
 **News articles** do two jobs: evidence of what happened (every important fact needs two independent sources;
 wire copy counts once) and data on how the controversy was framed. For each case, 6–10 articles are coded for
-framing, drawn from at least three outlet types: national English dailies, digital-native outlets,
-regional-language press in the team's languages (Hindi, Punjabi, Telugu), legal news (LiveLaw, Bar & Bench), and outlets
-with an explicit editorial stance on each side. Each coded article records its dominant frame (e.g. hurt
+framing, drawn from at least three outlet types of English-language coverage: national dailies, digital-native
+outlets, legal news (LiveLaw, Bar & Bench), and outlets with an explicit editorial stance on each side (Hindi or
+regional press only where it adds a frame the English outlets miss). Each coded article records its dominant frame (e.g. hurt
 sentiments, obscenity, free speech, legal overreach), its generic frame (conflict, responsibility, morality, human
 interest, economic; Semetko & Valkenburg, 2000), whether the joke is quoted or only characterised, whether the
 comedian is labelled, whether claims are attributed or stated as fact, and whose voices are quoted (Entman, 1993;
@@ -490,7 +490,7 @@ included for transparency.
 | **Subjective judgements:** genre, direction, collapse type | Written definitions; blind second coding; agreement reported |
 | **Circular coding of the sacred** | Sacred-objects list fixed before outcomes are compared |
 | **AI errors** | Every fact verified by a team member; AI use disclosed |
-| **Languages:** material is in Hindi, Hinglish, Marathi, Telugu, Tamil and others; one member (Siddanth) reads Hindi and Punjabi, the others Telugu and English | Hindi material read with AI translation and checked by Siddanth; Telugu by the other members; other languages with AI translation plus English coverage; the case file says which material lacked a native-reader check |
+| **Languages:** material is mostly Hindi, Hinglish and English, with some Marathi, Telugu and Tamil | Everyone on the team reads Hindi and English; other languages are read with AI translation plus English coverage, and the case file says so |
 | **Audience size is a weak proxy for fame** | Subscribers at the time of the incident plus a note on TV and streaming fame |
 | **Not representative of public opinion** | Comments and interviews never presented as what India thinks |
 

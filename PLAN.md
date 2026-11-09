@@ -236,15 +236,15 @@ News articles do two jobs, and we keep them apart:
 2. **Data on how the controversy was framed.** How outlets described the joke and the comedian is itself a
    finding (Entman, 1993; Semetko & Valkenburg, 2000; Ödmark, 2021), so framing is coded, not adopted.
 
-**Which outlets.** For every case, search across five types so that no single kind of outlet sets the story:
+**Which outlets.** English-language coverage is enough for every case. Search across these types so that no single kind of outlet sets the story:
 
 | Type | Examples |
 |---|---|
 | National English dailies and TV sites | The Hindu, The Indian Express, Hindustan Times, The Times of India, NDTV |
 | Digital-native outlets | Scroll, The Print, The News Minute, The Wire, Newslaundry, The Quint |
-| Regional-language press (team languages) | Hindi (checked by Siddanth): Dainik Bhaskar, Amar Ujala, Dainik Jagran; Punjabi (Siddanth): Ajit, Jagbani, for Punjab and Sikh cases; Telugu: Eenadu, Sakshi, Andhra Jyothy |
 | Legal news | LiveLaw, Bar & Bench (FIRs, court orders) |
 | Outlets with an explicit editorial stance | At least one outlet from each side of the political debate where the case was covered, to see opposing frames |
+| *Optional:* Hindi or regional press | Only where it adds a frame the English outlets miss (e.g. Dainik Bhaskar, Amar Ujala; Punjabi papers for a Sikh case, read by Siddanth) |
 
 **How to search.** Comedian's name plus the controversy keywords (e.g. "Samay Raina parents joke", "Kunal Kamra
 Shinde FIR"), in English and, where relevant, Hindi or Telugu; window from one week before the first complaint to
@@ -666,7 +666,7 @@ These go into the final paper's limitations section. Each lists what we do about
 | L8 | **Subjective judgements** | Genre, direction ("punching up/down") and collapse type involve interpretation | Written definitions (Appendix C); blind second coding; agreement reported |
 | L9 | **AI errors** | The AI assistant can misread sources, mix up details or state something no source supports | Every fact verified by a team member against its sources (Section 8); AI use disclosed |
 | L10 | **The AI cannot watch video** | Tone, delivery and audience laughter cannot be judged by the AI | A team member watches each available clip and transcribes the joke |
-| L11 | **Languages** | Comments and clips are in Hindi, Hinglish, Marathi, Telugu, Tamil and others; only one member (Siddanth) reads Hindi and Punjabi, the others read Telugu and English | Hindi material is read with AI translation by the case owner and checked by Siddanth (themes, quoted comments, Hindi news framing); Telugu by the other members; Tamil, Marathi and others with AI translation plus English coverage; each case file states which material lacked a native-reader check. Siddanth's checking time is a bottleneck, so Hindi cases are spread across the timeline |
+| L11 | **Languages** | Comments and clips are mostly in Hindi, Hinglish and English, with some Marathi, Telugu and Tamil | Everyone on the team reads Hindi and English, so most material is read directly; Tamil, Marathi and Telugu material is read with AI translation plus English coverage, and the case file says which material lacked a native-reader check |
 | L12 | **Audience size is a weak proxy for fame** | YouTube subscribers understate TV and streaming stars (Kapil Sharma, Vir Das, Munawar Faruqui after Bigg Boss) | Use subscriber counts at the time of the incident (Social Blade), and add a note on other fame |
 | L13 | **Mixed case types** | Some cases are not stand-up (TV, sketch, college skit) or bundle several comedians | Mark them as comparison cases; decide in Step 2 whether to split or drop bundled cases |
 | L14 | **Not representative of opinion** | Comments, Reddit and interviews do not represent Indian public opinion | Never present them as such; original RQ3 (representativeness) is dropped |
@@ -683,7 +683,7 @@ To be settled in Step 0 or as noted.
 4. **Number of cases:** 20, 25 or 30? (Recommended: 25.)
 5. ~~Sacred-objects list~~ Settled: family and parents count.
 6. **Bundled or non-stand-up cases:** keep `disability_sc_2025` as one case or split it; keep `tangade_dalit`, which is a pattern of trolling rather than one incident?
-7. ~~Languages~~ Settled: Siddanth reads Hindi, English, Punjabi; the others Telugu and English (see L11).
+7. ~~Languages~~ Settled: everyone reads Hindi and English; Siddanth also Punjabi (see L11).
 8. **Interviews:** do them or not? Is ethics approval needed?
 9. ~~Course AI policy~~ Settled: unlimited AI use allowed.
 10. ~~Havish's pipeline work~~ Settled: kept or dropped as in Section 12.
