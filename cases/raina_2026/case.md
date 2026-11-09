@@ -2,7 +2,7 @@
 
 case_id: raina_2026
 status: draft   (draft | verified | final)
-owner: Havish   drafter: AI   verifier: Pranav (also does the blind second coding, before reading the draft)
+owner: Havish   drafter: AI   verifier: Pranav (fact-checks after the owner)
 last updated: 2026-11-09
 
 > **Pending (Havish + AI together):** comment collection and spam/coordination audit (section E, comments).

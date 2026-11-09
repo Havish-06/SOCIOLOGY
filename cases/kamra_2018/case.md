@@ -2,7 +2,7 @@
 
 case_id: kamra_2018
 status: draft   (draft | verified | final)
-owner: Pranav   drafter: AI   verifier: Siddanth (also does the blind second coding, before reading the draft)
+owner: Pranav   drafter: AI   verifier: Siddanth (fact-checks after the owner)
 last updated: 2026-11-09
 
 > **Pending (Havish + AI together):** pick videos (his 2017 sets) and run comments and spam audit; note that the

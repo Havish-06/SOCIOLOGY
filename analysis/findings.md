@@ -2,28 +2,31 @@
 
 **Status: first draft, 2026-11-09.** Built from the 24 AI-drafted case files (`cases/`), `comparison.csv`,
 `mechanisms.csv` and `news_coding.csv` (139 articles). **Not yet verified:** every case still needs the owner's checks,
-the blind second coding and verification (README, Part B, Step 5), and the comment collection and spam audit (pending). The
+their first read from the full clip, verification (README, Part B, Step 5), and the comment collection and spam audit (pending). The
 patterns below are therefore **working findings to test**, not conclusions. Counts refer to the 24 cases.
 
 ---
 
 ## 1. Agreement report
 
-Pending. Fill in once verifiers have done the blind second coding (`analysis/second_coding.csv`):
-share of matching judgements per field and Cohen's kappa (`python -m src.sample kappa`).
+Pending. Fill in once owners have written their first reads (`analysis/first_read.csv`): share of judgements
+per field where the owner and the AI draft agreed.
 
 ---
 
 ## 2. The main answer, in one paragraph
 
-Across 24 controversies, **what decides how a controversy ends is not mainly the topic of the joke but whether an actor
-with organisation or legal standing takes it up, and which kind of actor that is.** In every one of the 5 cases that
-stayed online, nobody with such standing acted: no party, statutory body, religious institution or organised group filed
-a complaint or turned up. In 18 of the 19 cases that escalated, such an actor did. The *kind* of actor then predicts the
-*route*: statutory bodies and protective laws lead to the legal route; political parties with cadres lead to threats,
-vandalism and disruption, often alongside an FIR. Topic matters because it decides **who has a stake and a tool**: the
-family and women have the NCW and obscenity law; Dalits have the SC/ST Act; Sikhs have the SGPC; political leaders have
-party workers and friendly police.
+Across 24 controversies, a controversy goes beyond online anger only when an actor with organisation or legal
+standing takes the joke up (a party, a statutory body, a religious institution, an organised group). That part is
+close to how the outcomes are defined, so it is **not** the finding. The finding is **why such actors took up some
+jokes and not others, and which route they chose.** In the draft cases, the answer lies in the topic: it decides
+**who has a stake and a tool**. Women and the family have the NCW and obscenity law; Dalits have the SC/ST Act; Sikhs
+have the SGPC; political leaders have party workers and friendly police. A joke that touches such a group, and fits
+such a tool, was taken up; a joke whose offended group has no defender with a tool (men as a group, mohanraj_2026; a
+self-directed regional roast, raina_2026) stayed online even when touching the sacred. The kind of actor then shapes
+the route: statutory bodies and protective laws lead to the legal route; parties with cadres lead to threats,
+vandalism and disruption, often alongside an FIR. Waves matter too: during a wave, institutions are already primed
+(virli_2026).
 
 ---
 

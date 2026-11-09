@@ -1,8 +1,10 @@
 # Case assignments — Team K
 
-Each member owns 6 cases and verifies 6. The verifier first does the **blind second coding** from the sources
-alone (Step 5.5), and only then reads the draft and checks every fact (Step 5.6). Matched pairs stay with one
-owner, so the pair can be compared while writing.
+Each member owns 6 cases and verifies 6. The **owner** watches the full clip of each case, copies its transcript
+and writes a first read in `analysis/first_read.csv` **before** opening the AI draft (Step 5.2), then compares it
+with the draft and fixes it (Step 5.5). Links to watch are in `analysis/clips.md`. The **verifier** then checks
+every fact against the sources (Step 5.6). Matched pairs stay with one owner, so the pair can be compared while
+writing.
 
 | Owner | Cases | Verified by |
 |---|---|---|

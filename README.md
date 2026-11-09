@@ -34,11 +34,11 @@ variable. Team: Havish, Yogansh, Pranav, Siddanth.
 | `analysis/comparison.csv` | One row per case: topic, genre, context, who mobilised, route, outcome, stigma, response |
 | `analysis/mechanisms.csv` | The verdict for every interpretive lens, per case |
 | `analysis/news_coding.csv` | Framing codes for the news articles of each case |
-| `analysis/second_coding.csv` | Blind second coding by the verifiers (to fill) |
+| `analysis/clips.md` | For every case, the YouTube links to watch and transcribe (original or reupload) |
+| `analysis/first_read.csv` | Each owner's own reading of the case, written before opening the AI draft (to fill) |
 | `analysis/findings.md` | Cross-case findings |
 | `data/` | Earlier case, event and video tables (`videos.csv` lists the YouTube videos for comment collection) |
 | `src/`, `tests/` | Comment collection, spam and coordination audit, coding sheets, news timing; tests |
-| `interviews/` | Anonymised interview summaries, if interviews are done |
 
 ### Status (2026-11-09)
 
@@ -69,8 +69,8 @@ copy .env.example .env            # then paste your own YouTube Data API key and
 | News-coverage timing from GDELT (optional) | `python -m src.news --comments data/processed/comments_flagged.csv` | Did news start before or after the outrage? |
 | Tests | `python -m pytest -q` | Check the tools still work |
 
-**Platforms.** YouTube Data API v3 is free (10,000 units/day). Instagram comments are copied by hand (no scraping).
-X/Twitter has no free API and is not used. GDELT is optional; Google Trends is not used.
+**Platforms.** YouTube Data API v3 is free (10,000 units/day). Only YouTube comments are used.
+X/Twitter (no free API), Instagram and Reddit are not used. GDELT is optional; Google Trends is not used.
 
 **Ethics.** Only public material. No commenter usernames or IDs in any committed file; quotes are paraphrased. Raw comment
 files (`data/raw/`, `data/comments/`, `data/manual/`) are git-ignored.
@@ -88,8 +88,8 @@ under public scrutiny, and why controversies end so differently**.
 
 We compare about **25 controversies from 2018 to 2026** using a **structured, focused comparison** (George &
 Bennett, 2005): every case is researched and written up with the same template, and the cases are then compared
-side by side. Evidence comes from news reports, legal records, YouTube and Instagram comments and the comedians'
-own statements. Cases are interpreted with a toolkit of sociological lenses, chosen for what helps answer the question: scandal,
+side by side. Evidence comes from the original clips (watched in full and transcribed), news reports, legal
+records, YouTube comments and the comedians' own statements. Cases are interpreted with a toolkit of sociological lenses, chosen for what helps answer the question: scandal,
 moral panic, strategic offence, social mobilisation, law as a weapon, organised online publics, platform
 outrage, context collapse, stigma, Durkheim on the sacred and punishment, humour theory, identity and power,
 fandom, and apology.
@@ -189,7 +189,7 @@ why the same joke can amuse one audience and enrage another.
 | **Identity and power: who may joke about whom** | Did the comedian's religion, caste, gender or region shape the reaction? Was the joke punching up or down? | SQ1, SQ3 | Krefting (2014); Shivaprasad (2020); Crenshaw (1991) |
 | **Fandom and anti-fandom** | Was the backlash driven by fans defending a celebrity, or anti-fans of the comedian? | SQ3 (celebrity cases) | Gray (2003); Gray, Sandvoss & Harrington (2007) |
 | **Apology and image repair** | Did the comedian's apology, refusal or deletion calm or inflame the controversy? | Comedian's response | Goffman (1971); Benoit (1995) |
-| **Chilling effect** | What does the case teach other comedians about which topics to avoid? | Implications; interviews | Schauer (1978) |
+| **Chilling effect** | What does the case teach other comedians about which topics to avoid? | Implications; comedians' statements | Schauer (1978) |
 
 **How we interpret, following earlier comparative case studies.**
 
@@ -259,8 +259,8 @@ to the police, another to a mob, and a third fizzles.
 | Period | Controversies between 2018 and 2026 |
 | Depth | Every case analysed in full with the same template |
 | Comparison | Master comparison table; matched pairs; typology of escalation paths; counter-examples for every pattern |
-| Reliability | Blind second coding of key judgements for every case, with agreement reported |
-| Optional | 3–6 short interviews with Hyderabad comedians or venue organisers about self-censorship |
+| Reliability | Each owner's own first read of the case, made before reading the AI draft; human–AI agreement reported |
+| Not done | Interviews (no time); Instagram and Reddit comments |
 
 #### Case selection
 
@@ -331,13 +331,12 @@ case (not a stand-up performance). Full pool of 45 candidates with sources: [`an
 | News reports (national and regional) | Dates, actors, complaints, FIRs, threats, responses | Outlet websites; wire copy counts as one source |
 | Legal records | FIR sections, court orders, police and commission statements | As reported; Bar & Bench, LiveLaw, court websites |
 | YouTube comments | How people framed the joke | Free YouTube Data API v3 via `src/collect.py` |
-| Instagram comments | Reactions where clips circulated as reels | Copied by hand (top 50–100); no scraping |
-| Reddit | Longer public arguments | Public threads |
+| Original clips and transcripts | The full joke in its setting: what came before and after, the room's reaction, how the viral clip was cut | Watched by the owner; transcript copied from YouTube's "Show transcript" (`analysis/clips.md`) |
 | Comedians' statements | Apology, refusal, clarification | Their own posts and videos; reported interviews |
 | Social Blade | Subscriber counts at the time of the incident | Manual lookup |
-| Interviews (optional) | How comedians and venues anticipate backlash | In person or by call, with consent |
 
-X/Twitter is not used (no free API).
+Not used: X/Twitter (no free API); Reddit (API needs an approved app; threads may be read for understanding only,
+not coded); Instagram (comments cannot be collected without copying by hand); interviews (no time).
 
 **News articles** do two jobs: evidence of what happened (every important fact needs two independent sources;
 wire copy counts once) and data on how the controversy was framed. For each case, 6–10 articles are coded for
@@ -374,12 +373,12 @@ Every case is written up in [`cases/_template.md`](cases/_template.md) with the 
 
 | Step | Who | What happens |
 |---|---|---|
-| 1. Research | AI assistant | Gather news, legal reports, statements and Reddit threads; build the timeline and source list |
-| 2. Joke wording | Team member | Watch the clip and transcribe the key joke; if no clip exists, use the best reported quotation and say so |
-| 3. Comments | AI and team | Download YouTube comments for up to three key videos; copy Instagram comments by hand; read and theme them |
+| 1. Research | AI assistant | Gather news, legal reports and statements; build the timeline and source list |
+| 2. Full clip and first read | Case owner | Watch the full original performance, paste its transcript, and write their own reading of the case **before** opening the AI draft |
+| 3. Comments | AI and team | Download YouTube comments for up to three key videos; read and theme them |
 | 4. Draft | AI assistant | Fill every section of the template |
-| 5. Blind second coding | Team member | Someone who has not read the draft codes the key judgements from the sources alone |
-| 6. Verification | Team member | Check every fact against its sources; compare the two codings; record and resolve disagreements |
+| 5. Compare | Case owner | Compare the first read and the transcript with the draft; fix the draft; record agreements and disagreements |
+| 6. Verification | Team member | Check every fact against its sources |
 | 7. Final | Case owner | Fix flagged items; add the case to the master comparison table |
 
 Matched pairs are analysed together. With four team members, each owns about six cases and verifies about six.
@@ -408,8 +407,7 @@ the "manufactured offence" explanation is weakened for that case. Either result 
 
 - **Videos (up to three per case), in order of priority:** the original clip on the comedian's channel; a
   reupload; the comedian's response; news coverage (marked, because its commenters are news viewers).
-- **Sample per video:** the 50 most-liked top-level comments plus 50 random ones (fixed random seed). For
-  Instagram, the top 50–100 shown by default, with the collection date.
+- **Sample per video:** the 50 most-liked top-level comments plus 50 random ones (fixed random seed).
 - **Recorded for each comment** (Part C): reaction (support, mock the offended, neutral,
   backlash, threat, demand legal action, spam); frame (play or serious); target; whether it attacks the
   comedian's identity; sacred object invoked; norm invoked; intent attributed to the comedian.
@@ -472,8 +470,8 @@ are therefore evidence of coordination, never proof, and the case file says so.
 1. **Master comparison table** (`analysis/comparison.csv`): one row per case, with topic, genre, direction, form,
    collapse type, gap in months, caption, sacred object, norm invoked, who mobilised, channel used, legal basis,
    highest stigma step, courtesy stigma, comedian's response, outcome, audience size and election period.
-2. **Agreement report:** share of cases where the blind second coding matched the draft for each key judgement,
-   with Cohen's kappa where the numbers allow (`src/sample.py kappa`).
+2. **Agreement report:** share of cases where the owner's first read matched the AI draft for each key judgement
+   (`analysis/first_read.csv`).
 3. **Answers to each sub-question,** supported by named cases.
 4. **Paired comparisons:** for each matched pair, what differed, what stayed the same, and which difference best
    explains the different outcomes.
@@ -498,7 +496,7 @@ commissions and courts or fizzled, never to mobs.
 | **Comparison table** | `analysis/comparison.csv` |
 | **Findings report** | `analysis/findings.md`: patterns, matched pairs, typology, counter-examples, agreement report |
 | **Presentation** | Slides summarising the question, method and findings |
-| **Optional** | Anonymised interview summaries; a visual case map built from the comparison table |
+| **Optional** | A visual case map built from the comparison table |
 
 **The discussion section** is led by the findings. It restates the main answer; interprets each major finding
 using whichever lenses in the toolkit the evidence supports (for example, whether different groups defend their
@@ -512,13 +510,12 @@ effect of clipping and platforms.
 
 | Task | AI assistant | Team member |
 |---|---|---|
-| Find news, legal reports and Reddit threads | Main role | Spot-checks |
+| Find news and legal reports | Main role | Spot-checks |
 | Download YouTube comments | Runs `src/collect.py` | Provides the API key |
-| Copy Instagram comments | Cannot | Copies the top 50–100 |
-| Watch clips and transcribe jokes | Cannot watch video | Yes |
+| Watch the full clip and copy its transcript | Cannot watch video; reads the transcript | Yes |
 | Draft case analyses | Yes | — |
 | Verify every fact | Drafts the source list | **Required** |
-| Blind second coding | — | Yes |
+| First read of each case, before the draft | — | Yes |
 | Read and theme comments | Drafts themes | Checks themes against the comments |
 | Cross-case comparison | Builds the table, proposes patterns | Decides which patterns hold |
 | Interpretation and writing | Drafts | Owns, edits and signs off |
@@ -535,8 +532,6 @@ included for transparency.
 - No commenter usernames or IDs appear in any shared file; quoted comments are paraphrased so they cannot be
   searched back to their authors.
 - Raw comment files stay on team members' computers and are never committed.
-- Interviews, if conducted, require informed consent, offer anonymity, and are recorded only with permission.
-  We will check with the supervisor whether ethics approval is needed.
 
 
 ### 14. Limitations
@@ -548,13 +543,13 @@ included for transparency.
 | **News bias and gaps:** outlets take sides; English national media dominate | Two-source rule; framing recorded as data; regional outlets searched |
 | **Lost comments:** deleted comments and removed clips | Collection dates recorded; older cases treated with caution |
 | **Missing originals:** comments may come from reuploads or news channels | Video type recorded for every comment set |
-| **Platform gaps:** no X/Twitter; Instagram only by hand; WhatsApp invisible | Stated openly |
-| **Subjective judgements:** genre, direction, collapse type | Written definitions; blind second coding; agreement reported |
+| **Platform gaps:** YouTube comments only; no X/Twitter, Instagram or Reddit; WhatsApp invisible | Stated openly |
+| **Subjective judgements:** genre, direction, collapse type | Written definitions; owner's first read before the AI draft; agreement reported |
 | **Circular coding of the sacred** | Sacred-objects list fixed before outcomes are compared |
 | **AI errors** | Every fact verified by a team member; AI use disclosed |
 | **Languages:** material is mostly Hindi, Hinglish and English, with some Marathi, Telugu and Tamil | Everyone on the team reads Hindi and English; other languages are read with AI translation plus English coverage, and the case file says so |
 | **Audience size is a weak proxy for fame** | Subscribers at the time of the incident plus a note on TV and streaming fame |
-| **Not representative of public opinion** | Comments and interviews never presented as what India thinks |
+| **Not representative of public opinion** | Comments never presented as what India thinks |
 
 
 ### 15. Timeline
@@ -568,8 +563,8 @@ the analysis continues after the presentation.
 |---|---|---|
 | 1 | Team meeting; setup; final case list | Case list agreed; API keys working |
 | 2 | Finalise template; pilot case (*India's Got Latent*) | Template frozen |
-| 3–5 | Analyse all cases (about 8 per week across the team); contact interviewees | All cases final |
-| 5–6 | Cross-case comparison; optional interviews | Findings report complete |
+| 3–5 | Analyse all cases (about 8 per week across the team) | All cases final |
+| 5–6 | Cross-case comparison | Findings report complete |
 | 7 | Writing | Paper draft |
 | 8 | Revision | Final paper, slides, tidy repository |
 
@@ -705,7 +700,6 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
      - approve or edit the main question and sub-questions (Part A §3)
      - confirm the target number of cases (20–30)
      - who owns which cases (Step 5)
-     - whether to do the optional interviews (Step 7)
      - whether to send the supervisor a short update (optional; see the note below)
   3. Record the decisions in Part E (date, decision, reason).
 - **Note to the supervisor (optional; the supervisor has said the original proposal no longer binds us):**
@@ -725,7 +719,7 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
      Credentials → Create credentials → API key. Copy `.env.example` to `.env` and paste the key after
      `YOUTUBE_API_KEY=`. Also set `ANON_SALT=` to any random string. **Never commit `.env`** (it is git-ignored).
   2. **Python environment:** `python -m venv .venv`, activate it, `pip install -r requirements.txt`.
-  3. Create the folders in Part B, Folder structure (`cases/`, `data/comments/`, `data/manual/`, `analysis/`, `interviews/`).
+  3. Create the folders in Part B, Folder structure (`cases/`, `data/comments/`, `data/transcripts/`, `analysis/`).
   4. Copy `cases/_template.md` into `cases/_template.md`.
 - **Free quota:** 10,000 units per day. One unit fetches up to 100 comments, so even the largest case
   (about 49,000 comments) needs only about 500–1,000 units. Quota is not a constraint.
@@ -784,12 +778,12 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
 
 | Sub-step | Who | What happens | Output |
 |---|---|---|---|
-| 5.1 Research | AI | Search news, legal reports, statements, Reddit. Build the dated timeline and source list. | `cases/<case_id>/sources.md` |
-| 5.2 Joke wording | Team | Watch the clip (if available) and transcribe the key joke(s). If no clip exists, use the best reported quotation and say so. | Section B of `case.md` |
-| 5.3 Comments | AI + team | AI pulls YouTube comments for up to 3 key videos; a team member copies Instagram comments where relevant. AI reads and themes them following Part B, Comment protocol. | `data/comments/<case_id>_*.csv` (git-ignored), themes in section E |
+| 5.1 Research | AI | Search news, legal reports and statements. Build the dated timeline and source list. | `cases/<case_id>/sources.md` |
+| 5.2 Full clip and first read | Case owner, **before opening the draft** | Watch the **full** original performance (links in `analysis/clips.md`), not only the viral seconds. Copy the YouTube transcript ("Show transcript"); if there is none, write the key lines by hand. Write a first read: what the joke was, what came before and after, how the room reacted, how the viral clip was cut, topic, direction, what angered people, outcome. If no clip exists, use the best reported quotation and say so. | `data/transcripts/<case_id>__<video_id>.txt` (git-ignored); row in `analysis/first_read.csv` |
+| 5.3 Comments | AI + team | AI pulls YouTube comments for up to 3 key videos and reads and themes them following Part B, Comment protocol. | `data/comments/<case_id>_*.csv` (git-ignored), themes in section E |
 | 5.4 Draft | AI | Fill every section of the template, including the theory reading (section H). | `cases/<case_id>/case.md` (`status: draft`) |
-| 5.5 Blind second coding | Verifier, before reading the draft | A member who has **not** read the draft codes the key judgements from the sources alone: genre, topic, direction, form, collapse type, outcome type, highest stigma step, sacred object. | Row in `analysis/second_coding.csv` |
-| 5.6 Verify | Verifier (never the owner) | Check every fact against sources (Part A §9, Verification rules); compare the second coding with the draft; resolve disagreements; record them. | `status: verified` |
+| 5.5 Compare | Case owner | Give the AI the transcript; compare the first read with the draft field by field; fix the draft where the clip or sources show it is wrong; mark in `first_read.csv` where the owner and the AI agreed. | `case.md` updated |
+| 5.6 Verify | Verifier (never the owner) | Check every fact against sources (Part A §9, Verification rules). | `status: verified` |
 | 5.7 Finalise | Case owner | Fix flagged items, update the master table. | `status: final`, row in `analysis/comparison.csv` |
 
 - **Workload:** 24 cases and 4 people: 6 cases each to own and 6 to verify. Assignments in `analysis/assignments.md`
@@ -806,8 +800,8 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
      can be compared (genre, topic, direction, form, collapse type, gap in months, accusatory caption,
      sacred object, who mobilised, channel used, highest stigma step, courtesy stigma, comedian's response,
      outcome, audience size, election period, and so on).
-  2. **Agreement report:** share of cases where the blind second coding matched the draft on each
-     judgement (and Cohen's kappa where the numbers allow, via `src/sample.py kappa`). Report it honestly.
+  2. **Agreement report:** share of cases where the owner's first read matched the AI draft on each
+     judgement (`analysis/first_read.csv`). Report it honestly.
   3. **Answer each sub-question:**
      - SQ1: compare topics (and punching up vs down within a topic) on outcome and reaction framing; then check whether genre adds anything once topic is held constant
      - SQ2: compare collision cases with collusion cases on how far they escalated
@@ -825,19 +819,10 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
 - **Output:** `analysis/comparison.csv`, `analysis/mechanisms.csv`, `analysis/findings.md` (patterns, pairs, typology, counter-examples, agreement report), figures.
 - **Done when:** each sub-question has an answer supported by named cases, with counter-examples addressed.
 
-#### Step 7 (optional): Interviews
+#### Step 7: Interviews (dropped)
 
-- **Goal:** a view from inside the comedy scene that news and comments cannot give, especially on self-censorship.
-- **Who:** 3–6 open-mic comedians, organisers or venue managers in Hyderabad.
-- **Do:**
-  1. Check with the supervisor whether ethics approval is needed.
-  2. Prepare a short guide (about 20 minutes): Do you avoid certain topics? Which and why? Have you changed
-     or dropped a joke after seeing a controversy? What happens differently in a club and online? Have you or
-     your venue faced complaints?
-  3. Get consent; offer anonymity; record notes (and audio only with permission).
-  4. Summarise each interview and link the themes to the case findings.
-- **Output:** `interviews/` (anonymised summaries only; no recordings in git).
-- **Start early.** Scheduling takes time, so begin contacting people during Step 5.
+Not done: no time before the deadline (decided 2026-11-09). The chilling-effect question is answered from
+comedians' public statements only.
 
 #### Step 8: Write up
 
@@ -900,8 +885,7 @@ representative sample of public opinion, and no percentages from them are presen
 **Which comments:**
 - Download all comments with `src/collect.py` (it pulls every top-level comment and reply).
 - **Read sample:** per video, the 50 most-liked top-level comments plus 50 random top-level comments
-  (fixed random seed so the sample can be reproduced). For Instagram, the top 50–100 shown by default,
-  with the collection date recorded.
+  (fixed random seed so the sample can be reproduced), with the collection date recorded.
 - For very large comment sections, the full set can still be searched for specific phrases
   ("hurt sentiments", "anti-national", "just a joke") to check how common a theme is.
 
@@ -970,7 +954,8 @@ analysis/
   case_pool_summary.md      how the list was built; balance; matched pairs; reserves
   final_cases.csv           the 24 final cases
   assignments.md            who owns and who verifies each case
-  second_coding.csv         blind second coding of key judgements
+  clips.md                  links to watch and transcribe for every case
+  first_read.csv            owners' first reads, made before reading the AI draft
   comparison.csv            master comparison table, one row per case
   mechanisms.csv            lens verdicts from section H of every case
   news_coding.csv           framing codes for 6–10 news articles per case
@@ -978,7 +963,7 @@ analysis/
 data/
   cases.csv, events.csv, videos.csv   earlier case, event and video tables (case_pool.csv supersedes cases.csv)
   comments/                 downloaded and sampled comments    (git-ignored, contains IDs)
-  manual/                   manually copied Instagram comments (git-ignored)
+  transcripts/              transcripts of the clips (git-ignored)
   raw/, processed/          outputs of src/ scripts            (git-ignored)
 src/
   collect.py                download YouTube comments and commenter account data
@@ -986,7 +971,6 @@ src/
   sample.py                 coding sheets and Cohen's kappa
   news.py                   optional GDELT news-coverage timing
 tests/                      tests for src/ on synthetic data (python -m pytest -q)
-interviews/                 anonymised interview summaries only (optional)
 ```
 
 Case IDs follow the pattern `<comedian>_<year>` (e.g. `kamra_2025`).
@@ -1003,7 +987,7 @@ To be settled in Step 0 or as noted.
 5. ~~Sacred-objects list~~ Settled: family and parents count.
 6. **Bundled or non-stand-up cases:** keep `disability_sc_2025` as one case or split it; keep `tangade_dalit`, which is a pattern of trolling rather than one incident?
 7. ~~Languages~~ Settled: everyone reads Hindi and English (see Part A §14).
-8. **Interviews:** do them or not? Is ethics approval needed?
+8. ~~Interviews~~ Settled: not done (no time).
 9. ~~Course AI policy~~ Settled: unlimited AI use allowed.
 10. ~~Havish's pipeline work~~ Settled: kept or dropped as in Part B, Folder structure.
 
@@ -1019,7 +1003,7 @@ workflow before it, so the presentation can show real cross-case results.
 |---|---|---|
 | Sun 9 – Mon 10 | Everyone reads Part A, Part B and Part D; short team meeting on the remaining open questions; API keys set up | Plan agreed |
 | Sun 9 – Mon 10 | AI collects comments for all cases and runs the spam audit; AI drafts `latent_2025` as the pilot; team reviews it and fixes the template | Template frozen |
-| Mon 10 – Wed 12 | AI drafts the other 23 cases; each owner transcribes jokes and checks their 6; each verifier blind-codes and verifies their 6 (`analysis/assignments.md`) | All cases `verified` |
+| Mon 10 – Wed 12 | AI drafts the other 23 cases; each owner watches the full clips, pastes the transcripts and writes a first read before checking their 6; each verifier fact-checks their 6 (`analysis/assignments.md`, `analysis/clips.md`) | All cases `verified` |
 | Wed 12 – Thu 13 | Fill `comparison.csv` and `mechanisms.csv`; cross-case comparison (Step 6) into `findings.md`; build the slides | Findings and slides drafted |
 | Fri 14 | Rehearse; fix slides | Ready to present |
 | 14–15 Nov | **Presentation** | |
@@ -1039,8 +1023,8 @@ Weeks counted from after the presentation. Adjust once the final paper deadline 
 |---|---|---|
 | 1 | Step 0, Step 1, Step 2 | Plan agreed; API key working; final case list chosen |
 | 2 | Step 3, Step 4 | Template frozen after the pilot case |
-| 3–5 | Step 5 (about 8 cases per week across the team); start contacting interviewees | All cases `final` |
-| 5–6 | Step 6; Step 7 interviews | `findings.md` complete |
+| 3–5 | Step 5 (about 8 cases per week across the team) | All cases `final` |
+| 5–6 | Step 6 | `findings.md` complete |
 | 7 | Step 8 | Paper draft |
 | 8 | Step 8 | Final paper, slides, repository cleaned |
 
@@ -1542,7 +1526,7 @@ Open items come from Part B Section 14 and are settled in the Step 0 team meetin
 | 5 | Sacred-objects list; do family and parents count? | Confirm list in Part A §5 | Yes, family and parents count (see Decided) |
 | 6 | Bundled or non-stand-up cases (`disability_sc_2025`, `tangade_dalit`) | Keep / split / drop | Narrowed to `raina_sma_2025`; `tangade_dalit` dropped |
 | 7 | Who reads which languages (Hindi, Telugu, Tamil, Marathi, other) | List per member | Everyone reads Hindi and English (see Decided) |
-| 8 | Do the optional interviews? Ethics approval needed? | Yes / no | |
+| 8 | Do the optional interviews? Ethics approval needed? | Yes / no | No (see Decided) |
 | 9 | Course AI policy and required disclosure | Check | AI use allowed without limit (see Decided) |
 | 10 | Which parts of the existing pipeline to keep | As in Part B, Folder structure, or edit | As in Section 12 (see Decided) |
 | 11 | Case owners | Assign after the case list is final | Assigned (see Decided; `analysis/assignments.md`) |
@@ -1579,3 +1563,7 @@ Open items come from Part B Section 14 and are settled in the Step 0 team meetin
 | 2026-11-09 | Languages: **everyone reads Hindi and English**. English news coverage is enough for every case; Hindi or regional-language press is optional, used only where it adds a frame English outlets miss. Hindi and Hinglish comments are read by the team directly; Tamil, Marathi and Telugu material with AI translation plus English coverage, noted in the case file | Corrected by Havish; replaces the earlier language entries |
 | 2026-11-09 | (Superseded by the correction above) Team languages: Telugu, Hindi and English. Hindi, Hinglish, Telugu and English material is checked by a team member; other languages (Tamil, Marathi, Kannada, Bengali) are read with AI translation plus English-language coverage, and the case file says so | The only clearly non-team-language case in the suggested 25 is Parithabangal (Tamil); it stays, with this limitation stated. Bengali/Kannada reserves are not added |
 | 2026-11-08 | Cases interpreted with a full toolkit of lenses (scandal, moral panic, strategic offence, mobilisation, law as a weapon, organised online publics, platform outrage, context collapse, stigma, Durkheim, humour theory, identity and power, fandom, apology), using process tracing and rival explanations; template section H becomes "Interpretation" with a verdict per lens | Interpret through whatever helps answer the research question, as earlier comparative case studies do (George & Bennett; Yin; Adut; George; Cohen) |
+| 2026-11-09 | **No interviews** (Step 7 dropped); **no Instagram or Reddit** comments: YouTube comments only. Reddit threads may be read for understanding but are not coded | No time; Instagram comments can only be copied by hand; Reddit's API needs an approved app (the public endpoint returned 403) |
+| 2026-11-09 | **Every case starts from the full original clip.** The owner watches the whole performance (not only the viral seconds), copies the YouTube transcript into `data/transcripts/` (git-ignored) and writes a first read in `analysis/first_read.csv` **before** opening the AI draft; links per case in `analysis/clips.md` | The drafts were written from news only; the AI cannot watch video but can read transcripts; context is the core of the project |
+| 2026-11-09 | **Blind second coding by verifiers dropped** (`second_coding.csv` replaced by `first_read.csv`). The owner's first read is the independent check; the report gives human–AI agreement per judgement. Verifiers only fact-check | A full blind coding of 6 extra cases is not possible in 5 days; the owner's read before the draft keeps an independent human judgement at no extra cost |
+| 2026-11-09 | Findings reframed: "nobody with standing acted" is not an explanation of fizzled cases (it is how the outcome is defined); the question is **why** actors with standing took up some jokes and not others | Avoid a circular headline |

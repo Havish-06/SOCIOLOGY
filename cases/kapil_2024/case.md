@@ -2,7 +2,7 @@
 
 case_id: kapil_2024
 status: draft   (draft | verified | final)
-owner: Yogansh   drafter: AI   verifier: Havish (also does the blind second coding, before reading the draft)
+owner: Yogansh   drafter: AI   verifier: Havish (fact-checks after the owner)
 last updated: 2026-11-09
 
 > **Pending (Havish + AI together):** comment collection and spam audit (clips and news videos in `data/videos.csv`).

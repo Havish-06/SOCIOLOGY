@@ -2,7 +2,7 @@
 
 case_id: faruqui_2024
 status: draft   (draft | verified | final)
-owner: Siddanth   drafter: AI   verifier: Yogansh (also does the blind second coding, before reading the draft)
+owner: Siddanth   drafter: AI   verifier: Yogansh (fact-checks after the owner)
 last updated: 2026-11-09
 
 > **Pending (Havish + AI together):** find the audience clip and apology video (both on X); add to `data/videos.csv`;

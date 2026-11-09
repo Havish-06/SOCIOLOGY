@@ -2,7 +2,7 @@
 
 case_id: mohanraj_2026
 status: draft   (draft | verified | final)
-owner: Yogansh   drafter: AI   verifier: Havish (also does the blind second coding, before reading the draft)
+owner: Yogansh   drafter: AI   verifier: Havish (fact-checks after the owner)
 last updated: 2026-11-09
 
 > **Pending (Havish + AI together):** find the clip (Comicstaan on Prime Video; reshared on X); comments and spam audit.

@@ -2,7 +2,7 @@
 
 case_id: sarat_2026
 status: draft   (draft | verified | final)
-owner: Pranav   drafter: AI   verifier: Siddanth (also does the blind second coding, before reading the draft)
+owner: Pranav   drafter: AI   verifier: Siddanth (fact-checks after the owner)
 last updated: 2026-11-09
 
 > **Pending (Havish + AI together):** comment collection and spam audit (Telugu: AI translation + English coverage).

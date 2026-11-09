@@ -2,7 +2,7 @@
 
 case_id: bharti_2022
 status: draft   (draft | verified | final)
-owner: Siddanth   drafter: AI   verifier: Yogansh (also does the blind second coding, before reading the draft)
+owner: Siddanth   drafter: AI   verifier: Yogansh (fact-checks after the owner)
 last updated: 2026-11-09
 
 > **Pending (Havish + AI together):** comment collection and spam audit (clips and news videos in `data/videos.csv`).
