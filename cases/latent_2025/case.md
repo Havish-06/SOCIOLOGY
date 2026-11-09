@@ -93,7 +93,7 @@ police, court, commission, platform, venue, media.
     **obscenity** and legal action, then, after the Supreme Court hearing, opinion and legal outlets added
     **free speech / legal overreach** frames
   dominant frame: obscenity
-- Comments (README, Part B, Comment protocol): **pending** (collection and spam audit with Havish)
+- Comments (PLAN.md, Comment protocol): **pending** (collection and spam audit with Havish)
   - videos / reels read, with type and collection date:
   - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
   - play frame vs serious frame:

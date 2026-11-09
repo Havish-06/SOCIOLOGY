@@ -21,7 +21,7 @@ last updated: <YYYY-MM-DD>
 - Topic(s): religion | caste | gender_sexuality | family | politics_state | regional_national_icon |
   celebrity_public_figure | bodies_looks | death_violence_tragedy | disease_disability
 - Genre(s): dark | satire_juvenalian | satire_horatian | crude_shock | roast | gallows | observational
-- Why this genre (one or two sentences, using the definitions in Appendix C):
+- Why this genre (one or two sentences, using the definitions in CODEBOOK.md and PLAN.md, Glossary):
 - Target:                  Direction: up | down | lateral | self | contested
 - Form: standup_set | crowd_work | roast | sketch | song_parody | social_reply | tv_show | college_skit
 - Main technique: irony_sarcasm | exaggeration | parody_impersonation | wordplay | story
@@ -58,10 +58,10 @@ police, court, commission, platform, venue, media.
   as framed by the objectors: identification | clarification | enforcement | differentiation
 - Who defended the comedian:
 - How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
-  README, Part B (News protocol), news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
+  PLAN.md (News protocol), news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
   - who broke the story, and how the framing changed between the first week and the legal phase:
   dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
-- Comments (README, Part B, Comment protocol):
+- Comments (PLAN.md, Comment protocol):
   - videos / reels read, with type and collection date:
   - main themes, how often each appeared in the read sample, 2–3 paraphrased examples each:
   - play frame vs serious frame:
@@ -90,7 +90,7 @@ police, court, commission, platform, venue, media.
 
 ## H. Interpretation
 Use the timeline (D) to trace how the controversy unfolded, then read the case against the interpretive toolkit
-(README, Part A §5). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
+(PROJECT.md §5). For each lens: **supported | partly | not supported | not relevant**, with the evidence.
 Never assume a lens fits; record where it fails.
 
 | Lens | Verdict | Evidence (with source numbers) |

@@ -2,7 +2,7 @@
 
 **Status: first draft, 2026-11-09.** Built from the 24 AI-drafted case files (`cases/`), `comparison.csv`,
 `mechanisms.csv` and `news_coding.csv` (139 articles). **Not yet verified:** every case still needs the owner's checks,
-their first read from the full clip, verification (README, Part B, Step 5), and the comment collection and spam audit (pending). The
+their first read from the full clip, verification (PLAN.md, Step 5), and the comment collection and spam audit (pending). The
 patterns below are therefore **working findings to test**, not conclusions. Counts refer to the 24 cases.
 
 ---
@@ -164,7 +164,7 @@ offence concentrates in "both" cases**, the ones driven by parties.
 
 ## 10. Organic or organised?
 
-Pending the comment collection and spam audit (README, Part B (Comment protocol)). The question for each case: what share of hostile
+Pending the comment collection and spam audit (PLAN.md (Comment protocol)). The question for each case: what share of hostile
 comments came from non-organic accounts? This will test the strategic-offence and organised-online-publics lenses, which
 are currently "partly" or "pending" in most cases.
 

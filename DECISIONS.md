@@ -1,0 +1,59 @@
+# Decisions log — Team K
+
+Every team decision, dated, with the reason. Start from [README.md](README.md) for where everything is.
+
+One entry per decision: date, what was decided, why. Newest at the bottom.
+Open items come from PLAN.md, Open questions, and are settled in the Step 0 team meeting.
+
+## Open (to decide in Step 0)
+
+| # | Question | Options / recommendation | Decision |
+|---|---|---|---|
+| 1 | Main question and sub-questions (PROJECT.md §3) | Approve as drafted, or edit | Approved with topic as the focus (see Decided) |
+| 2 | Tell the supervisor about the change in method? | Recommended: send the short note in PLAN.md, Step 0 | Not required (see Decided) |
+| 3 | Final submission deadline | Unknown; needed for the timeline | Presentation 14–15 Nov 2026; final paper date still to confirm |
+| 4 | Number of cases | 20 / 25 / 30 (recommended: 25) | 24 (see Decided) |
+| 5 | Sacred-objects list; do family and parents count? | Confirm list in PROJECT.md §5 | Yes, family and parents count (see Decided) |
+| 6 | Bundled or non-stand-up cases (`disability_sc_2025`, `tangade_dalit`) | Keep / split / drop | Narrowed to `raina_sma_2025`; `tangade_dalit` dropped |
+| 7 | Who reads which languages (Hindi, Telugu, Tamil, Marathi, other) | List per member | Everyone reads Hindi and English (see Decided) |
+| 8 | Do the optional interviews? Ethics approval needed? | Yes / no | No (see Decided) |
+| 9 | Course AI policy and required disclosure | Check | AI use allowed without limit (see Decided) |
+| 10 | Which parts of the existing pipeline to keep | As in PLAN.md, Folder structure, or edit | As in PLAN.md, Folder structure (see Decided) |
+| 11 | Case owners | Assign after the case list is final | Assigned (see Decided; `analysis/assignments.md`) |
+| 12 | Final case list | Suggested 25 in `analysis/case_pool_summary.md`. Given team languages, do **not** swap in the Bengali/Kannada reserves; if more regional cases are wanted, prefer Telugu reserves (`rafiq_2026`, `aadi_2021`) | Final 24 in `analysis/final_cases.csv` (see Decided) |
+| 13 | Police action against attackers or threateners (not the comedian): counts as "legal"? | Recommended: no; record in the timeline only | No (see Decided) |
+| 14 | Administrative action (demolition, permission refused): legal or separate? | Recommended: legal, sub-label `administrative` | Legal, sub-label `administrative` (see Decided) |
+| 15 | Forced or pressured apologies: extra-legal? | Recommended: yes | Yes (see Decided) |
+| 16 | Tweets and social-media replies: count as comic performances? | Recommended: no, except as reserves | No, except as reserves (see Decided) |
+| 17 | Maximum number of comparison (non-stand-up) cases | Suggested 25 have 4 | 4: parithabangal_2025, jain_univ_2023, kapil_2024, bharti_2022 |
+
+## Decided
+
+| Date | Decision | Reason |
+|---|---|---|
+| 2026-11-03 | Plan proposed: structured comparative case study (PLAN.md) | Revised proposal's computational method did not fit the data and the scope was too large; pending team approval |
+| 2026-11-05 | Havish accepts the plan, except the dark comedy focus | The project studies which **topics** bring comedians under scrutiny; topic is the main comparison and genre (incl. dark comedy) is a recorded secondary variable with no case quota. PROJECT.md §3–5, Steps 2, 6, 8 and the template updated |
+| 2026-11-05 | The original proposal no longer binds the project | Supervisor said the team is free to choose its direction; a note to the supervisor is optional |
+| 2026-11-08 | PLAN.md adopted as the project method: structured comparative case study, general comedy (all genres) with topic as the focus | Team agreed; pipeline parts kept or dropped as in PLAN.md, Folder structure |
+| 2026-11-08 | Previous work reviewed in LITERATURE.md; each part of the method is tied to an earlier study, and borrowed fields added to the case template (performance setting, objector distance, norm invoked, humour function, media frame, complainant and legal basis, winners and losers, comedian's narrative) and to the comment codes (norm invoked, intent attributed) | Supervisor asked us to take inspiration from previous work and show how we use it |
+| 2026-11-08 | Discussion section led by findings, structure in PLAN.md, Step 8; introduction opens with *India's Got Latent* and the Rs 370 biryani case | These two cases motivated the project; theories are used where they explain findings, not as a fixed list |
+| 2026-11-08 | Work moved to branch `project-plan` for the team to review before merging to main | Everyone verifies before the project starts |
+| 2026-11-09 | All 24 case files drafted by AI (status `draft`), with `sources.md`, 139 news articles coded in `news_coding.csv`, and one row per case in `comparison.csv` and `mechanisms.csv`; first-draft `findings.md`. Comment collection and spam audit deferred until Havish and the AI have checked the pipeline together | Havish asked for everything except comments; owners and verifiers now check each draft (Step 5.2, 5.5, 5.6) |
+| 2026-11-09 | Case owners: Havish, Yogansh, Pranav, Siddanth own 6 cases each, grouped by matched pairs and theme; verifiers rotate (Havish→Pranav→Siddanth→Yogansh→Havish), and the verifier also does the blind second coding before reading the draft. Owner and verifier written into every `case.md`; table in `analysis/assignments.md` | Even workload; pairs stay with one owner |
+| 2026-11-09 | `archive/` deleted (both proposals, demo dashboard, thread analysis and test, dashboard exporter); recoverable with `git checkout 32e24f1 -- archive/` | Team decision: keep only what the current plan uses |
+| 2026-11-09 | Repository restructured to PLAN.md, Folder structure: one folder per final case with a pre-filled `case.md` and `sources.md`; analysis tables created (comparison, mechanisms, second coding, findings); earlier proposals, the dashboard and unused scripts moved to `archive/`; merged into `main` | Start the project from a clean layout that matches the plan |
+| 2026-11-09 | News protocol added (PLAN.md, News protocol): five outlet types including Hindi and Telugu press and outlets on each side; search terms and window recorded; 6–10 articles per case coded for framing in `analysis/news_coding.csv` (Entman 1993; Semetko & Valkenburg 2000); wire copy counts once; GDELT coverage timing optional (`src/news.py` back in use) | News is the main evidence for facts and a source of framing data; it needed a protocol as clear as the comment protocol |
+| 2026-11-09 | Spam and coordination audit strengthened and made mandatory before comments are read: copied comments, hashtag pushes and batch-created accounts added; chance (shuffle) check, sensitivity check and human validation added; co-timing time-unit bug fixed (pandas 3 stored microseconds, so the "one minute" window was about 16.7 hours) | Supervisor asked for strong spam detection; methods follow Pacheco et al. 2021, Giglietto et al. 2020, Jakesch et al. 2021, Cresci 2020/2023 |
+| 2026-11-09 | **Final case list: 24 cases** (`analysis/final_cases.csv`): the suggested 25 with no reserves added, minus `banerjee_2024`; `disability_sc_2025` narrowed and renamed `raina_sma_2025`; `tangade_dalit` dropped; 4 comparison (non-stand-up) cases | `banerjee_2024` was kept only if Banerjee proved to be a working comedian; every source describes a Latent contestant and no independent stand-up career was found |
+| 2026-11-09 | All 24 cases to be analysed before the 14–15 Nov presentation, not only three pilots | Team decision |
+| 2026-11-09 | First deliverable: **presentation on 14–15 November 2026** (plan, framework, previous work, early results). Three pilot cases before then: `latent_2025`, `more_2026`, `kamra_2025` | Five days is enough for three fully verified cases, not the whole project; sprint plan in PLAN.md, Timeline |
+| 2026-11-09 | AI use is allowed without limit under the course policy | Disclosure statement kept in the paper for transparency |
+| 2026-11-09 | Coding rules: (13) police action against attackers or threateners is **not** "legal", recorded in the timeline only; (14) administrative action (permission refused, demolition, venue sealed) **is** legal, sub-label `administrative`; (15) forced or pressured apologies **are** extra-legal; (16) tweets and social-media replies are **not** comic performances, except as reserves | Recommendations accepted |
+| 2026-11-09 | Sacred objects include **the family and parents** | Insult to parents was the core of the *India's Got Latent* backlash; Durkheim's sacred covers what a group sets apart and protects |
+| 2026-11-09 | Languages: **everyone reads Hindi and English**. English news coverage is enough for every case; Hindi or regional-language press is optional, used only where it adds a frame English outlets miss. Hindi and Hinglish comments are read by the team directly; Tamil, Marathi and Telugu material with AI translation plus English coverage, noted in the case file | Corrected by Havish; replaces the earlier language entries |
+| 2026-11-09 | (Superseded by the correction above) Team languages: Telugu, Hindi and English. Hindi, Hinglish, Telugu and English material is checked by a team member; other languages (Tamil, Marathi, Kannada, Bengali) are read with AI translation plus English-language coverage, and the case file says so | The only clearly non-team-language case in the suggested 25 is Parithabangal (Tamil); it stays, with this limitation stated. Bengali/Kannada reserves are not added |
+| 2026-11-08 | Cases interpreted with a full toolkit of lenses (scandal, moral panic, strategic offence, mobilisation, law as a weapon, organised online publics, platform outrage, context collapse, stigma, Durkheim, humour theory, identity and power, fandom, apology), using process tracing and rival explanations; template section H becomes "Interpretation" with a verdict per lens | Interpret through whatever helps answer the research question, as earlier comparative case studies do (George & Bennett; Yin; Adut; George; Cohen) |
+| 2026-11-09 | **No interviews** (Step 7 dropped); **no Instagram or Reddit** comments: YouTube comments only. Reddit threads may be read for understanding but are not coded | No time; Instagram comments can only be copied by hand; Reddit's API needs an approved app (the public endpoint returned 403) |
+| 2026-11-09 | **Every case starts from the full original clip.** The owner watches the whole performance (not only the viral seconds), copies the YouTube transcript into `data/transcripts/` (git-ignored) and writes a first read in `analysis/first_read.csv` **before** opening the AI draft; links per case in `analysis/clips.md` | The drafts were written from news only; the AI cannot watch video but can read transcripts; context is the core of the project |
+| 2026-11-09 | **Blind second coding by verifiers dropped** (`second_coding.csv` replaced by `first_read.csv`). The owner's first read is the independent check; the report gives human–AI agreement per judgement. Verifiers only fact-check | A full blind coding of 6 extra cases is not possible in 5 days; the owner's read before the draft keeps an independent human judgement at no extra cost |
+| 2026-11-09 | Findings reframed: "nobody with standing acted" is not an explanation of fizzled cases (it is how the outcome is defined); the question is **why** actors with standing took up some jokes and not others | Avoid a circular headline |

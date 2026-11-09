@@ -9,9 +9,9 @@
 ## How this was built
 
 1. Havish's 23 cases in `data/cases.csv` were fact-checked one by one against news sources.
-2. A search was run for new candidates in the gaps named in README, Part B Appendix B: dark comedy, cases that fizzled
+2. A search was run for new candidates in the gaps named in PLAN.md Appendix B: dark comedy, cases that fizzled
    online, crude and roast cases, regional-language cases, and 2018–2019.
-3. Every candidate was checked against the inclusion criteria in README, Part B Step 2: Indian comedian; at least
+3. Every candidate was checked against the inclusion criteria in PLAN.md Step 2: Indian comedian; at least
    **two independent** sources (reprints of one PTI/ANI wire story count once); controversy between 2018 and 2026;
    enough material for the joke, a timeline and the outcome.
 4. Each was given a recommendation: **include** (25), **reserve** (13) or **exclude** (7).
@@ -170,7 +170,7 @@ a careful check in every case analysis.
 
 ## New rule questions for the team
 
-Copied to README, Part E. These change how several cases are coded, so they must be settled before Step 5.
+Copied to DECISIONS.md. These change how several cases are coded, so they must be settled before Step 5.
 
 1. **Actions against third parties.** When police arrest the people who **threatened or attacked** the comedian
    (Agrima, Pranit More 2025), does that count as "legal action" in the case? Recommendation: no. Code only actions
@@ -186,6 +186,6 @@ Copied to README, Part E. These change how several cases are coded, so they must
 
 ## What happens next
 
-1. **Step 0 team meeting:** go through this summary, README, Part B and README, Part E; decide the list and the rule questions.
+1. **Step 0 team meeting:** go through this summary, PLAN.md and DECISIONS.md; decide the list and the rule questions.
 2. Step 3: freeze the template.
 3. Step 4: pilot case (`latent_2025` is suggested).

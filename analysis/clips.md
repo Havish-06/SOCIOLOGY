@@ -12,7 +12,7 @@ Data API on 2026-11-09; the owner confirms each one is the right video.
    **Toggle timestamps** off → select all the transcript text → copy. Paste it into
    `data/transcripts/<case_id>__<video_id>.txt` (git-ignored) or straight into the chat with the AI.
    No "Show transcript" button (common for Telugu, Tamil and short clips)? Write down the key lines by hand.
-4. Write your **first read** in `analysis/first_read.csv` (README, Part B, Step 5.2): what the joke was, what came
+4. Write your **first read** in `analysis/first_read.csv` (PLAN.md, Step 5.2): what the joke was, what came
    before and after it, how the room reacted (laughter, silence, heckling), how the viral clip was cut, topic,
    direction, what exactly angered people, how it ended.
 5. Only then open `case.md`, compare it with your first read, and fix it.
