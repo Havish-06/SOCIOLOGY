@@ -19,7 +19,7 @@ moral panic, strategic offence, social mobilisation, law as a weapon, organised 
 outrage, context collapse, stigma, Durkheim on the sacred and punishment, humour theory, identity and power,
 fandom, and apology.
 
-The final output is a research paper, about 25 verified case files, a master comparison table, and a findings
+The final output is a research paper, 24 verified case files, a master comparison table, and a findings
 report with a typology of escalation paths.
 
 ---
@@ -186,7 +186,7 @@ to the police, another to a mob, and a third fizzles.
 | Item | Decision |
 |---|---|
 | Design | Structured, focused comparison of cases, with paired comparisons of closely matched cases |
-| Number of cases | About 25 (final number set by the team) |
+| Number of cases | 24 (final list decided 2026-11-09) |
 | Period | Controversies between 2018 and 2026 |
 | Depth | Every case analysed in full with the same template |
 | Comparison | Master comparison table; matched pairs; typology of escalation paths; counter-examples for every pattern |
@@ -208,9 +208,9 @@ online-only, legal, extra-legal and both). Cases that fizzled online are essenti
 makes escalation explainable. Comedians of every audience size are included (small under 100K, mid-range 100K–2M,
 large over 2M YouTube subscribers at the time of the incident).
 
-### Suggested cases
+### The 24 cases
 
-Topic, genre and outcome below are first-pass judgements, to be verified in each case analysis. `*` = comparison
+Final list, decided 2026-11-09 (`analysis/final_cases.csv`). Topic, genre and outcome below are first-pass judgements, to be verified in each case analysis. `*` = comparison
 case (not a stand-up performance). Full pool of 45 candidates with sources: [`analysis/case_pool.csv`](analysis/case_pool.csv).
 
 | # | Case | Comedian | Year | Topic | Genre | Outcome |
@@ -237,9 +237,8 @@ case (not a stand-up performance). Full pool of 45 candidates with sources: [`an
 | 20 | faruqui_2024 | Munawar Faruqui | 2024 | region (Konkani people) | crude | extra-legal |
 | 21 | raina_2026 | Samay Raina / Sharon Verma | 2026 | region (Bihar, Kashmiri Pandits) | roast; dark | online only |
 | 22 | mohanraj_2026 | Aishwarya Mohanraj | 2026 | gender / family | dark | online only |
-| 23 | banerjee_2024 | Bunty Banerjee | 2024 | mental health; RG Kar protests | dark; roast | online only |
-| 24 | kamra_2018 | Kunal Kamra | 2018 | nation / politics | satire | extra-legal |
-| 25 | rangeela_2021 | Shyam Rangeela | 2021 | politics (Modi mimicry) | satire | legal |
+| 23 | kamra_2018 | Kunal Kamra | 2018 | nation / politics | satire | extra-legal |
+| 24 | rangeela_2021 | Shyam Rangeela | 2021 | politics (Modi mimicry) | satire | legal |
 
 **Matched pairs built into the set.**
 
@@ -250,7 +249,7 @@ case (not a stand-up performance). Full pool of 45 candidates with sources: [`an
 | munawar_2021 / faruqui_2024 | Comedian | Religion vs region; jail vs threats |
 | kamra_2018 / kamra_2025 | Comedian, satire | Campus cancellation vs vandalism and FIRs |
 | katikala_2026 / sarat_2026 | Same week, Andhra Pradesh politics | Police route vs mob route |
-| latent_2025 / banerjee_2024 / raina_2026 | Same show | Crude remark → FIRs; dark jokes → fizzled |
+| latent_2025 / raina_2026 | Same show | Crude remark → FIRs; dark jokes → fizzled |
 | virli_2026 / mohanraj_2026 | Same week, gender jokes, both resurfaced | Legal vs online only |
 | shah_2021 / jain_univ_2023 / parithabangal_2025 | Caste | Punching down vs punching up |
 | raina_sma_2025 / shah_2021 | Jokes on disability | Court-led action vs fizzled |
@@ -366,7 +365,7 @@ commissions and courts or fizzled, never to mobs.
 | Output | Description |
 |---|---|
 | **Research paper** | Introduction (opening with *India's Got Latent* and the Rs 370 biryani case); conceptual framework; previous work and how we use it; method; overview of cases; findings by sub-question with matched pairs and the typology; discussion; limitations; conclusion; appendix with a one-page summary of each case |
-| **Case files** | About 25 verified case analyses in `cases/<case_id>/` (`case.md` and `sources.md`) |
+| **Case files** | 24 verified case analyses in `cases/<case_id>/` (`case.md` and `sources.md`) |
 | **Comparison table** | `analysis/comparison.csv` |
 | **Findings report** | `analysis/findings.md`: patterns, matched pairs, typology, counter-examples, agreement report |
 | **Presentation** | Slides summarising the question, method and findings |

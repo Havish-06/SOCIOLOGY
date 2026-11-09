@@ -373,7 +373,7 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
 | 5.6 Verify | Team (not the owner if possible) | Check every fact against sources (Section 8); compare the second coding with the draft; resolve disagreements; record them. | `status: verified` |
 | 5.7 Finalise | Case owner | Fix flagged items, update the master table. | `status: final`, row in `analysis/comparison.csv` |
 
-- **Workload:** with 25 cases and 4 people, about 6 cases each to own and 6 to verify.
+- **Workload:** with 24 cases and 4 people, 6 cases each to own and 6 to verify.
 - **Order:** do matched pairs together (e.g. both Fernandes cases, both More cases, Katikala and Sarat Uday),
   so the comparison is easy to see while writing.
 - **Done when:** every selected case is `final`.
@@ -596,7 +596,7 @@ and early results from three pilot cases. The full project continues afterwards 
 
 **Suggested slides (about 12–15):** the puzzle (*Latent* and the Rs 370 biryani clip); research question and
 sub-questions; key concepts; framework and interpretive toolkit; previous work and the gap; how previous work
-shapes our method; research design and case selection; the 25 cases and matched pairs; the per-case workflow and
+shapes our method; research design and case selection; the 24 cases and matched pairs; the per-case workflow and
 template; verification and reliability; early results from the three pilot cases; what comes next and final outputs;
 limitations.
 

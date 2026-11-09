@@ -10,20 +10,20 @@ Open items come from `PLAN.md` Section 14 and are settled in the Step 0 team mee
 | 1 | Main question and sub-questions (PLAN.md Section 3) | Approve as drafted, or edit | Approved with topic as the focus (see Decided) |
 | 2 | Tell the supervisor about the change in method? | Recommended: send the short note in PLAN.md Step 0 | Not required (see Decided) |
 | 3 | Final submission deadline | Unknown; needed for the timeline | Presentation 14–15 Nov 2026; final paper date still to confirm |
-| 4 | Number of cases | 20 / 25 / 30 (recommended: 25) | |
+| 4 | Number of cases | 20 / 25 / 30 (recommended: 25) | 24 (see Decided) |
 | 5 | Sacred-objects list; do family and parents count? | Confirm list in PLAN.md Section 4 | Yes, family and parents count (see Decided) |
-| 6 | Bundled or non-stand-up cases (`disability_sc_2025`, `tangade_dalit`) | Keep / split / drop | |
+| 6 | Bundled or non-stand-up cases (`disability_sc_2025`, `tangade_dalit`) | Keep / split / drop | Narrowed to `raina_sma_2025`; `tangade_dalit` dropped |
 | 7 | Who reads which languages (Hindi, Telugu, Tamil, Marathi, other) | List per member | Team reads Telugu, Hindi, English (see Decided); per-member list still useful for assigning cases |
 | 8 | Do the optional interviews? Ethics approval needed? | Yes / no | |
 | 9 | Course AI policy and required disclosure | Check | AI use allowed without limit (see Decided) |
 | 10 | Which parts of the existing pipeline to keep | As in PLAN.md Section 12, or edit | As in Section 12 (see Decided) |
 | 11 | Case owners | Assign after the case list is final | |
-| 12 | Final case list | Suggested 25 in `analysis/case_pool_summary.md`. Given team languages, do **not** swap in the Bengali/Kannada reserves; if more regional cases are wanted, prefer Telugu reserves (`rafiq_2026`, `aadi_2021`) | |
+| 12 | Final case list | Suggested 25 in `analysis/case_pool_summary.md`. Given team languages, do **not** swap in the Bengali/Kannada reserves; if more regional cases are wanted, prefer Telugu reserves (`rafiq_2026`, `aadi_2021`) | Final 24 in `analysis/final_cases.csv` (see Decided) |
 | 13 | Police action against attackers or threateners (not the comedian): counts as "legal"? | Recommended: no; record in the timeline only | No (see Decided) |
 | 14 | Administrative action (demolition, permission refused): legal or separate? | Recommended: legal, sub-label `administrative` | Legal, sub-label `administrative` (see Decided) |
 | 15 | Forced or pressured apologies: extra-legal? | Recommended: yes | Yes (see Decided) |
 | 16 | Tweets and social-media replies: count as comic performances? | Recommended: no, except as reserves | No, except as reserves (see Decided) |
-| 17 | Maximum number of comparison (non-stand-up) cases | Suggested 25 have 4 | |
+| 17 | Maximum number of comparison (non-stand-up) cases | Suggested 25 have 4 | 4: parithabangal_2025, jain_univ_2023, kapil_2024, bharti_2022 |
 
 ## Decided
 
@@ -36,6 +36,8 @@ Open items come from `PLAN.md` Section 14 and are settled in the Step 0 team mee
 | 2026-11-08 | Previous work reviewed in `LITERATURE.md`; each part of the method is tied to an earlier study, and borrowed fields added to the case template (performance setting, objector distance, norm invoked, humour function, media frame, complainant and legal basis, winners and losers, comedian's narrative) and to the comment codes (norm invoked, intent attributed) | Supervisor asked us to take inspiration from previous work and show how we use it |
 | 2026-11-08 | Discussion section led by findings, structure in PLAN.md Step 8; introduction opens with *India's Got Latent* and the Rs 370 biryani case | These two cases motivated the project; theories are used where they explain findings, not as a fixed list |
 | 2026-11-08 | Work moved to branch `project-plan` for the team to review before merging to main | Everyone verifies before the project starts |
+| 2026-11-09 | **Final case list: 24 cases** (`analysis/final_cases.csv`): the suggested 25 with no reserves added, minus `banerjee_2024`; `disability_sc_2025` narrowed and renamed `raina_sma_2025`; `tangade_dalit` dropped; 4 comparison (non-stand-up) cases | `banerjee_2024` was kept only if Banerjee proved to be a working comedian; every source describes a Latent contestant and no independent stand-up career was found |
+| 2026-11-09 | All 24 cases to be analysed before the 14–15 Nov presentation, not only three pilots | Team decision |
 | 2026-11-09 | First deliverable: **presentation on 14–15 November 2026** (plan, framework, previous work, early results). Three pilot cases before then: `latent_2025`, `more_2026`, `kamra_2025` | Five days is enough for three fully verified cases, not the whole project; sprint plan in PLAN.md Section 15 |
 | 2026-11-09 | AI use is allowed without limit under the course policy | Disclosure statement kept in the paper for transparency |
 | 2026-11-09 | Coding rules: (13) police action against attackers or threateners is **not** "legal", recorded in the timeline only; (14) administrative action (permission refused, demolition, venue sealed) **is** legal, sub-label `administrative`; (15) forced or pressured apologies **are** extra-legal; (16) tweets and social-media replies are **not** comic performances, except as reserves | Recommendations accepted |

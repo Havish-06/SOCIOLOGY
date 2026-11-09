@@ -1,5 +1,7 @@
 # Case Pool: Step 2 Results — Team K
 
+**Final list (decided 2026-11-09): the 24 cases marked `final = yes` in `case_pool.csv`, also in [`final_cases.csv`](final_cases.csv).** The suggested 25 below, minus `banerjee_2024` (not a working comedian); `disability_sc_2025` is renamed `raina_sma_2025`.
+
 **Date:** 2026-11-04
 **Status:** draft for the Step 0 team meeting. Recommendations only; the team makes the final choice.
 **Full data:** [`case_pool.csv`](case_pool.csv), one row per candidate (45 rows), with sources, coding, criteria check and recommendation.
@@ -48,14 +50,13 @@ could not be opened and were judged from search snippets (noted in the CSV).
 | 20 | faruqui_2024 | Munawar Faruqui | 2024 | region (Konkani people) | crude | extra-legal |
 | 21 | raina_2026 | Samay Raina / Sharon Verma | 2026 | region (Bihar, Kashmiri Pandits) | roast; dark | online only |
 | 22 | mohanraj_2026 | Aishwarya Mohanraj (Comicstaan clip) | 2026 | gender / family | dark | online only |
-| 23 | banerjee_2024 | Bunty Banerjee (as a Latent contestant; check that he is a working comedian, otherwise exclude like nabam_2025) | 2024 | mental health; RG Kar protests | dark; roast | online only |
 | 24 | kamra_2018 | Kunal Kamra | 2018 | nation / politics | satire | extra-legal |
 | 25 | rangeela_2021 | Shyam Rangeela | 2021 | politics (Modi mimicry) | satire | legal |
 
 Row 17 replaces `disability_sc_2025`. That row bundled five comedians, but only Raina's SMA joke is documented
 anywhere, so the case is narrowed to it.
 
-### Balance of the 25
+### Balance of the final 24
 
 By topic (main comparison; each case placed under its main topic):
 
@@ -67,11 +68,11 @@ By topic (main comparison; each case placed under its main topic):
 | Caste | 1 | 1 | 0 | 1 | 3 |
 | Region and regional icons | 1 | 0 | 1 | 1 | 3 |
 | Nation and national trauma | 0 | 1 | 0 | 1 | 2 |
-| Disability and mental health | 1 | 1 | 0 | 0 | 2 |
+| Disability | 0 | 1 | 0 | 0 | 1 |
 | Celebrity and looks | 1 | 0 | 1 | 0 | 2 |
-| **total** | 6 | 7 | 4 | 8 | 25 |
+| **total** | 5 | 7 | 4 | 8 | 24 |
 
-Genre counts (a case can have more than one): dark 11 (including Munawar, alleged), satire 10, crude 6, roast 6, observational 2.
+Genre counts (a case can have more than one): dark 10 (including Munawar, alleged), satire 10, crude 6, roast 5, observational 2.
 
 **Early patterns to test, not findings.** On this first-pass coding, **no politics or religion case stayed
 online only**, and politics is the only topic where extra-legal action is common. **Gender and sexuality cases
@@ -89,7 +90,7 @@ comedy case ended in extra-legal action only. This bears on SQ1 and the Durkheim
 | munawar_2021 / faruqui_2024 | Comedian | Religion (alleged) vs region; jail vs threats |
 | kamra_2018 / kamra_2025 | Comedian, satire | Campus cancellation vs vandalism plus FIRs |
 | katikala_2026 / sarat_2026 | Same week, Andhra politics | State route vs mob route |
-| latent_2025 / banerjee_2024 / raina_2026 | Same show | Crude joke → FIRs; dark jokes → fizzled |
+| latent_2025 / raina_2026 | Same show | Crude joke → FIRs; dark jokes → fizzled |
 | virli_2026 / mohanraj_2026 | Same week, dark gender jokes, both resurfaced | Legal vs online only |
 | shah_2021 / jain_univ_2023 / parithabangal_2025 | Caste | Punching down (fizzled / arrests) vs punching up (complaints, threats) |
 | raina_sma_2025 / shah_2021 | Dark jokes on disability | Court-led action vs fizzled |
@@ -118,7 +119,7 @@ These can replace an included case, or be added if the team wants up to 30.
 **Regional gap.** The 25 are weak on Bengal and Karnataka. To fix this, swap in `roy_2020` + `abhishek_2024` (a
 Tagore pair) and/or `khiladigalu_2025`. All of them are comparison cases rather than stand-up.
 
-## Excluded (7)
+## Excluded (8)
 
 | case_id | Reason |
 |---|---|
@@ -126,6 +127,7 @@ Tagore pair) and/or `khiladigalu_2025`. All of them are comparison cases rather 
 | gaur_2021, mathew_2021 | Old tweets, not comic performances |
 | tangade_dalit | No single dated incident, only an ongoing pattern of trolling |
 | nabam_2025 | Contestant on Latent, not a comedian |
+| banerjee_2024 | Contestant on Latent; no independent stand-up career found (checked 2026-11-09) |
 | bassi_2023 | Supreme Court petition, but no specific joke reported |
 | yakshagana_2019 | Performer unnamed, outcome unknown |
 

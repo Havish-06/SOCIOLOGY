@@ -3,7 +3,7 @@
 **Question.** Which topics bring Indian stand-up comedians under public scrutiny, and when a joke becomes a
 controversy, why does it end so differently: online criticism only, legal action, extra-legal action, or both?
 
-**Method.** A structured, focused comparison (George & Bennett, 2005) of about 25 controversies from 2018–2026.
+**Method.** A structured, focused comparison (George & Bennett, 2005) of 24 controversies from 2018–2026.
 Every case is analysed with the same template, using news, legal records, YouTube and Instagram comments and the
 comedian's own statements, and then all cases are compared side by side. **Topic** is the main comparison; genre
 (dark comedy, satire, crude, roast) is recorded for every joke as a secondary variable. Comedians of every audience
@@ -22,7 +22,7 @@ controversies that led us to this topic; *Latent* is the suggested pilot case.
 | [PLAN.md](PLAN.md) | **The project plan (adopted).** Question, framework, method, every step, roles, verification rules, limitations, timeline |
 | [DECISIONS.md](DECISIONS.md) | Dated log of team decisions, plus the questions still open for the team meeting |
 | [LITERATURE.md](LITERATURE.md) | Previous work in humour studies and comedy controversies, and **how each study shapes our method** |
-| [analysis/case_pool_summary.md](analysis/case_pool_summary.md) | The suggested 25 cases, reserves and exclusions, balance by topic × outcome, matched pairs |
+| [analysis/case_pool_summary.md](analysis/case_pool_summary.md) | The final 24 cases, reserves and exclusions, balance by topic × outcome, matched pairs |
 | [analysis/case_pool.csv](analysis/case_pool.csv) | All 45 candidate cases with sources, first-pass coding and recommendation |
 | [cases/_template.md](cases/_template.md) | The case template every case file follows |
 | [CODEBOOK.md](CODEBOOK.md) | Definitions and decision rules for every joke and comment label, with their sources |
@@ -50,7 +50,7 @@ method and deliverables are replaced by PLAN.md) and the original proposal `Soci
 ## Final output
 
 - The final paper (structure in PLAN.md Step 8)
-- About 25 verified case files in `cases/<case_id>/`
+- 24 verified case files in `cases/<case_id>/`
 - `analysis/comparison.csv` (master comparison table) and `analysis/findings.md` (patterns, matched pairs,
   typology of escalation paths, counter-examples, agreement report)
 - Presentation slides; optional interview summaries; optional dashboard rebuilt from the comparison table
