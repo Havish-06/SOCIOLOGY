@@ -271,6 +271,17 @@ case (not a stand-up performance). Full pool of 45 candidates with sources: [`an
 
 X/Twitter is not used (no free API).
 
+**News articles** do two jobs: evidence of what happened (every important fact needs two independent sources;
+wire copy counts once) and data on how the controversy was framed. For each case, 6–10 articles are coded for
+framing, drawn from at least three outlet types: national English dailies, digital-native outlets,
+regional-language press in the team's languages (Hindi, Telugu), legal news (LiveLaw, Bar & Bench), and outlets
+with an explicit editorial stance on each side. Each coded article records its dominant frame (e.g. hurt
+sentiments, obscenity, free speech, legal overreach), its generic frame (conflict, responsibility, morality, human
+interest, economic; Semetko & Valkenburg, 2000), whether the joke is quoted or only characterised, whether the
+comedian is labelled, whether claims are attributed or stated as fact, and whose voices are quoted (Entman, 1993;
+Ödmark, 2021). Optionally, daily GDELT counts show whether national news coverage came before or after the online
+outrage.
+
 ---
 
 ## 9. How each case is analysed
@@ -513,7 +524,7 @@ biryani case (`more_2026`) and Kunal Kamra 2025 (`kamra_2025`). The full project
 | [`cases/_template.md`](cases/_template.md) | The case template |
 | [`analysis/`](analysis/) | Case pool, comparison table and findings |
 | [`data/`](data/) | Case, event and video tables |
-| `src/` | `collect.py` (comments), `spam.py` (copy-paste check), `sample.py` (coding sheets and agreement) |
+| `src/` | `collect.py` (comments), `spam.py` (spam and coordination audit), `sample.py` (coding sheets and agreement), `news.py` (optional news-coverage timing) |
 
 ---
 
@@ -539,6 +550,7 @@ Davis, J. L., & Jurgenson, N. (2014). Context collapse: Theorizing context collu
 Douglas, M. (1968). The social control of cognition: Some factors in joke perception. *Man*, 3(3), 361–376.
 Durkheim, É. (1893/1984). *The division of labour in society*. Macmillan.
 Durkheim, É. (1912/1995). *The elementary forms of religious life*. Free Press.
+Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. *Journal of Communication*, 43(4), 51–58.
 Erikson, K. T. (1966). *Wayward Puritans: A study in the sociology of deviance*. Wiley.
 Feeley, M. M. (1979). *The process is the punishment: Handling cases in a lower criminal court*. Russell Sage Foundation.
 Friedman, S. (2014). *Comedy and distinction: The cultural currency of a 'good' sense of humour*. Routledge.
@@ -567,6 +579,7 @@ Nicolaï, J., & Maeseele, P. (2024). Stand-up in the age of outrage. *European J
 Ödmark, S. (2021). De-contextualisation fuels controversy: The double-edged sword of humour in a hybrid media environment. *European Journal of Humour Research*, 9(3), 49–64.
 Rost, K., Stahel, L., & Frey, B. S. (2016). Digital social norm enforcement: Online firestorms in social media. *PLoS ONE*, 11(6), e0155923.
 Schauer, F. (1978). Fear, risk and the First Amendment: Unraveling the chilling effect. *Boston University Law Review*, 58, 685–732.
+Semetko, H. A., & Valkenburg, P. M. (2000). Framing European politics: A content analysis of press and television news. *Journal of Communication*, 50(2), 93–109.
 Shivaprasad, M. (2020). Humour and the margins: Stand-up comedy and caste in India. *IAFOR Journal of Media, Communication & Film*, 7(1).
 Sil, R., & Katzenstein, P. J. (2010). *Beyond paradigms: Analytic eclecticism in the study of world politics*. Palgrave Macmillan.
 Smith, D. R. (2018). *Comedy and critique: Stand-up comedy and the professional ethos of laughter*. Bristol University Press.

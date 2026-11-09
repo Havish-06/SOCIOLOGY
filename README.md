@@ -74,13 +74,15 @@ copy .env.example .env            # then paste your own YouTube Data API key and
 | Spam and coordination audit (with chance check; add `--sensitivity`) | `python -m src.spam --comments data/raw/comments.csv --channels data/raw/channels.csv` | Every case, before reading comments |
 | Check the spam flags against hand-coding | `python -m src.spam --validate data/coding/coded.csv --flagged data/processed/comments_flagged.csv` | After coding |
 | Coding sheet and agreement (Cohen's kappa) | `python -m src.sample sheet ...` / `python -m src.sample kappa --a A.csv --b B.csv` | Steps 5.5 and 6 |
+| News-coverage timing from GDELT (optional) | `python -m src.news --comments data/processed/comments_flagged.csv` | Did news start before or after the outrage? |
+| Tests | `python -m pytest -q` | Check the spam audit and coding tools still work |
 
-Not used in the current plan (kept in the repository): `src/threads.py`, `src/news.py`,
-`src/export_dashboard.py`, `dashboard/` (demo numbers only) and `tests/`. See PLAN.md Section 12.
+Not used in the current plan (kept in the repository): `src/threads.py`, `src/export_dashboard.py` and
+`dashboard/` (demo numbers only). See PLAN.md Section 12.
 
 **Platforms.** YouTube Data API v3 is free (10,000 units/day). Instagram comments are copied by hand (no scraping).
-X/Twitter has no free API (about US$0.005 per post read) and is not used. Google Trends and GDELT are not part of
-the current plan.
+X/Twitter has no free API (about US$0.005 per post read) and is not used. News articles are collected and coded
+by the news protocol (PLAN.md Section 6) into `analysis/news_coding.csv`; GDELT is optional, Google Trends is not used.
 
 ## Ethics
 

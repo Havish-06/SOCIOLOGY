@@ -57,7 +57,9 @@ police, court, commission, platform, venue, media.
   for the original audience: identification | clarification | enforcement | differentiation
   as framed by the objectors: identification | clarification | enforcement | differentiation
 - Who defended the comedian:
-- How the media framed it (compare two or three outlets; Ödmark 2021 framing analysis):
+- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
+  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
+  - who broke the story, and how the framing changed between the first week and the legal phase:
   dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
 - Comments (Section 10 of PLAN.md):
   - videos / reels read, with type and collection date:
@@ -119,6 +121,7 @@ Never assume a lens fits; record where it fails.
 - What this case adds to the overall comparison
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, title, date published, URL, date accessed, independent of which others.
+Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
+others (wire copy counts once). Record the search terms and date of each search.
 Unresolved disputes:
 Open questions about this case:

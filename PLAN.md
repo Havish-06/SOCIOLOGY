@@ -228,6 +228,54 @@ controversies.
 exist, and it can read screenshots. Where the exact wording of a joke matters, a team member watches the
 clip and writes down what was said.
 
+### News protocol
+
+News articles do two jobs, and we keep them apart:
+1. **Evidence of what happened** (dates, who complained, FIR sections, arrests, threats, apologies). Facts need
+   two independent sources (Section 8).
+2. **Data on how the controversy was framed.** How outlets described the joke and the comedian is itself a
+   finding (Entman, 1993; Semetko & Valkenburg, 2000; Ödmark, 2021), so framing is coded, not adopted.
+
+**Which outlets.** For every case, search across five types so that no single kind of outlet sets the story:
+
+| Type | Examples |
+|---|---|
+| National English dailies and TV sites | The Hindu, The Indian Express, Hindustan Times, The Times of India, NDTV |
+| Digital-native outlets | Scroll, The Print, The News Minute, The Wire, Newslaundry, The Quint |
+| Regional-language press (team languages) | Hindi: Dainik Bhaskar, Amar Ujala, Dainik Jagran; Telugu: Eenadu, Sakshi, Andhra Jyothy |
+| Legal news | LiveLaw, Bar & Bench (FIRs, court orders) |
+| Outlets with an explicit editorial stance | At least one outlet from each side of the political debate where the case was covered, to see opposing frames |
+
+**How to search.** Comedian's name plus the controversy keywords (e.g. "Samay Raina parents joke", "Kunal Kamra
+Shinde FIR"), in English and, where relevant, Hindi or Telugu; window from one week before the first complaint to
+three months after the last legal step; Google News and each outlet's own search. Record the search terms and
+date of search in `sources.md`.
+
+**How many.** For framing, code **6–10 articles per case**, covering at least three outlet types and both the
+first days and the later legal phase. All articles used for facts are listed in `sources.md` whether or not they
+are coded for framing.
+
+**Independence.** Wire copy (PTI, ANI, IANS) reprinted by several outlets counts as **one** source. An article that
+only repeats another outlet's report counts as that outlet.
+
+**What to code for each framing article** (`analysis/news_coding.csv`, one row per article):
+
+| Field | Values |
+|---|---|
+| case_id, outlet, outlet_type, date, headline, url | |
+| phase | first_week · legal_phase · aftermath |
+| dominant_frame | hurt_sentiments · obscenity · insult_to_leader · free_speech · cancel_culture · legal_overreach · comedy_standards · other (Entman: what problem, whose fault, what remedy) |
+| generic_frame | conflict · responsibility · morality · human_interest · economic (Semetko & Valkenburg, 2000) |
+| joke_described_as | quoted verbatim · paraphrased neutrally · characterised ("obscene", "insulted gods") |
+| comedian_labelled | none · deviant label (quote it) |
+| attribution | claims attributed ("allegedly", "according to the complaint") · stated as fact |
+| voices_quoted | complainant · politician · police · lawyer/court · comedian · other comedians · experts · public |
+| first_to_report | yes · no (does this outlet appear to have broken the story?) |
+
+**Coverage timing (optional).** `src/news.py` can count daily online news articles per case from GDELT to see
+whether news coverage started before or after the online outrage and the complaint. GDELT under-covers
+regional-language outlets, so treat it as national English attention only.
+
 ---
 
 ## 7. Who does what: AI and humans
@@ -580,8 +628,9 @@ Case IDs follow the existing pattern `<comedian>_<year>` (e.g. `kamra_2025`).
 | `src/collect.py` | **Keep, use** | Downloads YouTube comments |
 | `src/sample.py` | **Keep** | Its `kappa` command can report agreement in Step 6 |
 | `src/spam.py` | **Optional** | Quick copy-paste check only |
-| `src/threads.py`, `src/news.py`, `src/export_dashboard.py` | **Not used** | Belonged to the statistical design |
-| `tests/` | **Not used** | Tests the unused pipeline on fake data |
+| `src/threads.py`, `src/export_dashboard.py` | **Not used** | Belonged to the statistical design |
+| `src/news.py` | **Optional** | GDELT coverage timing per case (Section 6, news protocol) |
+| `tests/` | **Use** | Tests the spam audit and coding tools on synthetic data |
 | `dashboard/` | **Not used now** | Shows fake numbers; may be rebuilt as an optional bonus at the end |
 | `.agent/` | **Unrelated** | Settings for an AI design tool; untracked, not part of the project |
 
@@ -729,7 +778,9 @@ police, court, commission, platform, venue, media.
   for the original audience: identification | clarification | enforcement | differentiation
   as framed by the objectors: identification | clarification | enforcement | differentiation
 - Who defended the comedian:
-- How the media framed it (compare two or three outlets; Ödmark 2021 framing analysis):
+- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
+  PLAN.md Section 6, news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
+  - who broke the story, and how the framing changed between the first week and the legal phase:
   dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other
 - Comments (Section 10 of PLAN.md):
   - videos / reels read, with type and collection date:
@@ -791,7 +842,8 @@ Never assume a lens fits; record where it fails.
 - What this case adds to the overall comparison
 
 ## J. Sources and confidence
-Numbered list in `sources.md`: outlet, title, date published, URL, date accessed, independent of which others.
+Numbered list in `sources.md`: outlet, outlet type, title, date published, URL, date accessed, independent of which
+others (wire copy counts once). Record the search terms and date of each search.
 Unresolved disputes:
 Open questions about this case:
 ```
