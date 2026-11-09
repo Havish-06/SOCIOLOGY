@@ -68,11 +68,12 @@ police, court, commission, platform, venue, media.
 
 ## F. Outcome
 - Outcome type: online_only | legal | extralegal | both
-- Legal actions (complaint, FIR with sections, arrest, summons, court orders):
+- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
+  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
   - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
   - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
     obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault):
+- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
 - Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
 - Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
 - How it ended:

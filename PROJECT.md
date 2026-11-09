@@ -67,12 +67,12 @@ with each outcome.
 | **Genre** | Comic style, recorded for every joke as a secondary variable: dark comedy, satire (Juvenalian or Horatian), crude/shock, roast, gallows humour, observational |
 | **Dark comedy** | A grave subject (death, violence, suffering, disease, disability, the sacred, a stigmatised position) **and** the laugh comes from that gravity (Willinger et al., 2017) |
 | **Direction** | Punching up (the target has more power than the comedian) or down (less), judged against local hierarchies: caste, majority and minority religion, state power |
-| **Outcome type** | **Online only**; **legal** (complaint, FIR, arrest, summons, court case, commission action, legal notice); **extra-legal** (threats, vandalism, disruption, forced cancellation, assault, forced apology by non-state actors); **both** |
+| **Outcome type** | **Online only**; **legal** (action against the comedian by the state or a statutory body: complaint, FIR, arrest, summons, court case, commission action, legal notice, or administrative action such as a refused permission or sealed venue; police action against the comedian's attackers does not count); **extra-legal** (threats, vandalism, disruption, forced cancellation, assault, forced or pressured apology by non-state actors); **both** |
 | **Context, four layers** | *Performance* (where, to whom, language, format); *circulation* (who moved the clip, when, with what caption); *reception* (who reacted and how they framed it); *societal* (elections, recent events, other controversies) |
 | **Collusion / collision** | The comedian deliberately puts material before wider audiences (collusion), or audiences are merged without the comedian's involvement, e.g. a third party resurfaces an old clip with a hostile caption (collision) (Davis & Jurgenson, 2014) |
 | **Stigma ladder** | 1 labelling and stereotyping → 2 separation (boycott calls) → 3 status loss (cancelled shows, lost venues) → 4 discrimination (bans, arrests, violence) (adapted from Link & Phelan, 2001) |
 | **Courtesy stigma** | Stigma that spreads to venues, organisers and co-performers (Goffman, 1963) |
-| **Sacred object** | What a group sets apart and protects (Durkheim). Fixed in advance to avoid circular reasoning: deities and religious symbols; religious founders and texts; regional icons such as Shivaji; Ambedkar; the nation, army, martyrs and flag; possibly the family and parents (team decision) |
+| **Sacred object** | What a group sets apart and protects (Durkheim). Fixed in advance to avoid circular reasoning: deities and religious symbols; religious founders and texts; regional icons such as Shivaji; Ambedkar; the nation, army, martyrs and flag; the family and parents |
 
 ---
 
@@ -398,7 +398,8 @@ effect of clipping and platforms.
 
 **Disclosure in the paper:** "AI tools were used to gather sources, collect public comments and draft case
 analyses. Every factual claim was verified by a team member against at least two independent sources, and all
-interpretive conclusions were reviewed and agreed by the team."
+interpretive conclusions were reviewed and agreed by the team." The course allows unlimited AI use; the statement is
+included for transparency.
 
 ---
 
@@ -426,7 +427,7 @@ interpretive conclusions were reviewed and agreed by the team."
 | **Subjective judgements:** genre, direction, collapse type | Written definitions; blind second coding; agreement reported |
 | **Circular coding of the sacred** | Sacred-objects list fixed before outcomes are compared |
 | **AI errors** | Every fact verified by a team member; AI use disclosed |
-| **Languages:** Hindi, Hinglish, Marathi, Telugu, Tamil and others | Themes checked by a team member who reads the language where possible |
+| **Languages:** material is in Hindi, Hinglish, Marathi, Telugu, Tamil and others; the team reads Telugu, Hindi and English | Team members check Hindi, Hinglish, Telugu and English; other languages are read with AI translation plus English coverage, and the case file says so |
 | **Audience size is a weak proxy for fame** | Subscribers at the time of the incident plus a note on TV and streaming fame |
 | **Not representative of public opinion** | Comments and interviews never presented as what India thinks |
 

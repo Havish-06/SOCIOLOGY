@@ -11,18 +11,18 @@ Open items come from `PLAN.md` Section 14 and are settled in the Step 0 team mee
 | 2 | Tell the supervisor about the change in method? | Recommended: send the short note in PLAN.md Step 0 | Not required (see Decided) |
 | 3 | Final submission deadline | Unknown; needed for the timeline | |
 | 4 | Number of cases | 20 / 25 / 30 (recommended: 25) | |
-| 5 | Sacred-objects list; do family and parents count? | Confirm list in PLAN.md Section 4 | |
+| 5 | Sacred-objects list; do family and parents count? | Confirm list in PLAN.md Section 4 | Yes, family and parents count (see Decided) |
 | 6 | Bundled or non-stand-up cases (`disability_sc_2025`, `tangade_dalit`) | Keep / split / drop | |
-| 7 | Who reads which languages (Hindi, Telugu, Tamil, Marathi, other) | List per member | |
+| 7 | Who reads which languages (Hindi, Telugu, Tamil, Marathi, other) | List per member | Team reads Telugu, Hindi, English (see Decided); per-member list still useful for assigning cases |
 | 8 | Do the optional interviews? Ethics approval needed? | Yes / no | |
-| 9 | Course AI policy and required disclosure | Check | |
+| 9 | Course AI policy and required disclosure | Check | AI use allowed without limit (see Decided) |
 | 10 | Which parts of the existing pipeline to keep | As in PLAN.md Section 12, or edit | As in Section 12 (see Decided) |
 | 11 | Case owners | Assign after the case list is final | |
-| 12 | Final case list | Suggested 25 in `analysis/case_pool_summary.md`; swap in reserves for regional coverage? | |
-| 13 | Police action against attackers or threateners (not the comedian): counts as "legal"? | Recommended: no; record in the timeline only | |
-| 14 | Administrative action (demolition, permission refused): legal or separate? | Recommended: legal, sub-label `administrative` | |
-| 15 | Forced or pressured apologies: extra-legal? | Recommended: yes | |
-| 16 | Tweets and social-media replies: count as comic performances? | Recommended: no, except as reserves | |
+| 12 | Final case list | Suggested 25 in `analysis/case_pool_summary.md`. Given team languages, do **not** swap in the Bengali/Kannada reserves; if more regional cases are wanted, prefer Telugu reserves (`rafiq_2026`, `aadi_2021`) | |
+| 13 | Police action against attackers or threateners (not the comedian): counts as "legal"? | Recommended: no; record in the timeline only | No (see Decided) |
+| 14 | Administrative action (demolition, permission refused): legal or separate? | Recommended: legal, sub-label `administrative` | Legal, sub-label `administrative` (see Decided) |
+| 15 | Forced or pressured apologies: extra-legal? | Recommended: yes | Yes (see Decided) |
+| 16 | Tweets and social-media replies: count as comic performances? | Recommended: no, except as reserves | No, except as reserves (see Decided) |
 | 17 | Maximum number of comparison (non-stand-up) cases | Suggested 25 have 4 | |
 
 ## Decided
@@ -36,4 +36,8 @@ Open items come from `PLAN.md` Section 14 and are settled in the Step 0 team mee
 | 2026-11-08 | Previous work reviewed in `LITERATURE.md`; each part of the method is tied to an earlier study, and borrowed fields added to the case template (performance setting, objector distance, norm invoked, humour function, media frame, complainant and legal basis, winners and losers, comedian's narrative) and to the comment codes (norm invoked, intent attributed) | Supervisor asked us to take inspiration from previous work and show how we use it |
 | 2026-11-08 | Discussion section led by findings, structure in PLAN.md Step 8; introduction opens with *India's Got Latent* and the Rs 370 biryani case | These two cases motivated the project; theories are used where they explain findings, not as a fixed list |
 | 2026-11-08 | Work moved to branch `project-plan` for the team to review before merging to main | Everyone verifies before the project starts |
+| 2026-11-09 | AI use is allowed without limit under the course policy | Disclosure statement kept in the paper for transparency |
+| 2026-11-09 | Coding rules: (13) police action against attackers or threateners is **not** "legal", recorded in the timeline only; (14) administrative action (permission refused, demolition, venue sealed) **is** legal, sub-label `administrative`; (15) forced or pressured apologies **are** extra-legal; (16) tweets and social-media replies are **not** comic performances, except as reserves | Recommendations accepted |
+| 2026-11-09 | Sacred objects include **the family and parents** | Insult to parents was the core of the *India's Got Latent* backlash; Durkheim's sacred covers what a group sets apart and protects |
+| 2026-11-09 | Team languages: Telugu, Hindi and English. Hindi, Hinglish, Telugu and English material is checked by a team member; other languages (Tamil, Marathi, Kannada, Bengali) are read with AI translation plus English-language coverage, and the case file says so | The only clearly non-team-language case in the suggested 25 is Parithabangal (Tamil); it stays, with this limitation stated. Bengali/Kannada reserves are not added |
 | 2026-11-08 | Cases interpreted with a full toolkit of lenses (scandal, moral panic, strategic offence, mobilisation, law as a weapon, organised online publics, platform outrage, context collapse, stigma, Durkheim, humour theory, identity and power, fandom, apology), using process tracing and rival explanations; template section H becomes "Interpretation" with a verdict per lens | Interpret through whatever helps answer the research question, as earlier comparative case studies do (George & Bennett; Yin; Adut; George; Cohen) |

@@ -145,7 +145,7 @@ context are analysed together.
 
 **Sacred objects, fixed in advance** (to avoid circular reasoning, see L7): deities and religious symbols;
 religious founders and texts; regional icons (e.g. Shivaji); Ambedkar; the nation, army, martyrs and flag;
-the family and parents (a candidate, to be decided in Step 0). This list is set before outcomes are compared
+the family and parents (decided 2026-11-09). This list is set before outcomes are compared
 and is changed only by recorded team decision.
 
 ### Interpretive toolkit
@@ -248,7 +248,7 @@ clip and writes down what was said.
 **Disclosure.** The final paper's methodology will state: *"AI tools were used to gather sources, collect
 public comments and draft case analyses. Every factual claim was verified by a team member against at least
 two independent sources, and all interpretive conclusions were reviewed and agreed by the team."*
-Check the course's AI policy before submission.
+The course allows unlimited AI use; the disclosure is kept for transparency.
 
 ---
 
@@ -285,7 +285,6 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
   2. Meeting (about 1 hour). Decide:
      - approve or edit the main question and sub-questions (Section 3)
      - confirm the target number of cases (20–30)
-     - confirm the sacred-objects list (Section 4), especially whether "family and parents" counts
      - who owns which cases (Step 5)
      - whether to do the optional interviews (Step 7)
      - whether to send the supervisor a short update (optional; see the note below)
@@ -556,7 +555,7 @@ These go into the final paper's limitations section. Each lists what we do about
 | L8 | **Subjective judgements** | Genre, direction ("punching up/down") and collapse type involve interpretation | Written definitions (Appendix C); blind second coding; agreement reported |
 | L9 | **AI errors** | The AI assistant can misread sources, mix up details or state something no source supports | Every fact verified by a team member against its sources (Section 8); AI use disclosed |
 | L10 | **The AI cannot watch video** | Tone, delivery and audience laughter cannot be judged by the AI | A team member watches each available clip and transcribes the joke |
-| L11 | **Languages** | Comments and clips are in Hindi, Hinglish, Marathi, Telugu, Tamil and others | AI can read most of these but may miss nuance or slang; a team member who reads the language checks themes where possible; state which cases lacked such a check |
+| L11 | **Languages** | Comments and clips are in Hindi, Hinglish, Marathi, Telugu, Tamil and others; the team reads Telugu, Hindi and English | Team members check Hindi, Hinglish, Telugu and English material; Tamil, Marathi and other material is read with AI translation plus English coverage, and each case file states which material lacked a native-reader check |
 | L12 | **Audience size is a weak proxy for fame** | YouTube subscribers understate TV and streaming stars (Kapil Sharma, Vir Das, Munawar Faruqui after Bigg Boss) | Use subscriber counts at the time of the incident (Social Blade), and add a note on other fame |
 | L13 | **Mixed case types** | Some cases are not stand-up (TV, sketch, college skit) or bundle several comedians | Mark them as comparison cases; decide in Step 2 whether to split or drop bundled cases |
 | L14 | **Not representative of opinion** | Comments, Reddit and interviews do not represent Indian public opinion | Never present them as such; original RQ3 (representativeness) is dropped |
@@ -571,11 +570,11 @@ To be settled in Step 0 or as noted.
 2. ~~Does the supervisor need to approve the change in method?~~ Settled: no. The original proposal no longer binds us; a short update is optional.
 3. **Deadline.** The final submission date is not recorded in the repository. Fill it into Section 15.
 4. **Number of cases:** 20, 25 or 30? (Recommended: 25.)
-5. **Sacred-objects list:** confirm it, and decide whether family and parents count (relevant to India's Got Latent and Swati Sachdeva).
+5. ~~Sacred-objects list~~ Settled: family and parents count.
 6. **Bundled or non-stand-up cases:** keep `disability_sc_2025` as one case or split it; keep `tangade_dalit`, which is a pattern of trolling rather than one incident?
-7. **Languages:** who on the team reads which languages (Hindi, Telugu, Tamil, Marathi)?
+7. ~~Languages~~ Settled: Telugu, Hindi, English (see L11).
 8. **Interviews:** do them or not? Is ethics approval needed?
-9. **Course AI policy:** confirm what disclosure is required.
+9. ~~Course AI policy~~ Settled: unlimited AI use allowed.
 10. ~~Havish's pipeline work~~ Settled: kept or dropped as in Section 12.
 
 ---
@@ -670,11 +669,12 @@ police, court, commission, platform, venue, media.
 
 ## F. Outcome
 - Outcome type: online_only | legal | extralegal | both
-- Legal actions (complaint, FIR with sections, arrest, summons, court orders):
+- Legal actions against the comedian (complaint, FIR with sections, arrest, summons, court orders; administrative
+  action such as permission refused or venue sealed, marked `administrative`). Action against attackers goes in D only:
   - complainant, their affiliation, and whether they claimed to speak for a group (Nair 2023):
   - legal basis (Bhatia 2016): religious_offence (IPC 295A / BNS 299) | enmity_hate (IPC 153A / BNS 196) |
     obscenity (IT Act 67, IPC 292–294 / BNS 294–296) | defamation | sc_st_act | contempt | other
-- Extra-legal actions (threats, vandalism, disruption, cancellation, assault):
+- Extra-legal actions (threats, vandalism, disruption, cancellation, assault, forced or pressured apology):
 - Highest stigma step reached: 1 labelling/stereotyping | 2 separation (boycott) | 3 status loss | 4 discrimination (ban, arrest, violence)
 - Courtesy stigma (venue, organiser, platform, co-performers affected)? yes / no, details:
 - How it ended:
@@ -793,8 +793,9 @@ Full definitions, decision rules and sources are in `CODEBOOK.md`.
 | **Punching up / down** | The target has more / less power than the speaker, judged against **local** hierarchies (caste, majority vs minority religion, state power) |
 | **Collusion** | The comedian deliberately puts the material in front of wider audiences (e.g. uploading a special) (Davis & Jurgenson, 2014) |
 | **Collision** | Audiences are merged without the comedian's involvement (e.g. a third party resurfaces an old clip with a hostile caption) |
-| **Legal action** | Police complaint, FIR, arrest, summons, court case, commission action, formal legal notice |
-| **Extra-legal action** | Threats, vandalism, show disruption, forced cancellation, assault, forced apology by non-state actors |
+| **Legal action** | Action by the state or a statutory body **against the comedian**: police complaint, FIR, arrest, summons, court case, commission action, formal legal notice, and administrative action (permission refused, venue sealed, demolition; sub-label `administrative`). Police action against the comedian's attackers or threateners is not counted; it goes in the timeline |
+| **Extra-legal action** | Threats, vandalism, show disruption, forced cancellation, assault, and forced or pressured apologies by non-state actors |
+| **Comic performance** | A joke in a show, set, sketch, roast, TV programme or video. Tweets and social-media replies do not count (reserves only) |
 | **Stigma ladder** | 1 labelling/stereotyping → 2 separation (boycott) → 3 status loss (cancellations) → 4 discrimination (bans, arrests, violence) (Link & Phelan, 2001) |
 | **Courtesy stigma** | Stigma that spreads to people associated with the stigmatised person, such as venues and organisers (Goffman, 1963) |
 | **Sacred (Durkheim)** | What a group sets apart and protects with prohibitions; see the fixed list in Section 4 |
