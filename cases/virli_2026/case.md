@@ -2,7 +2,7 @@
 
 case_id: virli_2026
 status: not_started   (draft | verified | final)
-owner: <team member>   drafter: <AI | name>   verifier: <team member>
+owner: Yogansh   drafter: AI   verifier: Havish (also does the blind second coding, before reading the draft)
 last updated: <YYYY-MM-DD>
 
 > **Starting point from the case pool (first-pass, unverified; replace as you research):**

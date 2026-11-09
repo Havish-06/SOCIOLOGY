@@ -24,6 +24,7 @@ controversies that led us to this topic; *Latent* is the suggested pilot case.
 | [LITERATURE.md](LITERATURE.md) | Previous work in humour studies and comedy controversies, and **how each study shapes our method** |
 | [analysis/case_pool_summary.md](analysis/case_pool_summary.md) | The final 24 cases, reserves and exclusions, balance by topic × outcome, matched pairs |
 | [analysis/case_pool.csv](analysis/case_pool.csv) | All 45 candidate cases with sources, first-pass coding and recommendation |
+| [analysis/assignments.md](analysis/assignments.md) | Who owns and who verifies each case |
 | [cases/_template.md](cases/_template.md) | The case template every case file follows |
 | [CODEBOOK.md](CODEBOOK.md) | Definitions and decision rules for every joke and comment label, with their sources |
 

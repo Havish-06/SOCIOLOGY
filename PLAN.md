@@ -244,7 +244,7 @@ News articles do two jobs, and we keep them apart:
 | Digital-native outlets | Scroll, The Print, The News Minute, The Wire, Newslaundry, The Quint |
 | Legal news | LiveLaw, Bar & Bench (FIRs, court orders) |
 | Outlets with an explicit editorial stance | At least one outlet from each side of the political debate where the case was covered, to see opposing frames |
-| *Optional:* Hindi or regional press | Only where it adds a frame the English outlets miss (e.g. Dainik Bhaskar, Amar Ujala; Punjabi papers for a Sikh case, read by Siddanth) |
+| *Optional:* Hindi or regional press | Only where it adds a frame the English outlets miss (e.g. Dainik Bhaskar, Amar Ujala) |
 
 **How to search.** Comedian's name plus the controversy keywords (e.g. "Samay Raina parents joke", "Kunal Kamra
 Shinde FIR"), in English and, where relevant, Hindi or Telugu; window from one week before the first complaint to
@@ -417,11 +417,12 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
 | 5.2 Joke wording | Team | Watch the clip (if available) and transcribe the key joke(s). If no clip exists, use the best reported quotation and say so. | Section B of `case.md` |
 | 5.3 Comments | AI + team | AI pulls YouTube comments for up to 3 key videos; a team member copies Instagram comments where relevant. AI reads and themes them following Section 10. | `data/comments/<case_id>_*.csv` (git-ignored), themes in section E |
 | 5.4 Draft | AI | Fill every section of the template, including the theory reading (section H). | `cases/<case_id>/case.md` (`status: draft`) |
-| 5.5 Blind second coding | Team | A member who has **not** read the draft codes the key judgements from the sources alone: genre, topic, direction, form, collapse type, outcome type, highest stigma step, sacred object. | Row in `analysis/second_coding.csv` |
-| 5.6 Verify | Team (not the owner if possible) | Check every fact against sources (Section 8); compare the second coding with the draft; resolve disagreements; record them. | `status: verified` |
+| 5.5 Blind second coding | Verifier, before reading the draft | A member who has **not** read the draft codes the key judgements from the sources alone: genre, topic, direction, form, collapse type, outcome type, highest stigma step, sacred object. | Row in `analysis/second_coding.csv` |
+| 5.6 Verify | Verifier (never the owner) | Check every fact against sources (Section 8); compare the second coding with the draft; resolve disagreements; record them. | `status: verified` |
 | 5.7 Finalise | Case owner | Fix flagged items, update the master table. | `status: final`, row in `analysis/comparison.csv` |
 
-- **Workload:** with 24 cases and 4 people, 6 cases each to own and 6 to verify.
+- **Workload:** 24 cases and 4 people: 6 cases each to own and 6 to verify. Assignments in `analysis/assignments.md`
+  (Havish, Yogansh, Pranav, Siddanth; verifiers rotate).
 - **Order:** do matched pairs together (e.g. both Fernandes cases, both More cases, Katikala and Sarat Uday),
   so the comparison is easy to see while writing.
 - **Done when:** every selected case is `final`.
@@ -604,6 +605,7 @@ analysis/
   case_pool.csv             all 45 candidates, final yes/no, reason
   case_pool_summary.md      how the list was built; balance; matched pairs; reserves
   final_cases.csv           the 24 final cases
+  assignments.md            who owns and who verifies each case
   second_coding.csv         blind second coding of key judgements
   comparison.csv            master comparison table, one row per case
   mechanisms.csv            lens verdicts from section H of every case
@@ -683,7 +685,7 @@ To be settled in Step 0 or as noted.
 4. **Number of cases:** 20, 25 or 30? (Recommended: 25.)
 5. ~~Sacred-objects list~~ Settled: family and parents count.
 6. **Bundled or non-stand-up cases:** keep `disability_sc_2025` as one case or split it; keep `tangade_dalit`, which is a pattern of trolling rather than one incident?
-7. ~~Languages~~ Settled: everyone reads Hindi and English; Siddanth also Punjabi (see L11).
+7. ~~Languages~~ Settled: everyone reads Hindi and English (see L11).
 8. **Interviews:** do them or not? Is ethics approval needed?
 9. ~~Course AI policy~~ Settled: unlimited AI use allowed.
 10. ~~Havish's pipeline work~~ Settled: kept or dropped as in Section 12.
@@ -694,21 +696,23 @@ To be settled in Step 0 or as noted.
 
 ### Presentation sprint: 9–15 November 2026
 
-The first deliverable is a **presentation on 14–15 November**. It shows the plan, the framework, previous work
-and early results from three pilot cases. The full project continues afterwards on the week plan below.
+The first deliverable is a **presentation on 14–15 November**. The team aims to take **all 24 cases** through the
+workflow before it, so the presentation can show real cross-case results.
 
 | Date | Work | Milestone |
 |---|---|---|
 | Sun 9 – Mon 10 | Everyone reads PROJECT.md, PLAN.md and LITERATURE.md; short team meeting on the remaining open questions; API keys set up | Plan agreed |
-| Mon 10 – Wed 12 | Three pilot cases taken through the full workflow (Step 5): `latent_2025` and `more_2026` (the two cases that motivated the project) and `kamra_2025` (a politics case with both legal and extra-legal action, for contrast) | Three cases `final`; template fixes recorded |
-| Wed 12 – Thu 13 | Early comparison of the three cases (what differs in topic, context, who mobilised, route, outcome); build the slides | Slides drafted |
+| Sun 9 – Mon 10 | AI collects comments for all cases and runs the spam audit; AI drafts `latent_2025` as the pilot; team reviews it and fixes the template | Template frozen |
+| Mon 10 – Wed 12 | AI drafts the other 23 cases; each owner transcribes jokes and checks their 6; each verifier blind-codes and verifies their 6 (`analysis/assignments.md`) | All cases `verified` |
+| Wed 12 – Thu 13 | Fill `comparison.csv` and `mechanisms.csv`; cross-case comparison (Step 6) into `findings.md`; build the slides | Findings and slides drafted |
 | Fri 14 | Rehearse; fix slides | Ready to present |
 | 14–15 Nov | **Presentation** | |
 
 **Suggested slides (about 12–15):** the puzzle (*Latent* and the Rs 370 biryani clip); research question and
 sub-questions; key concepts; framework and interpretive toolkit; previous work and the gap; how previous work
 shapes our method; research design and case selection; the 24 cases and matched pairs; the per-case workflow and
-template; verification and reliability; early results from the three pilot cases; what comes next and final outputs;
+template; verification and reliability; cross-case results (patterns, matched pairs, typology, organic vs organised
+outrage); what comes next and final outputs;
 limitations.
 
 ### Full project

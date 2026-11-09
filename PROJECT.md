@@ -498,9 +498,10 @@ included for transparency.
 
 ## 15. Timeline
 
-**First milestone: presentation on 14–15 November 2026.** By then the team presents the plan, framework and
-previous work, with early results from three pilot cases: *India's Got Latent* (`latent_2025`), the Rs 370
-biryani case (`more_2026`) and Kunal Kamra 2025 (`kamra_2025`). The full project then follows the weeks below.
+**First milestone: presentation on 14–15 November 2026.** The team aims to analyse all 24 cases before it, starting
+with *India's Got Latent* as the pilot, so the presentation can show cross-case results. Case owners: Havish,
+Yogansh, Pranav and Siddanth, six cases each (`analysis/assignments.md`). The weeks below are the fallback plan if
+the analysis continues after the presentation.
 
 | Week | Work | Milestone |
 |---|---|---|

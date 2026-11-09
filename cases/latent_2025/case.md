@@ -2,7 +2,7 @@
 
 case_id: latent_2025
 status: not_started   (draft | verified | final)
-owner: <team member>   drafter: <AI | name>   verifier: <team member>
+owner: Havish   drafter: AI   verifier: Pranav (also does the blind second coding, before reading the draft)
 last updated: <YYYY-MM-DD>
 
 > **Starting point from the case pool (first-pass, unverified; replace as you research):**
