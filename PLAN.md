@@ -1,7 +1,7 @@
 # Project Plan: Structured Comparative Case Study — Team K
 
 **Status:** adopted 2026-11-08 (written 2026-11-03; research question revised to focus on joke topic, see `DECISIONS.md`)
-**Supersedes:** the *methodology* (Section 5) and *deliverables* (Section 6) of `archive/proposals/Sociology_Proposal_Revised.docx`.
+**Supersedes:** the *methodology* (Section 5) and *deliverables* (Section 6) of the revised proposal (removed from the repository; in git history).
 The *conceptual framework* (Section 2) of that proposal is kept and reused.
 
 This document is meant to be read by any team member or AI assistant picking up the project cold.
@@ -38,9 +38,9 @@ step produces, and what the known limitations and open questions are.
 
 | Stage | What happened |
 |---|---|
-| **Original proposal** (`archive/proposals/Sociology_Proposal_25e2c07a2c042fbbc1c92091ea1ca304.docx`) | Titled *"How Online Outrage Against Indian Dark Comedy Escalates"*. Three research questions: range of reactions to dark comedy (RQ1), legal vs extra-legal escalation (RQ2), whether online outrage represents wider opinion (RQ3). No methodology section; "dark comedy" not defined. |
+| **Original proposal** (`Sociology_Proposal_25e2c07a2c042fbbc1c92091ea1ca304.docx`, removed; in git history) | Titled *"How Online Outrage Against Indian Dark Comedy Escalates"*. Three research questions: range of reactions to dark comedy (RQ1), legal vs extra-legal escalation (RQ2), whether online outrage represents wider opinion (RQ3). No methodology section; "dark comedy" not defined. |
 | **Supervisor feedback** | *"What is dark comedy? Read on sociology of stigma. How do you treat context? Think through the idea of context collapse. Read on Durkheim."* |
-| **Revised proposal** (`archive/proposals/Sociology_Proposal_Revised.docx`, Havish, 2026-11-02) | Added a conceptual framework answering every feedback point (dark comedy defined; stigma; four layers of context; collusion vs collision; Durkheim). Widened the scope from dark comedy to all comedy genres, with genre recorded per joke. Added a large computational methodology: YouTube comment collection, bot/spam audit, hand-coding with kappa, a machine-learning classifier, reply-thread statistics, news lead-lag analysis, QCA, a 150–300-person survey and a dashboard. |
+| **Revised proposal** (`Sociology_Proposal_Revised.docx`, Havish, 2026-11-02; removed, in git history) | Added a conceptual framework answering every feedback point (dark comedy defined; stigma; four layers of context; collusion vs collision; Durkheim). Widened the scope from dark comedy to all comedy genres, with genre recorded per joke. Added a large computational methodology: YouTube comment collection, bot/spam audit, hand-coding with kappa, a machine-learning classifier, reply-thread statistics, news lead-lag analysis, QCA, a 150–300-person survey and a dashboard. |
 | **Code and data** (same commits) | 23 researched cases (`data/cases.csv`), 25 dated events (`data/events.csv`), 78 candidate YouTube videos (`data/videos.csv`), Python pipeline in `src/`, tests, and a dashboard showing demo (fake) numbers. **Nothing has been run on real data yet.** |
 | **Video review and fixes** (2026-11-04) | 73 videos confirmed and 5 rejected in `data/videos.csv`; date-parsing and anonymisation fixes in `src/` |
 | **This plan** (2026-11-03 to 11-08) | Proposed as a case study; research question changed from dark comedy to **joke topic** (genre kept as a secondary variable); supervisor confirmed the original proposal no longer binds us; plan adopted |
@@ -112,7 +112,7 @@ controversies differ from one another and what is associated with each outcome. 
 
 ## 4. Conceptual framework (summary)
 
-Full text is in Section 2 of `archive/proposals/Sociology_Proposal_Revised.docx`. The parts every case analysis must apply:
+Full text is in PROJECT.md Sections 4–5. The parts every case analysis must apply:
 
 **Topic and genre.** The **topic** is what the joke is about and whom it touches (religion, caste, politics
 and the nation, gender and sexuality, regional icons, disability, celebrities, looks); it is the main
@@ -621,7 +621,6 @@ src/
   news.py                   optional GDELT news-coverage timing
 tests/                      tests for src/ on synthetic data (python -m pytest -q)
 interviews/                 anonymised interview summaries only (optional)
-archive/                    earlier proposals, dashboard and unused scripts, kept for reference
 ```
 
 Case IDs follow the pattern `<comedian>_<year>` (e.g. `kamra_2025`).
@@ -632,9 +631,9 @@ Case IDs follow the pattern `<comedian>_<year>` (e.g. `kamra_2025`).
 
 | Item | Decision | Reason |
 |---|---|---|
-| Revised proposal, Section 2 (framework) | **Reused** in PROJECT.md and the template; file moved to `archive/proposals/` | Answers the supervisor's feedback |
-| Revised proposal, Sections 5–6 (method, deliverables) | **Replaced** by this plan; file in `archive/proposals/` | See Section 2 |
-| Original proposal | Moved to `archive/proposals/` | Kept for reference |
+| Revised proposal, Section 2 (framework) | **Reused** in PROJECT.md and the template; file removed | Answers the supervisor's feedback |
+| Revised proposal, Sections 5–6 (method, deliverables) | **Replaced** by this plan; file removed | See Section 2 |
+| Original proposal | Removed | Superseded |
 | `CODEBOOK.md` | **Use** | Part A for template section B; Part B for reading comments |
 | `data/cases.csv`, `data/events.csv` | **Keep** | Starting point for timelines; `analysis/case_pool.csv` supersedes `cases.csv` |
 | `data/videos.csv` | **Use** | Starting list of videos for comment collection |
@@ -643,10 +642,11 @@ Case IDs follow the pattern `<comedian>_<year>` (e.g. `kamra_2025`).
 | `src/sample.py` | **Use** | Coding sheets; kappa for the agreement report |
 | `src/news.py` | **Optional** | GDELT coverage timing per case (Section 6, news protocol) |
 | `tests/` | **Use** | Tests the tools above on synthetic data |
-| `src/threads.py`, `src/export_dashboard.py` | Moved to `archive/src/` | Belonged to the earlier statistical design |
-| `dashboard/` | Moved to `archive/dashboard/` | Shows demo numbers; may be rebuilt from `analysis/comparison.csv` as an optional bonus |
+| `src/threads.py`, `src/export_dashboard.py` | Removed | Belonged to the earlier statistical design |
+| `dashboard/` | Removed | Showed demo numbers; a visual case map can be built from `analysis/comparison.csv` as an optional bonus |
 
-Nothing was deleted; archived parts are in `archive/` with a README.
+Removed files (both proposals, the dashboard, the thread analysis and its test, the dashboard exporter) remain in the
+git history: `git checkout 32e24f1 -- archive/` restores them.
 
 ---
 
@@ -952,4 +952,4 @@ Full definitions, decision rules and sources are in `CODEBOOK.md`.
 
 - George, A. L., & Bennett, A. (2005). *Case studies and theory development in the social sciences*. MIT Press.
 
-All other references are listed in `archive/proposals/Sociology_Proposal_Revised.docx`.
+All other references are listed in `PROJECT.md` and `LITERATURE.md`.

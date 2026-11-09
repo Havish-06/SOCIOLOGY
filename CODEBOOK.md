@@ -4,7 +4,7 @@ Used with the case-study plan (`PLAN.md`). Part A labels go into section B of ea
 used when reading comments (PLAN.md Section 10). How each label connects to previous work: `LITERATURE.md`.
 
 Every label below is adapted from earlier work, so our results can be compared with it. Each label notes
-its source and what we changed. Full references are in the proposal (`archive/proposals/Sociology_Proposal_Revised.docx`, Table 4) and in `LITERATURE.md`.
+its source and what we changed. Full references are in `LITERATURE.md` and `PROJECT.md`.
 
 Rules for all coders:
 - Code what the text **does**, not what you think the author meant.

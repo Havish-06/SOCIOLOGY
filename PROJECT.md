@@ -526,7 +526,6 @@ biryani case (`more_2026`) and Kunal Kamra 2025 (`kamra_2025`). The full project
 | [`analysis/`](analysis/) | Case pool, final list, comparison, mechanisms, second coding, news coding, findings |
 | [`data/`](data/) | Case, event and video tables |
 | `src/` | `collect.py` (comments), `spam.py` (spam and coordination audit), `sample.py` (coding sheets and agreement), `news.py` (optional news-coverage timing) |
-| [`archive/`](archive/) | Earlier material kept for reference |
 
 ---
 
