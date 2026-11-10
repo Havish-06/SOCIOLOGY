@@ -20,6 +20,7 @@ variable. Team: Havish, Yogansh, Pranav, Siddanth.
 | [CODEBOOK.md](CODEBOOK.md) | Definitions and decision rules for every joke and comment label | While coding a case or comments |
 | [LITERATURE.md](LITERATURE.md) | Previous work and how each study shapes our method | For the framework and the write-up |
 | [analysis/assignments.md](analysis/assignments.md) | Who owns and who verifies each case | Before starting your cases |
+| [independent_analysis/](independent_analysis/README.md) | **Final AI analysis of all 24 cases** made from the clip transcripts and checked against the first drafts: case files, comparison table, findings, and what humans must still check | To see the current analysis and findings |
 | [analysis/clips.md](analysis/clips.md) | The YouTube links to watch and transcribe for every case, and how | Step 5.2 of every case |
 
 ## Where things are
@@ -41,9 +42,11 @@ variable. Team: Havish, Yogansh, Pranav, Siddanth.
 
 ## Status (2026-11-09)
 
-- All 24 cases drafted by AI (`status: draft`); owners and verifiers still check each one (PLAN.md, Step 5).
+- All 24 cases drafted by AI from news (`cases/`, `status: draft`), then **re-analysed from the clip transcripts and
+  checked against those drafts** (`independent_analysis/`, final AI analysis). Owners now verify each case
+  (`independent_analysis/human_checks.md`).
 - Comment collection and the spam audit are pending: the pipeline is being checked first.
-- First findings are in `analysis/findings.md`; they are working findings until verification is done.
+- Findings: `independent_analysis/findings.md` (supersedes the first draft in `analysis/findings.md`); working findings until verification is done.
 - First deliverable: a presentation on 14–15 November 2026.
 
 ## Setup

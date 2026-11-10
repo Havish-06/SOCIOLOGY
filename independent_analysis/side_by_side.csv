@@ -1,0 +1,289 @@
+case_id,field,independent,draft
+agrima_2020,topic,regional_national_icon; politics_state,regional_national_icon
+agrima_2020,genre,satire_horatian,satire
+agrima_2020,direction,up,up
+agrima_2020,form,standup_set,standup_set
+agrima_2020,collapse_type,collision,collision
+agrima_2020,sacred_object,Chhatrapati Shivaji Maharaj (regional icon),regional icon (Shivaji)
+agrima_2020,outcome_type,both,both
+agrima_2020,highest_stigma_step,4,3
+agrima_2020,courtesy_stigma,yes,yes
+agrima_2020,comedian_response,apology; deletion,apology; deletion
+agrima_2020,gap_months,15,15
+agrima_2020,mobilising_actor,Pratap Sarnaik (Shiv Sena MLA) via the Home Minister; MNS activists (vandalism),Shiv Sena MLA; Home Minister; MNS workers; online abusers
+bharti_2022,topic,bodies_looks; religion,religion
+bharti_2022,genre,crude_shock; observational,observational; crude_shock
+bharti_2022,direction,"contested (as spoken: generic/lateral, no group named; as read by objectors: down, at a minority's article of faith)",contested
+bharti_2022,form,tv_banter,tv_show
+bharti_2022,collapse_type,collision,collision
+bharti_2022,sacred_object,"Sikh kesh (beard and moustache as a religious symbol), as claimed by the objectors",religious symbol (Sikh kesh)
+bharti_2022,outcome_type,legal,legal
+bharti_2022,highest_stigma_step,3,3
+bharti_2022,courtesy_stigma,no,no
+bharti_2022,comedian_response,apology,apology
+bharti_2022,gap_months,c. 40 (if the 2018-19 Bharti Ka Show run; episode date unverified),unknown
+bharti_2022,mobilising_actor,SGPC (complaint to Amritsar Police Commissioner); Guru Ravidas Tiger Force and Misl Tarna Dal chiefs (Adampur complaint),SGPC; Ravidas Tiger Force; Sikh groups; NCM
+faruqui_2024,topic,other: regional community (Konkani people),regional_national_icon
+faruqui_2024,genre,roast; crude_shock,crude_shock
+faruqui_2024,direction,lateral,lateral
+faruqui_2024,form,crowd_work,crowd_work
+faruqui_2024,collapse_type,collision,collision
+faruqui_2024,sacred_object,none,none (regional identity)
+faruqui_2024,outcome_type,extralegal,extralegal
+faruqui_2024,highest_stigma_step,2,2
+faruqui_2024,courtesy_stigma,no,no
+faruqui_2024,comedian_response,apology,apology
+faruqui_2024,gap_months,unknown (probably <1),0
+faruqui_2024,mobilising_actor,Nitesh Rane (BJP MLA),BJP MLA Nitesh Rane; online users
+fernandes_2024,topic,religion,religion
+fernandes_2024,genre,satire_horatian; satire_juvenalian,satire; observational
+fernandes_2024,direction,"contested (down: Jains are a small notified religious minority; up: an economically prominent group performing piety at Muslims' expense, defended here by a Hindutva MLA)",contested
+fernandes_2024,form,scripted_standup,social video
+fernandes_2024,collapse_type,collusion,collusion
+fernandes_2024,sacred_object,none (Jain ahimsa practice touched; not on the fixed list),religious piety (Jain)
+fernandes_2024,outcome_type,extralegal,both
+fernandes_2024,highest_stigma_step,3,3
+fernandes_2024,courtesy_stigma,yes,yes
+fernandes_2024,comedian_response,mixed,apology; deletion
+fernandes_2024,gap_months,0,0
+fernandes_2024,mobilising_actor,"T. Raja Singh, BJP MLA (video threat naming the show and time)",Jain community members; BJP MLA T Raja Singh
+fernandes_2025,topic,politics_state; death_violence_tragedy; regional_national_icon; religion (minor); family,death_violence_tragedy
+fernandes_2025,genre,satire_juvenalian; dark,dark; satire
+fernandes_2025,direction,up,up
+fernandes_2025,form,scripted_standup,standup_set (online)
+fernandes_2025,collapse_type,collusion,collusion
+fernandes_2025,sacred_object,the nation and the Pahalgam dead (army explicitly respected); family and parents (the family-member line; separate X post),nation (victims of terror)
+fernandes_2025,outcome_type,legal (sub-label: private legal notice only),legal
+fernandes_2025,highest_stigma_step,1,1
+fernandes_2025,courtesy_stigma,no,no
+fernandes_2025,comedian_response,refusal,refusal
+fernandes_2025,gap_months,0,1
+fernandes_2025,mobilising_actor,Advs. Makarand D. Adkar and Amita Sachdeva (private legal notice),two individual lawyers
+jain_univ_2023,topic,caste; regional_national_icon (Ambedkar); politics_state (reservation),caste
+jain_univ_2023,genre,dark,crude_shock; dark
+jain_univ_2023,direction,down,down
+jain_univ_2023,form,college_skit,college_skit
+jain_univ_2023,collapse_type,collision,collision
+jain_univ_2023,sacred_object,Ambedkar,Ambedkar
+jain_univ_2023,outcome_type,both,legal
+jain_univ_2023,highest_stigma_step,4,4
+jain_univ_2023,courtesy_stigma,yes,yes
+jain_univ_2023,comedian_response,mixed,apology (to confirm); suspension
+jain_univ_2023,gap_months,0,0
+jain_univ_2023,mobilising_actor,"Dalit students (petition); Karnataka Social Welfare Department official (FIR complainant, reported); VBA youth activist (Maharashtra complaint); opposition parties (Congress, JD(S)); Bengaluru police",Dalit student groups and activists; police; Karnataka government
+kamra_2018,topic,"politics_state; regional_national_icon (nation, army, anthem as invoked by objectors)",politics_state
+kamra_2018,genre,satire_juvenalian; observational,satire
+kamra_2018,direction,up,up
+kamra_2018,form,standup_set,standup_set (body of work)
+kamra_2018,collapse_type,collusion,collusion
+kamra_2018,sacred_object,the nation (national anthem; army invoked),nation (national anthem)
+kamra_2018,outcome_type,legal,extralegal
+kamra_2018,highest_stigma_step,3,3
+kamra_2018,courtesy_stigma,no,no
+kamra_2018,comedian_response,refusal,refusal
+kamra_2018,gap_months,n/a (no clip cited; 16 if the 2017 video is taken as the basis),n/a
+kamra_2018,mobilising_actor,11 MSU alumni via letter to the vice-chancellor,about 11 former students; university administration
+kamra_2025,topic,politics_state; celebrity_public_figure,politics_state
+kamra_2025,genre,satire_juvenalian; roast,satire
+kamra_2025,direction,up,up
+kamra_2025,form,song,song_parody
+kamra_2025,collapse_type,collusion,collusion
+kamra_2025,sacred_object,none,none (party leader)
+kamra_2025,outcome_type,both,both
+kamra_2025,highest_stigma_step,4,4
+kamra_2025,courtesy_stigma,yes,yes
+kamra_2025,comedian_response,refusal,refusal
+kamra_2025,gap_months,0 (from upload; about 1.5 from recording),0
+kamra_2025,mobilising_actor,Shiv Sena (Shinde faction) cadres and MLA Murji Patel; BMC; BJP MLC Pravin Darekar (privilege),Shinde Shiv Sena workers and MLA; police; BMC
+kapil_2024,topic,bodies_looks; celebrity_public_figure,bodies_looks
+kapil_2024,genre,roast,roast
+kapil_2024,direction,contested (down: colourist dig by a North Indian star at a dark-skinned Tamil guest; lateral: banter about fame with a powerful director),contested
+kapil_2024,form,tv_banter,tv_show
+kapil_2024,collapse_type,collusion,collusion
+kapil_2024,sacred_object,none,none
+kapil_2024,outcome_type,online_only,online_only
+kapil_2024,highest_stigma_step,1,1
+kapil_2024,courtesy_stigma,no,no
+kapil_2024,comedian_response,clarification,clarification (denial)
+kapil_2024,gap_months,0,0
+kapil_2024,mobilising_actor,none,online users; a singer
+katikala_2026,topic,family; gender_sexuality; celebrity_public_figure; politics_state,politics_state
+katikala_2026,genre,roast; satire_horatian,satire; roast
+katikala_2026,direction,up,up
+katikala_2026,form,scripted_standup; crowd_work,standup_set
+katikala_2026,collapse_type,collusion,collusion
+katikala_2026,sacred_object,the family (the Mega/Konidela family; a niece's divorce),none (party leader)
+katikala_2026,outcome_type,both,both
+katikala_2026,highest_stigma_step,4,4
+katikala_2026,courtesy_stigma,yes (reported),no
+katikala_2026,comedian_response,mixed,apology; clarification
+katikala_2026,gap_months,0,0-1
+katikala_2026,mobilising_actor,JSP East Godavari joint secretary Bade Venkata Krishna (complaint); Kakinada police,Jana Sena office-bearer; AP police; fans
+latent_2025,topic,family; gender_sexuality,family
+latent_2025,genre,crude_shock,crude_shock; roast
+latent_2025,direction,lateral,lateral
+latent_2025,form,tv_banter,tv_show
+latent_2025,collapse_type,collusion,collusion
+latent_2025,sacred_object,family and parents,family_parents
+latent_2025,outcome_type,both,both
+latent_2025,highest_stigma_step,4,4
+latent_2025,courtesy_stigma,yes,yes
+latent_2025,comedian_response,mixed,apology (Allahbadia); deletion (Raina)
+latent_2025,gap_months,0 (about 3 from recording),0
+latent_2025,mobilising_actor,Assam CM Himanta Biswa Sarma / Guwahati police; Maharashtra Cyber; NCW; lawyers Ashish Rai and Pankaj Mishra,"politicians (Assam CM, MPs); NCW; police in two states; individual complainants"
+mohanraj_2026,topic,family; gender_sexuality; death_violence_tragedy,gender_sexuality
+mohanraj_2026,genre,dark; satire_horatian,dark
+mohanraj_2026,direction,contested,contested
+mohanraj_2026,form,standup_set,standup_set (streaming show)
+mohanraj_2026,collapse_type,collision,collision
+mohanraj_2026,sacred_object,family (the comedian's own mother and newborn brother),family (contested)
+mohanraj_2026,outcome_type,online_only,online_only
+mohanraj_2026,highest_stigma_step,1,1
+mohanraj_2026,courtesy_stigma,no,no
+mohanraj_2026,comedian_response,silence,silence
+mohanraj_2026,gap_months,94,years (to confirm)
+mohanraj_2026,mobilising_actor,none,online users only
+more_2025,topic,celebrity_public_figure,celebrity_public_figure
+more_2025,genre,roast,roast
+more_2025,direction,up,up
+more_2025,form,unknown,standup_set
+more_2025,collapse_type,"collusion (provisional: reel of the joke, most likely More's own post; poster unconfirmed)",live_only
+more_2025,sacred_object,none,none
+more_2025,outcome_type,extralegal,extralegal
+more_2025,highest_stigma_step,4,4
+more_2025,courtesy_stigma,no,no
+more_2025,comedian_response,refusal,clarification (later set)
+more_2025,gap_months,unknown (probably <1),0
+more_2025,mobilising_actor,the group of 10-12 self-described fans,group of 10-12 men presenting as fans
+more_2026,topic,gender_sexuality,gender_sexuality
+more_2026,genre,crude_shock; roast,crude_shock
+more_2026,direction,down,down
+more_2026,form,crowd_work,crowd_work
+more_2026,collapse_type,collusion,collusion
+more_2026,sacred_object,none,none (women's dignity)
+more_2026,outcome_type,legal,legal
+more_2026,highest_stigma_step,3,4
+more_2026,courtesy_stigma,yes,yes
+more_2026,comedian_response,apology,apology
+more_2026,gap_months,0-1,0
+more_2026,mobilising_actor,"National Commission for Women (suo motu cognisance, complaint to police)",NCW (suo motu); police in two states; Mumbai mayor
+munawar_2021,topic,religion; politics_state,religion
+munawar_2021,genre,unknown (Indore); circulated April 2020 clip: dark; satire_juvenalian,dark (alleged); unclear
+munawar_2021,direction,contested,contested
+munawar_2021,form,standup_set,standup_set
+munawar_2021,collapse_type,live_only,live_only
+munawar_2021,sacred_object,"Hindu deities (Ram, Sita, Shiv; Ganesh in another comic's set)",deities
+munawar_2021,outcome_type,both,both
+munawar_2021,highest_stigma_step,4,4
+munawar_2021,courtesy_stigma,yes,yes
+munawar_2021,comedian_response,combination (silence in custody; clarification after release; no apology),silence; later statements
+munawar_2021,gap_months,0,0
+munawar_2021,mobilising_actor,"Eklavya Singh Gaur (Hind Rakshak Sangathan; son of BJP MLA Malini Gaur), then Indore police","Hind Rakshak (son of BJP MLA); police; later Bajrang Dal, VHP"
+parithabangal_2025,topic,caste; death_violence_tragedy; family,caste
+parithabangal_2025,genre,satire_juvenalian; dark,dark; satire
+parithabangal_2025,direction,up,up
+parithabangal_2025,form,sketch,sketch
+parithabangal_2025,collapse_type,collusion,collusion
+parithabangal_2025,sacred_object,none,"none (caste honour, as claimed)"
+parithabangal_2025,outcome_type,legal,both
+parithabangal_2025,highest_stigma_step,2,2
+parithabangal_2025,courtesy_stigma,no,no
+parithabangal_2025,comedian_response,silence,unconfirmed
+parithabangal_2025,gap_months,0,0
+parithabangal_2025,mobilising_actor,Mukkulathor Advocates Association (Coimbatore police complaint),Thevar lawyer(s); a film producer; counter: Dravidar Kazhagam
+raina_2026,topic,"other (regional identity: Bihari migrants, Kashmiris); death_violence_tragedy (Kashmiri Pandit exodus)",regional_national_icon
+raina_2026,genre,roast; dark,roast; dark
+raina_2026,direction,contested (lateral: mutual roast between comedians of similar standing; down: Bihari migrants and displaced Pandits as stigmatised or victim groups),self
+raina_2026,form,roast; tv_banter,tv_show
+raina_2026,collapse_type,collusion,collusion
+raina_2026,sacred_object,none,none (regional identity; community trauma)
+raina_2026,outcome_type,online_only,online_only
+raina_2026,highest_stigma_step,1,1
+raina_2026,courtesy_stigma,no,no
+raina_2026,comedian_response,silence,refusal
+raina_2026,gap_months,0,0
+raina_2026,mobilising_actor,none,"politicians (BJP, Congress); J&K Peace Forum (statements only)"
+raina_sma_2025,topic,disease_disability; death_violence_tragedy; family,disease_disability
+raina_sma_2025,genre,dark,dark
+raina_sma_2025,direction,down,down
+raina_sma_2025,form,scripted_standup; crowd_work,standup_set (to confirm)
+raina_sma_2025,collapse_type,collision,collusion
+raina_sma_2025,sacred_object,family and parents (secondary: the joke imagines a mother weighing money against her infant; no objector invoked it),none
+raina_sma_2025,outcome_type,legal,legal
+raina_sma_2025,highest_stigma_step,3,3
+raina_sma_2025,courtesy_stigma,no,yes
+raina_sma_2025,comedian_response,mixed,apology (court-ordered)
+raina_sma_2025,gap_months,29,unknown
+raina_sma_2025,mobilising_actor,Cure SMA Foundation of India,patient-advocacy foundation (Cure SMA Foundation of India)
+rangeela_2021,topic,politics_state; celebrity_public_figure,politics_state
+rangeela_2021,genre,satire_horatian,satire
+rangeela_2021,direction,up,up
+rangeela_2021,form,mimicry,social video (impersonation)
+rangeela_2021,collapse_type,collusion,collusion
+rangeela_2021,sacred_object,none,none
+rangeela_2021,outcome_type,legal,legal
+rangeela_2021,highest_stigma_step,1,1
+rangeela_2021,courtesy_stigma,yes,no
+rangeela_2021,comedian_response,mixed,refusal
+rangeela_2021,gap_months,0,0
+rangeela_2021,mobilising_actor,unnamed oil supplier company (via its dealer),petrol pump owner; oil company (reported)
+sachdeva_2025,topic,gender_sexuality; family,family
+sachdeva_2025,genre,crude_shock; observational,crude_shock
+sachdeva_2025,direction,self,self
+sachdeva_2025,form,scripted_standup,standup_set
+sachdeva_2025,collapse_type,collusion,collusion
+sachdeva_2025,sacred_object,family and parents,family_parents
+sachdeva_2025,outcome_type,online_only,online_only
+sachdeva_2025,highest_stigma_step,1,1
+sachdeva_2025,courtesy_stigma,no,no
+sachdeva_2025,comedian_response,silence,silence
+sachdeva_2025,gap_months,0,0-1
+sachdeva_2025,mobilising_actor,none,online users only
+sarat_2026,topic,politics_state; celebrity_public_figure,politics_state
+sarat_2026,genre,satire_horatian; roast,satire
+sarat_2026,direction,up,up
+sarat_2026,form,scripted_standup; crowd_work,standup_set (online)
+sarat_2026,collapse_type,collision,collision
+sarat_2026,sacred_object,"none (the laddu remark targets Naidu's allegation, not the deity; one heckler framed it as hurting Hindu sentiments)",none (party leader)
+sarat_2026,outcome_type,extralegal,extralegal
+sarat_2026,highest_stigma_step,3,3
+sarat_2026,courtesy_stigma,yes,yes
+sarat_2026,comedian_response,mixed (voluntary apology Dec 2024; forced on-stage apology Apr 2026; refused slogans),apology (forced); refused chants
+sarat_2026,gap_months,16,16
+sarat_2026,mobilising_actor,unnamed group of self-described TDP supporters (no office-bearer identified),TDP supporters
+shah_2021,topic,caste; disease_disability; death_violence_tragedy,caste
+shah_2021,genre,dark,dark
+shah_2021,direction,down,down
+shah_2021,form,scripted_standup,standup_set
+shah_2021,collapse_type,collision,collision
+shah_2021,sacred_object,none,none
+shah_2021,outcome_type,online_only,online_only
+shah_2021,highest_stigma_step,1,1
+shah_2021,courtesy_stigma,no,partly (wave of call-outs)
+shah_2021,comedian_response,apology,apology
+shah_2021,gap_months,~53-60,60
+shah_2021,mobilising_actor,none,anti-caste users online
+virdas_2021,topic,politics_state; gender_sexuality; death_violence_tragedy,regional_national_icon
+virdas_2021,genre,satire_juvenalian,satire; dark
+virdas_2021,direction,up,up
+virdas_2021,form,scripted_standup,standup_set (monologue)
+virdas_2021,collapse_type,collusion,collusion
+virdas_2021,sacred_object,the nation (national image abroad),nation
+virdas_2021,outcome_type,both,both
+virdas_2021,highest_stigma_step,4,3
+virdas_2021,courtesy_stigma,yes,yes
+virdas_2021,comedian_response,clarification,clarification
+virdas_2021,gap_months,0,0
+virdas_2021,mobilising_actor,BJP office-holders and MP state government (2021); Hindu Janajagruti Samiti (2022),BJP office-bearers (2021); Hindu Janajagruti Samiti (2022)
+virli_2026,topic,gender_sexuality; death_violence_tragedy,gender_sexuality
+virli_2026,genre,dark; crude_shock,dark
+virli_2026,direction,down,down
+virli_2026,form,standup_set,standup_set
+virli_2026,collapse_type,collision,collision
+virli_2026,sacred_object,none,none (women's dignity)
+virli_2026,outcome_type,legal,legal
+virli_2026,highest_stigma_step,3,3
+virli_2026,courtesy_stigma,no,no
+virli_2026,comedian_response,apology,apology; deletion
+virli_2026,gap_months,about 24-28 (performance date unknown),20
+virli_2026,mobilising_actor,National Commission for Women (suo motu notice and summons),NCW; woman complainant to Maharashtra Cyber
