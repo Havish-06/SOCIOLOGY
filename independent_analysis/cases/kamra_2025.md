@@ -1,6 +1,6 @@
 # kamra_2025: Kunal Kamra's "Thane ki rickshaw" parody song on Eknath Shinde (Naya Bharat, 2025)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: verified by owner (Pranav, 2026-11-12); 1 timeline citation pending
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `kamra_2025__2PnbFqm1vUY.txt`: **full performance**. "Naya Bharat | A Comedy Special", Kamra's own YouTube channel, uploaded 23 March 2025 (YouTube metadata: 2742 s, about 45.7 min; 19.4 million views when checked on 2026-11-09). Hindi auto-captions.
@@ -48,7 +48,7 @@ In a 46-minute YouTube special, "Naya Bharat", Kunal Kamra sang a parody of "Bho
 | 23 Mar 2025, ~15:20 IST | upload: special on Kamra's YouTube; song clip on his X | comedian | confirmed | YouTube metadata; [3] |
 | 23 Mar 2025 | viral: Sanjay Raut (Shiv Sena UBT) posts the clip, "Kunal Ka Kamal" | politician | confirmed | [3][4] |
 | 23 Mar 2025 (night) | vandalism: Shiv Sena (Shinde) workers led by Yuva Sena leader Rahool Kanal ransack the Habitat studio and hotel premises | party_worker | confirmed | [1][3][5] |
-| 23–24 Mar 2025 | threat: Sena MP Naresh Mhaske says Kamra will be "forced to flee India"; Sanjay Nirupam: "We will thrash Kunal Kamra tomorrow at 11"; MLA Murji Patel's two-day apology ultimatum | politician | reported (one explainer collects them) | [3] |
+| 23–24 Mar 2025 | threat: Sena MP Naresh Mhaske says Kamra will be "forced to flee India"; Sanjay Nirupam: "We will thrash Kunal Kamra tomorrow at 11"; MLA Murji Patel's two-day apology ultimatum | politician | pending (verifier found a second source; citation to be added) | [3] |
 | 24 Mar 2025 (early hours) | fir: MIDC police register FIR on MLA Murji Patel's complaint, BNS 353(1)(b), 353(2), 356(2); later transferred to Khar police | politician / police | confirmed | [2][3] |
 | 24 Mar 2025 | police case against ~40 Sena workers; 12 incl. Kanal arrested and bailed the same day (action against attackers: timeline only) | police / court | confirmed | [2][5] |
 | 24 Mar 2025 | statement: Shinde (BBC Marathi): "There is freedom of speech... But there should be a limit"; likens it to "taking supari"; "I do not justify vandalism" | politician | reported (PTI) | [5] |
@@ -304,3 +304,15 @@ key_lenses: strategic offence; mobilisation (political opportunity); law as a we
 best_explanation: A roast of a Deputy CM on his most contested act reached a party with local cadres and allies in the state and municipal government, which acted within hours on both the street and the police/administrative route; harsher lines on Modi in the same special drew no action.
 confidence: high
 ```
+
+## N. Owner's check (Pranav, 2026-11-12)
+
+Clip watched by the owner; first read in `analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+
+- Watched `2PnbFqm1vUY` 30:00–44:00 plus 15:26 and 42:35.
+- **Room reaction to the Shinde song:** loud cheers, laughter and applause at the "Thane ki rickshaw", Guwahati and "gaddar" lines (the transcript had no markers).
+- Shinde is not named; Fadnavis is. Kamra holds up the Constitution and pre-frames the legal risk.
+- **Confirms K:** the harshest lines (Modi, Amit Shah: Gujarat riots, Meloni, "liar", "dictator") drew no action; only the milder, unnamed Shinde song did.
+- Correction to the owner's first note: the clip was posted by Kamra himself and amplified by Sanjay Raut (Shiv Sena UBT), not by Modi supporters.
+- **Court status check (2026-11-12):** Bombay HC barred arrest on 25 Apr 2025 and let the probe continue; no final quashing judgment or chargesheet found.
+- Pending citation: second source for the Mhaske/Nirupam threats and Patel's ultimatum.

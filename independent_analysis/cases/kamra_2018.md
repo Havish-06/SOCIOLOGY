@@ -1,6 +1,6 @@
 # kamra_2018: Kunal Kamra's show at MS University of Baroda cancelled as "anti-national" (July 2018)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: verified by owner (Pranav, 2026-11-12); 1 timeline citation pending
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `kamra_2018__qBbpFGGAkmo.txt`: **performance**, Kamra's own studio-produced stand-up video "Patriotism & the Government | Stand-up Comedy by Kunal Kamra" (about 8 minutes, Hindi/English). It was released on about 1 March 2017 [6][7], 16 months before the cancellation. The captions are a Devanagari rendering of mixed English and Hindi, with a gap at [04:57]–[05:29]. **This video is not the trigger named by the objectors**: their letter cited no video (see K).
@@ -51,7 +51,7 @@ In July 2018 a local organisation booked the CC Mehta Auditorium of the Maharaja
 | mid Jul 2018 | complaint: 11 alumni write to the VC ("anti-national flag-bearer", "mimicked National Anthem", "Tukde-Tukde Gang", "ideological conspiracy … ahead of 2019") | individual (alumni group) | confirmed | [1][2][3] |
 | 21 Jul 2018 (Sat) | cancellation: the VC's office directs the auditorium to cancel; Kamra informed verbally | venue (university) | confirmed | [1][2][3] |
 | 22 Jul 2018 | statement: Kamra tweets "Ever been so cool that you find out from the news that you're not going to be working on a particular day?" | comedian | confirmed | [1][3] |
-| 23 Jul 2018 | statement: the coordinator gives the reasons: "content being anti-national and controversial" (Indian Express) vs "concerned about the security of the venue" (PTI) | venue | disputed (framing) | [1][2][4] vs [3] |
+| 23 Jul 2018 | statement: the coordinator gives the reasons: "content being anti-national and controversial" (Indian Express) vs "concerned about the security of the venue" (PTI) | venue | pending (verifier found support for the 'anti-national' version; citation to be added; PTI gives 'security') | [1][2][4] vs [3] |
 | 3 Aug 2018 | statement: Scroll analysis says the "security reasons" explanation barely withstands scrutiny | media | reported | [5] |
 
 - Days from first viral spread to peak attention: 1–2 (22–23 July). To fading: about 2 weeks (last analysis pieces in early August).
@@ -275,3 +275,15 @@ confidence: medium
 ```
 
 (Some values above were aligned across cases by `method/consistency_rules.md`.)
+
+## N. Owner's check (Pranav, 2026-11-12)
+
+Clip watched by the owner; first read in `analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+
+- Watched `qBbpFGGAkmo` (2017) and `9NUXCAZs5VU` (2018) in full.
+- **No national-anthem or flag bit in either set**, including the 04:57–05:29 caption gap. The letter's "mimicked National Anthem" charge finds no support in these videos.
+- The sets mostly mock fake patriotism: Pakistan used to invoke patriotism; "soldiers fighting in Siachen" as cover for government failures; Baba Ramdev's saffron-clad business. Government mocked mildly.
+- Room: clapping and laughing; the Siachen bit and the roast of the old man with the Muslim-pilot remark (2018 set) get the biggest reactions.
+- Biting satire, up; nothing anti-national in the owner's reading.
+- Sacred object: owner reads the target as patriotism used as a weapon, not the nation itself (K codes "the nation"); team decision on the sacred split.
+- Pending citation: second source for the "anti-national content" reason (PTI gives "security").

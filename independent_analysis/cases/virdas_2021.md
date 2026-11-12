@@ -1,6 +1,6 @@
 # virdas_2021: Vir Das, "I Come From Two Indias" (Kennedy Center, Washington DC)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: verified by owner (Pranav, 2026-11-12); 1 timeline citation pending
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `virdas_2021__5A-F9qu6c_4.txt`: **the performance**, uploaded by the comedian himself ("Vir Das | I COME FROM TWO INDIAS", channel Vir Das COMEDY, 6:53, uploaded 14 Nov 2021 US time = 15 Nov IST). The caption track is labelled Hindi but the speech is English, so the captions are English words written phonetically in Devanagari and are badly garbled. Lines can be located but not read verbatim.
@@ -50,14 +50,14 @@ Vir Das, a well-known English-language comedian with Netflix specials, performed
 | 16 Nov 2021 | clips circulate; Das posts clarification on Twitter ("don't be fooled by edited snippets", satire about "duality") | comedian | confirmed | [3][4][7] |
 | 16–17 Nov 2021 | Delhi BJP vice-president/spokesperson Aditya Jha files complaint (New Delhi district, Tilak Marg police), calls for arrest on TV | politician | confirmed (complaint); FIR registration disputed (India TV says FIR; Tribune quotes DCP saying complaint under inquiry, no FIR) | [3][4][5][6] |
 | 16–17 Nov 2021 | Mumbai lawyer Ashutosh J. Dubey (described by NPR as BJP legal adviser) files complaint with Mumbai Police for defaming India's image in the US | party_worker | confirmed | [3][4] |
-| 17 Nov 2021 | Congress leaders Tharoor and Sibal (and TMC MP Mahua Moitra) back Das; Congress MP Singhvi and actor Kangana Ranaut criticise him ("soft terrorism") | politician | reported (one fetched source, Tribune; PTI copy elsewhere) | [3] |
+| 17 Nov 2021 | Congress leaders Tharoor and Sibal (and TMC MP Mahua Moitra) back Das; Congress MP Singhvi and actor Kangana Ranaut criticise him ("soft terrorism") | politician | pending (verifier found a second source; citation to be added) | [3] |
 | 18 Nov 2021 | MP Home Minister Narottam Mishra says Das will not be allowed to perform in MP unless he apologises; calls such comedians "jesters" | politician (state government) | confirmed | [8][9][15] |
 | Nov 2021 onward | in total "seven police complaints" (Wikipedia) or "14 police complaints" (Das, 2026) | various | disputed (count) | [13][14] |
 | 9–10 Nov 2022 | Hindu Janajagruti Samiti (HJS) complaint seeking cancellation of Bengaluru show, citing "Two Indias" (derogatory to "women, our Prime Minister and India", hurts Hindu sentiments, law and order risk); Vyalikaval police register FIR | religious_org | complaint confirmed; FIR reported (TNM) | [10][11] |
 | 10 Nov 2022 | Bengaluru show at Chowdiah Memorial Hall cancelled ("unavoidable circumstances"); HJS claims credit, then says organisers and police decided | venue / religious_org | confirmed | [10][11][12] |
 | Nov 2022 | HJS says it will keep protesting until Das apologises for "anti-India" remarks | religious_org | reported | [12] |
 | Nov 2023 | Das wins International Emmy for "Landing", a special that addresses the controversy | comedian | confirmed (Wikipedia; widely reported, not separately fetched) | [14] |
-| 31 Jul 2026 | Das says he is "actually banned in Madhya Pradesh", faced 14 complaints, lost brand deals and roles, had no income for two years | comedian | reported (his own account) | [13] |
+| 31 Jul 2026 | Das says he is "actually banned in Madhya Pradesh", faced 14 complaints, lost brand deals and roles, had no income for two years | comedian | confirmed (his own statement; the claims are his account) | [13] |
 
 - Days from first viral spread to peak attention: about 1–3 days (16–18 Nov 2021). To fading: about 1–2 weeks (news attention dropped after the 19 Nov farm-law repeal); a second, smaller peak in Nov 2022 (Bengaluru cancellation).
 
@@ -293,3 +293,14 @@ confidence: medium
 ```
 
 (Some values above were aligned across cases by `method/consistency_rules.md`.)
+
+## N. Owner's check (Pranav, 2026-11-12)
+
+Clip watched by the owner; first read in `analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+
+- Watched `5A-F9qu6c_4` in full with English captions.
+- **Room after the gang-rape line: silence** (the transcript could not show it).
+- **Ending: patriotic.** He asks the audience to clap for the India they want to live in and are proud of; standing applause (confirms K). The viral clips cut this ending.
+- Balance: roughly 60% negative, 40% positive lines. The audience treated it as something to think about rather than as comedy.
+- **MP "ban" check (2026-11-12):** only a spoken statement by Home Minister Narottam Mishra (19 Nov 2021: "We won't allow such jesters to perform. If he tenders an apology, we are going to think over it"); no written order reported. Bears on the team decision whether this counts as stigma step 4.
+- Pending citation: second source for the Tharoor/Sibal/Ranaut reactions.
