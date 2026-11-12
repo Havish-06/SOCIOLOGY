@@ -1,6 +1,6 @@
 # agrima_2020: Agrima Joshua's Shivaji statue joke (2019 set, row in July 2020)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: checked by owner (Siddhant, with AI, for Yogansh, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `agrima_2020__42jmTU8RASI.txt`: **reupload** of the roughly one-minute clip, by a third-party channel, with the accusatory title "AGRIMA JOSHUA INSULTS CHHATRAPATI SHIVAJI MAHARAJ|| STAND UP COMEDY".
@@ -292,3 +292,14 @@ confidence: medium
 ```
 
 (Some values above were aligned across cases by `method/consistency_rules.md`.)
+
+## N. Owner's check (Siddhant, with AI, for Yogansh, 2026-11-13)
+
+Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
+
+- **Transcript check:** the three reuploads match section K (garbled Devanagari of English speech).
+- **Settles the verb at 00:22:** Lv6zElwEaW4 ('AGRIMA JOSHUA AND SOURAV GHOSH INSULTING CHATRAPTI SHIVAJI MAHARAJ | MARATHI ROAST', 11 Jul 2020, 72K views) carries the clip with a cleaner caption at 01:18-01:25: 'शिवाजी स्टैचू आईएस अ... मास्टरस्ट्रोक प्राइम मिनिस्टर मोदी जी... सोलर सेल्स विच विल पावर ऑफ महाराष्ट्र' ('Shivaji statue is a ... masterstroke [by] Prime Minister Modi ji ... solar cells which will power [all] of Maharashtra'). So the verb is **masterstroke**, not 'destroyed', as the AI suspected.
+- **Quora and GPS confirmed from the clip:** oQ6PFTmFGC0 ('Deleted video of Agrima Joshua; full video', 12 Jul 2020, 7:33) is the same 1-minute clip looped several times; its captions include 'quora' and 'जीपीएस ट्रैकर' (GPS tracker) next to 'पाकिस्तानी'. It is not a longer version of the set.
+- **Wording in writing:** news reports (Scroll, The Week, Republic, Swarajya) agree on Quora, masterstroke, GPS tracker, lasers at Pakistani terrorists and 'It's not Shivaji, it's Shivaji Maharaj', with small differences in wording (web search 2026-11-13).
+- **Coding:** agree with the final coding (both; up; collision; step 4 as aligned).
+- **Needs someone to watch:** 42jmTU8RASI 00:38-00:50 for the tone of 'not Shivaji, Shivaji Maharaj' (self-correction or a dig); laughter in the room.
