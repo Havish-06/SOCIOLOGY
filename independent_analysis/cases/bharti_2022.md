@@ -301,4 +301,5 @@ Transcripts re-downloaded and read; first read in `analysis/first_read.csv` (rea
   - So: **performance about Nov 2018 (EP3)**, on YouTube from 4 Mar 2019; **gap about 42 months** to the May 2022 row (section C says about 40). Medium confidence: the episode link rests on the comments plus the guest and show matching all news reports.
 - **Coding:** agree (legal; collision; direction contested).
 - **Wording confirmed in writing:** ThePrint and Gulf News print the line ("beard-moustache has many benefits; drink milk and put some of the beard in your mouth, it will taste nothing less than seviyaan") and place it in *Bharti Ka Show* with guest Jasmin Bhasin, which is consistent with EP3.
-- **Needs someone to watch:** the clip for any visual cue that signals Sikhs (gesture, turban); EP3 (kt54tXIf3f4) to confirm the beard exchange is in it.
+- **Further checks (2026-11-13):** none of the five uploads of the Jasmin Bhasin episode has captions, and the 2022 "original video" upload (mHuudqT58sc) is the same 14-second clip with no lead-in. The link to EP3 still rests on the May 2022 comments under it plus the guest and show matching.
+- **Needs someone to watch:** EP3 (kt54tXIf3f4, 5 min) to confirm the beard exchange is in it; the clip for any visual cue that signals Sikhs.
