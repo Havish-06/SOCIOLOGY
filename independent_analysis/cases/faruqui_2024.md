@@ -1,6 +1,6 @@
 # faruqui_2024: Munawar Faruqui's crowd-work line about Konkani people (August 2024)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: checked by owner (Siddhant, with AI, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `faruqui_2024___tVdqkI8Sdk.txt`: **reupload** of the audience clip (about 27 seconds, a YouTube Short) titled "Munawar with kokani..#darkjokes #standupcomedy …". This is the crowd-work moment itself.
@@ -263,3 +263,14 @@ key_lenses: context collapse; strategic offence; identity and power; apology and
 best_explanation: A Konkan BJP MLA heading into state elections recast a crowd-work regional jibe by a Muslim celebrity comic as a religious affront and used threats to force an apology, and because the apology came within a day the case never reached the police.
 confidence: medium
 ```
+
+## N. Owner's check (Siddhant, with AI, 2026-11-13)
+
+Transcripts re-downloaded and read; first read in `analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+
+- **Transcript check:** _tVdqkI8Sdk matches section K word for word. tTZ25lueiW8 contains the setup question "सब लोग बम्बे से ही है ना? कोई ट्रेवल करके आया है?", which places the show in Mumbai, not Taloja; its narrator's claim that the show was in Dubai is wrong (in the clip Faruqui turns to someone "from Dubai" in the audience).
+- **Confirmed (new search):** the Marathi speaker in tTZ25lueiW8 is BJP MLA Nitesh Rane. His "green snake... won't take long to send you to Pakistan" line matches the Free Press Journal report, and he later warned of "direct action" if Faruqui spoke about Hindus or Konkanis again. Apology video dated about 12–13 Aug 2024 (India TV, Outlook, DNA).
+- **Rs 1 lakh bounty:** India TV and Asianet name **Samadhan Sarvankar** (Shiv Sena, Shinde faction); one secondary summary gives "Sada Sarvankar". Keep the name as *reported*.
+- **Still not found:** show date and venue; any police complaint; who first posted the clip.
+- **Coding:** agree (extralegal; lateral/contested; collision). Faruqui's apology says the audience included "Marathi, Muslim and Hindu people" and that the man he joked about enjoyed it.
+- **Needs someone to watch:** _tVdqkI8Sdk for the laughter and the Taloja man's face; tTZ25lueiW8 01:10–02:17 for an exact Marathi transcription of Rane's threat ("24 hours"?).

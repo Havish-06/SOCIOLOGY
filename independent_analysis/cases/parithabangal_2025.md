@@ -1,6 +1,6 @@
 # parithabangal_2025: Gopi & Sudhakar (Parithabangal), "Society Paavangal" sketch after the Kavin honour killing (August 2025)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: checked by owner (Siddhant, with AI, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `parithabangal_2025__e61ahdBvIk4.txt`: **the full performance** ("Society Paavangal | Parithabangal", channel Parithabangal, 14:43, uploaded 4 Aug 2025; 9.87 million views and 6.85 million subscribers on 2026-11-09). Tamil machine captions (the track is mislabelled "ko"/Korean; `[음악]` = music). Many words are misrecognised; all translations below are mine and approximate, with uncertain readings flagged.
@@ -283,3 +283,15 @@ key_lenses: identity and power (punching up); mobilisation (no political opportu
 best_explanation: An anti-caste sketch that punched up in the week after an honour killing was opposed by dominant-caste lawyers through a police complaint, but with the state and major Dalit and Dravidian groups on the sketch's side, the complaint led nowhere.
 confidence: medium
 ```
+
+## N. Owner's check (Siddhant, with AI, 2026-11-13)
+
+Transcripts re-downloaded and read; first read in `analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+
+- **Transcript check (Tamil read directly):** e61ahdBvIk4 matches section K scene by scene: the lineage speech; the "dominant group starter pack" (white shirt, wristband, kumkum, caste flex); the "pazhakkam" pun; the tuition/sports/jobs speech; the Guru Pooja convoy; "either your sister shouldn't live or that boy"; the killing and the leader backing out; the chilli-powder "valour" lines at about 12:38; the closing attack on reels and "balanced" commentators. No caste is named.
+- **Two open readings settled:**
+  1. 08:01 ("...அவன கொள்கை"): most likely "[killing] him is our only policy", a pun on kol / kolgai. Medium confidence.
+  2. 13:01, the athlete speech: **sincere, not parody.** The speaker says the instigator lives in peace while the boy who killed loses his life, which is the sketch's theme; the "balanced" commentator who follows is the parody.
+- **Confirmed (new search):** complaint by lawyer Karthik Dhanushkodi (Mukkulathor) to the Coimbatore Police Commissioner on 6 Aug 2025; DK counter-complaint (TNM). "30 lawyers" appears only in NewsBytes/Filmibeat: keep as *reported*. No FIR found. Threats are alleged only by the duo's supporters. The "Laddu Pavangal" BJP complaint is a different video and must not be mixed in.
+- **Coding:** agree (legal, complaint only; direction up; collusion). Comparison case (sketch), not stand-up.
+- **Needs someone to watch:** costumes, flags and banners (01:27–02:30, 04:40–05:10, 08:41–09:41) for any visible caste marker; the duo's "emotional speech" video (sN9SkhMlM-8).
