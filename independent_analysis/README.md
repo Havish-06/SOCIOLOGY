@@ -42,5 +42,5 @@ the jokes themselves. Since context is the core of the project, every case was r
 
 ## What it still needs
 
-Human verification of every case (`human_checks.md`), the comment collection and spam audit (for "organic or
-organised?"), and team decisions on the consistency rules. Commenter usernames do not appear in any file.
+Human verification of every case (`human_checks.md`), the comment collection and spam audit (detectable coordination in YouTube
+comments), and team decisions on the consistency rules. Commenter usernames do not appear in any file.

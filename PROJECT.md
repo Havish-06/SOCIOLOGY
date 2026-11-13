@@ -321,12 +321,16 @@ place we can see how ordinary viewers received the joke. They answer specific pa
 | Whether attacks targeted the joke or the comedian's identity (religion, caste, gender) | SQ3: stigma and labelling |
 | Calls for FIRs, arrests or boycotts, and when they appeared relative to the complaint | SQ3: mobilisation; did online anger come before or after the legal route? |
 | Who defended the comedian and how | Counter-mobilisation |
-| **Whether the outrage was organic or organised** | Strategic-offence and online-publics lenses: was the backlash a spontaneous public reaction, or pushed by coordinated accounts? |
+| **Whether there was detectable coordinated activity in the YouTube comments** | Strategic-offence and online-publics lenses: supporting evidence only (see below) |
 
-The last row is why spam and coordination detection matters. If a large share of hostile comments come from
-copy-paste campaigns, batch-created accounts or accounts acting in lockstep, that is evidence that offence was
-**manufactured or amplified** (George, 2016; Jakesch et al., 2021), not just felt. If the hostility is organic,
-the "manufactured offence" explanation is weakened for that case. Either result is a finding.
+The last row is why spam and coordination detection matters, and also what it **cannot** do. If many hostile
+comments come from copy-paste campaigns, batch-created accounts or accounts acting in lockstep, that is evidence of
+**coordinated amplification** (George, 2016; Jakesch et al., 2021). But the audit cannot show that outrage was
+organic: real supporters mobilised on WhatsApp who write their own comments look organic to it; most outrage happened
+on X, Instagram, WhatsApp and TV, not in YouTube comments; YouTube removes much spam before we see it; and the API
+gives no IP or device data. So a flag is evidence of coordination, and **no flag is not evidence of organic outrage**.
+Whether outrage was organised is answered mainly from the case evidence (who complained, who mobilised, who
+publicised it); the comment audit is a lower bound on coordination in one platform.
 
 - **Videos (up to three per case), in order of priority:** the original clip on the comedian's channel; a
   reupload; the comedian's response; news coverage (marked, because its commenters are news viewers).

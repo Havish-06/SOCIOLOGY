@@ -5,8 +5,41 @@ Every joke and comment label, with decision rules and the earlier work each labe
 Labels in C1 go into section B of each case file; labels in C2 are
 used when reading comments (PLAN.md, Comment protocol). How each label connects to previous work: LITERATURE.md.
 
-Every label below is adapted from earlier work, so our results can be compared with it. Each label notes
-its source and what we changed. Full references are in LITERATURE.md and PROJECT.md.
+Each label is marked by where it comes from:
+- **[taken]** used as defined in a published study or coding scheme;
+- **[adapted]** built from a published concept or scheme, with changes we state;
+- **[ours]** built by the team for this project, with written decision rules (no published source).
+
+Being honest about this matters: about half of the labels are ours, which is normal for a topic with no existing
+coding scheme. We support our own labels with written decision rules and by reporting agreement between the owner
+and the AI reading. Full references are in LITERATURE.md and PROJECT.md.
+
+| Label | Status | Source or basis |
+|---|---|---|
+| Genre: `dark` | adapted | Definition from Willinger et al. 2017 (black humour) |
+| Genre: `satire_juvenalian`, `satire_horatian` | taken | Holbert et al. 2011 |
+| Genre: `gallows` | taken | Obrdlik 1942 |
+| Genre: `roast`, `crude_shock`, `observational` | ours | No published scheme; defined by the team |
+| A2 topic list | adapted (loosely) | Inspired by Allan & Burridge 2006 (taboo domains such as sex, death, disease, bodies); `caste`, `regional_national_icon`, `politics_state`, `celebrity_public_figure` and `bodies_looks` are ours, built for India |
+| A3 direction (up, down, lateral, self, contested) | adapted | The idea of humour and power from Zillmann & Cantor 1976 and Krefting 2014; `self` from Martin et al. 2003; the five codes and the local-hierarchy rule are ours |
+| A4 form | ours | Team list |
+| A4 technique | adapted | Reduced from Long & Graesser 1988 and Buijzen & Valkenburg 2004 |
+| A5 collusion / collision | taken | Davis & Jurgenson 2014 |
+| Humour function (template E) | taken | Meyer 2000 |
+| Generic news frames | taken | Semetko & Valkenburg 2000 |
+| Dominant news frames (hurt sentiments, obscenity, free speech, ...) | ours | Team list, inductive |
+| Outcome types (online only, legal, extra-legal, both) and their coding rules | ours | Team definitions |
+| Stigma ladder (1–4) | adapted | Components of stigma from Link & Phelan 2001; turning them into an ordered ladder is ours |
+| B1 reaction | adapted | Stance (Mohammad et al. 2016), aggression (Kumar et al. 2018, TRAC), HASOC (Mandl et al. 2019); `demand_legal_action` is ours |
+| B4 sacred object list | ours | Concept from Durkheim 1912; the list is the team's, fixed before outcomes were compared |
+| B5 frame (play / serious) | adapted | Play frame from Bateson 1972 and keying from Goffman 1974; the coding rule is ours |
+| B6 stigmatises the comedian | adapted | Goffman 1963; Link & Phelan 2001 |
+| B7 intensity | adapted | Offence rating in Meaney et al. 2021 |
+| B8 pushback type | adapted | Counter-speech types from Benesch et al. 2016 and Mathew et al. 2019 |
+| B9 looks inauthentic | ours | Human judgement used to check `src/spam.py` |
+| B10 norm invoked | adapted | Norm enforcement from Rost, Stahel & Frey 2016; the list of norms is ours |
+| B11 intent attributed | adapted | Graefer & Das 2020 |
+| Conditions in `analysis/conditions.md` | ours | Team definitions, judged before any reaction |
 
 Rules for all coders:
 - Code what the text **does**, not what you think the author meant.
@@ -47,7 +80,7 @@ Source: Allan & Burridge 2006 (taboo domains). **Added for India:** `caste` and 
 | `self` | The comedian or their own group/family is the butt of the joke (self-defeating style, Martin et al. 2003) |
 | `contested` | Coders disagree on who holds power in that context. Record both readings |
 
-Sources: Zillmann & Cantor 1976; Ford & Ferguson 2004; Krefting 2014; Bhargava & Chilana 2022.
+Sources: Zillmann & Cantor 1976; Ford & Ferguson 2004; Krefting 2014; Chilana & Bhargava (eds.) 2024.
 
 ### A4. Form and technique
 - **form**: `standup_set` · `crowd_work` · `roast` · `sketch` · `song_parody` · `social_reply` · `tv_show` · `college_skit`

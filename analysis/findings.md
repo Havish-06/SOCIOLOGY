@@ -162,7 +162,7 @@ offence concentrates in "both" cases**, the ones driven by parties.
 - **Apologies:** they ended the extra-legal episodes (fernandes_2024, faruqui_2024, sarat_2026) but never stopped a legal
   process once a statutory body or police had started (latent_2025, more_2026, virli_2026, katikala_2026).
 
-## 10. Organic or organised?
+## 10. Detectable coordination in YouTube comments
 
 Pending the comment collection and spam audit (PLAN.md (Comment protocol)). The question for each case: what share of hostile
 comments came from non-organic accounts? This will test the strategic-offence and organised-online-publics lenses, which
