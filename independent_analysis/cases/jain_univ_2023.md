@@ -1,6 +1,6 @@
 # jain_univ_2023: Jain University CMS students, "Mad Ads" skit on Ambedkar and Dalits (Bengaluru, February 2023)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: checked by owner (Siddhant, with AI, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `jain_univ_2023__8RZVxK3CKrk.txt`: **partial clip / reupload** of the skit ("jain university insult ambedkar and cast", channel buddha bheem, 1.07K subscribers, 66 s, uploaded 12 Feb 2023, 60 views on 2026-11-09). English auto-captions, heavily garbled.
@@ -270,3 +270,14 @@ confidence: medium
 ```
 
 Left for humans: confirm the Bengaluru FIR complainant from the FIR or the 2025 High Court order (it rests on DH and Careers360, one line of sources); settle the performance date (6 Feb vs 4 or 8 Feb); check whether the Union Ministry acted on the deemed-status letter; watch the clip to confirm "Beer Ambedkar".
+
+## N. Owner's check (Siddhant, with AI, 2026-11-13)
+
+Transcripts re-downloaded and read; first read in `analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+
+- **Transcript check:** 8RZVxK3CKrk matches section K ("why be Dalit when you can be D-Lit" garbled; "beer Baker"; the "General" pun; "don't touch that water"; applause marker at 00:22). CpwjsWipTVA (TNM) says the skit was staged at three other venues, complainants were threatened and cyber-harassed, and the students apologised.
+- **Confirmed (new search):** complaint by the Assistant Director, Social Welfare Department (Bengaluru South); FIR at Siddapura PS under the SC/ST Act (Deccan Herald, ThePrint); 9 arrested on 13 Feb 2023: 7 students, the dean and a programme coordinator (Deccan Herald, Scroll, South First); 6 students suspended (Scroll, TNM); High Court stay in Jul 2023; **case quashed by the Karnataka High Court (Justice S.R. Krishna Kumar), reported 1 Mar 2025** (LiveLaw, Bar & Bench, TNM).
+- **Still disputed: performance date.** Four dates are reported: 4 Feb (TNM), 5–6 Feb (Deccan Herald), 6 Feb at the Samyog fest (The Mooknayak; Scroll citing The Hindu, per the final coding) and 8 Feb at NIMHANS Convention Centre (Careers360/PTI, Deccan Herald). The final coding prefers 6 Feb. Because the skit was staged at several venues, the dates may be different performances. Keep "disputed".
+- **Coding:** agree (both; direction down; collision). Note: this is a comparison case (college skit), not stand-up.
+- **Wording confirmed in writing:** "Beer Ambedkar" and the "Dalit" / "D-Lit" pun are printed by The Quint, Free Press Journal and TNM (the students' petition), matching the garbled captions ("beer Baker"; "why do I tell it when you can be late").
+- **Needs someone to watch:** nothing essential; optionally the clip for costumes or gestures.

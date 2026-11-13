@@ -1,6 +1,6 @@
 # bharti_2022: Bharti Singh's resurfaced "daadhi-mooch" (beard and moustache) joke
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: checked by owner (Siddhant, with AI, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `bharti_2022__-Q-nl0vpjsw.txt`: **reupload** of the clip, channel "Pb32 Wale", title "Bharti Singh Talking About Sikh Beard | Bharti Di Bakwas" (uploaded 2022-05-15, 14 s, about 31K views on 2026-11-09). The title adds "Sikh", which the clip does not contain.
@@ -289,3 +289,16 @@ confidence: medium
 ```
 
 (Some values above were aligned across cases by `method/consistency_rules.md`.)
+
+## N. Owner's check (Siddhant, with AI, 2026-11-13)
+
+Transcripts re-downloaded and read; first read in `analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+
+- **Transcript check:** -Q-nl0vpjsw and fL9vTzlb65U match section K (beard benefits; sewaiyan; picking [lice] out of the beard). No community is named. The apology (fL9vTzlb65U 00:20–01:14) says she named no religion, is a Punjabi born in Amritsar, and apologises "with folded hands". hCgDdRWVtKs captions are unusable.
+- **Confirmed (new search):** show is *Bharti Ka Show* (Shemaroo) with guest Jasmin Bhasin (Quint, Outlook, Devdiscourse); FIR under IPC 295A at Adampur PS, Jalandhar (FPJ) and on the SGPC complaint in Amritsar (Tribune, 16 May 2022); NCM sought reports (Tribune, 24 May 2022). The June 2022 Punjab & Haryana High Court "no coercive steps" order concerns the separate 2019 Batala FIR, as section J says.
+- **Status of both FIRs:** no report after May 2022 (searched 2026-11-13). Keep "fate unknown".
+- **Episode check (corrected after a human check):** a Shemaroo Comedywalas upload, "Jasmin Bhasin ने अपने बारे में किया अनोखा खुलासा - भारती का शो - आना ही पड़ेगा - EP3" (https://www.youtube.com/watch?v=kt54tXIf3f4, 4 Mar 2019, 5:00), has May 2022 comments that mention the beard row ("Who come here after watching the beards news"), so I first took it as the source. **Siddhant watched it on 2026-11-13: the beard joke is not in it.** The comments only show that viewers searched for the episode after the news. The 5-minute upload is an excerpt, so the joke may come from another part of the Jasmin Bhasin episode or from another episode; this cannot be shown from what is online. **Episode and air date remain unknown**, as section A says.
+- **Coding:** agree (legal; collision; direction contested).
+- **Wording confirmed in writing:** ThePrint and Gulf News print the line ("beard-moustache has many benefits; drink milk and put some of the beard in your mouth, it will taste nothing less than seviyaan") and place it in *Bharti Ka Show* with guest Jasmin Bhasin (no episode number given).
+- **Further checks (2026-11-13):** none of the five uploads of the Jasmin Bhasin episode has captions, and the 2022 "original video" upload (mHuudqT58sc) is the same 14-second clip with no lead-in.
+- **Needs someone to watch:** the clip for any visual cue that signals Sikhs (optional). The full episode is not available online.
