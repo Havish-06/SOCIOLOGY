@@ -125,22 +125,22 @@ the AI check itself is tested on a random sample.
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
 | 1 | Outcome | extralegal | ✔ AI: extra-legal: assault by 10-12 men; police booked the attackers |
-| 2 | Legal actions against the comedian | none against the comedian (police case registered against the attackers, timeline only) | ✔ AI: none against the comedian; police summoned him only as a complainant/witness **→ human spot-check** |
+| 2 | Legal actions against the comedian | none against the comedian (police case registered against the attackers, timeline only) | ✔ human (Havish): only the attackers were booked; nothing against More |
 | 3 | Extra-legal actions | physical assault after the 2 Feb 2025 Solapur show; verbal threat against future jokes on Pahariya | ✔ AI: assault on 2 Feb 2025 after the Solapur show: ThePrint (PTI), Statesman, FPJ, Deccan Chronicle, ETV Bharat |
 | 4 | Who acted (mobilising actor) | the group of 10-12 self-described fans | ✔ AI: group of self-described fans; alleged leader named by More's team; Pahariya denied involvement |
-| 5 | How the clip spread (first spreader; collusion or collision) | a reel of the joke shown by the attackers (per More); probably More's own post (unconfirmed) (collusion (provisional: reel of the joke, most likely More's own post; poster unconfirmed)) | ? AI: that the attackers showed him a reel of an earlier joke rests on More's own account **→ human: check this** |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / no / no / no (Veer Pahariya is an actor, not an office-holder) | ✔ AI: no condition: actor, not an office-holder **→ human spot-check** |
+| 5 | How the clip spread (first spreader; collusion or collision) | a reel of the joke shown by the attackers (per More); probably More's own post (unconfirmed) (collusion (provisional: reel of the joke, most likely More's own post; poster unconfirmed)) | ✖ human (Havish): no news source says the attackers showed More a reel of an earlier joke. The claim comes only from the AI's reading of More's own set (transcript 06:59–07:19). **Yogansh (owner) to re-watch that part**; until then the first spreader is unknown and the collapse type stays provisional |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / no / no / no (Veer Pahariya is an actor, not an office-holder) | ✔ human (Havish): Pahariya is an actor, not an office-holder |
 
 ### more_2026
 
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
 | 1 | Outcome | legal | ✔ AI: legal |
-| 2 | Legal actions against the comedian | NCW suo motu cognisance 2026-06-11, summons and hearing 2026-06-22 (apology rejected); Maharashtra Cyber FIR (BNS + IT Act s.67); Gurugram Police FIR 2026-06-16 (IT Act s.67; BNS 294, 75(2), 75(3), 353(3)) also naming the venue … | ✔ AI: NCW summons (letter to Haryana DGP), Gurugram FIR at DLF Phase 2 (IT Act 67; BNS 294, 353(3), 75(2), 75(3)), Maharashtra Cyber FIR 36/2026: Tribune, Statesman, Outlook, India TV, Quint, Deccan Chronicle **→ human spot-check** |
+| 2 | Legal actions against the comedian | NCW suo motu cognisance 2026-06-11, summons and hearing 2026-06-22 (apology rejected); Maharashtra Cyber FIR (BNS + IT Act s.67); Gurugram Police FIR 2026-06-16 (IT Act s.67; BNS 294, 75(2), 75(3), 353(3)) also naming the venue … | ✔ human (Havish): NCW summons, Gurugram FIR, Maharashtra Cyber FIR confirmed |
 | 3 | Extra-legal actions | none confirmed against the comedian (Kathmandu show cancellation by the organiser reported by one source only; audience member fired by his employer, recorded as courtesy stigma) | ✔ AI: none confirmed against the comedian |
 | 4 | Who acted (mobilising actor) | National Commission for Women (suo motu cognisance, complaint to police) | ✔ AI: NCW (suo motu) plus police |
 | 5 | How the clip spread (first spreader; collusion or collision) | Pranit More's own Instagram/YouTube (consent to publish taken on stage; his counsel later said a PR team posted it); then third-party reuploads and commentary channels on 2026-06-10 (collusion) | ✔ AI: posted by More's own channel/team |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / yes / no / no (women (NCW)) | ✔ AI: women (NCW) as defended butt: clear **→ human spot-check** |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / yes / no / no (women (NCW)) | ✔ human (Havish): women as the butt; NCW as statutory defender |
 
 ### virli_2026
 
@@ -149,8 +149,8 @@ the AI check itself is tested on a random sample.
 | 1 | Outcome | legal | ✔ AI: legal |
 | 2 | Legal actions against the comedian | NCW suo motu notice under s.10(4) NCW Act, summons and hearing 2026-06-22 (apology rejected); Maharashtra Cyber summons for questioning 2026-10-19 on a woman's complaint (content unclear); no FIR reported | ✔ AI: NCW summons (22 June) and reported rejection of apology: Siasat, IANS, IBTimes, NewsX; Maharashtra Cyber summons in Oct 2026: CSR Journal, The Swipe Up (thin but two outlets) **→ human spot-check** |
 | 3 | Extra-legal actions | none confirmed | ✔ AI: none confirmed |
-| 4 | Who acted (mobilising actor) | National Commission for Women (suo motu notice and summons) | ✔ AI: NCW; a woman complainant (cyber cell) **→ human spot-check** |
-| 5 | How the clip spread (first spreader; collusion or collision) | third-party accounts and aggregator channels (clip online by 2025-06-07; June 2026 resurfacing amid the Pranit More row); original account unknown (collision) | ? AI: first spreader unknown; source performance unidentified (case file says not in Love & Latex) **→ human: check this** |
+| 4 | Who acted (mobilising actor) | National Commission for Women (suo motu notice and summons) | ✔ human (Havish): NCW acted; woman complainant to the cyber cell |
+| 5 | How the clip spread (first spreader; collusion or collision) | third-party accounts and aggregator channels (clip online by 2025-06-07; June 2026 resurfacing amid the Pranit More row); original account unknown (collision) | ✔ human (Havish): collision. Virli's written statement says the clip is from a performance about two years earlier that he took down soon after; others recirculated it in June 2026. Source performance still unidentified |
 | 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / yes / no / no (women, victims of sexual violence (NCW)) | ✔ AI: women / victims of sexual violence: defended butt |
 
 ### mohanraj_2026
@@ -160,8 +160,8 @@ the AI check itself is tested on a random sample.
 | 1 | Outcome | online_only | ✔ AI: online only: no complaint found (India TV, Aaj Tak, CSR Journal) |
 | 2 | Legal actions against the comedian | none | ✔ AI: none |
 | 3 | Extra-legal actions | none (online harassment including attacks on her marriage and dress) | ✔ AI: none |
-| 4 | Who acted (mobilising actor) | none | ✔ AI: none **→ human spot-check** |
-| 5 | How the clip spread (first spreader; collusion or collision) | an X account (15 June 2026), then YouTube aggregator channels (collision) | ✔ AI: resurfaced on X during the More/Virli row (collision): all three reports **→ human spot-check** |
+| 4 | Who acted (mobilising actor) | none | ✔ human (Havish): nothing happened to her; nobody acted |
+| 5 | How the clip spread (first spreader; collusion or collision) | an X account (15 June 2026), then YouTube aggregator channels (collision) | ✔ human (Havish): resurfaced on X during the More/Virli row (collision) |
 | 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / yes (family (her own mother and brother); men as a group: no statutory body) | ✔ AI: own family; own group |
 
 ### agrima_2020
@@ -169,9 +169,9 @@ the AI check itself is tested on a random sample.
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
 | 1 | Outcome | both | ✔ AI: both |
-| 2 | Legal actions against the comedian | MLA's complaint letter to Home Minister seeking arrest; Home Minister's direction to Mumbai Police and IG Cyber to take legal action; police sought legal opinion; no FIR found | ✔ AI: Sarnaik's letter to Home Minister; HM Deshmukh directed police to act; no FIR found: Swarajya, FPJ, LatestLaws, The Week **→ human spot-check** |
+| 2 | Legal actions against the comedian | MLA's complaint letter to Home Minister seeking arrest; Home Minister's direction to Mumbai Police and IG Cyber to take legal action; police sought legal opinion; no FIR found | ✔ human (Havish): Sarnaik's letter to the Home Minister, the Home Minister's direction to police, no FIR |
 | 3 | Extra-legal actions | venue vandalised by MNS activists; rape and death threats; pressured apologies (two public apologies, the second addressed to NCP, Shiv Sena, Congress and MNS); video taken down | ✔ AI: MNS vandalism of The Habitat; rape and death threats; Shubham Mishra detained: Scroll, Quint, TNM, The Week |
-| 4 | Who acted (mobilising actor) | Pratap Sarnaik (Shiv Sena MLA) via the Home Minister; MNS activists (vandalism) | ✔ AI: Shiv Sena MLA Pratap Sarnaik; MNS activists **→ human spot-check** |
+| 4 | Who acted (mobilising actor) | Pratap Sarnaik (Shiv Sena MLA) via the Home Minister; MNS activists (vandalism) | ✔ human (Havish): Shiv Sena MLA Pratap Sarnaik; MNS activists |
 | 5 | How the clip spread (first spreader; collusion or collision) | Ramesh Solanki (former Shiv Sena functionary), tweet of 9 Jul 2020 (collision) | ✔ AI: Ramesh Solanki (ex-Shiv Sena) tweet of 9 July 2020: Swarajya, OpIndia |
 | 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / no (Shivaji named in the joke (butt: the statue hype); butt is the Modi-era statue hype; BJP not in power in Maharashtra in Jul 2020) | ✔ AI: Shivaji named in the joke |
 
@@ -181,9 +181,9 @@ the AI check itself is tested on a random sample.
 |---|---|---|---|
 | 1 | Outcome | online_only | ✔ AI: online only: no complaint (Gulf News, The Week, ThePrint) |
 | 2 | Legal actions against the comedian | none | ✔ AI: none |
-| 3 | Extra-legal actions | none | ✔ AI: none **→ human spot-check** |
+| 3 | Extra-legal actions | none | ✔ human (Havish): nothing happened to Kapil Sharma |
 | 4 | Who acted (mobilising actor) | none | ✔ AI: none |
-| 5 | How the clip spread (first spreader; collusion or collision) | an X user posting the clip with the caption "Kapil Sharma subtly insults Atlee's looks?" (collusion) | ? AI: first spreader is an anonymous X post (case file); not independently confirmed **→ human: check this** |
+| 5 | How the clip spread (first spreader; collusion or collision) | an X user posting the clip with the caption "Kapil Sharma subtly insults Atlee's looks?" (collusion) | ✔ human (Havish): the first post was from a **verified** X account, not an anonymous one (correct the case file's wording) |
 | 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / no / no / no (colourism: no statutory body) | ✔ AI: no condition **→ human spot-check** |
 
 ## Siddanth checks Pranav's cases
