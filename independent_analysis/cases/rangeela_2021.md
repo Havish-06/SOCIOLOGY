@@ -1,6 +1,6 @@
 # rangeela_2021: Shyam Rangeela's Modi-mimicry video on ₹100 petrol (2021)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: verified by owner (Pranav, 2026-11-12); 1 timeline citation pending
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `rangeela_2021__zjE4iydpxE8.txt`: **full performance**. "₹100 Petrol by Shyam Rangeela", Shyam Rangeela's own YouTube channel, uploaded 16 February 2021 (03:57 PST = about 17:27 IST) (YouTube metadata: 136 s; 4,003,859 views and 1.14 million channel subscribers on 2026-11-09). Hindi auto-captions. This is the whole video: a single-take sketch at a petrol pump with no live audience.
@@ -43,14 +43,14 @@ On 16 February 2021, mimic Shyam Rangeela posted a two-minute video, shot at a p
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-| 14 Feb 2021 | premium petrol reaches ₹102.07 in Sri Ganganagar | other (market) | reported | [7] |
+| 14 Feb 2021 | premium petrol reaches ₹102.07 in Sri Ganganagar | other (market) | pending (verifier found a second source; citation to be added) | [7] |
 | 16 Feb 2021 (~17:27 IST) | upload of the ₹100 petrol video on YouTube; also shared on Twitter | comedian | confirmed | YouTube metadata; [1][2][4] |
 | 16 or 17 Feb 2021 | performance: video shot at a petrol pump on Hanumangarh Road | comedian | disputed (17 Feb, 5:30 pm per [3]; upload time implies 16 Feb) | [3]; metadata |
 | 17 Feb 2021 | regular petrol crosses ₹100 in Sri Ganganagar, first in India | other | confirmed | [7] (several HT editions; search results from other outlets) |
 | 19 Feb 2021 (Fri) | complaint: pump owner Surendra Agarwal complains at Sadar police station; says Rangeela posed as a journalist seeking photos; says the company would halt supply if no FIR was registered | business / individual | confirmed | [1][2][3][4] |
 | ~19–20 Feb 2021 | pump owner reportedly apologises to the company; two employees sent on leave | business | reported | [3] |
 | 20 Feb 2021 | response video: Rangeela says he had permission; refuses to delete; apologises to the owner for trouble caused, not for the content; says the owner told him supply had been stopped and the licence might be cancelled | comedian | confirmed (response); reported (supply stoppage, his claim) | [1][2][3] |
-| 20–21 Feb 2021 | Twitter: "chaliye kar lijiye karyavahi" ("go ahead, take action"); a sarcastic "apology to petrol"; #sorrypetrol | comedian | reported | [2][3] |
+| 20–21 Feb 2021 | Twitter: "chaliye kar lijiye karyavahi" ("go ahead, take action"); a sarcastic "apology to petrol"; #sorrypetrol | comedian | confirmed | [2][3] |
 | after Feb 2021 | no FIR registration, arrest or court case confirmed; a 2024 profile says the video "led to a court case" | | disputed / unverified | [5]; [1][2][4] (complaint only) |
 
 - Days from first viral spread to peak attention: about 4–5 (16 Feb upload → 20–22 Feb coverage of the complaint). Fading: within about a week; no follow-up coverage found.
@@ -258,3 +258,14 @@ key_lenses: other: corporate supply-chain pressure; stigma and labelling (courte
 best_explanation: With no political actor mobilising, a mild viral Modi parody became a minor legal matter only because it was shot at a licensed business whose supplier pressed the dealer to complain on grounds of misrepresentation, so the cost fell on the venue rather than the comedian.
 confidence: medium
 ```
+
+## N. Owner's check (Pranav, 2026-11-12)
+
+Clip watched by the owner; first read in `analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+
+- Watched `zjE4iydpxE8` in full.
+- Agrees with K: continuous to-camera Modi impression; gentle satire; up; collusion; nothing cut.
+- **No brand name or logo is visible**, but the company can be identified from the station's colours. No staff or customers seen.
+- **FIR check (2026-11-12):** every report found describes only the pump owner's police complaint; no FIR, arrest or court case found. Outcome stays legal (thin: complaint only).
+- Sacred object: the nation is **invoked** in the joke (Modi's "desh" rhetoric) but not mocked or claimed; owner first coded "the nation" (see first_read.csv).
+- Pending citation: second source for premium petrol ₹102.07 on 14 Feb 2021 (background row).

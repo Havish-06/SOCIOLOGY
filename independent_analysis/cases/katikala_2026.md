@@ -1,6 +1,6 @@
 # katikala_2026: Anudeep Katikala's "Babu lake Babu" set on Pawan Kalyan and the Mega family (2026)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: verified by owner (Pranav, 2026-11-12); 2 timeline citations pending
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `katikala_2026__D4PP75fwj78.txt`: **full performance (the objected video)**. "Babu lake Babu | Telugu Stand up Comedy by Anudeep Katikala", on Katikala's own channel, uploaded 8 April 2026, about 18:00 IST (YouTube metadata; 1797 s, about 30 min; 87,759 views and 6.5K channel subscribers on 2026-11-09). The description says "Shot at: The Underground Comedy Club Bangalore", and the comedian says on camera "this video was recorded in Bengaluru" (28:04). Telugu/English auto-captions.
@@ -47,20 +47,20 @@ Hyderabad comedian Anudeep Katikala (IIT Bombay graduate, founder of the Silly S
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-| before 8 Apr 2026 | performance at The Underground Comedy Club, Bengaluru | comedian | reported (comedian's own video and description) | transcript 28:04; YouTube description |
+| before 8 Apr 2026 | performance at The Underground Comedy Club, Bengaluru | comedian | confirmed (comedian's own video, 28:04, and description) | transcript 28:04; YouTube description |
 | 8 Apr 2026, ~18:00 IST | upload "Babu lake Babu" on own channel | comedian | confirmed (metadata) | YouTube metadata |
 | ~9–10 Apr 2026 | viral: clips circulate; comedian says YSRCP used them to mock Pawan Kalyan | individual / party (claimed) | reported | [1] |
-| 10 Apr 2026 | statement: JSP in-charge Sandeep Panchakarla demands apology on X, warns of legal consequences | politician | reported | [1] |
+| 10 Apr 2026 | statement: JSP in-charge Sandeep Panchakarla demands apology on X, warns of legal consequences | politician | pending (verifier found a second source; citation to be added) | [1] |
 | 11 Apr 2026 | statement: The Bird Media commentary ("stand-up terrorism"); host says fans say they will "beat him like a pig" if he doesn't apologise and that JSP is ready to file a case | media | confirmed (video in data) | transcript RhuVbhDvpFY; [9] (Mega9tv summary) |
 | 11 Apr 2026 (Sat) | threat: group led by a fan goes to The Street comedy club, Hyderabad, where he was due to perform; abuse; demand his phone number; owner persuades them to leave | fan_group | reported | [1] |
 | 11 Apr 2026, 13:15 | complaint/fir: Bade Venkata Krishna (JSP East Godavari joint secretary) complains; FIR at Kakinada I Town PS: BNS 356(2), 353(2), 79; IT Act 67 | party_worker / police | confirmed | [2][3][4][5] |
-| 12 Apr 2026 | statement: JSP leader Kiran Royal on X demands apology and imprisonment | politician | reported | [1] |
+| 12 Apr 2026 | statement: JSP leader Kiran Royal on X demands apology and imprisonment | politician | confirmed (verifier found his own video) | [1] |
 | 12 Apr 2026 | clarification: Katikala to TNM: jokes meant to "normalise feminism, divorce"; says he got death threats | comedian | confirmed | [1][3] |
 | 12–13 Apr 2026 | apology: video apology ("I apologise for any feelings hurt... never my intention... I apologise to the individuals who were hurt or mentioned in the video") | comedian | confirmed (exact date reported only) | transcript mIiBfmzcI68 05:46; [4][10] |
 | 14 Apr 2026, ~19:00 | arrest/detention by Kakinada police in a park in Prayagraj (UP) while with his father; traced by phone | police | confirmed | [2][3][4][5] |
 | 14 Apr 2026 | police say a BNSS 35(3) notice was issued; defence says none was served | police / comedian | disputed | [11] |
 | 15 Apr 2026 | statement: family calls it a "witch hunt"; comedians (Vivek Muralidharan, Nishant Suri, Sarat Uday, Sravanthi Basa, Dr John Paul) post support | comedian / community | confirmed (family statement); reported (comedians) | [2][3] |
-| 16 Apr 2026 (night) | court: III Addl. JFCM, Kakinada (Magistrate B Sridevi) refuses remand, releases him on personal bond; defence (Human Rights Forum advocates) argues arrest illegal (no written grounds) | court | confirmed (release); disputed (bond form: personal bond vs ₹10,000 surety) | [11][12] |
+| 16 Apr 2026 (night) | court: III Addl. JFCM, Kakinada (Magistrate B Sridevi) refuses remand, releases him on personal bond; defence (Human Rights Forum advocates) argues arrest illegal (no written grounds) | court | confirmed (release); pending (bond form: personal bond vs ₹10,000 surety; verifier to state which version and its source) | [11][12] |
 | 16–17 Apr 2026 | second comedian, Rafiq (Vizag), detained on a JSP leader's complaint over Pawan Kalyan and Lokesh jokes | police / party_worker | confirmed | [6][7] |
 | to 2026-11-09 | no report of a chargesheet, quashing petition or further proceedings found | | (absence) | searches 2026-11-09 |
 
@@ -305,3 +305,17 @@ key_lenses: strategic offence; mobilisation (ruling party); law as a weapon; fan
 best_explanation: A club roast of a ruling Deputy CM's marriages and his family was taken up by his party's cadres and fans, and a district office-bearer used a gendered police complaint that a friendly police force pursued across states even after an apology.
 confidence: medium
 ```
+
+## N. Owner's check (Pranav, 2026-11-12)
+
+Clip watched by the owner; first read in `analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+
+- Watched `D4PP75fwj78` (about 03:00–26:00; Telugu speaker).
+- **Tone of 15:39–17:25:** playful, not meant to offend Pawan Kalyan (K left sarcastic vs sincere open).
+- **16:01:** nobody in the audience shouts (K's "fan correction" reading is not supported).
+- Room: cheering and big laughs throughout.
+- Additional line not in K: Pawan Kalyan "couldn't even become an MLA, how will he become CM".
+- **Butt of the bit:** mainly Pawan Kalyan's divorces, not Nagababu's lack of fans (supports target = Pawan Kalyan, direction up).
+- Kiran Royal's demand confirmed from his own video.
+- Note on extra-legal actions: "death threats" rests on Katikala's own account to TNM unless another source is found; treat as his account until then.
+- Pending citations: Panchakarla's X demand; which bond version (personal bond or ₹10,000 surety) is correct.

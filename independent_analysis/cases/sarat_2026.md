@@ -1,6 +1,6 @@
 # sarat_2026: Sarat Uday's "Andhra Politics" jokes and the disruption of his Bengaluru show (2024–2026)
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: verified by owner (Pranav, 2026-11-12); final
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `sarat_2026__pYniw8ZA69s.txt`: **full performance (the original video)**. "Andhra Politics | Sarat Uday | Telugu Stand Up Comedy | Jokes", Sarat Uday's own channel, uploaded 14 December 2024 IST (13 Dec 22:29 PST) (YouTube metadata: 501 s, about 8.4 min; 280,460 views and 37.1K channel subscribers on 2026-11-09). Description: "Venue: The Underground Comedy Club banglore; Show partners: Silly South Comedy, Vizag Komedians". **The captions are English auto-captions (en-orig) applied to Telugu–English speech.** Only English fragments survive and there are long gaps (02:10–04:15, 05:31–06:13, 06:34–07:54). This is the weakest transcript in the set.
@@ -46,7 +46,7 @@ Hyderabad comedian Sarat Uday posted an eight-minute Telugu set, "Andhra Politic
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-| before 14 Dec 2024 | performance at The Underground Comedy Club, Bengaluru | comedian | reported (video description) | YouTube description |
+| before 14 Dec 2024 | performance at The Underground Comedy Club, Bengaluru | comedian | confirmed (video description; fact about the video itself) | YouTube description |
 | 14 Dec 2024 (IST) | upload "Andhra Politics" | comedian | confirmed (metadata) | YouTube metadata |
 | Dec 2024 | viral: clips shared selectively by rival-party supporters; abuse "mainly from Jana Sena and TDP supporters"; threats of defamation cases and of disruption | party_worker / individual | confirmed | [1][6] |
 | by 27 Dec 2024 | apology: public apology; says he will stop political comedy videos; Pawan Kalyan jokes made inaudible in the upload | comedian | confirmed (apology); reported (muting) | [1][4][6] |
@@ -267,3 +267,17 @@ key_lenses: context collapse (collision); moral panic (wave of cases); mobilisat
 best_explanation: An old, already-apologised-for, all-party roast (with real digs at Naidu and Lokesh, but an Alipiri line that actually praised Naidu) was resurfaced during a wave of police action against Telugu comics; with no TDP office-bearer filing a complaint and a live Bengaluru show to target, supporters took the street route (stage invasion and forced apology), which the party leadership then disowned in favour of legal action.
 confidence: medium
 ```
+
+## N. Owner's check (Pranav, 2026-11-12)
+
+Clip watched by the owner; first read in `analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+
+- Watched `pYniw8ZA69s` in full and the disruption clip `RKwe7q2wlEU` (Telugu speaker).
+- **Caption gap 02:10–04:15 filled:** KTR gives interviews to prestigious channels while the former YSRCP IT minister gives his to Suman TV, which had just interviewed a viral meme star; asked about IT in Vizag, he dodges and talks about Rushikonda.
+- Pawan Kalyan bit: "read one lakh books" but inter fail; "read one lakh and five books and you become Deputy CM".
+- **Caste is explicit:** the comic names the TDP's caste (Kamma) and talks about caste-based politics (K said "uncertain").
+- **The Tirupati laddu remark exists in the set** (K could not find it). It targets Naidu's allegation against the YSRCP, not the deity.
+- **The Alipiri bomb line praises Naidu** (confirms K). The hecklers' main grievance was a line that flatters their leader.
+- Room: laughing and cheering throughout; the YSRCP roasts get the biggest reaction. During the disruption the audience stayed neutral.
+- The on-stage apology to Naidu and Lokesh was pressured by the party workers, with a warning not to repeat it (confirms "forced").
+- Sacred object: the laddu is **mentioned** in the joke but not mocked; one heckler **claimed** religious hurt. Owner proposes recording "sacred mentioned / mocked / claimed" separately (team decision).
