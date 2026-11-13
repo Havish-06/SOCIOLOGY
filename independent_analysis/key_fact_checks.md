@@ -2,12 +2,12 @@
 
 The findings rest on a few facts per case. A person, not the AI, checks each one against the sources in
 `independent_analysis/cases/<case_id>.md` (sections D, F and the Final coding; source numbers are given there).
-Each **verifier** checks the cases of the owner they verify (`analysis/assignments.md`). About 10 minutes per case.
+Each **verifier** checks the cases of the owner they verify (`independent_analysis/assignments.md`). About 10 minutes per case.
 
 **How to mark:** put ✔ (confirmed by two independent sources or an official record), ✖ (wrong: write the correct
 fact) or ? (only one source / could not confirm) in the Check column. Then commit this file. Anything marked ✖ or ?
 is fixed in the case file and, if it changes a code, in `independent_analysis/comparison.csv` and
-`analysis/conditions.csv`.
+`independent_analysis/conditions.csv`.
 
 ## AI re-check results (13 Nov 2026)
 

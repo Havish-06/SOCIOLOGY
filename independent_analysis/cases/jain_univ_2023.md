@@ -273,7 +273,7 @@ Left for humans: confirm the Bengaluru FIR complainant from the FIR or the 2025 
 
 ## N. Owner's check (Siddhant, with AI, 2026-11-13)
 
-Transcripts re-downloaded and read; first read in `analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+Transcripts re-downloaded and read; first read in `independent_analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
 
 - **Transcript check:** 8RZVxK3CKrk matches section K ("why be Dalit when you can be D-Lit" garbled; "beer Baker"; the "General" pun; "don't touch that water"; applause marker at 00:22). CpwjsWipTVA (TNM) says the skit was staged at three other venues, complainants were threatened and cyber-harassed, and the students apologised.
 - **Confirmed (new search):** complaint by the Assistant Director, Social Welfare Department (Bengaluru South); FIR at Siddapura PS under the SC/ST Act (Deccan Herald, ThePrint); 9 arrested on 13 Feb 2023: 7 students, the dean and a programme coordinator (Deccan Herald, Scroll, South First); 6 students suspended (Scroll, TNM); High Court stay in Jul 2023; **case quashed by the Karnataka High Court (Justice S.R. Krishna Kumar), reported 1 Mar 2025** (LiveLaw, Bar & Bench, TNM).

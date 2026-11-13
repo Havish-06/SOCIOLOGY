@@ -308,7 +308,7 @@ confidence: medium
 
 ## N. Owner's check (Pranav, 2026-11-12)
 
-Clip watched by the owner; first read in `analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+Clip watched by the owner; first read in `independent_analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
 
 - Watched `D4PP75fwj78` (about 03:00–26:00; Telugu speaker).
 - **Tone of 15:39–17:25:** playful, not meant to offend Pawan Kalyan (K left sarcastic vs sincere open).

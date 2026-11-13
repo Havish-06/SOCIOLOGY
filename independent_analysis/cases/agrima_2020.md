@@ -295,7 +295,7 @@ confidence: medium
 
 ## N. Owner's check (Siddhant, with AI, for Yogansh, 2026-11-13)
 
-Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
+Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `independent_analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
 
 - **Transcript check:** the three reuploads match section K (garbled Devanagari of English speech).
 - **Settles the verb at 00:22:** Lv6zElwEaW4 ('AGRIMA JOSHUA AND SOURAV GHOSH INSULTING CHATRAPTI SHIVAJI MAHARAJ | MARATHI ROAST', 11 Jul 2020, 72K views) carries the clip with a cleaner caption at 01:18-01:25: 'शिवाजी स्टैचू आईएस अ... मास्टरस्ट्रोक प्राइम मिनिस्टर मोदी जी... सोलर सेल्स विच विल पावर ऑफ महाराष्ट्र' ('Shivaji statue is a ... masterstroke [by] Prime Minister Modi ji ... solar cells which will power [all] of Maharashtra'). So the verb is **masterstroke**, not 'destroyed', as the AI suspected.

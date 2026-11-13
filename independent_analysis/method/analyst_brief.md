@@ -299,7 +299,7 @@ police, court, commission, platform, venue, media.
   for the original audience: identification | clarification | enforcement | differentiation
   as framed by the objectors: identification | clarification | enforcement | differentiation
 - Who defended the comedian:
-- How the media framed it (6–10 articles across at least three outlet types, coded in `analysis/news_coding.csv`;
+- How the media framed it (6–10 articles across at least three outlet types, coded in `independent_analysis/news_coding.csv`;
   PLAN.md (News protocol), news protocol; Entman 1993; Semetko & Valkenburg 2000; Ödmark 2021):
   - who broke the story, and how the framing changed between the first week and the legal phase:
   dominant frame: hurt_sentiments | obscenity | insult_to_leader | free_speech | cancel_culture | legal_overreach | other

@@ -32,7 +32,7 @@ are coded for framing.
 **Independence.** Wire copy (PTI, ANI, IANS) reprinted by several outlets counts as **one** source. An article that
 only repeats another outlet's report counts as that outlet.
 
-**What to code for each framing article** (`analysis/news_coding.csv`, one row per article):
+**What to code for each framing article** (`independent_analysis/news_coding.csv`, one row per article):
 
 | Field | Values |
 |---|---|
@@ -94,7 +94,7 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
 - **Goal:** a final list of 20–30 cases, chosen by written criteria so the selection cannot be called cherry-picking.
 - **Do:**
   1. **Long-list (about 40 candidates).** Start from the 23 cases in `data/cases.csv` and the extra ideas in
-     `analysis/case_pool_summary.md`. The AI assistant searches for further candidates. For each candidate, record:
+     `independent_analysis/case_pool_summary.md`. The AI assistant searches for further candidates. For each candidate, record:
      comedian, approximate date, topic, likely genre, likely outcome type, number of independent sources
      found, and whether a clip or comments are available.
   2. **Inclusion criteria** (a case must meet all):
@@ -111,7 +111,7 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
   4. **Fill a selection matrix** (topic × outcome) and look for empty cells. Empty cells are informative,
      but if an empty cell is due to missing research rather than reality, search for a case to fill it.
   5. Team picks the final 20–30. Record rejected candidates and the reason (e.g. "only one source").
-- **Output:** `analysis/case_pool.csv` (all candidates, with included yes/no and reason) and the final list in DECISIONS.md.
+- **Output:** `independent_analysis/case_pool.csv` (all candidates, with included yes/no and reason) and the final list in DECISIONS.md.
 - **Done when:** the final list is agreed and the matrix has no empty cells that are only due to missing research.
 
 ### Step 3: Finalise the template
@@ -143,14 +143,14 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
 | Sub-step | Who | What happens | Output |
 |---|---|---|---|
 | 5.1 Research | AI | Search news, legal reports and statements. Build the dated timeline and source list. | `cases/<case_id>/sources.md` |
-| 5.2 Full clip and first read | Case owner, **before opening the draft** | Watch the **full** original performance (links in `analysis/clips.md`), not only the viral seconds. Copy the YouTube transcript ("Show transcript"); if there is none, write the key lines by hand. Write a first read: what the joke was, what came before and after, how the room reacted, how the viral clip was cut, topic, direction, what angered people, outcome. If no clip exists, use the best reported quotation and say so. | `data/transcripts/<case_id>__<video_id>.txt` (git-ignored); row in `analysis/first_read.csv` |
+| 5.2 Full clip and first read | Case owner, **before opening the draft** | Watch the **full** original performance (links in `independent_analysis/clips.md`), not only the viral seconds. Copy the YouTube transcript ("Show transcript"); if there is none, write the key lines by hand. Write a first read: what the joke was, what came before and after, how the room reacted, how the viral clip was cut, topic, direction, what angered people, outcome. If no clip exists, use the best reported quotation and say so. | `data/transcripts/<case_id>__<video_id>.txt` (git-ignored); row in `independent_analysis/first_read.csv` |
 | 5.3 Comments | AI + team | AI pulls YouTube comments for up to 3 key videos and reads and themes them following PLAN.md, Comment protocol. | `data/comments/<case_id>_*.csv` (git-ignored), themes in section E |
 | 5.4 Draft | AI | Fill every section of the template, including the theory reading (section H). | `cases/<case_id>/case.md` (`status: draft`) |
 | 5.5 Compare | Case owner | Give the AI the transcript; compare the first read with the draft field by field; fix the draft where the clip or sources show it is wrong; mark in `first_read.csv` where the owner and the AI agreed. | `case.md` updated |
 | 5.6 Verify | Verifier (never the owner) | Check every fact against sources (PROJECT.md §9, Verification rules). | `status: verified` |
 | 5.7 Finalise | Case owner | Fix flagged items, update the master table. | `status: final`, row in `analysis/comparison.csv` |
 
-- **Workload:** 24 cases and 4 people: 6 cases each to own and 6 to verify. Assignments in `analysis/assignments.md`
+- **Workload:** 24 cases and 4 people: 6 cases each to own and 6 to verify. Assignments in `independent_analysis/assignments.md`
   (Havish, Yogansh, Pranav, Siddanth; verifiers rotate).
 - **Order:** do matched pairs together (e.g. both Fernandes cases, both More cases, Katikala and Sarat Uday),
   so the comparison is easy to see while writing.
@@ -165,7 +165,7 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
      sacred object, who mobilised, channel used, highest stigma step, courtesy stigma, comedian's response,
      outcome, audience size, election period, and so on).
   2. **Agreement report:** share of cases where the owner's first read matched the AI draft on each
-     judgement (`analysis/first_read.csv`). Report it honestly.
+     judgement (`independent_analysis/first_read.csv`). Report it honestly.
   3. **Answer each sub-question:**
      - SQ1: compare topics (and punching up vs down within a topic) on outcome and reaction framing; then check whether genre adds anything once topic is held constant
      - SQ2: compare collision cases with collusion cases on how far they escalated
@@ -312,22 +312,20 @@ cannot be searched back to the author; raw comment files stay git-ignored.
 
 ```
 README.md                   the single guide: project, method, codebook, previous work, decisions
-cases/
-  _template.md              the frozen template
-  <case_id>/                one folder per final case (24), created from the template
-    case.md                 the full case analysis
-    sources.md              searches and numbered source list with dates accessed
-analysis/
-  case_pool.csv             all 45 candidates, final yes/no, reason
-  case_pool_summary.md      how the list was built; balance; matched pairs; reserves
-  final_cases.csv           the 24 final cases
-  assignments.md            who owns and who verifies each case
-  clips.md                  links to watch and transcribe for every case
-  first_read.csv            owners' first reads, made before reading the AI draft
+independent_analysis/       CURRENT: everything the findings rest on
+  cases/<case_id>.md        final analysis of each case (24), from the clip transcripts
   comparison.csv            master comparison table, one row per case
-  mechanisms.csv            lens verdicts from section H of every case
-  news_coding.csv           framing codes for 6–10 news articles per case
   findings.md               cross-case findings (Step 6)
+  conditions.md, .csv       non-circular test: conditions judged before any reaction
+  key_fact_checks.md        key facts per case, checked against sources and by people
+  first_read.csv            owners' first reads, made before reading the AI draft
+  human_checks.md           what each owner still has to check
+  assignments.md, clips.md  who owns which case; links to watch every clip
+  final_cases.csv, case_pool.csv, case_pool_summary.md   the 24 cases and how they were chosen
+  news_coding.csv           framing codes for news articles
+  method/                   instructions, transcript and table scripts
+cases/                      OLD: first AI drafts (9 Nov, news only); _template.md is the original template
+analysis/                   OLD: the first drafts' comparison.csv, mechanisms.csv and findings.md
 data/
   cases.csv, events.csv, videos.csv   earlier case, event and video tables (case_pool.csv supersedes cases.csv)
   comments/                 downloaded and sampled comments    (git-ignored, contains IDs)
@@ -371,7 +369,7 @@ workflow before it, so the presentation can show real cross-case results.
 |---|---|---|
 | Sun 9 – Mon 10 | Everyone reads PROJECT.md, PLAN.md and LITERATURE.md; short team meeting on the remaining open questions; API keys set up | Plan agreed |
 | Sun 9 – Mon 10 | AI collects comments for all cases and runs the spam audit; AI drafts `latent_2025` as the pilot; team reviews it and fixes the template | Template frozen |
-| Mon 10 – Wed 12 | AI drafts the other 23 cases; each owner watches the full clips, pastes the transcripts and writes a first read before checking their 6; each verifier fact-checks their 6 (`analysis/assignments.md`, `analysis/clips.md`) | All cases `verified` |
+| Mon 10 – Wed 12 | AI drafts the other 23 cases; each owner watches the full clips, pastes the transcripts and writes a first read before checking their 6; each verifier fact-checks their 6 (`independent_analysis/assignments.md`, `independent_analysis/clips.md`) | All cases `verified` |
 | Wed 12 – Thu 13 | Fill `comparison.csv` and `mechanisms.csv`; cross-case comparison (Step 6) into `findings.md`; build the slides | Findings and slides drafted |
 | Fri 14 | Rehearse; fix slides | Ready to present |
 | 14–15 Nov | **Presentation** | |

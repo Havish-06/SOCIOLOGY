@@ -261,7 +261,7 @@ confidence: medium
 
 ## N. Owner's check (Pranav, 2026-11-12)
 
-Clip watched by the owner; first read in `analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+Clip watched by the owner; first read in `independent_analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
 
 - Watched `zjE4iydpxE8` in full.
 - Agrees with K: continuous to-camera Modi impression; gentle satire; up; collusion; nothing cut.

@@ -274,7 +274,7 @@ confidence: medium
 
 ## N. Owner's check (Siddhant, with AI, for Yogansh, 2026-11-13)
 
-Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
+Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `independent_analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
 
 - **Transcript check:** sb4rpQfU_Fw matches section K: no 'where is Atlee' question; the 'Brett Lee, Bruce Lee, Jaitley and in India Atlee' pun at 03:20-03:45 with laughter. bOH2wIYJJ8U and dkGNjZ3tF98 retell the exchange as the file says (dkGNjZ3tF98 01:31-01:46: 'they didn't recognise you on seeing you... how can you be Atlee'; 'there was annoyance on Atlee's face').
 - **New sources: copies of the aired exchange.** A YouTube search found short reuploads of the Netflix exchange: **M3anzpVn2hY** (CineRustic, 'Kapil sharma on Atlee', posted 15 Dec 2024 10:21 UTC, the day after release, 42 s, 1.4M views) and **86cwHwiVsa8** ('Kapil Atlee Controversy', 18 Dec 2024, 42 s, 321K views). Neither has captions, so their wording could not be read. bbJadWAVqgw (14 s, 15.9M views) is a different moment (Jawan crossing 1,000 crore).

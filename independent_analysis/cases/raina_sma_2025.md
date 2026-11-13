@@ -292,7 +292,7 @@ confidence: medium
 
 ## N. Owner's check (Havish, 2026-11-13)
 
-The owner watched the clips and wrote the first read in `analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
+The owner watched the clips and wrote the first read in `independent_analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
 
 - Watched the two reuploads `uXKVs5lLfAU` and `ARwGWk2jKMM`. The *NARAK* original was not accessed.
 - **Room:** silence when he raised the topic (captions had no markers).

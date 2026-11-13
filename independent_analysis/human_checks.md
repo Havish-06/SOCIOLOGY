@@ -1,8 +1,8 @@
 # What humans still need to check
 
-The final analysis is AI work. Before the presentation, each owner checks their cases (`analysis/assignments.md`):
+The final analysis is AI work. Before the presentation, each owner checks their cases (`independent_analysis/assignments.md`):
 open `cases/<case_id>.md` in this folder, read sections K (the joke in the clip), M (differences settled) and L
-(human check list), and do the items below. Links to every video are in `analysis/clips.md`.
+(human check list), and do the items below. Links to every video are in `independent_analysis/clips.md`.
 
 ## Decisions for the whole team
 
