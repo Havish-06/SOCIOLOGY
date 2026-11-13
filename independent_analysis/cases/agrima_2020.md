@@ -1,6 +1,6 @@
 # agrima_2020: Agrima Joshua's Shivaji statue joke (2019 set, row in July 2020)
 
-status: checked by owner (Siddhant, with AI, for Yogansh, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
+status: checked by owner (Siddhant, with AI, for Yogansh) and watched by Yogansh (2026-11-13); see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `agrima_2020__42jmTU8RASI.txt`: **reupload** of the roughly one-minute clip, by a third-party channel, with the accusatory title "AGRIMA JOSHUA INSULTS CHHATRAPATI SHIVAJI MAHARAJ|| STAND UP COMEDY".
@@ -303,4 +303,8 @@ Done for Yogansh, the owner of this case. Transcripts were downloaded again (tra
 - **Wording in writing:** news reports (Scroll, The Week, Republic, Swarajya) agree on Quora, masterstroke, GPS tracker, lasers at Pakistani terrorists and 'It's not Shivaji, it's Shivaji Maharaj', with small differences in wording (web search 2026-11-13).
 - **Coding:** agree with the final coding (both; up; collision; step 4 as aligned).
 - **Second pass (2026-11-13):** comments under six reuploads were scanned for the tone of "not Shivaji, Shivaji Maharaj"; none settles it. One Marathi comment under Lv6zElwEaW4 (1 Aug 2020) says people in the room were laughing ("तिथं बसून जे कोणी मज्या घेत होते आपमानवेळी हसत होते"), a viewer's account of room laughter. One comment under 42jmTU8RASI (17 Jun 2026) claims the full video had a further "Aurangzeb" passage and that she did not say "Chhatrapati"; no other source mentions Aurangzeb, so treat it as unverified. The HW News report (dn5S3o9g5DU) and the Gaurav Kapoor commentary (Akm89A5IsXM) are too garbled in the captions to add anything.
-- **Needs someone to watch:** 42jmTU8RASI 00:38-00:50 for the tone of 'not Shivaji, Shivaji Maharaj' (self-correction or a dig); laughter in the room.
+- **Watched by Yogansh (2026-11-13):**
+  - Watched `42jmTU8RASI`.
+  - **'Not Shivaji, Shivaji Maharaj':** a dig. She imitates the people who insist on the title; it is not a self-correction. Supports K (the butt is the statue hype and its fans, not Shivaji).
+  - **New line:** near the end she says she hates doing political comedy, which suggests she expected backlash.
+- **Needs someone to watch:** nothing further.

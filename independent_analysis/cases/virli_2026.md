@@ -1,6 +1,6 @@
 # virli_2026: Madhur Virli's resurfaced rape joke ("cuddle after rape")
 
-status: checked by owner (Siddhant, with AI, for Yogansh, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
+status: checked by owner (Siddhant, with AI, for Yogansh) and watched by Yogansh (2026-11-13); see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `virli_2026__ONiMILytYok.txt`: "LOVE & LATEX | Stand Up Comedy by Madhur Virli", Virli's own channel, uploaded 2024-02-02 (US time; 3 Feb IST), 27:57, about 5.74M views on 2026-11-09. Description: "my 8th stand-up comedy video… Location courtesy: The Laughstore, Delhi". **Full special as currently online.** It does **not** contain the rape lines (see K).
@@ -286,4 +286,11 @@ Done for Yogansh, the owner of this case. Transcripts were downloaded again (tra
   - **Viewer comments** (under 8ab3Ghr3BII, 82Xv9cfiRto and uCkndQmdUfU, June-October 2026) repeatedly say he "deleted the video" about two years earlier, and one viewer (25 Jun 2026) says they objected "on that video" in 2024. This fits a whole filmed show that was posted and then taken down, consistent with KiCES97lOgk ("we have a camera behind"). Not independently confirmed.
   - **No arrest.** One comment (25 Jun 2026) says "ab arrest bhi ho gya"; a news search (2026-11-13) found no arrest, custody or FIR against Virli, only the NCW notice and the October Maharashtra Cyber summons. The comment is wrong.
   - **Still unknown:** the title and date of the deleted show; whether the "cuddle" joke is in the same show as the necrophilia crowd work.
-- **Needs someone to watch:** KiCES97lOgk and uCkndQmdUfU side by side (same stage, clothes, lighting?) to confirm the 'cuddle' joke is from the same show.
+- **Watched by Yogansh (2026-11-13):**
+  - Watched `uCkndQmdUfU` and `KiCES97lOgk`.
+  - **Room at the 'cuddle' joke:** laughter, but noticeably less than his audiences give his other jokes.
+  - **KiCES97lOgk:** the room laughs a lot and seems to be on the same page with him.
+  - **'I don't want to end on rape and death':** he only wants a lighter close; he does not seem aware that the material crosses a line.
+  - Owner's view: rape should not be joked about in this way.
+  - **Still open:** whether the stage, clothes and lighting match (same show) was not judged.
+- **Needs someone to watch:** KiCES97lOgk and uCkndQmdUfU side by side for stage, clothes and lighting (same show?).

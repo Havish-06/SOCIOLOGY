@@ -1,6 +1,6 @@
 # kapil_2024: Kapil Sharma's "Where is Atlee?" question on The Great Indian Kapil Show
 
-status: checked by owner (Siddhant, with AI, for Yogansh, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
+status: checked by owner (Siddhant, with AI, for Yogansh) and watched by Yogansh (2026-11-13); see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `kapil_2024__sb4rpQfU_Fw.txt`: **official clip**, Kapil Sharma's own YouTube channel, "Laughter Explosion: Varun, Keerthy, Atlee, Wamiqa | The Great Indian Kapil Show | Bacha Hua Content" (uploaded 2024-12-16 IST, 9:52 min, about 6.2M views on 2026-11-09). "Bacha Hua Content" means *leftover content*. These are segments from the same taping that were **not** in the Netflix episode. **It does not contain the controversial question.**
@@ -282,4 +282,11 @@ Done for Yogansh, the owner of this case. Transcripts were downloaded again (tra
 - **Coding:** agree with the final coding (online_only; contested; collusion).
 - **Second pass (2026-11-13): viewer comments on the aired clips.** Comments under M3anzpVn2hY (459 scanned) and 86cwHwiVsa8 confirm both 42-second clips contain the exchange and describe it consistently: Kapil first says Atlee is "so young" and "has become so big", then asks whether someone ever said "where is Atlee?". One Hindi paraphrase: "kapil ne question se pehle hi kaha aap kaafi young dikhte ho, to kabhi aisa hua aap gaye aur saamne wale ko laga yeh kaun hai, yeh koi director nahi ho sakta". On the room: "when he said I understood your question, everyone started to laugh"; "Keerthy did not laugh as other guests did"; "Kapil clapped and laughed out loudly". These are viewer accounts, not a transcript, but they fill section K's "room reaction: unknown" provisionally: **laughter from the audience and some guests at Atlee's "I understood your question"**, then applause for his answer (FPJ).
   - **Atlee later:** a new search (2026-11-13) found no later comment by Atlee, as the file says.
-- **Needs someone to watch:** M3anzpVn2hY (42 s) for Kapil's exact Hindi (the comments give the sense, not the words).
+- **Watched by Yogansh (2026-11-13):**
+  - Watched `M3anzpVn2hY` (42 s).
+  - **Kapil's words (as heard):** 'Kabhi aapke saath aisa hua ki kisi star se aap milenge first time, aur usko laga ho ki ... unhone kaha, where is Atlee?' (one stretch unclear).
+  - **Room:** some of the audience laughs at the question.
+  - **Reading:** a dig at Atlee's looks and dark skin (as if he were not 'visible' as the director).
+  - **Atlee:** neutral expression, but answers at once with no pause or laugh ('I understood your question'), then says people should be judged by the heart, not appearance. He takes it as a joke on the surface but seems offended at the start.
+  - Owner reads the direction as down (a colourist dig); the final coding keeps 'contested', which includes that reading.
+- **Needs someone to watch:** nothing further.

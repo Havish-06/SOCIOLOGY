@@ -1,6 +1,6 @@
 # mohanraj_2026: Aishwarya Mohanraj's old Comicstaan joke about her mother and newborn brother
 
-status: checked by owner (Siddhant, with AI, for Yogansh, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
+status: checked by owner (Siddhant, with AI, for Yogansh) and watched by Yogansh (2026-11-13); see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `mohanraj_2026__VWBaA8HXwzk.txt`: "Aishwarya Mohanraj brother priv@te part joke | … old Viral Joke", aggregator channel, 2026-06-15, 2:36. **Reupload with commentary.** Contains the joke itself (00:41–01:27). The only transcript with the joke.
@@ -257,4 +257,9 @@ Done for Yogansh, the owner of this case. Transcripts were downloaded again (tra
 - **Second pass (2026-11-13):**
   - **AIB's 1-FKpcy1sAY is not the source.** Its comments (1,791 scanned) describe the "If Rahul Dravid is wall, then I am Rahul Dravid" line and her mother's thumbs-up, which are the "best comic" PowerPoint set (the same set as SYIz00tXPNs). No comment mentions the mother/brother bit.
   - **A lead on the round:** the commentary video fKOreidZbis ("WTF is Wrong with Indian Female Comedians?", 16 Jun 2026) says "सेट का टॉपिक था फैमिली" ("the set's topic was family"), and its description links the full clip on Instagram. Comicstaan S1 rounds were organised by form and theme, but no episode guide found lists a "family" round (web search 2026-11-13). Two more uploads (3Q4r887nW_U; hooMhO02KwA) say "Comicstaan Season 1". Episode still unknown; the year 2018 stands.
-- **Needs someone to watch:** nothing essential. Optional: the Instagram post linked in the description of fKOreidZbis, for the full clip.
+- **Watched by Yogansh (2026-11-13):**
+  - Watched `VWBaA8HXwzk` 00:41-01:27.
+  - **Delivery:** did not come across as a joke to the owner; it felt nasty rather than absurd.
+  - **Room:** the laughter feels forced and comes only after a pause of 2-3 seconds; the judges only smile.
+  - **Disagrees with** the room reaction reported by The Lallantop (judges clapped and laughed) and with reading the bit as gentle satire.
+- **Needs someone to watch:** nothing further.
