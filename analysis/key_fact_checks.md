@@ -28,11 +28,11 @@ the AI check itself is tested on a random sample.
 
 | Case | Fact | Why |
 |---|---|---|
-| latent_2025 | 2 | Guwahati FIR, Maharashtra Cyber FIR, NCW summons, YouTube block, SC quashing of FIRs on 14 Aug 2026 confirmed (Scroll, Outlook, Deccan Herald, Bar & Bench); Jaipur FIR not found in any source: human to confirm or drop |
+| latent_2025 | 2 | Settled by Havish (Jaipur FIR confirmed; link to add) |
 | latent_2025 | 5 | Settled by Havish: unknown; Raina's own channel |
 | raina_sma_2025 | 5 | Settled by Havish: NARAK (2022), resurfaced by others (collision) |
 | raina_2026 | 5 | Settled by Havish |
-| raina_2026 | 6 | judgement: collective trauma in the joke and own group depend on who says "left by choice" (owner's open check) |
+| raina_2026 | 6 | Settled by Havish: mixed own group; recoded |
 | sachdeva_2025 | 5 | Settled by Havish |
 | fernandes_2024 | 1 | Settled by Havish: extra-legal |
 | fernandes_2024 | 2 | Settled by Havish: no second source |
@@ -57,7 +57,7 @@ the AI check itself is tested on a random sample.
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
 | 1 | Outcome | both | ✔ AI: follows from 2 and 3 |
-| 2 | Legal actions against the comedian | Mumbai complaint and Khar police inquiry (10 Feb 2025); Guwahati FIR (10 Feb); Maharashtra Cyber IT Act FIR vs ~30 (10/11 Feb); Jaipur FIR (Allahbadia); NCW summons (11 Feb); government directive and YouTube block of the episode … | ? AI: Guwahati FIR, Maharashtra Cyber FIR, NCW summons, YouTube block, SC quashing of FIRs on 14 Aug 2026 confirmed (Scroll, Outlook, Deccan Herald, Bar & Bench); Jaipur FIR not found in any source: human to confirm or drop **→ human: check this** |
+| 2 | Legal actions against the comedian | Mumbai complaint and Khar police inquiry (10 Feb 2025); Guwahati FIR (10 Feb); Maharashtra Cyber IT Act FIR vs ~30 (10/11 Feb); Jaipur FIR (Allahbadia); NCW summons (11 Feb); government directive and YouTube block of the episode … | ✔ human (Havish, 13 Nov): Guwahati, Maharashtra Cyber and Jaipur FIRs, NCW summons, SC quashing (14 Aug 2026). Jaipur FIR confirmed by Havish; **its source link still to be added to the case file** |
 | 3 | Extra-legal actions | four Gujarat shows (April 2025) withdrawn amid VHP pressure (cancellation confirmed; cause claimed by VHP); threats against Allahbadia and Makhija (widely reported, partly self-reported); pressured apology (Allahbadia) | ✔ human (Havish, 13 Nov): four Gujarat shows cancelled, VHP claimed credit |
 | 4 | Who acted (mobilising actor) | Assam CM Himanta Biswa Sarma / Guwahati police; Maharashtra Cyber; NCW; lawyers Ashish Rai and Pankaj Mishra | ✔ AI: Assam CM / Guwahati police, Maharashtra Cyber, NCW confirmed in several outlets |
 | 5 | How the clip spread (first spreader; collusion or collision) | unknown (third-party Shorts/clip channels and social media users) (collusion) | ✔ human (Havish, 13 Nov): first spreader unknown; the episode was on Raina's own channel (collusion) |
@@ -72,7 +72,7 @@ the AI check itself is tested on a random sample.
 | 3 | Extra-legal actions | none | ✔ AI: none found |
 | 4 | Who acted (mobilising actor) | none | ✔ human (Havish, 13 Nov): politicians' statements only |
 | 5 | How the clip spread (first spreader; collusion or collision) | social media users on X (unnamed); IANS wire solicited reactions (collusion) | ✔ human (Havish, 13 Nov): unnamed X users; episode on Raina's channel (collusion) |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / yes (Kashmiri Pandit exodus (collective trauma); Biharis, Kashmiris: no statutory body) | ? AI: judgement: collective trauma in the joke and own group depend on who says "left by choice" (owner's open check) **→ human: check this** |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / yes (Kashmiri Pandit exodus (collective trauma); Biharis, Kashmiris: no statutory body) | ✔ human (Havish, 13 Nov): collective trauma in the joke (yes); own group **mixed**: Raina jokes about Pandits with Orry (own group), Sharon Verma makes the objected exodus joke at Raina (another's group). Recoded in conditions.csv; raina_2026 becomes a failure of the rule |
 
 ### raina_sma_2025
 
@@ -80,7 +80,7 @@ the AI check itself is tested on a random sample.
 |---|---|---|---|
 | 1 | Outcome | legal | ✔ AI: SC writ, summons, apology order, fundraising order, costs: Bar & Bench, LiveLaw, Business Today, Scroll |
 | 2 | Legal actions against the comedian | SC intervention (Apr 2025) then W.P.(C) 460/2025; notice and compelled appearance via Mumbai Police Commissioner (5 May 2025); court-ordered public apology (25 Aug 2025); mandated fundraising programmes (27 Nov 2025); Rs 3 lakh … | ✔ AI: as above; SC quashed the FIRs on 14 Aug 2026 (Bar & Bench, Outlook, Telangana Today): no longer single-source |
-| 3 | Extra-legal actions | none | ✔ AI: none found in any source **→ human spot-check** |
+| 3 | Extra-legal actions | none | ? human (Havish, 13 Nov): Havish reported VHP threats, but the source shown (VHP and the Gujarat cancellations, Feb 2025) concerns latent_2025, where it is already coded. Raina SMA stays "none" unless threats over the SMA joke itself are found |
 | 4 | Who acted (mobilising actor) | Cure SMA Foundation of India | ✔ AI: Cure SMA Foundation of India petition (LiveLaw, Business Today) |
 | 5 | How the clip spread (first spreader; collusion or collision) | journalists/commentators on X (Akhilesh Sharma; Kanchan Gupta) during the Latent row (collision) | ✔ human (Havish, 13 Nov): the joke is from the 2022 special NARAK and was resurfaced by others (collision), as the case file says; news reports placing it on India's Got Latent are wrong |
 | 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / yes / no / no (family (a mother weighing money against her infant); secondary; persons with disabilities (RPwD Act)) | ✔ human (Havish, 13 Nov): persons with disabilities are the butt (defended group) |

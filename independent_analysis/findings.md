@@ -10,10 +10,10 @@ controversies, these are patterns among controversies, not risks of joke topics 
 ## 1. The answer in one paragraph
 
 Among these 24 controversies, the topic of a joke does not decide how the controversy ends. **Three conditions,
-judged from the joke and the political setting before anyone reacts, predict 20 of the 24 outcomes**
+judged from the joke and the political setting before anyone reacts, predict 19 of the 24 outcomes**
 (`analysis/conditions.md`): a controversy escalated when the joke mocked a leader whose party holds power (7 of 7),
 targeted a group with a statutory defender (5 of 6), or touched the sacred of a group other than the comedian's own
-(4 of 4; 0 of 3 when comedians joked about their own family or community). Parties, commissions, police and activist
+(4 of 5; 0 of 2 when comedians joked about their own family or community). Parties, commissions, police and activist
 groups are the **mechanism** that turns these conditions into outcomes, not the explanation (explaining escalation by
 "someone with standing acted" would be circular). The conditions in more detail: the joke touches something a group holds **sacred and the law protects**
 (deities, Ambedkar, the nation, a regional icon, the family); the target is a **leader whose party holds power
