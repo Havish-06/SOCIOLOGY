@@ -40,10 +40,10 @@ the AI check itself is tested on a random sample.
 | more_2025 | 5 | Havish: no source says this; Yogansh to re-watch More's set at 06:59–07:19 |
 | virli_2026 | 5 | Settled by Havish: collision (Virli's own statement) |
 | kapil_2024 | 5 | Settled by Havish: a verified X account |
-| kamra_2018 | 6 | judgement: "the nation" in his material is borderline |
+| kamra_2018 | 6 | Settled by Pranav: nothing sacred in either set; sacred in the joke = no |
 | kamra_2025 | 2 | zero FIR at MIDC on MLA Murji Patel's complaint transferred to Khar (BNS 353(1)(b), 356(2)), three more FIRs transferred, three summonses, Bombay HC notice: FPJ, DT Next, Deccan Herald, Business Today. CONFLICT: Storyboard18 reports audience members were summoned under s.179, the case file says police denied it. Privilege proceedings in the Legislative Council not found. Human to check both |
-| katikala_2026 | 3 | "death threats" rest on Katikala's own account (Pranav's note); keep as his account unless a second source is found |
-| virdas_2021 | 6 | judgement: "mocks a ruler" coded yes for the ruling establishment, not a named leader |
+| katikala_2026 | 3 | Settled by Pranav: death threats are his own claim, not confirmed |
+| virdas_2021 | 6 | Settled by Pranav: no ruler named; mocks a ruler = no (rule still predicts escalation via the nation) |
 | munawar_2021 | 6 | deities and Amit Shah are alleged, not recorded in the 2021 set: coded "alleged" |
 | faruqui_2024 | 5 | news says the show was in Taloja; the case file says a Taloja visitor at a Mumbai show. Human to settle |
 | bharti_2022 | 5 | that the Sikh reading came from reupload titles is from the case file's video check; not in news |
@@ -197,7 +197,7 @@ the AI check itself is tested on a random sample.
 | 3 | Extra-legal actions | none reported | ✔ AI: none reported ✔ human (Pranav, 13 Nov, from owner check of 12 Nov): none found |
 | 4 | Who acted (mobilising actor) | 11 MSU alumni via letter to the vice-chancellor | ✔ AI: 11 alumni via letter; VC's office acted |
 | 5 | How the clip spread (first spreader; collusion or collision) | none (no clip resurfaced; objectors relied on reputation; Kamra uploaded the 2017 video himself) (collusion) | ✔ AI: no clip resurfaced; objection was to his body of work |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / yes / no (the nation (patriotism, anthem) in his material; borderline; central government (BJP); show in BJP-ruled Gujarat) | ? AI: judgement: "the nation" in his material is borderline ✖ human (Pranav, 13 Nov): sacred in the joke = **no**. Nothing sacred found in either set (2017, 2018), incl. the 04:57–05:29 gap; no anthem or flag bit; the sets mock patriotism used as a weapon, not the nation. Mocks a ruler stays yes, so the rule's prediction for this case is unchanged |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / no / yes / no (nothing sacred found; central government (BJP); show in BJP-ruled Gujarat) | ? AI: judgement: "the nation" in his material is borderline ✖ human (Pranav, 13 Nov): sacred in the joke = **no**. Nothing sacred found in either set (2017, 2018), incl. the 04:57–05:29 gap; no anthem or flag bit; the sets mock patriotism used as a weapon, not the nation. Mocks a ruler stays yes, so the rule's prediction for this case is unchanged |
 
 ### kamra_2025
 
@@ -252,7 +252,7 @@ the AI check itself is tested on a random sample.
 | 3 | Extra-legal actions | Bengaluru show (10 Nov 2022) cancelled by the organiser after HJS agitation (confirmed); Nov 2022 Hyderabad and other shows postponed (disputed: Das cited an acting opportunity; outlets say cancelled amid right-wing protests); … | ✔ AI: Bengaluru 2022 show cancelled after HJS complaint (TNM, Scroll, BOOM); Hyderabad postponement disputed ✔ human (Pranav, 13 Nov, from owner check of 12 Nov): consistent with the case-file sources checked on 12 Nov |
 | 4 | Who acted (mobilising actor) | BJP office-holders and MP state government (2021); Hindu Janajagruti Samiti (2022) | ✔ AI: BJP office-holders; MP government; HJS |
 | 5 | How the clip spread (first spreader; collusion or collision) | Vir Das (own YouTube channel); short clips on Twitter by unknown users (collusion) | ✔ AI: his own YouTube upload ✔ human (Pranav, 13 Nov, from owner check of 12 Nov): watched his own upload 5A-F9qu6c_4 |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / yes / no (the nation; the ruling establishment (BJP, centre)) | ? AI: judgement: "mocks a ruler" coded yes for the ruling establishment, not a named leader ? human (Pranav, 13 Nov): confirmed that **no ruler is named** anywhere in the set; it criticises India's contradictions (about 60/40 negative) and ends patriotic. "Mocks a ruler = yes" now rests only on the "governing establishment" clause in conditions.md; team to decide whether that clause applies |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / no (the nation; no ruler named) | ? AI: judgement: "mocks a ruler" coded yes for the ruling establishment, not a named leader ✖ human (Pranav, 13 Nov): **mocks a ruler = no.** No leader, party or government is named anywhere in the set; it criticises the state of the country (about 60/40 negative) and ends patriotic. Recoded in conditions.csv; "the nation" stays as sacred in the joke, so the rule still predicts escalation |
 
 ## Yogansh checks Siddanth's cases
 
