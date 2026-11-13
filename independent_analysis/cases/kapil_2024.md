@@ -1,6 +1,6 @@
 # kapil_2024: Kapil Sharma's "Where is Atlee?" question on The Great Indian Kapil Show
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: checked by owner (Siddhant, with AI, for Yogansh, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `kapil_2024__sb4rpQfU_Fw.txt`: **official clip**, Kapil Sharma's own YouTube channel, "Laughter Explosion: Varun, Keerthy, Atlee, Wamiqa | The Great Indian Kapil Show | Bacha Hua Content" (uploaded 2024-12-16 IST, 9:52 min, about 6.2M views on 2026-11-09). "Bacha Hua Content" means *leftover content*. These are segments from the same taping that were **not** in the Netflix episode. **It does not contain the controversial question.**
@@ -271,3 +271,15 @@ key_lenses: moral outrage and platforms; humour theory; identity and power
 best_explanation: A colour-and-looks reading of a celebrity-banter question produced a short platform outrage cycle, but with no sacred object, no organised claimant and a powerful target who answered gracefully on air and then stayed silent, nothing moved offline.
 confidence: medium
 ```
+
+## N. Owner's check (Siddhant, with AI, for Yogansh, 2026-11-13)
+
+Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
+
+- **Transcript check:** sb4rpQfU_Fw matches section K: no 'where is Atlee' question; the 'Brett Lee, Bruce Lee, Jaitley and in India Atlee' pun at 03:20-03:45 with laughter. bOH2wIYJJ8U and dkGNjZ3tF98 retell the exchange as the file says (dkGNjZ3tF98 01:31-01:46: 'they didn't recognise you on seeing you... how can you be Atlee'; 'there was annoyance on Atlee's face').
+- **New sources: copies of the aired exchange.** A YouTube search found short reuploads of the Netflix exchange: **M3anzpVn2hY** (CineRustic, 'Kapil sharma on Atlee', posted 15 Dec 2024 10:21 UTC, the day after release, 42 s, 1.4M views) and **86cwHwiVsa8** ('Kapil Atlee Controversy', 18 Dec 2024, 42 s, 321K views). Neither has captions, so their wording could not be read. bbJadWAVqgw (14 s, 15.9M views) is a different moment (Jawan crossing 1,000 crore).
+- **Wording in writing:** a new web search (2026-11-13) found no Hindi transcript; outlets give English versions ('when you get to meet a star for the first time, do they ask, where is Atlee?'; Koimoi, IBTimes, Siasat), consistent with section B.
+- **Coding:** agree with the final coding (online_only; contested; collusion).
+- **Second pass (2026-11-13): viewer comments on the aired clips.** Comments under M3anzpVn2hY (459 scanned) and 86cwHwiVsa8 confirm both 42-second clips contain the exchange and describe it consistently: Kapil first says Atlee is "so young" and "has become so big", then asks whether someone ever said "where is Atlee?". One Hindi paraphrase: "kapil ne question se pehle hi kaha aap kaafi young dikhte ho, to kabhi aisa hua aap gaye aur saamne wale ko laga yeh kaun hai, yeh koi director nahi ho sakta". On the room: "when he said I understood your question, everyone started to laugh"; "Keerthy did not laugh as other guests did"; "Kapil clapped and laughed out loudly". These are viewer accounts, not a transcript, but they fill section K's "room reaction: unknown" provisionally: **laughter from the audience and some guests at Atlee's "I understood your question"**, then applause for his answer (FPJ).
+  - **Atlee later:** a new search (2026-11-13) found no later comment by Atlee, as the file says.
+- **Needs someone to watch:** M3anzpVn2hY (42 s) for Kapil's exact Hindi (the comments give the sense, not the words).

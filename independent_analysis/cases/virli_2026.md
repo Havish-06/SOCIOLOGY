@@ -1,6 +1,6 @@
 # virli_2026: Madhur Virli's resurfaced rape joke ("cuddle after rape")
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: checked by owner (Siddhant, with AI, for Yogansh, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `virli_2026__ONiMILytYok.txt`: "LOVE & LATEX | Stand Up Comedy by Madhur Virli", Virli's own channel, uploaded 2024-02-02 (US time; 3 Feb IST), 27:57, about 5.74M views on 2026-11-09. Description: "my 8th stand-up comedy video… Location courtesy: The Laughstore, Delhi". **Full special as currently online.** It does **not** contain the rape lines (see K).
@@ -266,3 +266,24 @@ confidence: medium
 ```
 
 (Some values above were aligned across cases by `method/consistency_rules.md`.)
+
+## N. Owner's check (Siddhant, with AI, for Yogansh, 2026-11-13)
+
+Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
+
+- **Transcript check:** MgTSOtXdMSw and uCkndQmdUfU match section B ('10 rape cases... murder after rape... won't you cuddle after this?', laughter at uCkndQmdUfU 00:47). ONiMILytYok (Love & Latex) has no rape bit, as section K says.
+- **New finding: one show behind several clips.** KiCES97lOgk ('Madhur virili rape comedy seen full vedio', PRATEEK KHATRI, 14 Jun 2026, 5:08) is listed in `analysis/clips.md` as a reupload of Love & Latex. **It is not.** It is a continuous stretch from the end of another show: a story about a batchmate going clubbing alone (pepper spray, karate, SOS app); then 'I can't end the show on this note... people will say "what was he doing? some rape stuff"' (02:01-02:11); then 'I don't want to end on rape and death; let's keep the ending light' (02:42); then crowd work: 'necrophilia or paedophilia, which is better?' (02:48-05:07), including 'we have a camera behind... we'll send the police only that clip'. The necrophilia lines match 82Xv9cfiRto word for word ('मुझे पर्सनली ऐसा लगता है कि नेक्रोफिलिया इज वे बेटर दैन पीडोफिलिया क्योंकि... विक्टिम होता है').
+  - So: the 'death vs rape' joke (8ab3Ghr3BII: victims prefer death, but no corpse prefers rape) and the necrophilia bit are almost certainly **from the same filmed show**, which the 'rape and death' line refers back to. 8ab3Ghr3BII was posted on 23 Jun 2024, so the show is from before late June 2024.
+  - The 'cuddle' joke is **probably** from the same show (it is the rape-and-murder joke the closing line refers to), but no clip shows it next to the others. Not confirmed.
+  - This answers part of section L items 3-4 (the source of 8ab3Ghr3BII and 82Xv9cfiRto), and supports 'about 2024, not Love & Latex'.
+- **Virli's apology, in his words:** The Lallantop (UIoLKSUNW0Y 01:30-02:03, in the `mohanraj_2026` set) reads it out: 'this clip is from a show of mine about 2 years old... I realised soon after that I had made a mistake, so I removed that video at that time'. 'That video' fits a separate filmed show that was taken down, not a cut from Love & Latex.
+- **Internal inconsistency in this file:** the table in section M settles highest_stigma_step at **1** and the tier at **mid**, but the Final coding block says step **3** and tier **medium** (the note says some values were aligned by `method/consistency_rules.md`). The team should decide which is meant; I would keep 1 (no cancellation or ban found) unless the consistency rule says otherwise.
+- **Coding:** agree with outcome (legal), topic, genre, direction and collision.
+- **Second pass (2026-11-13): looking for the source show of the clips.**
+  - **His second channel.** Virli runs a second YouTube channel, **"Madhur Virli - RAW" (@madhurvirliraw**, created 16 Aug 2023), linked from his main channel as "My RAW Channel" in archived copies (Wayback, Dec 2023 and Nov 2024). It carries crowd work and the *Madhur Model* show series.
+  - **Subscriber count is wrong in this file.** The 329K figure in section A is the **RAW channel's**. The main channel (@madhurvirli) had **862K** subscribers on 2026-11-13 (YouTube API). The tier stays "mid/large" depending on the codebook threshold; the team should fix the number.
+  - **Ruled out as the source:** *The IIT Dream* (PPjYWaqCffQ, main channel, uploaded 8 Jun 2024, 1:12:00) has no rape, cuddle or necrophilia material (searched its full transcript). *Madhur Model* EP 1 (rLP3zOb5hRE, 25 May 2024) and EP 2 (j3ok60wc3kM, 31 Aug 2024) on the RAW channel have none either. Archived copies of the RAW channel page (7 Jun 2024, 25 Nov 2024) list only videos that are still online, so no since-deleted upload shows up there.
+  - **Viewer comments** (under 8ab3Ghr3BII, 82Xv9cfiRto and uCkndQmdUfU, June-October 2026) repeatedly say he "deleted the video" about two years earlier, and one viewer (25 Jun 2026) says they objected "on that video" in 2024. This fits a whole filmed show that was posted and then taken down, consistent with KiCES97lOgk ("we have a camera behind"). Not independently confirmed.
+  - **No arrest.** One comment (25 Jun 2026) says "ab arrest bhi ho gya"; a news search (2026-11-13) found no arrest, custody or FIR against Virli, only the NCW notice and the October Maharashtra Cyber summons. The comment is wrong.
+  - **Still unknown:** the title and date of the deleted show; whether the "cuddle" joke is in the same show as the necrophilia crowd work.
+- **Needs someone to watch:** KiCES97lOgk and uCkndQmdUfU side by side (same stage, clothes, lighting?) to confirm the 'cuddle' joke is from the same show.

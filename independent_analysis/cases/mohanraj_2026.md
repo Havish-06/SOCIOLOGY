@@ -1,6 +1,6 @@
 # mohanraj_2026: Aishwarya Mohanraj's old Comicstaan joke about her mother and newborn brother
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: checked by owner (Siddhant, with AI, for Yogansh, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `mohanraj_2026__VWBaA8HXwzk.txt`: "Aishwarya Mohanraj brother priv@te part joke | … old Viral Joke", aggregator channel, 2026-06-15, 2:36. **Reupload with commentary.** Contains the joke itself (00:41–01:27). The only transcript with the joke.
@@ -246,3 +246,15 @@ key_lenses: context collapse (collision, satire lost in paraphrase); moral panic
 best_explanation: Resurfaced as a "double standard" counter-example during the More/Virli wave, the joke drew brief online outrage but no institution took up offence against men, and the comedian's silence let it fade.
 confidence: medium
 ```
+
+## N. Owner's check (Siddhant, with AI, for Yogansh, 2026-11-13)
+
+Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
+
+- **Transcript check:** VWBaA8HXwzk 00:48-01:21 matches section B: 'epitome of misandry... in simpler terms she is the Haryana for male [foeticide]' [laughter]; 'my mother cried like a baby' [laughter]; 'the nurse wasn't letting her cut his something. Classic nurse' [laughter]; 'I want to fulfil her unfulfilled dream, when I have a son' [laughter]. hooMhO02KwA and UIoLKSUNW0Y are paraphrases, as the file says.
+- **Looking for the original:** AIB uploaded 'Why I Deserve to Win #Comicstaan : Standup by Aishwarya Mohanraj' (1-FKpcy1sAY, 21 Aug 2018, 4:11, 4.6M views); it has no captions, so it could not be checked. TCd61oVMCXs has only Hindi machine captions of English speech (no English track exists); its readable fragments (Hanuman, Kumbhakarna, 'mummy ne papa ko chhod diya') do not show the bit. Aaj Tak (16 Jun 2026) also calls it an old Comicstaan clip.
+- **Coding:** agree with the final coding (online_only; contested; collision).
+- **Second pass (2026-11-13):**
+  - **AIB's 1-FKpcy1sAY is not the source.** Its comments (1,791 scanned) describe the "If Rahul Dravid is wall, then I am Rahul Dravid" line and her mother's thumbs-up, which are the "best comic" PowerPoint set (the same set as SYIz00tXPNs). No comment mentions the mother/brother bit.
+  - **A lead on the round:** the commentary video fKOreidZbis ("WTF is Wrong with Indian Female Comedians?", 16 Jun 2026) says "सेट का टॉपिक था फैमिली" ("the set's topic was family"), and its description links the full clip on Instagram. Comicstaan S1 rounds were organised by form and theme, but no episode guide found lists a "family" round (web search 2026-11-13). Two more uploads (3Q4r887nW_U; hooMhO02KwA) say "Comicstaan Season 1". Episode still unknown; the year 2018 stands.
+- **Needs someone to watch:** nothing essential. Optional: the Instagram post linked in the description of fKOreidZbis, for the full clip.
