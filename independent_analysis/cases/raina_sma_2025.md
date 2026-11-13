@@ -1,6 +1,6 @@
 # raina_sma_2025: The "₹16 crore injection" joke and the Cure SMA proceedings (Samay Raina and others), 2025–26
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: watched and checked by owner (Havish, 2026-11-13); fact-check of the timeline pending; see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `raina_sma_2025__uXKVs5lLfAU.txt`: **reupload clip, part 1** (38 s), third-party Shorts channel, uploaded **2024-07-09**, ~24.6k views, title "Samay raina on 16cr injection for a child 1st part #darkjokes #standupcomedy". Its description says: "this was from the video of samay raina NARAK", linking `youtu.be/FhCbx2TmFUE` as the "original video".
@@ -289,3 +289,14 @@ key_lenses: context collapse (collision); moral panic (spin-off of Latent); mobi
 best_explanation: A 2022 dark crowd-work bit from the special NARAK about a ₹16 crore infant injection was resurfaced on X during the Latent panic, and a patient-advocacy group used the Supreme Court proceedings already underway to turn it into a restorative court process whose course tracked Raina's compliance.
 confidence: medium
 ```
+
+## N. Owner's check (Havish, 2026-11-13)
+
+The owner watched the clips and wrote the first read in `analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
+
+- Watched the two reuploads `uXKVs5lLfAU` and `ARwGWk2jKMM`. The *NARAK* original was not accessed.
+- **Room:** silence when he raised the topic (captions had no markers).
+- **Coding:** agree (legal; down; dark; collision: the 2022 special resurfaced on X in Feb 2025).
+- Sacred object: family and parents mentioned (the imagined mother), not claimed by objectors; **not** collective trauma (one sick child, no specific event).
+- Note: the clips never name SMA; "mocking people with disabilities" is how objectors read it.
+- **Still to check:** whether any line targets the drug company or the price.

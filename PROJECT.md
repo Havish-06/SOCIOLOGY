@@ -67,7 +67,7 @@ with each outcome.
 | **Collusion / collision** | The comedian deliberately puts material before wider audiences (collusion), or audiences are merged without the comedian's involvement, e.g. a third party resurfaces an old clip with a hostile caption (collision) (Davis & Jurgenson, 2014) |
 | **Stigma ladder** | 1 labelling and stereotyping → 2 separation (boycott calls) → 3 status loss (cancelled shows, lost venues) → 4 discrimination (bans, arrests, violence) (adapted from Link & Phelan, 2001) |
 | **Courtesy stigma** | Stigma that spreads to venues, organisers and co-performers (Goffman, 1963) |
-| **Sacred object** | What a group sets apart and protects (Durkheim). Fixed in advance to avoid circular reasoning: deities and religious symbols; religious founders and texts; regional icons such as Shivaji; Ambedkar; the nation, army, martyrs and flag; the family and parents |
+| **Sacred object** | What a group sets apart and protects (Durkheim). Fixed in advance to avoid circular reasoning: deities and religious symbols; religious founders and texts; regional icons such as Shivaji; Ambedkar; the nation, army, martyrs and flag; the family and parents; **collective trauma** (a specific, widely remembered event of mass violence, atrocity or displacement against a group, and its victims: e.g. the Kashmiri Pandit exodus, a terror attack, communal riots, a caste killing that became a public cause; added 2026-11-12) |
 
 
 ## 5. Theoretical framework and interpretive toolkit

@@ -1,6 +1,6 @@
 # sachdeva_2025: The "mother finds my vibrator" bit (Swati Sachdeva, "Family First"), 2025
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: watched and checked by owner (Havish, 2026-11-13); fact-check of the timeline pending; see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `sachdeva_2025__mTfSyBqwIV8.txt`: **full performance**. "Family First | Stand-up comedy by Swati Sachdeva | U/A 16+", on her own YouTube channel, 20 min 18 s, uploaded **2025-03-20**, 6.83M views (checked 2026-11-09). The description carries an adult-humour disclaimer and says the routine is part of her touring solo show *So Rude Of Me* ("toured all over the country for last three years").
@@ -253,3 +253,14 @@ key_lenses: moral outrage and platforms; humour theory (self-directed, affection
 best_explanation: A sexual joke about her own mother touched the same sacred object as the Latent row and drew Latent-style outrage, but because it was self-directed, made by a mid-sized comedian with no political profile, and came as the wave was ebbing, no actor turned the online firestorm into a complaint and it faded within a week.
 confidence: medium
 ```
+
+## N. Owner's check (Havish, 2026-11-13)
+
+The owner watched the clips and wrote the first read in `analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
+
+- Watched `mTfSyBqwIV8` (Family First).
+- **Room:** highly receptive; frequent laughter throughout the vibrator bit, especially at the mother's reaction and Swati's deflection (captions had no markers inside the bit).
+- Setup and follow-up confirm K: bisexuality and the mother pushing her to date men before; the father's pranks after.
+- **08:01–09:44 (sibling-bathing bit):** watched; the vibrator bit is what drew the controversy. Where IBTimes's "incest" label came from is still open.
+- Added source (to check and cite): Hindustan Times, "After Ranveer Allahbadia, female stand-up comedian called out for joke on mother", c. 29 Mar 2025, https://www.hindustantimes.com/india-news/after-ranveer-allahbadia-female-stand-up-comedian-called-out-for-joke-on-mother-101743233925818.html
+- **Coding:** agree (online only; self; collusion, then clipped by others on X; family and parents).
