@@ -147,7 +147,7 @@ the AI check itself is tested on a random sample.
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
 | 1 | Outcome | legal | ✔ AI: legal |
-| 2 | Legal actions against the comedian | NCW suo motu notice under s.10(4) NCW Act, summons and hearing 2026-06-22 (apology rejected); Maharashtra Cyber summons for questioning 2026-10-19 on a woman's complaint (content unclear); no FIR reported | ✔ AI: NCW summons (22 June) and reported rejection of apology: Siasat, IANS, IBTimes, NewsX; Maharashtra Cyber summons in Oct 2026: CSR Journal, The Swipe Up (thin but two outlets) **→ human spot-check** |
+| 2 | Legal actions against the comedian | NCW suo motu notice under s.10(4) NCW Act, summons and hearing 2026-06-22 (apology rejected); Maharashtra Cyber summons for questioning 2026-10-19 on a woman's complaint (content unclear); no FIR reported | ✔ human (Havish, 13 Nov): NCW summons (June 2026, apology rejected), Maharashtra Cyber summons (19 Oct 2026), no FIR |
 | 3 | Extra-legal actions | none confirmed | ✔ AI: none confirmed |
 | 4 | Who acted (mobilising actor) | National Commission for Women (suo motu notice and summons) | ✔ human (Havish): NCW acted; woman complainant to the cyber cell |
 | 5 | How the clip spread (first spreader; collusion or collision) | third-party accounts and aggregator channels (clip online by 2025-06-07; June 2026 resurfacing amid the Pranit More row); original account unknown (collision) | ✔ human (Havish): collision. Virli's written statement says the clip is from a performance about two years earlier that he took down soon after; others recirculated it in June 2026. Source performance still unidentified |
