@@ -37,9 +37,9 @@ the AI check itself is tested on a random sample.
 | fernandes_2024 | 1 | extra-legal confirmed; becomes "both" only if the Chennai complaint is confirmed |
 | fernandes_2024 | 2 | Chennai police complaint rests on one source (ThePrint, the comedian's own account): human to find a second source or keep "none confirmed" |
 | fernandes_2024 | 6 | judgement: Jains as a notified minority makes "defended butt" yes; direction is contested |
-| more_2025 | 5 | that the attackers showed him a reel of an earlier joke rests on More's own account |
-| virli_2026 | 5 | first spreader unknown; source performance unidentified (case file says not in Love & Latex) |
-| kapil_2024 | 5 | first spreader is an anonymous X post (case file); not independently confirmed |
+| more_2025 | 5 | Havish: no source says this; Yogansh to re-watch More's set at 06:59–07:19 |
+| virli_2026 | 5 | Settled by Havish: collision (Virli's own statement) |
+| kapil_2024 | 5 | Settled by Havish: a verified X account |
 | kamra_2018 | 6 | judgement: "the nation" in his material is borderline |
 | kamra_2025 | 2 | zero FIR at MIDC on MLA Murji Patel's complaint transferred to Khar (BNS 353(1)(b), 356(2)), three more FIRs transferred, three summonses, Bombay HC notice: FPJ, DT Next, Deccan Herald, Business Today. CONFLICT: Storyboard18 reports audience members were summoned under s.179, the case file says police denied it. Privilege proceedings in the Legislative Council not found. Human to check both |
 | katikala_2026 | 3 | "death threats" rest on Katikala's own account (Pranav's note); keep as his account unless a second source is found |
