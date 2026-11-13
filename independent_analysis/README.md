@@ -7,7 +7,7 @@ against the transcripts and sources. The result is the most complete version of 
 
 ## Why this exists
 
-The first drafts in `cases/<case_id>/case.md` were written from news and legal reports only: nobody had looked at
+The first drafts (`cases/<case_id>/case.md`, deleted on 14 Nov; still in the git history) were written from news and legal reports only: nobody had looked at
 the jokes themselves. Since context is the core of the project, every case was redone starting from the clip.
 
 ## Read in this order
@@ -18,8 +18,8 @@ the jokes themselves. Since context is the core of the project, every case was r
 | [cases/](cases/) | **One final analysis per case** (24). Template sections A–J, plus **K** (the joke in the clip: timestamps, key lines, setup, room reaction, what the clip and news left out), **L** (human check list), **M** (check against the team draft: differences and how each was settled), and the **Final coding** |
 | [comparison.csv](comparison.csv) | Master comparison table: the final coding of all 24 cases, one row per case |
 | [vs_ai_draft.md](vs_ai_draft.md) | Case by case: what the team draft got wrong or missed, and the outcome before and after |
-| [human_checks.md](human_checks.md) | **What each owner still has to check**, with timestamps |
-| [agreement.csv](agreement.csv), [side_by_side.csv](side_by_side.csv) | Agreement between the independent analysis and the draft, per field |
+| [../analysis/key_fact_checks.md](../analysis/key_fact_checks.md) | **The key facts of each case, checked by a person** |
+| [../analysis/conditions.md](../analysis/conditions.md) | **The main finding**: conditions judged before any reaction, tested against outcomes |
 | [method/](method/) | How it was done (below) |
 
 ## How it was done
@@ -37,10 +37,12 @@ the jokes themselves. Since context is the core of the project, every case was r
    (`method/checker_instructions.md`). Each case file ends with section M and the Final coding.
 4. **Consistency.** Three rules the codebook lacked (stigma step for FIRs, audience tiers, election period) were
    applied to all 24 (`method/consistency_rules.md`, `method/normalise.py`).
-5. **Tables and findings.** `method/build_tables.py` builds `comparison.csv`, `side_by_side.csv` and
-   `agreement.csv` from the case files; `findings.md` was written from the table and the case files.
+5. **Tables and findings.** `method/build_tables.py` builds `comparison.csv` from the case files; `findings.md`
+   was written from the table and the case files.
+6. **Human checks.** Each owner watched their clips and wrote a first read (`analysis/first_read.csv`) and
+   section N of each case file; the key facts were then checked by a second person (`analysis/key_fact_checks.md`).
 
 ## What it still needs
 
-Human verification of every case (`human_checks.md`), the comment collection and spam audit (detectable coordination in YouTube
+The open key-fact checks (`analysis/key_fact_checks.md`), the comment collection and spam audit (detectable coordination in YouTube
 comments), and team decisions on the consistency rules. Commenter usernames do not appear in any file.

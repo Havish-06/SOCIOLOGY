@@ -1,13 +1,13 @@
 # Final analysis vs the team's AI draft
 
-The team's AI drafts (`cases/<case_id>/case.md`, 9 Nov) were written from news and legal reports only. The final
+The team's AI drafts (`cases/<case_id>/case.md`, 9 Nov; deleted on 14 Nov, still in the git history) were written from news and legal reports only. The final
 analysis here was made independently from the clip transcripts plus fresh research, then checked point by point
 against those drafts; every disagreement was settled against the transcripts and sources (section M of each file).
 
 ## In numbers
 
 How often the independent analysis matched the draft **before** settling, and how often the final coding matches it
-(`agreement.csv`; 24 cases):
+(computed on 10 Nov; 24 cases):
 
 | Field | Independent = draft | Final = draft |
 |---|---|---|

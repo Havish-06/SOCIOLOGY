@@ -33,7 +33,7 @@ citing (page numbers, edition). Read at least the starred (★) works in each st
 
 We do not only cite these studies; each part of our method is borrowed from, or adapted from, a specific
 earlier study. The table says what we take and where it appears in our own work (PLAN.md and the case
-template `cases/_template.md`).
+template in `independent_analysis/method/analyst_brief.md`).
 
 ### Research design
 

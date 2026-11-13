@@ -277,7 +277,7 @@ outrage.
 
 ### The case template
 
-Every case is written up in [`cases/_template.md`](cases/_template.md) with the same sections:
+Every case is written up with the same template (in [`independent_analysis/method/analyst_brief.md`](independent_analysis/method/analyst_brief.md)), with these sections:
 
 | Section | Content |
 |---|---|
@@ -392,9 +392,9 @@ are therefore evidence of coordination, never proof, and the case file says so.
 
 ## 10. Cross-case analysis
 
-0. **Mechanisms table** (`analysis/mechanisms.csv`): the lens verdicts from every case, showing which mechanisms
+0. **Mechanisms table** (the `key_lenses` column of the comparison table): the lens verdicts from every case, showing which mechanisms
    recur with which outcomes.
-1. **Master comparison table** (`analysis/comparison.csv`): one row per case, with topic, genre, direction, form,
+1. **Master comparison table** (`independent_analysis/comparison.csv`): one row per case, with topic, genre, direction, form,
    collapse type, gap in months, caption, sacred object, norm invoked, who mobilised, channel used, legal basis,
    highest stigma step, courtesy stigma, comedian's response, outcome, audience size and election period.
 2. **Agreement report:** share of cases where the owner's first read matched the AI draft for each key judgement
@@ -419,9 +419,9 @@ commissions and courts or fizzled, never to mobs.
 | Output | Description |
 |---|---|
 | **Research paper** | Introduction (opening with *India's Got Latent* and the Rs 370 biryani case); conceptual framework; previous work and how we use it; method; overview of cases; findings by sub-question with matched pairs and the typology; discussion; limitations; conclusion; appendix with a one-page summary of each case |
-| **Case files** | 24 verified case analyses in `cases/<case_id>/` (`case.md` and `sources.md`) |
-| **Comparison table** | `analysis/comparison.csv` |
-| **Findings report** | `analysis/findings.md`: patterns, matched pairs, typology, counter-examples, agreement report |
+| **Case files** | 24 verified case analyses in `independent_analysis/cases/<case_id>.md` (sources in section J) |
+| **Comparison table** | `independent_analysis/comparison.csv` |
+| **Findings report** | `independent_analysis/findings.md` and `analysis/conditions.md`: patterns, matched pairs, typology, counter-examples, the main test |
 | **Presentation** | Slides summarising the question, method and findings |
 | **Optional** | A visual case map built from the comparison table |
 
