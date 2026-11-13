@@ -1,7 +1,8 @@
 # A non-circular test of the main finding
 
 **Status: 2026-11-13. Coded by AI from the final case files (`independent_analysis/cases/`); each owner checks the
-coding of their 6 cases (the table in `conditions.csv`, one row per case).**
+coding of their 6 cases (the table in `conditions.csv`, one row per case). 13 Nov: Pranav recoded kamra_2018
+(sacred: no) and virdas_2021 (mocks a ruler: no) after rewatching the clips; the counts below reflect this.**
 
 ## The problem
 
@@ -17,7 +18,7 @@ conditions predict the outcome, and name the cases where they fail.
 
 | Condition | Coded from | Definition |
 |---|---|---|
-| **Mocks a ruler** | the joke's target and the political map | The joke mocks a named leader (or the governing establishment) whose party holds office in that state or at the centre |
+| **Mocks a ruler** | the joke's target and the political map | The joke mocks a named leader or party (not the state of the country in general) that holds office in that state or at the centre |
 | **Defended butt** | the joke's butt | The butt is a group with a dedicated statutory body or protective law: women (NCW), SC/ST (SC/ST Act), persons with disabilities (RPwD Act), notified religious minorities (NCM) |
 | **Sacred in the joke** | the joke as performed | An item on the fixed sacred list (deities and religious symbols, regional icons, Ambedkar, the nation, the family, collective trauma) appears in the joke itself, not only in objectors' claims |
 | **Own group** | the joke's butt | The comedian mocks their own family or community |
@@ -28,9 +29,9 @@ Escalated = any outcome other than online only (legal, extra-legal or both).
 
 | Condition | Escalated | Route when escalated | Exceptions |
 |---|---|---|---|
-| Mocks a ruler | **8 of 8** | both 4, legal 3, extra-legal 1 | none |
+| Mocks a ruler | **7 of 7** | both 3, legal 3, extra-legal 1 | none |
 | Defended butt | **5 of 6** | legal 3, both 1, extra-legal 1 | shah_2021 (online only) |
-| Sacred in the joke, other people's group | **3 of 3** | both 2, legal 1 | none |
+| Sacred in the joke, other people's group | **4 of 4** | both 3, legal 1 | none |
 | Sacred in the joke, own group | **0 of 3** | — | all three stayed online: sachdeva_2025, mohanraj_2026, raina_2026 |
 | None of the above | 3 of 4 | extra-legal 2, legal 1 | kapil_2024 stayed online, as predicted; the other three are counter-examples |
 
@@ -54,8 +55,8 @@ The failures point to three things the conditions leave out: whether anyone **ch
 ## How this changes the headline
 
 - **Old (circular):** controversies escalate when someone with standing takes them up.
-- **New (testable):** controversies escalate when the joke mocks a ruling-party leader (8/8), targets a group with a
-  statutory defender (5/6), or touches the sacred of a group other than the comedian's own (3/3, against 0/3 for the
+- **New (testable):** controversies escalate when the joke mocks a ruling-party leader (7/7), targets a group with a
+  statutory defender (5/6), or touches the sacred of a group other than the comedian's own (4/4, against 0/3 for the
   comedian's own group). Mobilising actors (parties, commissions, police, activist groups) are the **mechanism** that
   turns these conditions into outcomes, traced case by case in the case files; they are not the explanation.
 - **Route:** jokes at rulers mostly end in "both" (party workers on the street plus FIRs); jokes at defended groups
@@ -67,11 +68,11 @@ The failures point to three things the conditions leave out: whether anyone **ch
    meeting a condition is risky in general. Many jokes about rulers never become controversies at all.
 2. **The own-group condition was noticed after looking at the cases** (3 cases). Treat it as a hypothesis to test on
    new cases, not as a result.
-3. **Small numbers.** 8 of 8 and 3 of 3 are patterns, not statistics.
+3. **Small numbers.** 7 of 7 and 4 of 4 are patterns, not statistics.
 4. **AI coding.** The conditions were coded by AI from the final case files; each owner checks their rows. Borderline
-   codings are marked in `conditions.csv` (kamra_2018: the nation in his material; munawar_2021: deities and Amit Shah
+   codings are marked in `conditions.csv` (virdas_2021: whether criticism of the state of the country counts as "the nation" in the joke; munawar_2021: deities and Amit Shah
    alleged, not recorded; raina_sma_2025: the family is a secondary element).
-5. **Conditions overlap.** Several cases meet two conditions (jain_univ_2023, katikala_2026, virdas_2021), so the
+5. **Conditions overlap.** Several cases meet two conditions (jain_univ_2023, katikala_2026), so the
    conditions cannot be separated from each other with 24 cases.
 
 The data: `analysis/conditions.csv` (one row per case: each condition, a note on why, direction, outcome).
