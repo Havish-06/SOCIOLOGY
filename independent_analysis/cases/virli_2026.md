@@ -292,5 +292,5 @@ Done for Yogansh, the owner of this case. Transcripts were downloaded again (tra
   - **KiCES97lOgk:** the room laughs a lot and seems to be on the same page with him.
   - **'I don't want to end on rape and death':** he only wants a lighter close; he does not seem aware that the material crosses a line.
   - Owner's view: rape should not be joked about in this way.
-  - **Still open:** whether the stage, clothes and lighting match (same show) was not judged.
-- **Needs someone to watch:** KiCES97lOgk and uCkndQmdUfU side by side for stage, clothes and lighting (same show?).
+  - **Same show:** stage, clothes and lighting match in `uCkndQmdUfU` and `KiCES97lOgk`. So the 'cuddle' joke comes from the same filmed show as the 'death vs rape' line and the necrophilia crowd work (from before late June 2024; not *Love & Latex*), which Virli says he took down soon after.
+- **Needs someone to watch:** nothing further.
