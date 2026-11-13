@@ -91,7 +91,11 @@ On *India's Got Latent*, Samay Raina's YouTube talent and roast show, guest judg
   - Complaint to Mumbai Police Commissioner and a women's commission, 10 February (lawyers Ashish Rai and Pankaj Mishra; they did not claim to speak for a group) [3, 4]. Khar police inquiry; statements recorded [4].
   - FIR, Guwahati (Crime Branch / cyber PS), 10 February. Sections reported inconsistently: BNS 79, 95, 294, 296, plus the IT Act and Cinematograph Act are mentioned across sources [1, 5, 6]. Legal basis: **obscenity**; women's modesty (BNS 79).
   - FIR, Maharashtra Cyber, 10/11 February, IT Act (obscenity, section 67), against about 30 people; summonses [7, 8].
-  - FIR in Jaipur (against Allahbadia) [15].
+  - FIR in Jaipur on a complaint by the Jai Rajputana Sangh, naming Allahbadia, Samay Raina, Ashish Chanchlani, Apoorva
+    Mukhija and others under the BNS and the IT Act; later reported transferred to Khar police, Mumbai [15]. Confirmed by
+    Havish (13 Nov 2026) with India Today (https://www.indiatoday.in/india/story/another-fir-against-ranveer-allahbadia-samay-raina-panelists-indias-got-latent-2681331-2025-02-17),
+    Republic World (https://www.republicworld.com/india/ranveer-allahbadia-samay-raina-face-another-fir-over-filthy-remarks-on-india-s-got-latent-show)
+    and ETV Bharat, 18 Feb 2025 (https://etvbharat.com/en/!entertainment/ranveer-allahbadia-samay-raina-booked-for-obscene-remarks-on-indias-got-latent-in-jaipur-enn25021802530).
   - NCW summons; Maharashtra State Commission for Women takes cognizance [9, 10].
   - Government notice leading to the YouTube takedown of the episode [13].
   - Supreme Court: interim protection with conditions (passport deposit, show ban) for Allahbadia; later relaxed. Proceedings closed in August 2026 (scope disputed) [15, 21, 22].
@@ -180,7 +184,7 @@ Unresolved disputes:
 - The FIR sections in Guwahati are reported inconsistently.
 - The cause of the Gujarat cancellations: the VHP claimed it; organisers did not comment.
 
-Open questions: who first posted the viral clip; whether Raina was ever charge-sheeted (the Maharashtra chargesheet was "ready" in April 2025 [1]); whether any FIR named Raina in Jaipur.
+Open questions: who first posted the viral clip; whether Raina was ever charge-sheeted (the Maharashtra chargesheet was "ready" in April 2025 [1]); whether any FIR named Raina in Jaipur (answered 13 Nov: yes, the Jai Rajputana Sangh complaint named Raina).
 
 ## K. The joke in the clip
 - **Timestamps:** `LKHf05KnMFo` [00:00–00:23] (full question plus reaction); `KX8oJhx-RE8` [00:00–00:14] (truncated question plus a fragment of reaction). The full-episode timestamp is unknown because the episode is deleted.

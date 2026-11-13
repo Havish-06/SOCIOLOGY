@@ -28,7 +28,7 @@ the AI check itself is tested on a random sample.
 
 | Case | Fact | Why |
 |---|---|---|
-| latent_2025 | 2 | Settled by Havish (Jaipur FIR confirmed; link to add) |
+| latent_2025 | 2 | Settled by Havish: Jaipur FIR confirmed (India Today, Republic, ETV Bharat) |
 | latent_2025 | 5 | Settled by Havish: unknown; Raina's own channel |
 | raina_sma_2025 | 5 | Settled by Havish: NARAK (2022), resurfaced by others (collision) |
 | raina_2026 | 5 | Settled by Havish |
@@ -57,7 +57,7 @@ the AI check itself is tested on a random sample.
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
 | 1 | Outcome | both | ✔ AI: follows from 2 and 3 |
-| 2 | Legal actions against the comedian | Mumbai complaint and Khar police inquiry (10 Feb 2025); Guwahati FIR (10 Feb); Maharashtra Cyber IT Act FIR vs ~30 (10/11 Feb); Jaipur FIR (Allahbadia); NCW summons (11 Feb); government directive and YouTube block of the episode … | ✔ human (Havish, 13 Nov): Guwahati, Maharashtra Cyber and Jaipur FIRs, NCW summons, SC quashing (14 Aug 2026). Jaipur FIR confirmed by Havish; **its source link still to be added to the case file** |
+| 2 | Legal actions against the comedian | Mumbai complaint and Khar police inquiry (10 Feb 2025); Guwahati FIR (10 Feb); Maharashtra Cyber IT Act FIR vs ~30 (10/11 Feb); Jaipur FIR (Allahbadia); NCW summons (11 Feb); government directive and YouTube block of the episode … | ✔ human (Havish, 13 Nov): Guwahati, Maharashtra Cyber and Jaipur FIRs, NCW summons, SC quashing (14 Aug 2026). Jaipur FIR: complaint by the Jai Rajputana Sangh naming Allahbadia, Raina, Chanchlani, Mukhija: India Today, Republic World, ETV Bharat (links added to the case file) |
 | 3 | Extra-legal actions | four Gujarat shows (April 2025) withdrawn amid VHP pressure (cancellation confirmed; cause claimed by VHP); threats against Allahbadia and Makhija (widely reported, partly self-reported); pressured apology (Allahbadia) | ✔ human (Havish, 13 Nov): four Gujarat shows cancelled, VHP claimed credit |
 | 4 | Who acted (mobilising actor) | Assam CM Himanta Biswa Sarma / Guwahati police; Maharashtra Cyber; NCW; lawyers Ashish Rai and Pankaj Mishra | ✔ AI: Assam CM / Guwahati police, Maharashtra Cyber, NCW confirmed in several outlets |
 | 5 | How the clip spread (first spreader; collusion or collision) | unknown (third-party Shorts/clip channels and social media users) (collusion) | ✔ human (Havish, 13 Nov): first spreader unknown; the episode was on Raina's own channel (collusion) |
