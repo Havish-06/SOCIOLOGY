@@ -29,14 +29,14 @@ the AI check itself is tested on a random sample.
 | Case | Fact | Why |
 |---|---|---|
 | latent_2025 | 2 | Guwahati FIR, Maharashtra Cyber FIR, NCW summons, YouTube block, SC quashing of FIRs on 14 Aug 2026 confirmed (Scroll, Outlook, Deccan Herald, Bar & Bench); Jaipur FIR not found in any source: human to confirm or drop |
-| latent_2025 | 5 | first spreader unknown in all sources; collusion follows from the show being on Raina's own channel |
+| latent_2025 | 5 | Settled by Havish: unknown; Raina's own channel |
 | raina_sma_2025 | 5 | Settled by Havish: NARAK (2022), resurfaced by others (collision) |
-| raina_2026 | 5 | first spreader: unnamed X users; collusion follows from the episode being on Raina's channel |
+| raina_2026 | 5 | Settled by Havish |
 | raina_2026 | 6 | judgement: collective trauma in the joke and own group depend on who says "left by choice" (owner's open check) |
-| sachdeva_2025 | 5 | first spreader: unnamed X users |
-| fernandes_2024 | 1 | extra-legal confirmed; becomes "both" only if the Chennai complaint is confirmed |
-| fernandes_2024 | 2 | Chennai police complaint rests on one source (ThePrint, the comedian's own account): human to find a second source or keep "none confirmed" |
-| fernandes_2024 | 6 | judgement: Jains as a notified minority makes "defended butt" yes; direction is contested |
+| sachdeva_2025 | 5 | Settled by Havish |
+| fernandes_2024 | 1 | Settled by Havish: extra-legal |
+| fernandes_2024 | 2 | Settled by Havish: no second source |
+| fernandes_2024 | 6 | Settled by Havish: yes, defended group |
 | more_2025 | 5 | Havish: no source says this; Yogansh to re-watch More's set at 06:59–07:19 |
 | virli_2026 | 5 | Settled by Havish: collision (Virli's own statement) |
 | kapil_2024 | 5 | Settled by Havish: a verified X account |
@@ -58,20 +58,20 @@ the AI check itself is tested on a random sample.
 |---|---|---|---|
 | 1 | Outcome | both | ✔ AI: follows from 2 and 3 |
 | 2 | Legal actions against the comedian | Mumbai complaint and Khar police inquiry (10 Feb 2025); Guwahati FIR (10 Feb); Maharashtra Cyber IT Act FIR vs ~30 (10/11 Feb); Jaipur FIR (Allahbadia); NCW summons (11 Feb); government directive and YouTube block of the episode … | ? AI: Guwahati FIR, Maharashtra Cyber FIR, NCW summons, YouTube block, SC quashing of FIRs on 14 Aug 2026 confirmed (Scroll, Outlook, Deccan Herald, Bar & Bench); Jaipur FIR not found in any source: human to confirm or drop **→ human: check this** |
-| 3 | Extra-legal actions | four Gujarat shows (April 2025) withdrawn amid VHP pressure (cancellation confirmed; cause claimed by VHP); threats against Allahbadia and Makhija (widely reported, partly self-reported); pressured apology (Allahbadia) | ✔ AI: Four Gujarat shows (Surat, Vadodara, Ahmedabad, 17-20 Apr 2025) cancelled, VHP claimed credit (Statesman, Business Today, Republic); threats self-reported (Deccan Herald) **→ human spot-check** |
+| 3 | Extra-legal actions | four Gujarat shows (April 2025) withdrawn amid VHP pressure (cancellation confirmed; cause claimed by VHP); threats against Allahbadia and Makhija (widely reported, partly self-reported); pressured apology (Allahbadia) | ✔ human (Havish, 13 Nov): four Gujarat shows cancelled, VHP claimed credit |
 | 4 | Who acted (mobilising actor) | Assam CM Himanta Biswa Sarma / Guwahati police; Maharashtra Cyber; NCW; lawyers Ashish Rai and Pankaj Mishra | ✔ AI: Assam CM / Guwahati police, Maharashtra Cyber, NCW confirmed in several outlets |
-| 5 | How the clip spread (first spreader; collusion or collision) | unknown (third-party Shorts/clip channels and social media users) (collusion) | ? AI: first spreader unknown in all sources; collusion follows from the show being on Raina's own channel **→ human: check this** |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / no (family and parents; butt is a contestant) | ✔ AI: judgement from the joke; consistent with the transcript reading in the case file **→ human spot-check** |
+| 5 | How the clip spread (first spreader; collusion or collision) | unknown (third-party Shorts/clip channels and social media users) (collusion) | ✔ human (Havish, 13 Nov): first spreader unknown; the episode was on Raina's own channel (collusion) |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / no (family and parents; butt is a contestant) | ✔ human (Havish, 13 Nov): family (parents); butt is a contestant |
 
 ### raina_2026
 
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
 | 1 | Outcome | online_only | ✔ AI: no complaint, FIR, threat or cancellation found in any source (searched 13 Nov) |
-| 2 | Legal actions against the comedian | none | ✔ AI: none found **→ human spot-check** |
+| 2 | Legal actions against the comedian | none | ✔ human (Havish, 13 Nov): no FIR or complaint |
 | 3 | Extra-legal actions | none | ✔ AI: none found |
-| 4 | Who acted (mobilising actor) | none | ✔ AI: politicians' statements only (Ram Kadam, J&K Peace Forum): The Week, Business Today, Free Press Journal **→ human spot-check** |
-| 5 | How the clip spread (first spreader; collusion or collision) | social media users on X (unnamed); IANS wire solicited reactions (collusion) | ? AI: first spreader: unnamed X users; collusion follows from the episode being on Raina's channel **→ human: check this** |
+| 4 | Who acted (mobilising actor) | none | ✔ human (Havish, 13 Nov): politicians' statements only |
+| 5 | How the clip spread (first spreader; collusion or collision) | social media users on X (unnamed); IANS wire solicited reactions (collusion) | ✔ human (Havish, 13 Nov): unnamed X users; episode on Raina's channel (collusion) |
 | 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / yes (Kashmiri Pandit exodus (collective trauma); Biharis, Kashmiris: no statutory body) | ? AI: judgement: collective trauma in the joke and own group depend on who says "left by choice" (owner's open check) **→ human: check this** |
 
 ### raina_sma_2025
@@ -83,40 +83,40 @@ the AI check itself is tested on a random sample.
 | 3 | Extra-legal actions | none | ✔ AI: none found in any source **→ human spot-check** |
 | 4 | Who acted (mobilising actor) | Cure SMA Foundation of India | ✔ AI: Cure SMA Foundation of India petition (LiveLaw, Business Today) |
 | 5 | How the clip spread (first spreader; collusion or collision) | journalists/commentators on X (Akhilesh Sharma; Kanchan Gupta) during the Latent row (collision) | ✔ human (Havish, 13 Nov): the joke is from the 2022 special NARAK and was resurfaced by others (collision), as the case file says; news reports placing it on India's Got Latent are wrong |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / yes / no / no (family (a mother weighing money against her infant); secondary; persons with disabilities (RPwD Act)) | ✔ AI: defended butt (persons with disabilities) is clear; family as secondary sacred item is a judgement **→ human spot-check** |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / yes / no / no (family (a mother weighing money against her infant); secondary; persons with disabilities (RPwD Act)) | ✔ human (Havish, 13 Nov): persons with disabilities are the butt (defended group) |
 
 ### sachdeva_2025
 
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
 | 1 | Outcome | online_only | ✔ AI: online backlash only; users tagged Delhi Police but no complaint or FIR found (FPJ, Deccan Herald, IBTimes) |
-| 2 | Legal actions against the comedian | none | ✔ AI: none found **→ human spot-check** |
+| 2 | Legal actions against the comedian | none | ✔ human (Havish, 13 Nov): no police complaint or FIR |
 | 3 | Extra-legal actions | none | ✔ AI: none found |
 | 4 | Who acted (mobilising actor) | none | ✔ AI: none |
-| 5 | How the clip spread (first spreader; collusion or collision) | social media users on X (unnamed) (collusion) | ? AI: first spreader: unnamed X users **→ human: check this** |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / yes (family (her own mother)) | ✔ AI: family (own mother), own group: clear from the joke **→ human spot-check** |
+| 5 | How the clip spread (first spreader; collusion or collision) | social media users on X (unnamed) (collusion) | ✔ human (Havish, 13 Nov): unnamed X users; her own upload (collusion) |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / no / yes (family (her own mother)) | ✔ human (Havish, 13 Nov): her own mother (family, own group) |
 
 ### fernandes_2024
 
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
-| 1 | Outcome | extralegal | ? AI: extra-legal confirmed; becomes "both" only if the Chennai complaint is confirmed **→ human: check this** |
-| 2 | Legal actions against the comedian | none confirmed (police complaint in Chennai reported by one source, the comedian's own account; no FIR; no administrative action) | ? AI: Chennai police complaint rests on one source (ThePrint, the comedian's own account): human to find a second source or keep "none confirmed" **→ human: check this** |
-| 3 | Extra-legal actions | MLA's public threat of beating by party workers; threatening calls, messages and emails; harassment of venue managers (reported); cancellation of four shows in Chennai and Hyderabad. Apology and deletion were voluntary under the … | ✔ AI: Raja Singh threat video, cancelled Hyderabad show, four shows cancelled: Scroll, TNM, South First, Deccan Herald, Telangana Today **→ human spot-check** |
+| 1 | Outcome | extralegal | ✔ human (Havish, 13 Nov): extra-legal (no second source for the Chennai complaint) |
+| 2 | Legal actions against the comedian | none confirmed (police complaint in Chennai reported by one source, the comedian's own account; no FIR; no administrative action) | ✔ human (Havish, 13 Nov): no second source for the Chennai complaint; stays "none confirmed" |
+| 3 | Extra-legal actions | MLA's public threat of beating by party workers; threatening calls, messages and emails; harassment of venue managers (reported); cancellation of four shows in Chennai and Hyderabad. Apology and deletion were voluntary under the … | ✔ human (Havish, 13 Nov): Raja Singh threat video; Hyderabad show cancelled |
 | 4 | Who acted (mobilising actor) | T. Raja Singh, BJP MLA (video threat naming the show and time) | ✔ AI: T Raja Singh (BJP MLA, Goshamahal): many outlets |
-| 5 | How the clip spread (first spreader; collusion or collision) | the comedian (own Instagram/YouTube post) (collusion) | ✔ AI: comedian's own post (collusion): all reports **→ human spot-check** |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / yes / no / no (Jain practice not on the list; Jains: notified religious minority (NCM)) | ? AI: judgement: Jains as a notified minority makes "defended butt" yes; direction is contested **→ human: check this** |
+| 5 | How the clip spread (first spreader; collusion or collision) | the comedian (own Instagram/YouTube post) (collusion) | ✔ human (Havish, 13 Nov): his own post (collusion) |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / yes / no / no (Jain practice not on the list; Jains: notified religious minority (NCM)) | ✔ human (Havish, 13 Nov): Jains as a notified minority count as a defended group |
 
 ### fernandes_2025
 
 | # | Fact the findings rest on | Coded as | Check |
 |---|---|---|---|
 | 1 | Outcome | legal (sub-label: private legal notice only) | ✔ AI: private legal notice only |
-| 2 | Legal actions against the comedian | private legal notice dated 2025-05-29 demanding takedown by 2025-06-03; no statute cited in reports; no FIR, suit or summons found | ✔ AI: notice dated 29 May 2025 by Advs Makarand Adkar and Amita Sachdeva, deadline 3 June: LawChakra, DeadAnt, Kashmir Life, Observer Post; no suit found **→ human spot-check** |
+| 2 | Legal actions against the comedian | private legal notice dated 2025-05-29 demanding takedown by 2025-06-03; no statute cited in reports; no FIR, suit or summons found | ✔ human (Havish, 13 Nov): private notice of 29 May 2025; nothing filed after |
 | 3 | Extra-legal actions | none | ✔ AI: none found |
 | 4 | Who acted (mobilising actor) | Advs. Makarand D. Adkar and Amita Sachdeva (private legal notice) | ✔ AI: the two advocates (same sources). Note: Amita Sachdeva files many such complaints (Rana Ayyub, Munawar Faruqui, Dhruv Rathee) |
 | 5 | How the clip spread (first spreader; collusion or collision) | the comedian (YouTube upload; he also made the notice public) (collusion) | ✔ AI: comedian's own upload; he also made the notice public |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / yes / no (nation; Pahalgam attack (collective trauma), mentioned; PM and Home Minister (BJP, centre and Maharashtra)) | ✔ AI: nation and Pahalgam attack mentioned; mocks the PM and Home Minister (notice says so) **→ human spot-check** |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / no / yes / no (nation; Pahalgam attack (collective trauma), mentioned; PM and Home Minister (BJP, centre and Maharashtra)) | ✔ human (Havish, 13 Nov): nation and Pahalgam mentioned; mocks the PM and Home Minister |
 
 ## Havish checks Yogansh's cases
 
@@ -184,7 +184,7 @@ the AI check itself is tested on a random sample.
 | 3 | Extra-legal actions | none | ✔ human (Havish): nothing happened to Kapil Sharma |
 | 4 | Who acted (mobilising actor) | none | ✔ AI: none |
 | 5 | How the clip spread (first spreader; collusion or collision) | an X user posting the clip with the caption "Kapil Sharma subtly insults Atlee's looks?" (collusion) | ✔ human (Havish): the first post was from a **verified** X account, not an anonymous one (correct the case file's wording) |
-| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / no / no / no (colourism: no statutory body) | ✔ AI: no condition **→ human spot-check** |
+| 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / no / no / no (colourism: no statutory body) | ✔ human (Havish, 13 Nov): about looks only; no condition |
 
 ## Siddanth checks Pranav's cases
 
