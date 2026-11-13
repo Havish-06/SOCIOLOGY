@@ -1,6 +1,6 @@
 # raina_2026: The Bihar–Kashmir roast exchange on India's Got Latent S2 (Samay Raina and Sharon Verma), 2026
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: watched and checked by owner (Havish, 2026-11-13); fact-check of the timeline pending; see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `raina_2026__VJ9VC9OqdAA.txt`: **full performance**. The complete episode "INDIA'S GOT LATENT S2 EP5 ft. Orry, Archana Puran Singh, Sharon Verma, Nishant Suri" on Samay Raina's own YouTube channel, 54 min (3,238 s), uploaded 2026-08-28 at 19:00 IST, 85.2M views when checked on 2026-11-09. The exchange is in the panel introductions at **[07:11]–[08:22]**.
@@ -260,3 +260,14 @@ key_lenses: humour theory (reciprocal, self-directed roast); identity and power;
 best_explanation: A reciprocal roast in which each comedian mocked the other's region, with the sharpest Pandit-exodus line aimed at the Pandit host who had made the same joke about himself minutes earlier, touched no fixed sacred object, so politicians issued statements but no one took the step to a complaint, and the row faded within a week.
 confidence: medium
 ```
+
+## N. Owner's check (Havish, 2026-11-13)
+
+The owner watched the clips and wrote the first read in `analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
+
+- Watched `VJ9VC9OqdAA` 03:30–09:00.
+- **Speaker settled:** it is **Samay Raina** who makes the Kashmiri Pandit "endangered species" self-joke in the Vantara exchange with Orry (03:40–04:01). Confirms K: the host joked about Pandit displacement himself minutes before Verma's line.
+- **Room:** lots of laughter through the exchange.
+- **Sacred object:** owner proposed a new category, **collective trauma**, which the team adopted on 2026-11-12. Proposed recoding: none → `collective_trauma` (Kashmiri Pandit exodus), in the joke (`analysis/sacred_recode_collective_trauma.md`). Raina 2026 becomes a counter-example: a collective trauma was touched, politicians spoke, nobody filed anything.
+- **Coding:** agree (online only; lateral, which the AI codes as contested; collusion, then clipped by others).
+- **Still to check:** who says the "left by choice" line (AI: Verma) and whether Raina's "hilarious" sounds sincere.

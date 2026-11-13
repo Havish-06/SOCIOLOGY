@@ -1,6 +1,6 @@
 # latent_2025: The "parents" question on India's Got Latent (Samay Raina / Ranveer Allahbadia), 2025
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: watched and checked by owner (Havish, 2026-11-13); fact-check of the timeline pending; see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `latent_2025__LKHf05KnMFo.txt`: **reupload clip** (31 s, third-party Shorts channel, uploaded 2025-02-10, ~764k views, title "India's Got Latent HEATED Moment! ... Ranveer Allahbadia's Words Stun Samay Raina!"). It contains the question and the immediate reaction from the panel. This is the most complete version available.
@@ -315,3 +315,13 @@ key_lenses: Durkheim (sacred family); moral panic and moral entrepreneurs; law a
 best_explanation: A crude sexual question about a contestant's parents profaned a near-universal sacred object, so state actors (a chief minister, two state police forces, women's commissions) could act within 48 hours, and the resulting multi-state FIRs and summonses punished through process even though the cases were later closed.
 confidence: high
 ```
+
+## N. Owner's check (Havish, 2026-11-13)
+
+The owner watched the clips and wrote the first read in `analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
+
+- Watched `LKHf05KnMFo` (31 s), `KX8oJhx-RE8` (14 s) and `cgrLNIDpsOk`.
+- **Speaker settled:** it is **Samay Raina** who plays the question down as "rejected questions" from Allahbadia's podcast (news attribution confirmed).
+- **Room:** mixed: some shocked, some laughing (captions had no markers).
+- **Coding:** agree (both; lateral; family and parents in the joke; crude/shock; collusion, then clipped by others).
+- **Still to check:** what the 14 s clip cuts compared with the 31 s clip (AI: the panel's mockery of Allahbadia); whether the episode was members-only.

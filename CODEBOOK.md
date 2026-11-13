@@ -83,7 +83,9 @@ Sources: Mohammad et al. 2016 (stance); Kumar et al. 2018 (TRAC); Mandl et al. 2
 Same list as A2.
 
 ### B4. sacred_object
-`deity` · `icon` (Shivaji, Ambedkar, national heroes) · `nation` (army, martyrs, flag) · `none`. Source: Durkheim 1912.
+`deity` · `icon` (Shivaji, Ambedkar, national heroes) · `nation` (army, martyrs, flag) · `family` (family and parents) · `collective_trauma` (a specific, widely remembered event of mass violence, atrocity or displacement against a group, and its victims: e.g. the Kashmiri Pandit exodus, a terror attack, communal riots, a caste killing that became a public cause) · `none`. Source: Durkheim 1912.
+
+Rule for `collective_trauma` (added 2026-11-12): it must name or clearly refer to a **specific event**. Generic categories of victims (rape victims in general, disabled people, sick children) are not collective trauma; code them under topic instead.
 
 ### B5. frame
 | Code | Rule |

@@ -1,6 +1,6 @@
 # fernandes_2024: Daniel Fernandes, the "Jains buy goats" joke and the cancelled Hyderabad show
 
-status: final AI analysis (independent analysis checked against the team draft); awaiting human verification
+status: watched and checked by owner (Havish, 2026-11-13); fact-check of the timeline pending; see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `fernandes_2024__nYiGBx0YBFw.txt`: **news** video by ETimes, "BJP MLA 'Threatens' Comedian | Daniel Fernandes Cancels Show After Controversial Video" (uploaded 2024-07-01, 4:23 min). It splices together three sources: (a) a few seconds of what appears to be the original joke audio (00:21); (b) Fernandes's 29 June Instagram statement video (00:41 to 01:48); (c) T. Raja Singh's threat video (01:48 to 03:10).
@@ -292,3 +292,12 @@ key_lenses: strategic offence; stigma and labelling; humour theory (closeness of
 best_explanation: A Hindutva MLA with a record of threatening comedians in Hyderabad took up a Jain grievance as "Hindu" hurt on the day of the show, and the unguarded organisers cancelled, turning ordinary online anger (already met by an apology) into an extra-legal outcome.
 confidence: medium
 ```
+
+## N. Owner's check (Havish, 2026-11-13)
+
+The owner watched the clips and wrote the first read in `analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
+
+- **No original recording found**; worked from the ETimes news video `nYiGBx0YBFw`, the later Short `Y8kEi4wSKKE` and news reports. Room reaction could not be heard.
+- Joke as reported: Jains dressed as Muslims bought 124 goats for ₹15 lakh before Bakrid; once the goats multiply they will call Muslims to sell them back; some Jains run meat-export businesses.
+- Objectors: Jain community members, online users, Hindu right-wing groups and BJP MLA T. Raja Singh ("a blatant insult to Jainism", "distasteful").
+- **Coding:** full agreement (extra-legal; contested; sacred none; collusion, then clipped by others; topic religion).
