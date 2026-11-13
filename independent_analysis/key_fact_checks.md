@@ -37,7 +37,7 @@ the AI check itself is tested on a random sample.
 | fernandes_2024 | 1 | Settled by Havish: extra-legal |
 | fernandes_2024 | 2 | Settled by Havish: no second source |
 | fernandes_2024 | 6 | Settled by Havish: yes, defended group |
-| more_2025 | 5 | Havish: no source says this; Yogansh to re-watch More's set at 06:59–07:19 |
+| more_2025 | 5 | Settled by Yogansh: More's own set shows the attackers playing him a reel (his account); first spreader of the reel unknown |
 | virli_2026 | 5 | Settled by Havish: collision (Virli's own statement) |
 | kapil_2024 | 5 | Settled by Havish: a verified X account |
 | kamra_2018 | 6 | Settled by Pranav: nothing sacred in either set; sacred in the joke = no |
@@ -128,7 +128,7 @@ the AI check itself is tested on a random sample.
 | 2 | Legal actions against the comedian | none against the comedian (police case registered against the attackers, timeline only) | ✔ human (Havish): only the attackers were booked; nothing against More |
 | 3 | Extra-legal actions | physical assault after the 2 Feb 2025 Solapur show; verbal threat against future jokes on Pahariya | ✔ AI: assault on 2 Feb 2025 after the Solapur show: ThePrint (PTI), Statesman, FPJ, Deccan Chronicle, ETV Bharat |
 | 4 | Who acted (mobilising actor) | the group of 10-12 self-described fans | ✔ AI: group of self-described fans; alleged leader named by More's team; Pahariya denied involvement |
-| 5 | How the clip spread (first spreader; collusion or collision) | a reel of the joke shown by the attackers (per More); probably More's own post (unconfirmed) (collusion (provisional: reel of the joke, most likely More's own post; poster unconfirmed)) | ✖ human (Havish): no news source says the attackers showed More a reel of an earlier joke. The claim comes only from the AI's reading of More's own set (transcript 06:59–07:19). **Yogansh (owner) to re-watch that part**; until then the first spreader is unknown and the collapse type stays provisional |
+| 5 | How the clip spread (first spreader; collusion or collision) | a reel of the joke shown by the attackers (per More); probably More's own post (unconfirmed) (collusion (provisional: reel of the joke, most likely More's own post; poster unconfirmed)) | ✖ human (Havish): no news source says the attackers showed More a reel of an earlier joke. The claim comes only from the AI's reading of More's own set (transcript 06:59–07:19). **Yogansh (owner) to re-watch that part**; until then the first spreader is unknown and the collapse type stays provisional ✔ human (Yogansh, 13 Nov): watched 06:39–07:26 of zjkSwDgq6Ow; More says the joke was from an earlier show and acts out the attackers playing him a reel of it. This is More's own account (no news source); who posted the reel is unknown, so the collapse type stays provisional |
 | 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | no / no / no / no (Veer Pahariya is an actor, not an office-holder) | ✔ human (Havish): Pahariya is an actor, not an office-holder |
 
 ### more_2026
