@@ -12,7 +12,7 @@ is fixed in the case file and, if it changes a code, in `independent_analysis/co
 ## AI re-check results (13 Nov 2026)
 
 The AI re-checked all 144 facts against independent news, legal and court sources found by fresh web
-searches: **123 confirmed**, **20 need a human** (single source, unknown, or a judgement call), **1 contradicted**.
+searches: **123 confirmed**, **20 need a human** (single source, unknown, or a judgement call), **1 contradicted** (settled by Havish: the case file was right).
 The marks are in the Check column below ("✔ AI" = confirmed by the AI re-check).
 
 **What people do (about 15–20 minutes each):**
@@ -30,7 +30,7 @@ the AI check itself is tested on a random sample.
 |---|---|---|
 | latent_2025 | 2 | Guwahati FIR, Maharashtra Cyber FIR, NCW summons, YouTube block, SC quashing of FIRs on 14 Aug 2026 confirmed (Scroll, Outlook, Deccan Herald, Bar & Bench); Jaipur FIR not found in any source: human to confirm or drop |
 | latent_2025 | 5 | first spreader unknown in all sources; collusion follows from the show being on Raina's own channel |
-| raina_sma_2025 | 5 | CONFLICT: the case file says the joke is from the 2022 special NARAK, resurfaced on X; news reports (NewsX, others) say it was on India's Got Latent. Human must watch/confirm the source, which decides collusion vs collision |
+| raina_sma_2025 | 5 | Settled by Havish: NARAK (2022), resurfaced by others (collision) |
 | raina_2026 | 5 | first spreader: unnamed X users; collusion follows from the episode being on Raina's channel |
 | raina_2026 | 6 | judgement: collective trauma in the joke and own group depend on who says "left by choice" (owner's open check) |
 | sachdeva_2025 | 5 | first spreader: unnamed X users |
@@ -82,7 +82,7 @@ the AI check itself is tested on a random sample.
 | 2 | Legal actions against the comedian | SC intervention (Apr 2025) then W.P.(C) 460/2025; notice and compelled appearance via Mumbai Police Commissioner (5 May 2025); court-ordered public apology (25 Aug 2025); mandated fundraising programmes (27 Nov 2025); Rs 3 lakh … || ✔ AI: as above; SC quashed the FIRs on 14 Aug 2026 (Bar & Bench, Outlook, Telangana Today): no longer single-source |
 | 3 | Extra-legal actions | none || ✔ AI: none found in any source **→ human spot-check** |
 | 4 | Who acted (mobilising actor) | Cure SMA Foundation of India || ✔ AI: Cure SMA Foundation of India petition (LiveLaw, Business Today) |
-| 5 | How the clip spread (first spreader; collusion or collision) | journalists/commentators on X (Akhilesh Sharma; Kanchan Gupta) during the Latent row (collision) || ✖ AI: CONFLICT: the case file says the joke is from the 2022 special NARAK, resurfaced on X; news reports (NewsX, others) say it was on India's Got Latent. Human must watch/confirm the source, which decides collusion vs collision **→ human: check this** |
+| 5 | How the clip spread (first spreader; collusion or collision) | journalists/commentators on X (Akhilesh Sharma; Kanchan Gupta) during the Latent row (collision) | ✔ human (Havish, 13 Nov): the joke is from the 2022 special NARAK and was resurfaced by others (collision), as the case file says; news reports placing it on India's Got Latent are wrong |
 | 6 | Conditions: sacred in the joke / defended butt / mocks a ruler / own group | yes / yes / no / no (family (a mother weighing money against her infant); secondary; persons with disabilities (RPwD Act)) || ✔ AI: defended butt (persons with disabilities) is clear; family as secondary sacred item is a judgement **→ human spot-check** |
 
 ### sachdeva_2025
