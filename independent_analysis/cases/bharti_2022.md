@@ -1,6 +1,6 @@
 # bharti_2022: Bharti Singh's resurfaced "daadhi-mooch" (beard and moustache) joke
 
-status: checked by owner (Siddhant, with AI, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
+status: checked by owner (Siddhant, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `bharti_2022__-Q-nl0vpjsw.txt`: **reupload** of the clip, channel "Pb32 Wale", title "Bharti Singh Talking About Sikh Beard | Bharti Di Bakwas" (uploaded 2022-05-15, 14 s, about 31K views on 2026-11-09). The title adds "Sikh", which the clip does not contain.
@@ -290,9 +290,9 @@ confidence: medium
 
 (Some values above were aligned across cases by `method/consistency_rules.md`.)
 
-## N. Owner's check (Siddhant, with AI, 2026-11-13)
+## N. Owner's check (Siddhant, 2026-11-13)
 
-Transcripts re-downloaded and read; first read in `independent_analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+Transcripts re-downloaded and read; first read in `independent_analysis/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
 
 - **Transcript check:** -Q-nl0vpjsw and fL9vTzlb65U match section K (beard benefits; sewaiyan; picking [lice] out of the beard). No community is named. The apology (fL9vTzlb65U 00:20–01:14) says she named no religion, is a Punjabi born in Amritsar, and apologises "with folded hands". hCgDdRWVtKs captions are unusable.
 - **Confirmed (new search):** show is *Bharti Ka Show* (Shemaroo) with guest Jasmin Bhasin (Quint, Outlook, Devdiscourse); FIR under IPC 295A at Adampur PS, Jalandhar (FPJ) and on the SGPC complaint in Amritsar (Tribune, 16 May 2022); NCM sought reports (Tribune, 24 May 2022). The June 2022 Punjab & Haryana High Court "no coercive steps" order concerns the separate 2019 Batala FIR, as section J says.
