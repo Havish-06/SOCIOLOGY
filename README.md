@@ -14,6 +14,7 @@ variable. Team: Havish, Yogansh, Pranav, Siddanth.
 | File | What it is | Read it when |
 |---|---|---|
 | [README.md](README.md) | This guide: where things are, status, setup, tools | First |
+| [PROJECT_EXPLAINED.md](PROJECT_EXPLAINED.md) | **The whole project explained simply, from the start:** what changed and why, every term, how the cases were chosen, what we found, earlier research, what to improve | If anything is unclear; before the presentation |
 | [PROJECT.md](PROJECT.md) | **The whole project in one document:** question, concepts, framework, design, cases, data, analysis, outputs, roles, ethics, limitations, references | To understand what we are doing and why |
 | [PLAN.md](PLAN.md) | **How to carry it out:** news protocol, every step in detail (Step 5 is the per-case work), comment protocol and spam audit, folder structure, timeline, glossary | Before working on a case |
 | [DECISIONS.md](DECISIONS.md) | Dated log of every team decision, and the questions still open | To see what was decided and why |
