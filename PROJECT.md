@@ -6,8 +6,8 @@ The whole project in one document: question, concepts, framework, design, cases,
 
 Indian stand-up comedy has grown quickly through YouTube and live shows, and so have the controversies around
 it. Some jokes end with an online storm that fades in days; others end with FIRs, arrests, court summons,
-vandalised venues, cancelled shows or assault. This project asks **which topics bring Indian stand-up comedians
-under public scrutiny, and why controversies end so differently**.
+vandalised venues, cancelled shows or assault. This project asks **what topics are involved when Indian stand-up
+comedians come under public scrutiny, and why controversies end so differently**.
 
 We compare about **25 controversies from 2018 to 2026** using a **structured, focused comparison** (George &
 Bennett, 2005): every case is researched and written up with the same template, and the cases are then compared
@@ -38,8 +38,8 @@ difference is the puzzle of this project.
 
 ## 3. Research questions
 
-**Main question.** Which topics bring Indian stand-up comedians under public scrutiny, and when a joke becomes a
-controversy, why does it end so differently (online criticism only, legal action, extra-legal action, or both)?
+**Main question.** What topics are involved when Indian stand-up comedians come under public scrutiny, and when
+a joke becomes a controversy, why does it end so differently (online criticism only, legal action, extra-legal action, or both)?
 How do the joke's topic, its target and its context shape that outcome?
 
 | | Sub-question | Theory used |
@@ -202,8 +202,8 @@ large over 2M YouTube subscribers at the time of the incident).
 
 ### The 24 cases
 
-Final list, decided 2026-11-09 (`independent_analysis/final_cases.csv`). Topic, genre and outcome below are first-pass judgements, to be verified in each case analysis. `*` = comparison
-case (not a stand-up performance). Full pool of 45 candidates with sources: [`independent_analysis/case_pool.csv`](independent_analysis/case_pool.csv).
+Final list, decided 2026-11-09 (`independent_analysis/case_selection/final_cases.csv`). Topic, genre and outcome below are first-pass judgements, to be verified in each case analysis. `*` = comparison
+case (not a stand-up performance). Full pool of 45 candidates with sources: [`independent_analysis/case_selection/case_pool.csv`](independent_analysis/case_selection/case_pool.csv).
 
 | # | Case | Comedian | Year | Topic | Genre | Outcome |
 |---|---|---|---|---|---|---|
@@ -277,7 +277,7 @@ outrage.
 
 ### The case template
 
-Every case is written up in [`cases/_template.md`](cases/_template.md) with the same sections:
+Every case is written up with the same template (in [`independent_analysis/method/analyst_brief.md`](independent_analysis/method/analyst_brief.md)), with these sections:
 
 | Section | Content |
 |---|---|
@@ -392,13 +392,13 @@ are therefore evidence of coordination, never proof, and the case file says so.
 
 ## 10. Cross-case analysis
 
-0. **Mechanisms table** (`analysis/mechanisms.csv`): the lens verdicts from every case, showing which mechanisms
+0. **Mechanisms table** (the `key_lenses` column of the comparison table): the lens verdicts from every case, showing which mechanisms
    recur with which outcomes.
-1. **Master comparison table** (`analysis/comparison.csv`): one row per case, with topic, genre, direction, form,
+1. **Master comparison table** (`independent_analysis/comparison.csv`): one row per case, with topic, genre, direction, form,
    collapse type, gap in months, caption, sacred object, norm invoked, who mobilised, channel used, legal basis,
    highest stigma step, courtesy stigma, comedian's response, outcome, audience size and election period.
 2. **Agreement report:** share of cases where the owner's first read matched the AI draft for each key judgement
-   (`independent_analysis/first_read.csv`).
+   (`independent_analysis/checks/first_read.csv`).
 3. **Answers to each sub-question,** supported by named cases.
 4. **Paired comparisons:** for each matched pair, what differed, what stayed the same, and which difference best
    explains the different outcomes.
@@ -419,9 +419,9 @@ commissions and courts or fizzled, never to mobs.
 | Output | Description |
 |---|---|
 | **Research paper** | Introduction (opening with *India's Got Latent* and the Rs 370 biryani case); conceptual framework; previous work and how we use it; method; overview of cases; findings by sub-question with matched pairs and the typology; discussion; limitations; conclusion; appendix with a one-page summary of each case |
-| **Case files** | 24 verified case analyses in `cases/<case_id>/` (`case.md` and `sources.md`) |
-| **Comparison table** | `analysis/comparison.csv` |
-| **Findings report** | `analysis/findings.md`: patterns, matched pairs, typology, counter-examples, agreement report |
+| **Case files** | 24 verified case analyses in `independent_analysis/cases/<case_id>.md` (sources in section J) |
+| **Comparison table** | `independent_analysis/comparison.csv` |
+| **Findings report** | `independent_analysis/findings.md` and `independent_analysis/conditions.md`: patterns, matched pairs, typology, counter-examples, the main test |
 | **Presentation** | Slides summarising the question, method and findings |
 | **Optional** | A visual case map built from the comparison table |
 

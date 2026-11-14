@@ -1,6 +1,6 @@
 # faruqui_2024: Munawar Faruqui's crowd-work line about Konkani people (August 2024)
 
-status: checked by owner (Siddhant, with AI, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
+status: checked by owner (Siddhant, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `faruqui_2024___tVdqkI8Sdk.txt`: **reupload** of the audience clip (about 27 seconds, a YouTube Short) titled "Munawar with kokani..#darkjokes #standupcomedy …". This is the crowd-work moment itself.
@@ -45,13 +45,14 @@ At a show in the Mumbai area, Munawar Faruqui asked whether anyone in the audien
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-| before Aug 2024 (unknown) | performance: crowd-work at a show in Mumbai; a Taloja audience member prompts the Konkani line | comedian | confirmed (that it happened); date unknown | transcripts; [1][2][3] |
+| before 19 Jul 2024 (exact date unknown) | performance: crowd-work at a show in Mumbai; a Taloja audience member prompts the Konkani line | comedian | confirmed (primary: the full set on his channel); performance date unknown | transcripts; [1][2][3]; U0KIaD4J56A |
+| 19 Jul 2024 | upload: the full set goes up on Faruqui's own YouTube channel as "Boys, Dubai and Crowd Work" (U0KIaD4J56A) | comedian | confirmed (primary: YouTube upload date; viewer comments from 19-22 Jul quote the Konkani line) | U0KIaD4J56A |
 | ~11–12 Aug 2024 | viral: clip spreads on X; MNS-supporting accounts tag MNS leaders and urge "strict action" | individual / party_worker | reported (one outlet) | [2] |
 | ~12 Aug 2024 | threat / statement: BJP MLA Nitesh Rane posts a Marathi video: "green snake" to be sent to Pakistan, "we know his address", calls on people not to follow him, demands an apology (commentary says within 24 hours) | politician | confirmed | [1][3]; transcript tTZ25lueiW8 [01:10]–[02:17] |
 | ~12 Aug 2024 | threat: a Shiv Sena (Shinde) figure reportedly announces a reward of up to Rs 1 lakh for beating Faruqui if he does not apologise | politician | confirmed (reward offered); reported (who: Samadhan Sarvankar per India TV) | [3][4] |
 | 12 Aug 2024 (Mon) | apology: Faruqui posts a video on X/Instagram: crowd work, out of context, no intention to hurt, "दिल से माफी", "जय हिंद जय महाराष्ट्र"; caption in Marathi expresses love for Konkan | comedian | confirmed | [1][3][4][5]; transcript tTZ25lueiW8 [02:17]–[03:43] |
 | 12–13 Aug 2024 | statement: Rane reposts the apology, warning of "direct action" if Faruqui speaks about Hindus or Konkanis again | politician | confirmed | [1][5] |
-| 14 Aug 2024 | statement: Rane calls Faruqui a "habitual offender": "Konkani people, our religion is not a joke"; "then we can also slap him and apologize" | politician | confirmed (ANI-based) | [5]; search summary of Pinkvilla |
+| 14 Aug 2024 | statement: Rane calls Faruqui a "habitual offender": "Konkani people, our religion is not a joke"; "then we can also slap him and apologize" | politician | reported (one source: ANI via Devdiscourse; Pinkvilla not opened) | [5] |
 | mid Aug 2024 | statement: Faruqui posts a cryptic note ("jab apne hi log ladne aa jaye…") | comedian | reported | Pinkvilla headline [6] |
 | Oct 2024 | apology video misrepresented online as an apology to the Lawrence Bishnoi gang; fact-checked | media | confirmed | [7][8] |
 
@@ -164,7 +165,7 @@ Open questions: Did any police complaint follow in Raigad/Sindhudurg? (None foun
 ```
 case_id: faruqui_2024
 comedian: Munawar Faruqui
-performance_date: unknown (before 2024-08-11; probably July-August 2024)
+performance_date: unknown (before 2024-07-19, when the special was uploaded)
 controversy_date: 2024-08-12
 setting: unknown (live ticketed show in Mumbai; venue type not identified)
 form: crowd_work
@@ -176,9 +177,9 @@ sacred_object: none
 genre: roast; crude_shock
 target: an audience member from Taloja, generalised to "Konkani people"
 direction: lateral
-collapse_type: collision
-gap_months: unknown (probably <1)
-first_spreader: unknown uploader; amplified on X by MNS-supporting accounts tagging MNS leaders
+collapse_type: collusion
+gap_months: about 1 (upload 19 Jul 2024, controversy 12 Aug 2024)
+first_spreader: Munawar Faruqui (own YouTube special "Boys, Dubai and Crowd Work", 19 Jul 2024); 25-second exchange cut and amplified on X by MNS-supporting accounts tagging MNS leaders
 objectors: BJP MLA Nitesh Rane; a Shinde-faction Shiv Sena figure (reportedly Samadhan Sarvankar); MNS supporters; online users claiming to speak for Konkani people
 objector_distance: social; political
 norm_invoked: other: regional community dignity; religious_feeling
@@ -229,7 +230,7 @@ The clip shows the line came out of one audience member's answer to "has anyone 
 ```
 case_id: faruqui_2024
 comedian: Munawar Faruqui
-performance_date: unknown (before 2024-08-11; probably July-August 2024)
+performance_date: unknown (before 2024-07-19, when the special was uploaded)
 controversy_date: 2024-08-12
 setting: unknown (live ticketed show in Mumbai; venue type not identified)
 form: crowd_work
@@ -241,9 +242,9 @@ sacred_object: none
 genre: roast; crude_shock
 target: an audience member from Taloja, generalised to "Konkani people"
 direction: lateral
-collapse_type: collision
-gap_months: unknown (probably <1)
-first_spreader: unknown uploader; amplified on X by MNS-supporting accounts tagging MNS leaders
+collapse_type: collusion
+gap_months: about 1 (upload 19 Jul 2024, controversy 12 Aug 2024)
+first_spreader: Munawar Faruqui (own YouTube special "Boys, Dubai and Crowd Work", 19 Jul 2024); 25-second exchange cut and amplified on X by MNS-supporting accounts tagging MNS leaders
 objectors: BJP MLA Nitesh Rane; a Shinde-faction Shiv Sena figure (reportedly Samadhan Sarvankar); MNS supporters; online users claiming to speak for Konkani people
 objector_distance: social
 norm_invoked: other: regional community dignity; religious_feeling
@@ -264,9 +265,9 @@ best_explanation: A Konkan BJP MLA heading into state elections recast a crowd-w
 confidence: medium
 ```
 
-## N. Owner's check (Siddhant, with AI, 2026-11-13)
+## N. Owner's check (Siddhant, 2026-11-13)
 
-Transcripts re-downloaded and read; first read in `independent_analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+Transcripts re-downloaded and read; first read in `independent_analysis/checks/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
 
 - **Transcript check:** _tVdqkI8Sdk matches section K word for word. tTZ25lueiW8 contains the setup question "सब लोग बम्बे से ही है ना? कोई ट्रेवल करके आया है?", which places the show in Mumbai, not Taloja; its narrator's claim that the show was in Dubai is wrong (in the clip Faruqui turns to someone "from Dubai" in the audience).
 - **Confirmed (new search):** the Marathi speaker in tTZ25lueiW8 is BJP MLA Nitesh Rane. His "green snake... won't take long to send you to Pakistan" line matches the Free Press Journal report, and he later warned of "direct action" if Faruqui spoke about Hindus or Konkanis again. Apology video dated about 12–13 Aug 2024 (India TV, Outlook, DNA).
@@ -276,7 +277,7 @@ Transcripts re-downloaded and read; first read in `independent_analysis/first_re
   - **14 Aug 2024: "Someone notice tha 'tum konkni log chutiya banate sabko' part was deleted 😂"**.
   - So: the line was in his own upload from 19 Jul 2024 and was **cut from the video around 13–14 Aug 2024**, alongside the apology. Section G should add **deletion** to his response (apology + deletion). Confidence: medium-high (comments, not an archived copy of the old version).
   - So: **venue Mumbai** (settles "Taloja" vs "Mumbai"; the Dubai claim is wrong); **performance before 19 Jul 2024**; **gap about 3–4 weeks** between upload (19 Jul) and controversy (12 Aug).
-  - **Recommended recode: collapse_type collision → collusion.** The comedian published the full set himself; three weeks later others cut the 25-second exchange and spread it with hostile captions (the same pattern Pranav coded for katikala_2026: "collusion (own upload), then spread by party workers"). The team should decide; the coding summary above is left unchanged.
+  - **Recommended recode: collapse_type collision → collusion.** The comedian published the full set himself; three weeks later others cut the 25-second exchange and spread it with hostile captions (the same pattern Pranav coded for katikala_2026: "collusion (own upload), then spread by party workers"). **Done 14 Nov (Siddanth, key-fact check fact 5): recoded to collusion in both coding blocks and in comparison.csv.**
 - **Still not found:** exact recording date; any police complaint; who first posted the short clip.
 - **Coding:** agree (extralegal; lateral/contested), except collapse_type (see the recommended recode above) and comedian_response, which should be apology + deletion. Faruqui's apology says the audience included "Marathi, Muslim and Hindu people" and that the man he joked about enjoyed it.
 - **Cross-check from a second upload** (ad-50sVwpKQ, "Insider View", 13 Aug 2024; transcript saved as `faruqui_2024__ad-50sVwpKQ.txt`): same wording ("ये कोकणी लोग चूतिया बनाते हैं सबको"), followed by a **[laughter] marker** right after "कोकणी है तुम लोग", so the room laughed. It also carries a clean Marathi transcript of **Nitesh Rane's statement**: "मुनाफ फारूकी नावाचा हिरवा साप... याला कोकणातल्या लोकांबद्दल... टिंगल उडवण्याची खाज असेल तर त्याच्या घरचा पत्ता आम्हाला चांगल्या पद्धतीने माहिती आहे... लवकरच त्याला मालवणी हिसका दाखवायला लागेल... तुझ्यासारख्या हिरव्या सापांना पाकिस्तानात पाठवण्याला आम्हाला जास्त वेळ लागणार नाही" ("a green snake called Munawar Faruqui... if he itches to mock Konkan people, we know his home address well... soon we'll have to show him a Malvani jolt... it won't take us long to send green snakes like you to Pakistan"). **No 24-hour deadline is in Rane's own words**; that comes from the narrator of tTZ25lueiW8, as the timeline row in section D already says ("commentary says within 24 hours").

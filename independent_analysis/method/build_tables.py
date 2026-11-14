@@ -1,8 +1,7 @@
-"""Build the independent comparison table and the side-by-side table against the team's AI draft.
+"""Build the comparison table from the case files.
 
-Reads the "Coding summary" block of every independent_analysis/cases/<case_id>.md and writes:
-  independent_analysis/comparison.csv   one row per case (the independent coding)
-  independent_analysis/side_by_side.csv  key fields, independent vs draft (analysis/comparison.csv)
+Reads the "Final coding" block (or, if missing, the "Coding summary" block) of every
+independent_analysis/cases/<case_id>.md and writes independent_analysis/comparison.csv, one row per case.
 
 Run from the repository root:  python independent_analysis/method/build_tables.py
 """
@@ -40,44 +39,9 @@ if missing:
     print('no Final coding yet, using the first coding for:', ', '.join(missing))
 rows = [f or c for f, c in zip(final, first)]
 
-# how often the independent first coding matched the draft, per field (before settling)
-draft_all = {r['case_id']: r for r in csv.DictReader(open('analysis/comparison.csv', encoding='utf-8'))}
-AGREE = [('outcome_type', 'outcome_type'), ('direction', 'direction'), ('collapse_type', 'collapse_type'),
-         ('form', 'form'), ('courtesy_stigma', 'courtesy_stigma'), ('highest_stigma_step', 'highest_stigma_step')]
-with open(os.path.join(ROOT, 'agreement.csv'), 'w', newline='', encoding='utf-8') as f:
-    w = csv.writer(f)
-    w.writerow(['field', 'cases', 'independent_equals_draft', 'final_equals_draft', 'final_equals_independent'])
-    for ind, dr in AGREE:
-        n = a = b = c = 0
-        for c0, cf in zip(first, rows):
-            d = draft_all.get(c0['case_id'])
-            if not d:
-                continue
-            n += 1
-            norm = lambda s: s.split('(')[0].strip().lower()
-            a += norm(c0.get(ind, '')) == norm(d.get(dr, ''))
-            b += norm(cf.get(ind, '')) == norm(d.get(dr, ''))
-            c += norm(cf.get(ind, '')) == norm(c0.get(ind, ''))
-        w.writerow([ind, n, a, b, c])
-
 with open(os.path.join(ROOT, 'comparison.csv'), 'w', newline='', encoding='utf-8') as f:
     w = csv.DictWriter(f, fieldnames=KEYS)
     w.writeheader()
     for r in rows:
         w.writerow({k: r.get(k, '') for k in KEYS})
-
-# side by side with the draft, for the fields both tables share
-draft = {r['case_id']: r for r in csv.DictReader(open('analysis/comparison.csv', encoding='utf-8'))}
-PAIRS = [('topic', 'topic'), ('genre', 'genre'), ('direction', 'direction'), ('form', 'form'),
-         ('collapse_type', 'collapse_type'), ('sacred_object', 'sacred_object'), ('outcome_type', 'outcome_type'),
-         ('highest_stigma_step', 'highest_stigma_step'), ('courtesy_stigma', 'courtesy_stigma'),
-         ('comedian_response', 'comedian_response'), ('gap_months', 'gap_months'),
-         ('mobilising_actor', 'who_mobilised')]
-with open(os.path.join(ROOT, 'side_by_side.csv'), 'w', newline='', encoding='utf-8') as f:
-    w = csv.writer(f)
-    w.writerow(['case_id', 'field', 'independent', 'draft'])
-    for r in rows:
-        d = draft.get(r['case_id'], {})
-        for ind, dr in PAIRS:
-            w.writerow([r['case_id'], ind, r.get(ind, ''), d.get(dr, '')])
 print(len(rows), 'cases')

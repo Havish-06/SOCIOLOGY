@@ -295,7 +295,7 @@ confidence: medium
 
 ## N. Owner's check (Havish, 2026-11-13)
 
-The owner watched the clips and wrote the first read in `independent_analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
+The owner watched the clips and wrote the first read in `independent_analysis/checks/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
 
 - **No original recording found**; worked from the ETimes news video `nYiGBx0YBFw`, the later Short `Y8kEi4wSKKE` and news reports. Room reaction could not be heard.
 - Joke as reported: Jains dressed as Muslims bought 124 goats for ₹15 lakh before Bakrid; once the goats multiply they will call Muslims to sell them back; some Jains run meat-export businesses.

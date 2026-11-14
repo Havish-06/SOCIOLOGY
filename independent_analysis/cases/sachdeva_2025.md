@@ -256,7 +256,7 @@ confidence: medium
 
 ## N. Owner's check (Havish, 2026-11-13)
 
-The owner watched the clips and wrote the first read in `independent_analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
+The owner watched the clips and wrote the first read in `independent_analysis/checks/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
 
 - Watched `mTfSyBqwIV8` (Family First).
 - **Room:** highly receptive; frequent laughter throughout the vibrator bit, especially at the mother's reaction and Swati's deflection (captions had no markers inside the bit).

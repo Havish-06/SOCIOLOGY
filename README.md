@@ -2,8 +2,8 @@
 
 This README is the starting point: what the project is in brief, which file to read for what, and how to set up.
 
-**Question.** Which topics bring Indian stand-up comedians under public scrutiny, and when a joke becomes a controversy,
-why does it end so differently: online criticism only, legal action, extra-legal action, or both?
+**Question.** What topics are involved when Indian stand-up comedians come under public scrutiny, and when a joke
+becomes a controversy, why does it end so differently: online criticism only, legal action, extra-legal action, or both?
 
 **Method.** A structured, focused comparison (George & Bennett, 2005) of 24 controversies from 2018–2026, each analysed
 with the same template and then compared side by side. Topic is the main comparison; genre is recorded as a secondary
@@ -14,51 +14,54 @@ variable. Team: Havish, Yogansh, Pranav, Siddanth.
 | File | What it is | Read it when |
 |---|---|---|
 | [README.md](README.md) | This guide: where things are, status, setup, tools | First |
+| [PROJECT_EXPLAINED.md](PROJECT_EXPLAINED.md) | **The whole project explained simply, from the start:** what changed and why, every term, how the cases were chosen, what we found, earlier research, what to improve | If anything is unclear; before the presentation |
 | [PROJECT.md](PROJECT.md) | **The whole project in one document:** question, concepts, framework, design, cases, data, analysis, outputs, roles, ethics, limitations, references | To understand what we are doing and why |
 | [PLAN.md](PLAN.md) | **How to carry it out:** news protocol, every step in detail (Step 5 is the per-case work), comment protocol and spam audit, folder structure, timeline, glossary | Before working on a case |
 | [DECISIONS.md](DECISIONS.md) | Dated log of every team decision, and the questions still open | To see what was decided and why |
 | [CODEBOOK.md](CODEBOOK.md) | Definitions and decision rules for every joke and comment label | While coding a case or comments |
 | [LITERATURE.md](LITERATURE.md) | Previous work and how each study shapes our method | For the framework and the write-up |
 | [independent_analysis/assignments.md](independent_analysis/assignments.md) | Who owns and who verifies each case | Before starting your cases |
-| [independent_analysis/](independent_analysis/README.md) | **Final AI analysis of all 24 cases** made from the clip transcripts and checked against the first drafts: case files, comparison table, findings, and what humans must still check | To see the current analysis and findings |
-| [independent_analysis/clips.md](independent_analysis/clips.md) | The YouTube links to watch and transcribe for every case, and how | Step 5.2 of every case |
+| [independent_analysis/conditions.md](independent_analysis/conditions.md) | **The main finding**: conditions judged from the joke before anyone reacts, tested against the 24 outcomes (19 of 24 predicted) | For the headline |
+| [independent_analysis/](independent_analysis/README.md) | **The final analysis of all 24 cases** (made from the clips, checked by the owners): case files, comparison table, findings | To see a case or the findings |
+| [independent_analysis/checks/key_fact_checks.md](independent_analysis/checks/key_fact_checks.md) | The key facts of each case, checked by a second person | When doing your checks |
+| [independent_analysis/clips.md](independent_analysis/clips.md) | The YouTube links to watch for every case | When watching a clip |
 
 ## Where things are
 
-| Path | What it is |
-|---|---|
-**Current work is all in `independent_analysis/`.**
+```
+README.md, PROJECT.md, PLAN.md, CODEBOOK.md, LITERATURE.md, DECISIONS.md   the project documents (table above)
 
-| Path | What it is |
-|---|---|
-| `independent_analysis/cases/<case_id>.md` | **The final analysis of each case** (24), made from the clip transcripts and checked against the first drafts |
-| `independent_analysis/comparison.csv` | **Master table**: the final coding of all 24 cases |
-| `independent_analysis/findings.md` | **Cross-case findings** |
-| `independent_analysis/conditions.md`, `conditions.csv` | The non-circular test: conditions judged before any reaction, against outcomes |
-| `independent_analysis/key_fact_checks.md` | The key facts per case, checked against sources (AI) and by people |
-| `independent_analysis/first_read.csv` | Each owner's own reading of the case, written before opening the AI draft |
-| `independent_analysis/human_checks.md` | What each owner still has to check in their cases |
-| `independent_analysis/assignments.md`, `clips.md` | Who owns which case; links to watch every clip |
-| `independent_analysis/final_cases.csv`, `case_pool.csv`, `case_pool_summary.md` | The 24 final cases and how they were chosen from 45 |
-| `independent_analysis/news_coding.csv` | Framing codes for news articles (coded from the first drafts' sources) |
-| `independent_analysis/method/` | How the final analysis was made (instructions, transcript and table scripts) |
+independent_analysis/            EVERYTHING CURRENT
+  findings.md                    cross-case findings: patterns, matched pairs, typology, counter-examples
+  conditions.md, conditions.csv  the main finding: conditions judged before any reaction, against the 24 outcomes
+  comparison.csv                 master table, one row per case (built from the case files)
+  assignments.md                 who owns and who verifies each case
+  clips.md                       the YouTube links to watch for every case
+  news_coding.csv                how the news articles framed each case
+  cases/<case_id>.md             the final analysis of each case (24); sources in section J, owner's check in section N
+  checks/                        how the analysis was checked by people
+    first_read.csv                 each owner's own reading of their clips
+    key_fact_checks.md             6 key facts per case, checked by a second person
+    sacred_recode_collective_trauma.md   recoding for the new sacred object (collective trauma)
+    vs_ai_draft.md                 what the first news-only drafts (9 Nov, now deleted) got wrong
+  case_selection/                how the 24 cases were chosen
+    final_cases.csv                the 24 final cases
+    case_pool.csv                  all 45 candidates, with included yes/no and the reason
+    case_pool_summary.md           how the list was built; balance; matched pairs; reserves
+  method/                        how the analysis was made: the case template, instructions, consistency rules, scripts
 
-**Old, kept for reference (do not present from these):**
+data/, src/, tests/              KEPT FOR LATER: the YouTube comment audit (not run yet). videos.csv lists the videos,
+                                 cases.csv is the case list the tools read; src/ has the tools, tests/ their tests
+```
 
-| Path | What it is |
-|---|---|
-| `cases/` | The first AI drafts (9 Nov), written from news only, before anyone watched the clips. Superseded by `independent_analysis/cases/` |
-| `analysis/` | The first drafts' tables and findings (`comparison.csv`, `mechanisms.csv`, `findings.md`). `comparison.csv` is still read by `independent_analysis/method/build_tables.py` to compare drafts with the final analysis |
-| `data/` | Earlier case, event and video tables (`videos.csv` lists the YouTube videos for comment collection) |
-| `src/`, `tests/` | Comment collection, spam and coordination audit, coding sheets, news timing; tests |
+## Status (2026-11-14)
 
-## Status (2026-11-09)
-
-- All 24 cases drafted by AI from news (`cases/`, `status: draft`), then **re-analysed from the clip transcripts and
-  checked against those drafts** (`independent_analysis/`, final AI analysis). Owners now verify each case
-  (`independent_analysis/human_checks.md`).
-- Comment collection and the spam audit are pending: the pipeline is being checked first.
-- Findings: `independent_analysis/findings.md` (supersedes the first draft in `analysis/findings.md`); working findings until verification is done.
+- All 24 cases analysed from the clips (`independent_analysis/`) and checked by their owners after watching
+  (section N of each case file). The first news-only drafts, their tables and other outdated files were deleted on
+  14 Nov (still in the git history).
+- Key-fact checks by a second person: in progress (`independent_analysis/checks/key_fact_checks.md`).
+- Main finding: `independent_analysis/conditions.md`; detailed findings: `independent_analysis/findings.md`.
+- Comment collection and the spam audit have not been run; reported as a limitation.
 - First deliverable: a presentation on 14–15 November 2026.
 
 ## Setup
