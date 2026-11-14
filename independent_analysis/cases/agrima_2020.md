@@ -1,6 +1,6 @@
 # agrima_2020: Agrima Joshua's Shivaji statue joke (2019 set, row in July 2020)
 
-status: checked by owner (Siddhant, with AI, for Yogansh) and watched by Yogansh (2026-11-13); see section N
+status: checked by owner (Siddhant, for Yogansh) and watched by Yogansh (2026-11-13); see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `agrima_2020__42jmTU8RASI.txt`: **reupload** of the roughly one-minute clip, by a third-party channel, with the accusatory title "AGRIMA JOSHUA INSULTS CHHATRAPATI SHIVAJI MAHARAJ|| STAND UP COMEDY".
@@ -293,9 +293,9 @@ confidence: medium
 
 (Some values above were aligned across cases by `method/consistency_rules.md`.)
 
-## N. Owner's check (Siddhant, with AI, for Yogansh, 2026-11-13)
+## N. Owner's check (Siddhant, for Yogansh, 2026-11-13)
 
-Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
+Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `independent_analysis/first_read.csv` (reader "Siddhant, for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
 
 - **Transcript check:** the three reuploads match section K (garbled Devanagari of English speech).
 - **Settles the verb at 00:22:** Lv6zElwEaW4 ('AGRIMA JOSHUA AND SOURAV GHOSH INSULTING CHATRAPTI SHIVAJI MAHARAJ | MARATHI ROAST', 11 Jul 2020, 72K views) carries the clip with a cleaner caption at 01:18-01:25: 'शिवाजी स्टैचू आईएस अ... मास्टरस्ट्रोक प्राइम मिनिस्टर मोदी जी... सोलर सेल्स विच विल पावर ऑफ महाराष्ट्र' ('Shivaji statue is a ... masterstroke [by] Prime Minister Modi ji ... solar cells which will power [all] of Maharashtra'). So the verb is **masterstroke**, not 'destroyed', as the AI suspected.

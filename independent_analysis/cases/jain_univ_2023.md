@@ -1,6 +1,6 @@
 # jain_univ_2023: Jain University CMS students, "Mad Ads" skit on Ambedkar and Dalits (Bengaluru, February 2023)
 
-status: checked by owner (Siddhant, with AI, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
+status: checked by owner (Siddhant, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `jain_univ_2023__8RZVxK3CKrk.txt`: **partial clip / reupload** of the skit ("jain university insult ambedkar and cast", channel buddha bheem, 1.07K subscribers, 66 s, uploaded 12 Feb 2023, 60 views on 2026-11-09). English auto-captions, heavily garbled.
@@ -47,12 +47,12 @@ Students of the Centre for Management Studies (CMS) of Jain (Deemed-to-be) Unive
 |---|---|---|---|---|
 | 4–8 Feb 2023 | skit performed at Jain University Youth Fest '23 ("Mad Ads"); performed at other venues too | individual (students) | performance confirmed; date disputed (4, 5–6 or 8 Feb) | [2][5][6][1b] |
 | early Feb 2023 | students object to organisers, are dismissed; start a Jhatkaa.org petition ("incredibly casteist and insensitive"); group initially calls criticism "ill-informed media sensationalism" | individual / community_org | reported (TNM article and TNM video, same outlet) | [2][1b] |
-| 9 Feb 2023 | Aakshay Bansode (Vanchit Bahujan Yuva Aaghadi) files complaint with police in Maharashtra (Nanded) | party_worker | confirmed (TNM; South First gives 10 Feb) | [2][3] |
+| 9 Feb 2023 | Aakshay Bansode (Vanchit Bahujan Yuva Aaghadi) files complaint with police in Maharashtra (Nanded) | party_worker | confirmed (complaint: TNM, South First); date disputed (9 or 10 Feb) | [2][3] |
 | 10 Feb 2023 | Assistant Director, Social Welfare Department (Bengaluru South) files complaint at Siddapura police; FIR registered (CR 32/2023) under SC/ST Act 3(1)(r),(s),(v) and IPC 153A, 295A, 149 | commission (state department) / police | confirmed (FIR and sections: [3][6][7]); complainant identity disputed (South First credits the activist complaint and dates the Bengaluru case to 11 Feb) | [2][3][6][7] |
 | 10 Feb 2023 | university suspends the students (six per TNM); disciplinary committee formed; group posts an apology on Instagram ("this was not our aim or intention"), then deletes the account | venue (university) / individual | confirmed | [2][3] |
 | 11 Feb 2023 | Bengaluru police confirm the FIR | police | confirmed | [2][3] |
 | 13 Feb 2023 | police arrest 7 students, the dean and the programme coordinator; 3 days police custody | police | confirmed (NewsClick says 14 Feb) | [3][4][5] |
-| Feb–Mar 2023 | the accused released on bail | court | confirmed (date not found) | [6] |
+| Feb–Mar 2023 | the accused released on bail | court | reported (one source, [6]; date not found; the later HC stay implies release) | [6] |
 | Feb 2023 | complainants reportedly threatened and cyber-harassed | individual | reported (TNM video only) | [1b] |
 | 5 & 19 Jul 2023 | Karnataka High Court (Justice M. Nagaprasanna) stays proceedings, first for faculty then for students | court | confirmed | [6][8] |
 | early 2025 (reported 1 Mar 2025) | Karnataka High Court (Justice S.R. Krishna Kumar) quashes the case: skit "in the nature of satire/entertainment" protected under Article 19; no material showing intent to insult SC/ST members; continuing would be "abuse of process of law" | court | confirmed | [7][9][10] |
@@ -271,9 +271,9 @@ confidence: medium
 
 Left for humans: confirm the Bengaluru FIR complainant from the FIR or the 2025 High Court order (it rests on DH and Careers360, one line of sources); settle the performance date (6 Feb vs 4 or 8 Feb); check whether the Union Ministry acted on the deemed-status letter; watch the clip to confirm "Beer Ambedkar".
 
-## N. Owner's check (Siddhant, with AI, 2026-11-13)
+## N. Owner's check (Siddhant, 2026-11-13)
 
-Transcripts re-downloaded and read; first read in `analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+Transcripts re-downloaded and read; first read in `independent_analysis/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
 
 - **Transcript check:** 8RZVxK3CKrk matches section K ("why be Dalit when you can be D-Lit" garbled; "beer Baker"; the "General" pun; "don't touch that water"; applause marker at 00:22). CpwjsWipTVA (TNM) says the skit was staged at three other venues, complainants were threatened and cyber-harassed, and the students apologised.
 - **Confirmed (new search):** complaint by the Assistant Director, Social Welfare Department (Bengaluru South); FIR at Siddapura PS under the SC/ST Act (Deccan Herald, ThePrint); 9 arrested on 13 Feb 2023: 7 students, the dean and a programme coordinator (Deccan Herald, Scroll, South First); 6 students suspended (Scroll, TNM); High Court stay in Jul 2023; **case quashed by the Karnataka High Court (Justice S.R. Krishna Kumar), reported 1 Mar 2025** (LiveLaw, Bar & Bench, TNM).

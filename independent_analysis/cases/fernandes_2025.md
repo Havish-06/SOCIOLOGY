@@ -283,12 +283,12 @@ confidence: medium
 
 ## N. Owner's check (Havish, 2026-11-13)
 
-The owner watched the clips and wrote the first read in `analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
+The owner watched the clips and wrote the first read in `independent_analysis/first_read.csv` before comparing with this file. Fact-check of the timeline (section D) pending.
 
 - Watched `3xALPKtwZos` (The Kashmir Terror Attack).
 - Before: an AI picture of Trump as Pope; terrorists who want to divide India by religion "should contest elections instead of wasting bullets". After the family-member line: turns serious about media propaganda and grief. Confirms K.
 - Target confirmed: the government, TV news and war-mongers, **not** the victims.
-- **Sacred object:** only claimed by objectors (nation, family, religious values). With the new category: **collective trauma (Pahalgam attack), mentioned but not mocked** (`analysis/sacred_recode_collective_trauma.md`).
+- **Sacred object:** only claimed by objectors (nation, family, religious values). With the new category: **collective trauma (Pahalgam attack), mentioned but not mocked** (`independent_analysis/sacred_recode_collective_trauma.md`).
 - **Coding:** agree (legal, private notice only; up; biting satire and dark; collusion).
 - **To source before use:** a critics' clip on X cutting the "nuclear war / toxic wasteland / shot through the head" lines (the AI found no viral clip; the notice's lifted lines acted as one); trolls calling him a "sick pervert"; right-wing news coverage.
 - **Still to check:** room reaction at 19:30–21:10 (laughter after "shot through the head"; silence in the serious passage).

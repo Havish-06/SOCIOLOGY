@@ -76,4 +76,4 @@ The failures point to three things the conditions leave out: whether anyone **ch
 5. **Conditions overlap.** Several cases meet two conditions (jain_univ_2023, katikala_2026), so the
    conditions cannot be separated from each other with 24 cases.
 
-The data: `analysis/conditions.csv` (one row per case: each condition, a note on why, direction, outcome).
+The data: `independent_analysis/conditions.csv` (one row per case: each condition, a note on why, direction, outcome).

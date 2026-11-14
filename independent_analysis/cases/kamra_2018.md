@@ -278,7 +278,7 @@ confidence: medium
 
 ## N. Owner's check (Pranav, 2026-11-12)
 
-Clip watched by the owner; first read in `analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+Clip watched by the owner; first read in `independent_analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
 
 - Watched `qBbpFGGAkmo` (2017) and `9NUXCAZs5VU` (2018) in full.
 - **No national-anthem or flag bit in either set**, including the 04:57–05:29 caption gap. The letter's "mimicked National Anthem" charge finds no support in these videos.

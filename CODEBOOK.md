@@ -39,7 +39,7 @@ and the AI reading. Full references are in LITERATURE.md and PROJECT.md.
 | B9 looks inauthentic | ours | Human judgement used to check `src/spam.py` |
 | B10 norm invoked | adapted | Norm enforcement from Rost, Stahel & Frey 2016; the list of norms is ours |
 | B11 intent attributed | adapted | Graefer & Das 2020 |
-| Conditions in `analysis/conditions.md` | ours | Team definitions, judged before any reaction |
+| Conditions in `independent_analysis/conditions.md` | ours | Team definitions, judged before any reaction |
 
 Rules for all coders:
 - Code what the text **does**, not what you think the author meant.

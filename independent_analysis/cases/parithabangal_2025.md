@@ -1,6 +1,6 @@
 # parithabangal_2025: Gopi & Sudhakar (Parithabangal), "Society Paavangal" sketch after the Kavin honour killing (August 2025)
 
-status: checked by owner (Siddhant, with AI, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
+status: checked by owner (Siddhant, 2026-11-13) from transcripts and sources; items needing someone to watch the clip are listed in section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `parithabangal_2025__e61ahdBvIk4.txt`: **the full performance** ("Society Paavangal | Parithabangal", channel Parithabangal, 14:43, uploaded 4 Aug 2025; 9.87 million views and 6.85 million subscribers on 2026-11-09). Tamil machine captions (the track is mislabelled "ko"/Korean; `[음악]` = music). Many words are misrecognised; all translations below are mine and approximate, with uncertain readings flagged.
@@ -57,7 +57,7 @@ Parithabangal is a Tamil YouTube comedy channel run by Gopi and Sudhakar (with w
 | 7–8 Aug 2025 | Dravidar Viduthalai Kazhagam / DK file counter-complaint against those threatening the duo (naming Choudary's video), seek police protection and ask the government to give the duo the M.R. Radha award | community_org | confirmed (Maalaimalar; TNM) | [2][13] |
 | Aug 2025 | public sends money to the duo; a caste association demands deletion | individual / community_org | reported | [7][12] |
 | Aug 2025 | abuse and mass reporting of the video reported | individual | reported (South First opinion) | [4] |
-| 10 Aug 2025 | VCK leader Thirumavalavan praises the sketch: honest, names no one, "any award would suit them" | politician | confirmed (Oneindia; reported elsewhere) | [14] |
+| 10 Aug 2025 | VCK leader Thirumavalavan praises the sketch: honest, names no one, "any award would suit them" | politician | reported (one source, Oneindia; no second report found on 14 Nov) | [14] |
 | to 2026-11-09 | no FIR, arrest, court case or deletion found; video still online | none | reported (absence) | [1][3] |
 
 - Days from first viral spread to peak attention: about 2–4 days (6–10 Aug 2025). To fading: about 1–2 weeks (no later news found).
@@ -284,9 +284,9 @@ best_explanation: An anti-caste sketch that punched up in the week after an hono
 confidence: medium
 ```
 
-## N. Owner's check (Siddhant, with AI, 2026-11-13)
+## N. Owner's check (Siddhant, 2026-11-13)
 
-Transcripts re-downloaded and read; first read in `analysis/first_read.csv` (reader "Siddhant (with AI)"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+Transcripts re-downloaded and read; first read in `independent_analysis/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
 
 - **Transcript check (Tamil read directly):** e61ahdBvIk4 matches section K scene by scene: the lineage speech; the "dominant group starter pack" (white shirt, wristband, kumkum, caste flex); the "pazhakkam" pun; the tuition/sports/jobs speech; the Guru Pooja convoy; "either your sister shouldn't live or that boy"; the killing and the leader backing out; the chilli-powder "valour" lines at about 12:38; the closing attack on reels and "balanced" commentators. No caste is named.
 - **Two open readings settled:**

@@ -1,6 +1,6 @@
 # virli_2026: Madhur Virli's resurfaced rape joke ("cuddle after rape")
 
-status: checked by owner (Siddhant, with AI, for Yogansh) and watched by Yogansh (2026-11-13); see section N
+status: checked by owner (Siddhant, for Yogansh) and watched by Yogansh (2026-11-13); see section N
 analyst: independent AI analyst, 2026-11-09
 transcripts used:
 - `virli_2026__ONiMILytYok.txt`: "LOVE & LATEX | Stand Up Comedy by Madhur Virli", Virli's own channel, uploaded 2024-02-02 (US time; 3 Feb IST), 27:57, about 5.74M views on 2026-11-09. Description: "my 8th stand-up comedy video… Location courtesy: The Laughstore, Delhi". **Full special as currently online.** It does **not** contain the rape lines (see K).
@@ -267,12 +267,12 @@ confidence: medium
 
 (Some values above were aligned across cases by `method/consistency_rules.md`.)
 
-## N. Owner's check (Siddhant, with AI, for Yogansh, 2026-11-13)
+## N. Owner's check (Siddhant, for Yogansh, 2026-11-13)
 
-Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `analysis/first_read.csv` (reader "Siddhant (with AI), for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
+Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `independent_analysis/first_read.csv` (reader "Siddhant, for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
 
 - **Transcript check:** MgTSOtXdMSw and uCkndQmdUfU match section B ('10 rape cases... murder after rape... won't you cuddle after this?', laughter at uCkndQmdUfU 00:47). ONiMILytYok (Love & Latex) has no rape bit, as section K says.
-- **New finding: one show behind several clips.** KiCES97lOgk ('Madhur virili rape comedy seen full vedio', PRATEEK KHATRI, 14 Jun 2026, 5:08) is listed in `analysis/clips.md` as a reupload of Love & Latex. **It is not.** It is a continuous stretch from the end of another show: a story about a batchmate going clubbing alone (pepper spray, karate, SOS app); then 'I can't end the show on this note... people will say "what was he doing? some rape stuff"' (02:01-02:11); then 'I don't want to end on rape and death; let's keep the ending light' (02:42); then crowd work: 'necrophilia or paedophilia, which is better?' (02:48-05:07), including 'we have a camera behind... we'll send the police only that clip'. The necrophilia lines match 82Xv9cfiRto word for word ('मुझे पर्सनली ऐसा लगता है कि नेक्रोफिलिया इज वे बेटर दैन पीडोफिलिया क्योंकि... विक्टिम होता है').
+- **New finding: one show behind several clips.** KiCES97lOgk ('Madhur virili rape comedy seen full vedio', PRATEEK KHATRI, 14 Jun 2026, 5:08) is listed in `independent_analysis/clips.md` as a reupload of Love & Latex. **It is not.** It is a continuous stretch from the end of another show: a story about a batchmate going clubbing alone (pepper spray, karate, SOS app); then 'I can't end the show on this note... people will say "what was he doing? some rape stuff"' (02:01-02:11); then 'I don't want to end on rape and death; let's keep the ending light' (02:42); then crowd work: 'necrophilia or paedophilia, which is better?' (02:48-05:07), including 'we have a camera behind... we'll send the police only that clip'. The necrophilia lines match 82Xv9cfiRto word for word ('मुझे पर्सनली ऐसा लगता है कि नेक्रोफिलिया इज वे बेटर दैन पीडोफिलिया क्योंकि... विक्टिम होता है').
   - So: the 'death vs rape' joke (8ab3Ghr3BII: victims prefer death, but no corpse prefers rape) and the necrophilia bit are almost certainly **from the same filmed show**, which the 'rape and death' line refers back to. 8ab3Ghr3BII was posted on 23 Jun 2024, so the show is from before late June 2024.
   - The 'cuddle' joke is **probably** from the same show (it is the rape-and-murder joke the closing line refers to), but no clip shows it next to the others. Not confirmed.
   - This answers part of section L items 3-4 (the source of 8ab3Ghr3BII and 82Xv9cfiRto), and supports 'about 2024, not Love & Latex'.

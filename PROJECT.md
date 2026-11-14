@@ -202,8 +202,8 @@ large over 2M YouTube subscribers at the time of the incident).
 
 ### The 24 cases
 
-Final list, decided 2026-11-09 (`analysis/final_cases.csv`). Topic, genre and outcome below are first-pass judgements, to be verified in each case analysis. `*` = comparison
-case (not a stand-up performance). Full pool of 45 candidates with sources: [`analysis/case_pool.csv`](analysis/case_pool.csv).
+Final list, decided 2026-11-09 (`independent_analysis/final_cases.csv`). Topic, genre and outcome below are first-pass judgements, to be verified in each case analysis. `*` = comparison
+case (not a stand-up performance). Full pool of 45 candidates with sources: [`independent_analysis/case_pool.csv`](independent_analysis/case_pool.csv).
 
 | # | Case | Comedian | Year | Topic | Genre | Outcome |
 |---|---|---|---|---|---|---|
@@ -254,7 +254,7 @@ case (not a stand-up performance). Full pool of 45 candidates with sources: [`an
 | News reports (national and regional) | Dates, actors, complaints, FIRs, threats, responses | Outlet websites; wire copy counts as one source |
 | Legal records | FIR sections, court orders, police and commission statements | As reported; Bar & Bench, LiveLaw, court websites |
 | YouTube comments | How people framed the joke | Free YouTube Data API v3 via `src/collect.py` |
-| Original clips and transcripts | The full joke in its setting: what came before and after, the room's reaction, how the viral clip was cut | Watched by the owner; transcript copied from YouTube's "Show transcript" (`analysis/clips.md`) |
+| Original clips and transcripts | The full joke in its setting: what came before and after, the room's reaction, how the viral clip was cut | Watched by the owner; transcript copied from YouTube's "Show transcript" (`independent_analysis/clips.md`) |
 | Comedians' statements | Apology, refusal, clarification | Their own posts and videos; reported interviews |
 | Social Blade | Subscriber counts at the time of the incident | Manual lookup |
 
@@ -398,7 +398,7 @@ are therefore evidence of coordination, never proof, and the case file says so.
    collapse type, gap in months, caption, sacred object, norm invoked, who mobilised, channel used, legal basis,
    highest stigma step, courtesy stigma, comedian's response, outcome, audience size and election period.
 2. **Agreement report:** share of cases where the owner's first read matched the AI draft for each key judgement
-   (`analysis/first_read.csv`).
+   (`independent_analysis/first_read.csv`).
 3. **Answers to each sub-question,** supported by named cases.
 4. **Paired comparisons:** for each matched pair, what differed, what stayed the same, and which difference best
    explains the different outcomes.
@@ -483,7 +483,7 @@ included for transparency.
 
 **First milestone: presentation on 14–15 November 2026.** The team aims to analyse all 24 cases before it, starting
 with *India's Got Latent* as the pilot, so the presentation can show cross-case results. Case owners: Havish,
-Yogansh, Pranav and Siddanth, six cases each (`analysis/assignments.md`). The weeks below are the fallback plan if
+Yogansh, Pranav and Siddanth, six cases each (`independent_analysis/assignments.md`). The weeks below are the fallback plan if
 the analysis continues after the presentation.
 
 | Week | Work | Milestone |
