@@ -132,8 +132,8 @@ objector spoke (Becker).
 
 | Circulation | n | both | extra-legal | legal | online only |
 |---|---|---|---|---|---|
-| collusion (the comic posted it) | 14 | 4 | 2 | 5 | 3 |
-| collision (resurfaced by others) | 9 | 2 | 2 | 3 | 2 |
+| collusion (the comic posted it) | 15 | 4 | 3 | 5 | 3 |
+| collision (resurfaced by others) | 8 | 2 | 1 | 3 | 2 |
 | live only | 1 | 1 | 0 | 0 | 0 |
 
 Escalation rates are about the same. What collision changes is **who frames the joke**: every resurfaced case had a

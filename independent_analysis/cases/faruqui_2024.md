@@ -164,7 +164,7 @@ Open questions: Did any police complaint follow in Raigad/Sindhudurg? (None foun
 ```
 case_id: faruqui_2024
 comedian: Munawar Faruqui
-performance_date: unknown (before 2024-08-11; probably July-August 2024)
+performance_date: unknown (before 2024-07-19, when the special was uploaded)
 controversy_date: 2024-08-12
 setting: unknown (live ticketed show in Mumbai; venue type not identified)
 form: crowd_work
@@ -176,9 +176,9 @@ sacred_object: none
 genre: roast; crude_shock
 target: an audience member from Taloja, generalised to "Konkani people"
 direction: lateral
-collapse_type: collision
-gap_months: unknown (probably <1)
-first_spreader: unknown uploader; amplified on X by MNS-supporting accounts tagging MNS leaders
+collapse_type: collusion
+gap_months: about 1 (upload 19 Jul 2024, controversy 12 Aug 2024)
+first_spreader: Munawar Faruqui (own YouTube special "Boys, Dubai and Crowd Work", 19 Jul 2024); 25-second exchange cut and amplified on X by MNS-supporting accounts tagging MNS leaders
 objectors: BJP MLA Nitesh Rane; a Shinde-faction Shiv Sena figure (reportedly Samadhan Sarvankar); MNS supporters; online users claiming to speak for Konkani people
 objector_distance: social; political
 norm_invoked: other: regional community dignity; religious_feeling
@@ -229,7 +229,7 @@ The clip shows the line came out of one audience member's answer to "has anyone 
 ```
 case_id: faruqui_2024
 comedian: Munawar Faruqui
-performance_date: unknown (before 2024-08-11; probably July-August 2024)
+performance_date: unknown (before 2024-07-19, when the special was uploaded)
 controversy_date: 2024-08-12
 setting: unknown (live ticketed show in Mumbai; venue type not identified)
 form: crowd_work
@@ -241,9 +241,9 @@ sacred_object: none
 genre: roast; crude_shock
 target: an audience member from Taloja, generalised to "Konkani people"
 direction: lateral
-collapse_type: collision
-gap_months: unknown (probably <1)
-first_spreader: unknown uploader; amplified on X by MNS-supporting accounts tagging MNS leaders
+collapse_type: collusion
+gap_months: about 1 (upload 19 Jul 2024, controversy 12 Aug 2024)
+first_spreader: Munawar Faruqui (own YouTube special "Boys, Dubai and Crowd Work", 19 Jul 2024); 25-second exchange cut and amplified on X by MNS-supporting accounts tagging MNS leaders
 objectors: BJP MLA Nitesh Rane; a Shinde-faction Shiv Sena figure (reportedly Samadhan Sarvankar); MNS supporters; online users claiming to speak for Konkani people
 objector_distance: social
 norm_invoked: other: regional community dignity; religious_feeling
@@ -276,7 +276,7 @@ Transcripts re-downloaded and read; first read in `independent_analysis/first_re
   - **14 Aug 2024: "Someone notice tha 'tum konkni log chutiya banate sabko' part was deleted 😂"**.
   - So: the line was in his own upload from 19 Jul 2024 and was **cut from the video around 13–14 Aug 2024**, alongside the apology. Section G should add **deletion** to his response (apology + deletion). Confidence: medium-high (comments, not an archived copy of the old version).
   - So: **venue Mumbai** (settles "Taloja" vs "Mumbai"; the Dubai claim is wrong); **performance before 19 Jul 2024**; **gap about 3–4 weeks** between upload (19 Jul) and controversy (12 Aug).
-  - **Recommended recode: collapse_type collision → collusion.** The comedian published the full set himself; three weeks later others cut the 25-second exchange and spread it with hostile captions (the same pattern Pranav coded for katikala_2026: "collusion (own upload), then spread by party workers"). The team should decide; the coding summary above is left unchanged.
+  - **Recommended recode: collapse_type collision → collusion.** The comedian published the full set himself; three weeks later others cut the 25-second exchange and spread it with hostile captions (the same pattern Pranav coded for katikala_2026: "collusion (own upload), then spread by party workers"). **Done 14 Nov (Siddanth, key-fact check fact 5): recoded to collusion in both coding blocks and in comparison.csv.**
 - **Still not found:** exact recording date; any police complaint; who first posted the short clip.
 - **Coding:** agree (extralegal; lateral/contested), except collapse_type (see the recommended recode above) and comedian_response, which should be apology + deletion. Faruqui's apology says the audience included "Marathi, Muslim and Hindu people" and that the man he joked about enjoyed it.
 - **Cross-check from a second upload** (ad-50sVwpKQ, "Insider View", 13 Aug 2024; transcript saved as `faruqui_2024__ad-50sVwpKQ.txt`): same wording ("ये कोकणी लोग चूतिया बनाते हैं सबको"), followed by a **[laughter] marker** right after "कोकणी है तुम लोग", so the room laughed. It also carries a clean Marathi transcript of **Nitesh Rane's statement**: "मुनाफ फारूकी नावाचा हिरवा साप... याला कोकणातल्या लोकांबद्दल... टिंगल उडवण्याची खाज असेल तर त्याच्या घरचा पत्ता आम्हाला चांगल्या पद्धतीने माहिती आहे... लवकरच त्याला मालवणी हिसका दाखवायला लागेल... तुझ्यासारख्या हिरव्या सापांना पाकिस्तानात पाठवण्याला आम्हाला जास्त वेळ लागणार नाही" ("a green snake called Munawar Faruqui... if he itches to mock Konkan people, we know his home address well... soon we'll have to show him a Malvani jolt... it won't take us long to send green snakes like you to Pakistan"). **No 24-hour deadline is in Rane's own words**; that comes from the narrator of tTZ25lueiW8, as the timeline row in section D already says ("commentary says within 24 hours").
