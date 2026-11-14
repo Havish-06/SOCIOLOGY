@@ -146,23 +146,30 @@ raina_sma_2025 during the *Latent* panic). virli_2026's clip had circulated sinc
 
 ## 5. SQ3: who took it up, through which channel, and stigma
 
-### The sacred opens the state route
+### When the joke touches the sacred, the legal route is ready-made
 
-| Sacred object touched? | n | both | extra-legal | legal | online only |
+Sacred coded **from the joke alone**, before any reaction (`sacred_in_joke` in [conditions.csv](conditions.csv)), so
+the objectors' claims do not decide the cause:
+
+| Sacred in the joke? | n | both | street only | legal only | online only |
 |---|---|---|---|---|---|
-| yes | 12 | **6** | **0** | 4 | 2 |
-| no | 12 | 1 | **4** | 4 | 3 |
+| yes (incl. munawar_2021, alleged) | 12 | **6** | **0** | 3 | 3 |
+| no | 12 | 1 | **4** | **5** | 2 |
 
-- **All four street-only cases touched no sacred object** (faruqui_2024, fernandes_2024, more_2025, sarat_2026):
-  a regional jibe, a joke on a Jain practice, a roast of an actor, a roast of a chief minister. With no protected
-  object, there was no "hurt sentiments" provision to file under, and grievance went to threats, assault and
-  disruption.
 - **Six of the seven "both" cases touched the sacred** (Shivaji, Ambedkar, deities, the nation, the family). The
-  law encodes the sacred (IPC 295A / BNS 299, "national honour", obscenity and the family), so touching it gives a
-  claimant a legal tool on top of the street.
-- **The sacred is not sufficient.** sachdeva_2025 and mohanraj_2026 touched the family and stayed online: nobody
-  with standing claimed them. And **the sacred is often claimed rather than found** (bharti_2022, agrima_2020,
-  faruqui_2024). Durkheim's sacred works here as a resource that actors invoke.
+  law protects the sacred (IPC 295A / BNS 299, "national honour", obscenity), so offended groups can file cases as
+  well as protest.
+- **No street-only case touched the sacred** (faruqui_2024, fernandes_2024, more_2025, sarat_2026).
+- **But the legal route does not need the sacred.** 5 of the 12 cases with nothing sacred in the joke still went
+  legal-only, through laws on women (more_2026, virli_2026), caste (parithabangal_2025), misrepresentation
+  (rangeela_2021) or a university decision (kamra_2018). What the legal route needs is *some* law that fits.
+- **Street-only rests on 4 cases**, and the next table explains them at least as well: the objectors were opposition
+  MLAs, party supporters outside their state, or fans, actors without access to the police.
+- **The sacred is not sufficient either.** sachdeva_2025 and mohanraj_2026 touched the family and stayed online:
+  nobody with standing claimed them.
+- So the sacred is one way into the law, not the only one. In Durkheim's terms it works as a resource that groups
+  invoke. Note that an earlier version of this table coded the sacred partly from what objectors claimed
+  (bharti_2022), which made it circular; it is now coded from the joke only.
 
 ### Who took it up decides the route
 
@@ -272,8 +279,9 @@ filed anything.
   **who can claim it and with what tool**, and several topics were assigned by the people who claimed the joke.
 - **Why do controversies end so differently?** Because the route depends on the claimant: **statutory bodies →
   legal; a party governing locally → legal and street; aggrieved groups or politicians without the local state →
-  street; nobody with standing → online only.** Touching a **sacred object protected by law** opens the state route;
-  without it, grievance goes to the street or fades.
+  street; nobody with standing → online only.** Touching a **sacred object protected by law** is
+  one ready way into the state route (6 of 7 "both" cases), but not the only one: laws on women, caste and
+  misrepresentation carried 5 cases with nothing sacred in the joke.
 - **How do we treat context?** We compared the full performance with the circulated clip and the news in every case.
   The frame was usually lost, but **context collapse explains the start of outrage, not its course**; relabelling by
   reuploaders and resurfacing during waves matter as much.
