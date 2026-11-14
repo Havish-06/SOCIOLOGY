@@ -6,8 +6,8 @@ The whole project in one document: question, concepts, framework, design, cases,
 
 Indian stand-up comedy has grown quickly through YouTube and live shows, and so have the controversies around
 it. Some jokes end with an online storm that fades in days; others end with FIRs, arrests, court summons,
-vandalised venues, cancelled shows or assault. This project asks **which topics bring Indian stand-up comedians
-under public scrutiny, and why controversies end so differently**.
+vandalised venues, cancelled shows or assault. This project asks **what topics are involved when Indian stand-up
+comedians come under public scrutiny, and why controversies end so differently**.
 
 We compare about **25 controversies from 2018 to 2026** using a **structured, focused comparison** (George &
 Bennett, 2005): every case is researched and written up with the same template, and the cases are then compared
@@ -38,8 +38,8 @@ difference is the puzzle of this project.
 
 ## 3. Research questions
 
-**Main question.** Which topics bring Indian stand-up comedians under public scrutiny, and when a joke becomes a
-controversy, why does it end so differently (online criticism only, legal action, extra-legal action, or both)?
+**Main question.** What topics are involved when Indian stand-up comedians come under public scrutiny, and when
+a joke becomes a controversy, why does it end so differently (online criticism only, legal action, extra-legal action, or both)?
 How do the joke's topic, its target and its context shape that outcome?
 
 | | Sub-question | Theory used |

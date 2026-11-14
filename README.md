@@ -2,8 +2,8 @@
 
 This README is the starting point: what the project is in brief, which file to read for what, and how to set up.
 
-**Question.** Which topics bring Indian stand-up comedians under public scrutiny, and when a joke becomes a controversy,
-why does it end so differently: online criticism only, legal action, extra-legal action, or both?
+**Question.** What topics are involved when Indian stand-up comedians come under public scrutiny, and when a joke
+becomes a controversy, why does it end so differently: online criticism only, legal action, extra-legal action, or both?
 
 **Method.** A structured, focused comparison (George & Bennett, 2005) of 24 controversies from 2018–2026, each analysed
 with the same template and then compared side by side. Topic is the main comparison; genre is recorded as a secondary

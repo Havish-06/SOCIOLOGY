@@ -106,13 +106,16 @@ threats or jail?** Only the method changed, from counting comments to studying c
 
 ## The main question, split in two
 
-> *Which topics bring Indian stand-up comedians under public scrutiny, and when a joke becomes a controversy, why
-> does it end so differently (online criticism only, legal action, extra-legal action, or both)? How do the joke's
+> *What topics are involved when Indian stand-up comedians come under public scrutiny, and when a joke becomes a
+> controversy, why does it end so differently (online criticism only, legal action, extra-legal action, or both)? How do the joke's
 > topic, its target and its context shape that outcome?*
+
+(Until 14 November the question began "Which topics bring Indian stand-up comedians under public scrutiny…". It was
+reworded because that phrasing sounded like "which topics are risky", which our data cannot answer; see Step 3.)
 
 It is really **two questions joined together**:
 
-- **Half 1, "Which topics bring comedians under scrutiny?":** when comedians get into trouble, what were the jokes
+- **Half 1, "What topics are involved when comedians come under scrutiny?":** when comedians get into trouble, what were the jokes
   about? ("Scrutiny" simply means being publicly attacked or questioned for a joke.) This half is a **description**.
 - **Half 2, "Why does it end so differently?":** once a joke has caused a fuss, why does one end with only angry
   posts and another with police cases or a smashed venue? Does the **topic**, the **target** (who the joke is aimed
@@ -506,8 +509,8 @@ and community groups can use "hurt sentiments" laws.
 
 **How to state it honestly.** Nineteen of our 24 cases escalated, so a lazy rule ("everything escalates") would also
 be right 19 times out of 24. The fair statement is: **when a danger sign is present, escalation followed in 16 of
-18 cases, so the signs are almost always enough for escalation; but they are not the only path, since 3 of the 4
-cases with no sign also escalated.** In research terms, the signs are close to **sufficient but not necessary**.
+18 cases, so the signs are almost always enough for escalation; but they are not the only path, since 3 of the 6
+cases with no sign also escalated.** (The 6 are the 4 jokes with no sign at all plus the 2 "own group" jokes.) In research terms, the signs are close to **sufficient but not necessary**.
 
 **The five cases where the rule fails, and what they teach:**
 
@@ -557,6 +560,10 @@ community was named). **Context collapse explains why anger starts, not how far 
 
 **Timing ("waves") matters.** Virli's clip had circulated for about a year with little reaction; it blew up only
 during the Pranit More controversy, when people were already looking for similar jokes.
+
+**But the wave did not make escalation more likely.** Half of our cases came before *India's Got Latent* (February
+2025) and half after: 10 of 12 escalated before, 9 of 12 after. The wave decides **which old clips get noticed**, not
+**how far** a case goes (details in `independent_analysis/conditions.md`).
 
 ## Finding 7: Who posted the clip matters little
 
@@ -722,9 +729,11 @@ survey and the large-scale comment analysis, which were dropped, so these works 
 
 ## Before the presentation
 
+**Done on 14 November: items 1–5 and item 9** (see the note after the tables).
+
 | # | What | Why | Effort |
 |---|---|---|---|
-| 1 | **Restate the main finding:** "the danger signs are almost always enough for escalation (16 of 18), but not the only path (3 of 4 cases without them also escalated)"; add a **truth table** (each row a combination of signs, with how many cases escalated) | "19 of 24" alone is no better than "everything escalates" | 30 min |
+| 1 | **Restate the main finding:** "the danger signs are almost always enough for escalation (16 of 18), but not the only path (3 of 6 cases without them also escalated)"; add a **truth table** (each row a combination of signs, with how many cases escalated) | "19 of 24" alone is no better than "everything escalates" | 30 min |
 | 2 | **Tweak the main question** to match what we answer, e.g. "*What topics are involved when* Indian stand-up comedians come under public scrutiny, and why do these controversies end so differently…", and say on a slide that we compare controversies, so we cannot rank topics by risk | The current wording sounds like "which topics are risky" | 10 min, team decision |
 | 3 | **Update the status line of `findings.md`** (it still says "awaiting human verification" and points to the deleted drafts) | Out of date | 5 min |
 | 4 | **Add the missing works** from Step 6 (Kodavanti, James, the *Punching Up* book, Goswami & Shruthi, Geddes, Mahoney & Goertz, Ragin, Wilkinson) | The professor knows the first ones; the rest strengthen the method and the findings | 20 min |
@@ -746,6 +755,18 @@ not decide the outcome; (9) the process is the punishment; (10) limitations and 
 | 10 | **Read 20–30 news articles in full** and check the headline-only coding | Makes the media findings usable | half a day |
 | 11 | **Decide on the comment study:** run it on 3–4 cases (the code works; tests pass) or drop it formally | It is promised but not done | 1 day, or none |
 | 12 | **Follow up the court cases:** quashed, stayed or pending? | Turns "the process is the punishment" into numbers | half a day |
+
+**What was done on 14 November:**
+- **Item 1:** `independent_analysis/conditions.md` now has a section "How strong is the rule?" with the truth table
+  and the honest reading (close to sufficient, not necessary); `findings.md` section 1 says the same.
+- **Item 2:** the main question is reworded in PROJECT.md and README.md ("What topics are involved when…").
+  The team should confirm the wording.
+- **Item 3:** the status line of `findings.md` is updated.
+- **Item 4:** the missing works are in LITERATURE.md (new stream 12 for the method works; the others in streams 7, 8
+  and 10).
+- **Item 5:** the limits in `findings.md` and `conditions.md` now say all of this plainly.
+- **Item 9:** the timing test is done: no rise in escalation after *Latent* (10 of 12 before, 9 of 12 after);
+  in `conditions.md`, "Does timing explain it?", and `findings.md` section 4.
 
 ## Optional
 

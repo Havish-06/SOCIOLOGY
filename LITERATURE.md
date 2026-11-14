@@ -3,7 +3,7 @@
 The literature review, and how each study shapes our method. Start from [README.md](README.md) for where everything is.
 
 What researchers have already done on humour, offence and comedy controversies, how they did it, what they
-found, and where our project fits. Organised into eleven streams, moving from general humour theory to Indian
+found, and where our project fits. Organised into twelve streams, moving from general humour theory to Indian
 stand-up controversies.
 
 **How to use this file.** Each stream lists the key works, *what they did* (method and data), *what they
@@ -27,6 +27,7 @@ citing (page numbers, edition). Read at least the starred (★) works in each st
 | 9. Classifying jokes and reactions | Annotation schemes, NLP datasets | Labelled jokes and comments | Our codebook labels (already in CODEBOOK.md) |
 | 10. Explaining escalation | Comparative case studies, ethnography, theory | Scandals, moral panics, offence campaigns, courts, online publics | **Our interpretive toolkit**: why a controversy escalates and through which route |
 | 11. Detecting spam and coordination | Network analysis, anomaly detection, classifiers | Social-media accounts and comments | How we tell organic outrage from organised campaigns |
+| 12. Choosing cases and comparing conditions | Methodology | Comparative case designs | How case selection shapes conclusions; truth tables |
 
 
 ## How previous work shapes our methodology
@@ -213,6 +214,9 @@ group). Davis & Jurgenson give us the collusion/collision variable.
 | Bhatia (2016), *Offend, Shock, or Disturb: Free Speech under the Indian Constitution* | Constitutional law analysis | How Indian courts handle offence, hate speech, sedition and obscenity |
 | Siegel (1987), *Laughing Matters: Comic Tradition in India* | Literary history | Long tradition of Indian comic forms (Sanskrit drama's *vidūṣaka* etc.) |
 | Khanduri (2014), *Caricaturing Culture in India: Cartoons and History of the Modern World* | History of cartoons | Political cartooning and its controversies in India |
+| Kodavanti (2024), "Sedition and Comedy: The Weaponization of the State against Humor", *International Journal for Legal Research and Analysis* 2(7) (cited in our original proposal) | Legal analysis | How the state uses sedition and related laws against comedians |
+| Free Speech Collective (2023, 2025), *Free Speech in the States*; *Free Speech in India 2025* (reports from its Free Speech Tracker) | Monitoring reports | Background counts of speech-related arrests and cases (14,875 violations recorded in 2025); comedians are one part of a wider pattern |
+| Vidhi Centre for Legal Policy, "Laughing Under Law: Free Speech, Stand-Up Comedy, and the Limits of Criminal Regulation in India" (blog) | Legal commentary | The provisions used against comedians: hurt sentiments, obscenity, public order |
 
 **For us:** this is the Indian institutional context. Nair is essential: the legal route (FIR under s.295A or
 its BNS successor) is itself a political tool, which our "who mobilises, through which channel" question tests.
@@ -233,6 +237,9 @@ its BNS successor) is itself a political tool, which our "who mobilises, through
 | Ahmad, Alam & Kaur (2022), "Performative retrieving of humour for socio-political subversion", *Cogent Arts & Humanities* ✔ | Case studies (e.g. Kunal Kamra, Rahul Dua), Fiske's theory | Stand-up as creative resilience; harsh censorship on TV vs freer online space |
 | Content analysis of profanity in 82 YouTube stand-up videos, *Comedy Studies* (2024) ✔ | Content analysis | Online stand-up departs from strict self-censorship |
 | "Spaces of Laughter: Stand-up Comedy in Mumbai as a Site of Struggle", MA thesis, Bowling Green State University (2020) ✔ | Ethnography | AIB Roast (2014–15) debated as "un-Indian" obscenity; boosted stand-up's reach |
+| ★ Bhargava & Chilana (eds., 2022), *Punching Up in Stand-Up Comedy: Speaking Truth to Power*, Routledge | Edited volume | The idea of "punching up" that our direction code uses |
+| James (2022), "Stand-Up Comedy as Escape: Caste and Media Infrastructure in Mumbai", in Bhargava & Chilana (eds.), pp. 91–109 (cited in our original proposal) | Study of the Mumbai circuit | Unequal, caste-shaped access to the stage and to "dark" material |
+| Goswami & Shruthi (2024), "Dark Humour in Moving Frames: A Discourse Analysis of Bollywood Black Comedies", *Critical Arts* 38(6), 134–152 (cited in our original proposal) | Discourse analysis of films | How dark humour works in Indian film; scripted works, not audience reactions |
 
 **For us:** Indian work so far studies **what comedians say** (public sphere, caste, gender, language) and
 celebrates stand-up as resistance. **No study we found compares controversies across cases or explains why
@@ -272,6 +279,9 @@ toolkit (PROJECT.md §5).
 | Goffman (1971), *Relations in Public* | Theory | Apologies as "remedial work" that splits the self into guilty and repentant parts |
 | Crenshaw (1991), "Mapping the margins", *Stanford Law Review* 43(6) | Legal theory | Intersecting identities shape how people are treated |
 | Schauer (1978), "Fear, risk and the First Amendment: unraveling the chilling effect", *Boston University Law Review* 58 | Legal theory | Fear of legal process deters lawful speech |
+| ★ Wilkinson (2004), *Votes and Violence: Electoral Competition and Ethnic Riots in India*, Cambridge UP | Comparative study of Indian states | Whether police act in communal conflict depends on the state government's electoral interests; we use it by analogy for "the party ruling the state brings the police" (katikala_2026 vs sarat_2026) |
+| Brass (2003), *The Production of Hindu-Muslim Violence in Contemporary India*, University of Washington Press | Long-term study of one city | Organised networks produce outrage and violence when it is politically useful; by analogy, cadres turning anger into action |
+| Jaffrelot (2021), *Modi's India: Hindu Nationalism and the Rise of Ethnic Democracy*, Princeton UP | Political analysis | Vigilante groups acting alongside the state; the extra-legal route |
 
 ### How similar projects interpreted their cases
 
@@ -310,6 +320,15 @@ before labelling an account, test the timing signal against shuffled data, rerun
 validate against human coders.
 
 
+## 12. Choosing cases and comparing conditions (method)
+
+| Work | What they did | What it means for us |
+|---|---|---|
+| ★ Geddes (1990), "How the cases you choose affect the answers you get: selection bias in comparative politics", *Political Analysis* 2, 131–150 | Shows with examples how studying only cases where the outcome happened gives wrong answers | Names our main limitation: all 24 cases are controversies, so we cannot say which topics are risky |
+| ★ Mahoney & Goertz (2004), "The possibility principle: choosing negative cases in comparative research", *American Political Science Review* 98(4), 653–669 | Method article | How to add "nothing happened" cases: choose ones where the outcome was possible (same danger signs, viral, popular). Planned for the final paper |
+| ★ Ragin (1987), *The Comparative Method*, University of California Press; Ragin (2008), *Redesigning Social Inquiry* | Qualitative comparative analysis (QCA) | Comparing cases by combinations of conditions, and reading them as sufficient or necessary; our truth table in `independent_analysis/conditions.md` follows this format |
+
+
 ## Where previous work leaves a gap (our contribution)
 
 1. **Indian stand-up research studies texts, not controversies.** It asks what comics say and whether
@@ -325,8 +344,8 @@ validate against human coders.
 
 **One-sentence positioning for the paper:** *Building on humour-scandal research (Kuipers 2011; Ödmark 2021)
 and the study of hurt sentiments in South Asia (Nair 2023), we offer the first structured comparison of Indian
-stand-up controversies, asking which topics draw scrutiny and why controversies end online, in court, or in
-the street.*
+stand-up controversies, asking what topics are involved when comedians draw scrutiny and why controversies end online, in court, or
+in the street.*
 
 
 ## Key journals and centres (for further searching)

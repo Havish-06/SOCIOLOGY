@@ -1,8 +1,8 @@
 # Cross-case findings (final AI analysis)
 
-**Status: final AI analysis, 2026-11-10; awaiting human verification.** Built from the 24 final case files in
-`cases/` (each made from the clip transcripts and fresh research, then checked against the team's news-only draft)
-and the table `comparison.csv`. Counts refer to the 24 cases. With 24 cases chosen because they *became*
+**Status: 2026-11-14. Final analysis, checked by the case owners after watching the clips (section N of each case
+file) and with every key fact verified by a second person (`checks/key_fact_checks.md`).** Built from the 24 case
+files in `cases/` (each made from the clip transcripts and fresh research) and the table `comparison.csv`. Counts refer to the 24 cases. With 24 cases chosen because they *became*
 controversies, these are patterns among controversies, not risks of joke topics in general (limitation L1).
 
 ---
@@ -10,10 +10,13 @@ controversies, these are patterns among controversies, not risks of joke topics 
 ## 1. The answer in one paragraph
 
 Among these 24 controversies, the topic of a joke does not decide how the controversy ends. **Three conditions,
-judged from the joke and the political setting before anyone reacts, predict 19 of the 24 outcomes**
+judged from the joke and the political setting before anyone reacts, are close to sufficient for escalation: 16 of the 18 jokes with at least one escalated, against 3 of the 6
+without**
 (`independent_analysis/conditions.md`): a controversy escalated when the joke mocked a leader whose party holds power (7 of 7),
 targeted a group with a statutory defender (5 of 6), or touched the sacred of a group other than the comedian's own
-(4 of 5; 0 of 2 when comedians joked about their own family or community). Parties, commissions, police and activist
+(4 of 5; 0 of 2 when comedians joked about their own family or community, a possible pattern only). The signs
+are not necessary: half of the jokes without one escalated anyway, through the comedian's identity, fans or
+reframing in circulation. Parties, commissions, police and activist
 groups are the **mechanism** that turns these conditions into outcomes, not the explanation (explaining escalation by
 "someone with standing acted" would be circular). The conditions in more detail: the joke touches something a group holds **sacred and the law protects**
 (deities, Ambedkar, the nation, a regional icon, the family); the target is a **leader whose party holds power
@@ -142,6 +145,12 @@ during a wave of action against Telugu comics; virli_2026 and mohanraj_2026 duri
 raina_sma_2025 during the *Latent* panic). virli_2026's clip had circulated since June 2025 with little reaction:
 **the same clip escalated only when a wave made it legible as part of a pattern.**
 
+### Timing: the wave after *India's Got Latent* explains attention, not escalation
+
+Half of the cases came before *Latent* (10 Feb 2025) and half after. Escalation was as common before (10 of 12) as
+after (9 of 12). The wave changed **which old clips were noticed** (raina_sma_2025, virli_2026, mohanraj_2026 were
+resurfaced while a wave was running), not how far a case went. Details: `conditions.md`, "Does timing explain it?".
+
 ---
 
 ## 5. SQ3: who took it up, through which channel, and stigma
@@ -267,7 +276,8 @@ filed anything.
 
 ## 9. Answers to the research questions (short)
 
-- **Which topics bring comedians under scrutiny?** Among our controversies: jokes about **leaders and the state**
+- **What topics are involved when comedians come under scrutiny?** (We compare controversies with each other, so
+  this describes our cases; it does not rank topics by risk.) Among our controversies: jokes about **leaders and the state**
   (never stayed online), the **family and sexuality**, and **gender violence**. But the topic matters through
   **who can claim it and with what tool**, and several topics were assigned by the people who claimed the joke.
 - **Why do controversies end so differently?** Because the route depends on the claimant: **statutory bodies →
@@ -280,7 +290,14 @@ filed anything.
 
 ## 10. Limits
 
-- 24 cases, all of them controversies: patterns, not general risks. Several cells have 1–3 cases.
+- 24 cases, all of them controversies (selection on the outcome; Geddes, 1990): patterns, not general risks.
+  Several cells have 1–3 cases. Planned fix for the final paper: 6–8 jokes with the same danger signs where nothing
+  happened (Mahoney & Goertz, 2004).
+- "19 of 24" is no better than the base rate (19 of 24 escalated); the meaningful comparison is 16 of 18 with a
+  danger sign against 3 of 6 without (`conditions.md`).
+- The "own group" pattern (0 of 2) was noticed after looking at the cases: a hypothesis, not a result.
+- The conditions were coded by AI knowing the outcomes, then checked by owners; a blind recoding is planned.
+- `news_coding.csv` was coded by AI from headlines and summaries, not full texts: no strong claims are made from it.
 - Final AI analysis: every fact and every coding has been checked by its owner (section N of each case file) and the key facts by a second person (`independent_analysis/checks/key_fact_checks.md`). Machine
   captions are noisy; tone, gestures and the room are not visible in a transcript.
 - Comments have not been collected yet, so whether there was detectable coordinated activity in the YouTube comments is untested; even when tested, the audit cannot show that outrage was organic.
