@@ -202,8 +202,8 @@ large over 2M YouTube subscribers at the time of the incident).
 
 ### The 24 cases
 
-Final list, decided 2026-11-09 (`independent_analysis/final_cases.csv`). Topic, genre and outcome below are first-pass judgements, to be verified in each case analysis. `*` = comparison
-case (not a stand-up performance). Full pool of 45 candidates with sources: [`independent_analysis/case_pool.csv`](independent_analysis/case_pool.csv).
+Final list, decided 2026-11-09 (`independent_analysis/case_selection/final_cases.csv`). Topic, genre and outcome below are first-pass judgements, to be verified in each case analysis. `*` = comparison
+case (not a stand-up performance). Full pool of 45 candidates with sources: [`independent_analysis/case_selection/case_pool.csv`](independent_analysis/case_selection/case_pool.csv).
 
 | # | Case | Comedian | Year | Topic | Genre | Outcome |
 |---|---|---|---|---|---|---|
@@ -398,7 +398,7 @@ are therefore evidence of coordination, never proof, and the case file says so.
    collapse type, gap in months, caption, sacred object, norm invoked, who mobilised, channel used, legal basis,
    highest stigma step, courtesy stigma, comedian's response, outcome, audience size and election period.
 2. **Agreement report:** share of cases where the owner's first read matched the AI draft for each key judgement
-   (`independent_analysis/first_read.csv`).
+   (`independent_analysis/checks/first_read.csv`).
 3. **Answers to each sub-question,** supported by named cases.
 4. **Paired comparisons:** for each matched pair, what differed, what stayed the same, and which difference best
    explains the different outcomes.
@@ -421,7 +421,7 @@ commissions and courts or fizzled, never to mobs.
 | **Research paper** | Introduction (opening with *India's Got Latent* and the Rs 370 biryani case); conceptual framework; previous work and how we use it; method; overview of cases; findings by sub-question with matched pairs and the typology; discussion; limitations; conclusion; appendix with a one-page summary of each case |
 | **Case files** | 24 verified case analyses in `independent_analysis/cases/<case_id>.md` (sources in section J) |
 | **Comparison table** | `independent_analysis/comparison.csv` |
-| **Findings report** | `independent_analysis/findings.md` and `analysis/conditions.md`: patterns, matched pairs, typology, counter-examples, the main test |
+| **Findings report** | `independent_analysis/findings.md` and `independent_analysis/conditions.md`: patterns, matched pairs, typology, counter-examples, the main test |
 | **Presentation** | Slides summarising the question, method and findings |
 | **Optional** | A visual case map built from the comparison table |
 

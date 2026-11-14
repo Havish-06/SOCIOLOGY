@@ -307,7 +307,7 @@ confidence: high
 
 ## N. Owner's check (Pranav, 2026-11-12)
 
-Clip watched by the owner; first read in `independent_analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+Clip watched by the owner; first read in `independent_analysis/checks/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
 
 - Watched `2PnbFqm1vUY` 30:00–44:00 plus 15:26 and 42:35.
 - **Room reaction to the Shinde song:** loud cheers, laughter and applause at the "Thane ki rickshaw", Guwahati and "gaddar" lines (the transcript had no markers).

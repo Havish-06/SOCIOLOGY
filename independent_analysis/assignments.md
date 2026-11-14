@@ -1,7 +1,7 @@
 # Case assignments — Team K
 
 Each member owns 6 cases and verifies 6. The **owner** watches the full clip of each case, copies its transcript
-and writes a first read in `independent_analysis/first_read.csv` **before** opening the AI draft (Step 5.2), then compares it
+and writes a first read in `independent_analysis/checks/first_read.csv` **before** opening the AI draft (Step 5.2), then compares it
 with the draft and fixes it (Step 5.5). Links to watch are in `independent_analysis/clips.md`. The **verifier** then checks
 every fact against the sources (Step 5.6). Matched pairs stay with one owner, so the pair can be compared while
 writing.

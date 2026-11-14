@@ -1,8 +1,9 @@
 # Independent analysis — final AI analysis of all 24 cases
 
-**Status (2026-11-10): final AI analysis, awaiting human verification.** This folder holds a second, independent
-analysis of every case, built from the **clips themselves** (transcripts of the full performances), and then checked
-point by point against the team's first AI drafts in `cases/`. Where the two disagreed, the disagreement was settled
+**Status (2026-11-14): the current analysis, checked by the case owners (section N of each case file); key-fact
+checks by a second person in progress.** This folder holds everything current: a second, independent analysis of every
+case, built from the **clips themselves** (transcripts of the full performances), then checked point by point against
+the team's first AI drafts (now deleted). Where the two disagreed, the disagreement was settled
 against the transcripts and sources. The result is the most complete version of each case we have.
 
 ## Why this exists
@@ -14,12 +15,16 @@ the jokes themselves. Since context is the core of the project, every case was r
 
 | File | What it is |
 |---|---|
+| [conditions.md](conditions.md) | **The main finding**: conditions judged before any reaction, tested against outcomes (19 of 24) |
 | [findings.md](findings.md) | **Cross-case findings**: the answer in one paragraph, topics, direction, genre, context and the clip, who mobilised and through which channel, the sacred, stigma, apologies, typology, matched pairs, counter-examples, answers to the research questions |
 | [cases/](cases/) | **One final analysis per case** (24). Template sections A–J, plus **K** (the joke in the clip: timestamps, key lines, setup, room reaction, what the clip and news left out), **L** (human check list), **M** (check against the team draft: differences and how each was settled), and the **Final coding** |
 | [comparison.csv](comparison.csv) | Master comparison table: the final coding of all 24 cases, one row per case |
-| [vs_ai_draft.md](vs_ai_draft.md) | Case by case: what the team draft got wrong or missed, and the outcome before and after |
-| [../analysis/key_fact_checks.md](../analysis/key_fact_checks.md) | **The key facts of each case, checked by a person** |
-| [../analysis/conditions.md](../analysis/conditions.md) | **The main finding**: conditions judged before any reaction, tested against outcomes |
+| [checks/vs_ai_draft.md](checks/vs_ai_draft.md) | Case by case: what the team draft got wrong or missed, and the outcome before and after |
+| [checks/key_fact_checks.md](checks/key_fact_checks.md) | **The key facts of each case, checked by a person** |
+| [checks/](checks/) | Also: each owner's first read (`first_read.csv`) and the collective-trauma recode |
+| [assignments.md](assignments.md), [clips.md](clips.md) | Who owns which case; the links to watch |
+| [case_selection/](case_selection/) | How the 24 cases were chosen from 45 |
+| [news_coding.csv](news_coding.csv) | How the news articles framed each case |
 | [method/](method/) | How it was done (below) |
 
 ## How it was done
@@ -39,10 +44,10 @@ the jokes themselves. Since context is the core of the project, every case was r
    applied to all 24 (`method/consistency_rules.md`, `method/normalise.py`).
 5. **Tables and findings.** `method/build_tables.py` builds `comparison.csv` from the case files; `findings.md`
    was written from the table and the case files.
-6. **Human checks.** Each owner watched their clips and wrote a first read (`analysis/first_read.csv`) and
-   section N of each case file; the key facts were then checked by a second person (`analysis/key_fact_checks.md`).
+6. **Human checks.** Each owner watched their clips and wrote a first read (`checks/first_read.csv`) and
+   section N of each case file; the key facts were then checked by a second person (`checks/key_fact_checks.md`).
 
 ## What it still needs
 
-The open key-fact checks (`analysis/key_fact_checks.md`), the comment collection and spam audit (detectable coordination in YouTube
+The open key-fact checks (`checks/key_fact_checks.md`), the comment collection and spam audit (detectable coordination in YouTube
 comments), and team decisions on the consistency rules. Commenter usernames do not appear in any file.

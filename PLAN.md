@@ -93,7 +93,7 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
 - **Goal:** a final list of 20–30 cases, chosen by written criteria so the selection cannot be called cherry-picking.
 - **Do:**
   1. **Long-list (about 40 candidates).** Start from the 23 cases in `data/cases.csv` and the extra ideas in
-     `independent_analysis/case_pool_summary.md`. The AI assistant searches for further candidates. For each candidate, record:
+     `independent_analysis/case_selection/case_pool_summary.md`. The AI assistant searches for further candidates. For each candidate, record:
      comedian, approximate date, topic, likely genre, likely outcome type, number of independent sources
      found, and whether a clip or comments are available.
   2. **Inclusion criteria** (a case must meet all):
@@ -110,7 +110,7 @@ Each step lists its goal, what it needs, what to do, what it produces, and when 
   4. **Fill a selection matrix** (topic × outcome) and look for empty cells. Empty cells are informative,
      but if an empty cell is due to missing research rather than reality, search for a case to fill it.
   5. Team picks the final 20–30. Record rejected candidates and the reason (e.g. "only one source").
-- **Output:** `independent_analysis/case_pool.csv` (all candidates, with included yes/no and reason) and the final list in DECISIONS.md.
+- **Output:** `independent_analysis/case_selection/case_pool.csv` (all candidates, with included yes/no and reason) and the final list in DECISIONS.md.
 - **Done when:** the final list is agreed and the matrix has no empty cells that are only due to missing research.
 
 ### Step 3: Finalise the template
@@ -142,7 +142,7 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
 | Sub-step | Who | What happens | Output |
 |---|---|---|---|
 | 5.1 Research | AI | Search news, legal reports and statements. Build the dated timeline and source list. | section J of `independent_analysis/cases/<case_id>.md` |
-| 5.2 Full clip and first read | Case owner, **before opening the draft** | Watch the **full** original performance (links in `independent_analysis/clips.md`), not only the viral seconds. Copy the YouTube transcript ("Show transcript"); if there is none, write the key lines by hand. Write a first read: what the joke was, what came before and after, how the room reacted, how the viral clip was cut, topic, direction, what angered people, outcome. If no clip exists, use the best reported quotation and say so. | `data/transcripts/<case_id>__<video_id>.txt` (git-ignored); row in `independent_analysis/first_read.csv` |
+| 5.2 Full clip and first read | Case owner, **before opening the draft** | Watch the **full** original performance (links in `independent_analysis/clips.md`), not only the viral seconds. Copy the YouTube transcript ("Show transcript"); if there is none, write the key lines by hand. Write a first read: what the joke was, what came before and after, how the room reacted, how the viral clip was cut, topic, direction, what angered people, outcome. If no clip exists, use the best reported quotation and say so. | `data/transcripts/<case_id>__<video_id>.txt` (git-ignored); row in `independent_analysis/checks/first_read.csv` |
 | 5.3 Comments | AI + team | AI pulls YouTube comments for up to 3 key videos and reads and themes them following PLAN.md, Comment protocol. | `data/comments/<case_id>_*.csv` (git-ignored), themes in section E |
 | 5.4 Draft | AI | Fill every section of the template, including the theory reading (section H). | `independent_analysis/cases/<case_id>.md` |
 | 5.5 Compare | Case owner | Give the AI the transcript; compare the first read with the draft field by field; fix the draft where the clip or sources show it is wrong; mark in `first_read.csv` where the owner and the AI agreed. | `case.md` updated |
@@ -164,7 +164,7 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
      sacred object, who mobilised, channel used, highest stigma step, courtesy stigma, comedian's response,
      outcome, audience size, election period, and so on).
   2. **Agreement report:** share of cases where the owner's first read matched the AI draft on each
-     judgement (`independent_analysis/first_read.csv`). Report it honestly.
+     judgement (`independent_analysis/checks/first_read.csv`). Report it honestly.
   3. **Answer each sub-question:**
      - SQ1: compare topics (and punching up vs down within a topic) on outcome and reaction framing; then check whether genre adds anything once topic is held constant
      - SQ2: compare collision cases with collusion cases on how far they escalated
@@ -179,7 +179,7 @@ Each case goes through these sub-steps. The case owner (a team member) is respon
      A pattern with no counter-examples checked is not a finding.
   7. **Optional, simple QCA-style truth table:** cases × 4–5 conditions × outcome, as a visual check of
      which combinations go with which outcome. Not as a formal causal claim.
-- **Output:** `independent_analysis/comparison.csv`, `independent_analysis/findings.md` (patterns, pairs, typology, counter-examples), `analysis/conditions.md` (the main test), figures.
+- **Output:** `independent_analysis/comparison.csv`, `independent_analysis/findings.md` (patterns, pairs, typology, counter-examples), `independent_analysis/conditions.md` (the main test), figures.
 - **Done when:** each sub-question has an answer supported by named cases, with counter-examples addressed.
 
 ### Step 7: Interviews (dropped)
@@ -323,8 +323,6 @@ independent_analysis/       everything current
   checks/                   first reads, key-fact checks, the collective-trauma recode, what the first drafts got wrong
   case_selection/           all 45 candidates, how the 24 were chosen, the final list
   method/                   how the analysis was made (brief with the template, instructions, rules, scripts)
-data/
-  cases.csv, videos.csv     earlier case and video tables, used by the comment tools in src/
 data/
   cases.csv, videos.csv     earlier case and video tables (videos.csv lists the videos for comment collection)
   comments/                 downloaded and sampled comments    (git-ignored, contains IDs)

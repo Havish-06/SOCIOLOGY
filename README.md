@@ -22,34 +22,43 @@ variable. Team: Havish, Yogansh, Pranav, Siddanth.
 | [independent_analysis/assignments.md](independent_analysis/assignments.md) | Who owns and who verifies each case | Before starting your cases |
 | [independent_analysis/conditions.md](independent_analysis/conditions.md) | **The main finding**: conditions judged from the joke before anyone reacts, tested against the 24 outcomes (19 of 24 predicted) | For the headline |
 | [independent_analysis/](independent_analysis/README.md) | **The final analysis of all 24 cases** (made from the clips, checked by the owners): case files, comparison table, findings | To see a case or the findings |
-| [independent_analysis/key_fact_checks.md](independent_analysis/key_fact_checks.md) | The key facts of each case, checked by a second person | When doing your checks |
+| [independent_analysis/checks/key_fact_checks.md](independent_analysis/checks/key_fact_checks.md) | The key facts of each case, checked by a second person | When doing your checks |
 | [independent_analysis/clips.md](independent_analysis/clips.md) | The YouTube links to watch for every case | When watching a clip |
 
 ## Where things are
 
-| Path | What it is |
-|---|---|
-| `independent_analysis/cases/<case_id>.md` | **The final analysis of each case** (24). Sources in section J; the owner's check in section N |
-| `independent_analysis/comparison.csv` | One row per case: topic, genre, direction, who mobilised, route, outcome, stigma, response |
-| `independent_analysis/findings.md` | Cross-case findings: patterns, matched pairs, typology, counter-examples |
-| `independent_analysis/vs_ai_draft.md` | What the first news-only drafts (9 Nov, now deleted) got wrong |
-| `independent_analysis/method/` | How the analysis was made: brief with the case template, instructions, consistency rules, scripts |
-| `independent_analysis/conditions.md`, `conditions.csv` | The main finding and its table |
-| `independent_analysis/key_fact_checks.md` | Key facts per case, checked by a second person |
-| `independent_analysis/first_read.csv` | Each owner's own reading of their clips |
-| `independent_analysis/sacred_recode_collective_trauma.md` | Proposed recoding for the new sacred object (collective trauma) |
-| `independent_analysis/final_cases.csv` | The 24 final cases; `case_pool.csv` and `case_pool_summary.md` show how they were chosen from 45 |
-| `independent_analysis/assignments.md` | Who owns and who verifies each case |
-| `independent_analysis/clips.md` | For every case, the YouTube links to watch |
-| `independent_analysis/news_coding.csv` | Framing codes for the news articles of each case |
-| `data/` | Earlier case and video tables (`videos.csv` lists the YouTube videos for comment collection) |
-| `src/`, `tests/` | Comment collection, spam and coordination audit, coding sheets, news timing; tests (not yet run on our cases) |
+```
+README.md, PROJECT.md, PLAN.md, CODEBOOK.md, LITERATURE.md, DECISIONS.md   the project documents (table above)
+
+independent_analysis/            EVERYTHING CURRENT
+  findings.md                    cross-case findings: patterns, matched pairs, typology, counter-examples
+  conditions.md, conditions.csv  the main finding: conditions judged before any reaction, against the 24 outcomes
+  comparison.csv                 master table, one row per case (built from the case files)
+  assignments.md                 who owns and who verifies each case
+  clips.md                       the YouTube links to watch for every case
+  news_coding.csv                how the news articles framed each case
+  cases/<case_id>.md             the final analysis of each case (24); sources in section J, owner's check in section N
+  checks/                        how the analysis was checked by people
+    first_read.csv                 each owner's own reading of their clips
+    key_fact_checks.md             6 key facts per case, checked by a second person
+    sacred_recode_collective_trauma.md   recoding for the new sacred object (collective trauma)
+    vs_ai_draft.md                 what the first news-only drafts (9 Nov, now deleted) got wrong
+  case_selection/                how the 24 cases were chosen
+    final_cases.csv                the 24 final cases
+    case_pool.csv                  all 45 candidates, with included yes/no and the reason
+    case_pool_summary.md           how the list was built; balance; matched pairs; reserves
+  method/                        how the analysis was made: the case template, instructions, consistency rules, scripts
+
+data/, src/, tests/              KEPT FOR LATER: the YouTube comment audit (not run yet). videos.csv lists the videos,
+                                 cases.csv is the case list the tools read; src/ has the tools, tests/ their tests
+```
 
 ## Status (2026-11-14)
 
 - All 24 cases analysed from the clips (`independent_analysis/`) and checked by their owners after watching
-  (section N of each case file). The first news-only drafts were deleted on 14 Nov (still in the git history).
-- Key-fact checks by a second person: in progress (`independent_analysis/key_fact_checks.md`).
+  (section N of each case file). The first news-only drafts, their tables and other outdated files were deleted on
+  14 Nov (still in the git history).
+- Key-fact checks by a second person: in progress (`independent_analysis/checks/key_fact_checks.md`).
 - Main finding: `independent_analysis/conditions.md`; detailed findings: `independent_analysis/findings.md`.
 - Comment collection and the spam audit have not been run; reported as a limitation.
 - First deliverable: a presentation on 14–15 November 2026.

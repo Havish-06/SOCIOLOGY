@@ -281,6 +281,6 @@ filed anything.
 ## 10. Limits
 
 - 24 cases, all of them controversies: patterns, not general risks. Several cells have 1–3 cases.
-- Final AI analysis: every fact and every coding has been checked by its owner (section N of each case file) and the key facts by a second person (`analysis/key_fact_checks.md`). Machine
+- Final AI analysis: every fact and every coding has been checked by its owner (section N of each case file) and the key facts by a second person (`independent_analysis/checks/key_fact_checks.md`). Machine
   captions are noisy; tone, gestures and the room are not visible in a transcript.
 - Comments have not been collected yet, so whether there was detectable coordinated activity in the YouTube comments is untested; even when tested, the audit cannot show that outrage was organic.

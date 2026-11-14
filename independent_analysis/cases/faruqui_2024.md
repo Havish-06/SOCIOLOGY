@@ -267,7 +267,7 @@ confidence: medium
 
 ## N. Owner's check (Siddhant, 2026-11-13)
 
-Transcripts re-downloaded and read; first read in `independent_analysis/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+Transcripts re-downloaded and read; first read in `independent_analysis/checks/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
 
 - **Transcript check:** _tVdqkI8Sdk matches section K word for word. tTZ25lueiW8 contains the setup question "सब लोग बम्बे से ही है ना? कोई ट्रेवल करके आया है?", which places the show in Mumbai, not Taloja; its narrator's claim that the show was in Dubai is wrong (in the clip Faruqui turns to someone "from Dubai" in the audience).
 - **Confirmed (new search):** the Marathi speaker in tTZ25lueiW8 is BJP MLA Nitesh Rane. His "green snake... won't take long to send you to Pakistan" line matches the Free Press Journal report, and he later warned of "direct action" if Faruqui spoke about Hindus or Konkanis again. Apology video dated about 12–13 Aug 2024 (India TV, Outlook, DNA).

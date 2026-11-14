@@ -291,7 +291,7 @@ confidence: high
 
 ## N. Owner's check (Siddhant, 2026-11-13)
 
-Transcripts re-downloaded and read; first read in `independent_analysis/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+Transcripts re-downloaded and read; first read in `independent_analysis/checks/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
 
 - **Transcript check:** mfocyLQftgg matches section K: the "Mera piya ghar aaya o Ramji" bit, Sita "doubting", "gin gin" read as counting the exile, then *The Burning Train* / Godhra story with one laughter marker at 00:55. ldlEVhOFAN4 is a TV bulletin that reports the allegations as fact ("accused of indecent remarks against Hindu deities and Amit Shah") and adds that he "was also attacked" after the arrest.
 - **Confirmed (new search):** on 24 Apr 2023 the Supreme Court clubbed all FIRs, including Prayagraj, transferred them to Indore and made interim bail absolute, without deciding quashing (SCC Online; LawStreet; Tribune). The MP High Court refused bail in Jan 2021 (Justice Rohit Arya; ETV Bharat) and the SC granted interim bail on 5 Feb 2021 (BOOM; Al Jazeera).

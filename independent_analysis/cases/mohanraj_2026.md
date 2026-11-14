@@ -249,7 +249,7 @@ confidence: medium
 
 ## N. Owner's check (Siddhant, for Yogansh, 2026-11-13)
 
-Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `independent_analysis/first_read.csv` (reader "Siddhant, for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
+Done for Yogansh, the owner of this case. Transcripts were downloaded again (transcriptapi) and read, and the first read was written in `independent_analysis/checks/first_read.csv` (reader "Siddhant, for Yogansh") before comparing with this file. New sources were found by YouTube search. The clips themselves were not watched.
 
 - **Transcript check:** VWBaA8HXwzk 00:48-01:21 matches section B: 'epitome of misandry... in simpler terms she is the Haryana for male [foeticide]' [laughter]; 'my mother cried like a baby' [laughter]; 'the nurse wasn't letting her cut his something. Classic nurse' [laughter]; 'I want to fulfil her unfulfilled dream, when I have a son' [laughter]. hooMhO02KwA and UIoLKSUNW0Y are paraphrases, as the file says.
 - **Looking for the original:** AIB uploaded 'Why I Deserve to Win #Comicstaan : Standup by Aishwarya Mohanraj' (1-FKpcy1sAY, 21 Aug 2018, 4:11, 4.6M views); it has no captions, so it could not be checked. TCd61oVMCXs has only Hindi machine captions of English speech (no English track exists); its readable fragments (Hanuman, Kumbhakarna, 'mummy ne papa ko chhod diya') do not show the bit. Aaj Tak (16 Jun 2026) also calls it an old Comicstaan clip.

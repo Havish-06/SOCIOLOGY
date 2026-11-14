@@ -286,7 +286,7 @@ confidence: medium
 
 ## N. Owner's check (Siddhant, 2026-11-13)
 
-Transcripts re-downloaded and read; first read in `independent_analysis/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
+Transcripts re-downloaded and read; first read in `independent_analysis/checks/first_read.csv` (reader "Siddhant"); facts re-checked by new web searches on 2026-11-13. The video itself was not watched, so tone, gestures and room reaction remain open (listed under "Needs someone to watch").
 
 - **Transcript check (Tamil read directly):** e61ahdBvIk4 matches section K scene by scene: the lineage speech; the "dominant group starter pack" (white shirt, wristband, kumkum, caste flex); the "pazhakkam" pun; the tuition/sports/jobs speech; the Guru Pooja convoy; "either your sister shouldn't live or that boy"; the killing and the leader backing out; the chilli-powder "valour" lines at about 12:38; the closing attack on reels and "balanced" commentators. No caste is named.
 - **Two open readings settled:**

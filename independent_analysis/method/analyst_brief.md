@@ -117,7 +117,7 @@ controversies.
 ## CODEBOOK
 # Codebook — Team K
 
-Every joke and comment label, with decision rules and the earlier work each label comes from. Start from [README.md](README.md) for where everything is.
+Every joke and comment label, with decision rules and the earlier work each label comes from. Start from [README.md](../../README.md) for where everything is.
 
 Labels in C1 go into section B of each case file; labels in C2 are
 used when reading comments (PLAN.md, Comment protocol). How each label connects to previous work: LITERATURE.md.

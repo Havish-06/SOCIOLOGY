@@ -270,7 +270,7 @@ confidence: medium
 
 ## N. Owner's check (Pranav, 2026-11-12)
 
-Clip watched by the owner; first read in `independent_analysis/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
+Clip watched by the owner; first read in `independent_analysis/checks/first_read.csv`; facts checked against the sources. Rows marked *pending* in D: the owner found a second source, and the citation is still to be added.
 
 - Watched `pYniw8ZA69s` in full and the disruption clip `RKwe7q2wlEU` (Telugu speaker).
 - **Caption gap 02:10–04:15 filled:** KTR gives interviews to prestigious channels while the former YSRCP IT minister gives his to Suman TV, which had just interviewed a viral meme star; asked about IT in Vizag, he dodges and talks about Rushikonda.
