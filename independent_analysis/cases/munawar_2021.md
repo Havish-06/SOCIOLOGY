@@ -52,14 +52,14 @@ On 1 January 2021 Munawar Faruqui was due to perform at Monroe Cafe in Indore, M
 | 19 Apr 2020 | complaint: lawyer and RSS member Ashutosh Mishra complains in Prayagraj (IPC 153A, 295A; IT Act); FIR registered months later | individual | confirmed | [5][9] |
 | Oct 2020 | disruption: a Jaipur show stopped by a Hindu outfit | religious_org | reported | [7] |
 | 1 Jan 2021 | performance / disruption: at Monroe Cafe, Indore, Gaur's group (ticket-holders) stops the show as Faruqui takes the stage; Gaur takes the mic about "hurt sentiments" | religious_org / politician's son | confirmed | [1][3][6][7] |
-| 1 Jan 2021 | violence: the group allegedly roughs up Faruqui and the organisers and takes them to Tukoganj police station | religious_org | confirmed (allegation reported by several outlets) | [1][2][6] |
+| 1 Jan 2021 | violence: the group allegedly roughs up Faruqui and the organisers and takes them to Tukoganj police station | religious_org | reported (an allegation: several outlets carry it, none gives an independent account; Silverscreen alone reports audience members beaten) | [1][2][6] |
 | 1 Jan 2021 | fir / arrest: Faruqui, Nalin Yadav, Prakhar Vyas, Edwin Anthony and Priyam Vyas booked under IPC 295A, 298, 269, 188, 34 and arrested | police | confirmed | [1][3][6] |
 | 2 Jan 2021 | arrest: Sadakat Khan held as co-organiser | police | confirmed | [6]; [4] |
 | 3 Jan 2021 | statement: TI Kamlesh Sharma says there is no video of Faruqui insulting deities or Amit Shah; the complainant's video shows another comic joking about Ganesh | police | confirmed | [2][3] (both citing Indian Express; plus BOOM's own report) |
 | early Jan 2021 | court: magistrate and sessions courts reject bail (twice) | court | confirmed | [4][6] |
 | 7 Jan 2021 | court: Prayagraj court's production warrant reaches Indore jail | court | reported | [5] |
 | ~14 Jan 2021 | statement: SP Vijay Khatri tells Article 14 that Faruqui had not performed, was "going to", that it "doesn't really matter", and cites the April 2020 video as intent | police | confirmed | [4][7] |
-| 15 Jan 2021 | court: High Court hearing adjourned; police fail to produce the case diary | court | confirmed | [6]; search summaries |
+| 15 Jan 2021 | court: High Court hearing adjourned; police fail to produce the case diary | court | confirmed | [6]; LiveLaw, Bar & Bench, Scroll, The Quint (15 Jan 2021): order notes "case diary is not available" |
 | 28 Jan 2021 | court: Madhya Pradesh HC (Justice Rohit Arya, Indore bench) rejects bail | court | confirmed | [8]; search summaries (The Week, The Wire) |
 | 5 Feb 2021 | court: Supreme Court (Nariman, Gavai JJ) grants interim bail, calls FIR allegations vague, stays UP production warrant | court | confirmed | [8][10] |
 | 6 Feb 2021 (about 11 pm) | release: freed from Indore Central Jail after a delay, following a call from the court system | court / police | confirmed | [10][11] |

@@ -45,13 +45,14 @@ At a show in the Mumbai area, Munawar Faruqui asked whether anyone in the audien
 ## D. Timeline
 | Date | Event | Actor type | Confidence | Sources |
 |---|---|---|---|---|
-| before Aug 2024 (unknown) | performance: crowd-work at a show in Mumbai; a Taloja audience member prompts the Konkani line | comedian | confirmed (that it happened); date unknown | transcripts; [1][2][3] |
+| before 19 Jul 2024 (exact date unknown) | performance: crowd-work at a show in Mumbai; a Taloja audience member prompts the Konkani line | comedian | confirmed (primary: the full set on his channel); performance date unknown | transcripts; [1][2][3]; U0KIaD4J56A |
+| 19 Jul 2024 | upload: the full set goes up on Faruqui's own YouTube channel as "Boys, Dubai and Crowd Work" (U0KIaD4J56A) | comedian | confirmed (primary: YouTube upload date; viewer comments from 19-22 Jul quote the Konkani line) | U0KIaD4J56A |
 | ~11–12 Aug 2024 | viral: clip spreads on X; MNS-supporting accounts tag MNS leaders and urge "strict action" | individual / party_worker | reported (one outlet) | [2] |
 | ~12 Aug 2024 | threat / statement: BJP MLA Nitesh Rane posts a Marathi video: "green snake" to be sent to Pakistan, "we know his address", calls on people not to follow him, demands an apology (commentary says within 24 hours) | politician | confirmed | [1][3]; transcript tTZ25lueiW8 [01:10]–[02:17] |
 | ~12 Aug 2024 | threat: a Shiv Sena (Shinde) figure reportedly announces a reward of up to Rs 1 lakh for beating Faruqui if he does not apologise | politician | confirmed (reward offered); reported (who: Samadhan Sarvankar per India TV) | [3][4] |
 | 12 Aug 2024 (Mon) | apology: Faruqui posts a video on X/Instagram: crowd work, out of context, no intention to hurt, "दिल से माफी", "जय हिंद जय महाराष्ट्र"; caption in Marathi expresses love for Konkan | comedian | confirmed | [1][3][4][5]; transcript tTZ25lueiW8 [02:17]–[03:43] |
 | 12–13 Aug 2024 | statement: Rane reposts the apology, warning of "direct action" if Faruqui speaks about Hindus or Konkanis again | politician | confirmed | [1][5] |
-| 14 Aug 2024 | statement: Rane calls Faruqui a "habitual offender": "Konkani people, our religion is not a joke"; "then we can also slap him and apologize" | politician | confirmed (ANI-based) | [5]; search summary of Pinkvilla |
+| 14 Aug 2024 | statement: Rane calls Faruqui a "habitual offender": "Konkani people, our religion is not a joke"; "then we can also slap him and apologize" | politician | reported (one source: ANI via Devdiscourse; Pinkvilla not opened) | [5] |
 | mid Aug 2024 | statement: Faruqui posts a cryptic note ("jab apne hi log ladne aa jaye…") | comedian | reported | Pinkvilla headline [6] |
 | Oct 2024 | apology video misrepresented online as an apology to the Lawrence Bishnoi gang; fact-checked | media | confirmed | [7][8] |
 

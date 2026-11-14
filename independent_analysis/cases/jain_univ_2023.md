@@ -47,12 +47,12 @@ Students of the Centre for Management Studies (CMS) of Jain (Deemed-to-be) Unive
 |---|---|---|---|---|
 | 4–8 Feb 2023 | skit performed at Jain University Youth Fest '23 ("Mad Ads"); performed at other venues too | individual (students) | performance confirmed; date disputed (4, 5–6 or 8 Feb) | [2][5][6][1b] |
 | early Feb 2023 | students object to organisers, are dismissed; start a Jhatkaa.org petition ("incredibly casteist and insensitive"); group initially calls criticism "ill-informed media sensationalism" | individual / community_org | reported (TNM article and TNM video, same outlet) | [2][1b] |
-| 9 Feb 2023 | Aakshay Bansode (Vanchit Bahujan Yuva Aaghadi) files complaint with police in Maharashtra (Nanded) | party_worker | confirmed (TNM; South First gives 10 Feb) | [2][3] |
+| 9 Feb 2023 | Aakshay Bansode (Vanchit Bahujan Yuva Aaghadi) files complaint with police in Maharashtra (Nanded) | party_worker | confirmed (complaint: TNM, South First); date disputed (9 or 10 Feb) | [2][3] |
 | 10 Feb 2023 | Assistant Director, Social Welfare Department (Bengaluru South) files complaint at Siddapura police; FIR registered (CR 32/2023) under SC/ST Act 3(1)(r),(s),(v) and IPC 153A, 295A, 149 | commission (state department) / police | confirmed (FIR and sections: [3][6][7]); complainant identity disputed (South First credits the activist complaint and dates the Bengaluru case to 11 Feb) | [2][3][6][7] |
 | 10 Feb 2023 | university suspends the students (six per TNM); disciplinary committee formed; group posts an apology on Instagram ("this was not our aim or intention"), then deletes the account | venue (university) / individual | confirmed | [2][3] |
 | 11 Feb 2023 | Bengaluru police confirm the FIR | police | confirmed | [2][3] |
 | 13 Feb 2023 | police arrest 7 students, the dean and the programme coordinator; 3 days police custody | police | confirmed (NewsClick says 14 Feb) | [3][4][5] |
-| Feb–Mar 2023 | the accused released on bail | court | confirmed (date not found) | [6] |
+| Feb–Mar 2023 | the accused released on bail | court | reported (one source, [6]; date not found; the later HC stay implies release) | [6] |
 | Feb 2023 | complainants reportedly threatened and cyber-harassed | individual | reported (TNM video only) | [1b] |
 | 5 & 19 Jul 2023 | Karnataka High Court (Justice M. Nagaprasanna) stays proceedings, first for faculty then for students | court | confirmed | [6][8] |
 | early 2025 (reported 1 Mar 2025) | Karnataka High Court (Justice S.R. Krishna Kumar) quashes the case: skit "in the nature of satire/entertainment" protected under Article 19; no material showing intent to insult SC/ST members; continuing would be "abuse of process of law" | court | confirmed | [7][9][10] |

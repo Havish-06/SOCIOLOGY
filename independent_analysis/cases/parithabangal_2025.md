@@ -57,7 +57,7 @@ Parithabangal is a Tamil YouTube comedy channel run by Gopi and Sudhakar (with w
 | 7–8 Aug 2025 | Dravidar Viduthalai Kazhagam / DK file counter-complaint against those threatening the duo (naming Choudary's video), seek police protection and ask the government to give the duo the M.R. Radha award | community_org | confirmed (Maalaimalar; TNM) | [2][13] |
 | Aug 2025 | public sends money to the duo; a caste association demands deletion | individual / community_org | reported | [7][12] |
 | Aug 2025 | abuse and mass reporting of the video reported | individual | reported (South First opinion) | [4] |
-| 10 Aug 2025 | VCK leader Thirumavalavan praises the sketch: honest, names no one, "any award would suit them" | politician | confirmed (Oneindia; reported elsewhere) | [14] |
+| 10 Aug 2025 | VCK leader Thirumavalavan praises the sketch: honest, names no one, "any award would suit them" | politician | reported (one source, Oneindia; no second report found on 14 Nov) | [14] |
 | to 2026-11-09 | no FIR, arrest, court case or deletion found; video still online | none | reported (absence) | [1][3] |
 
 - Days from first viral spread to peak attention: about 2–4 days (6–10 Aug 2025). To fading: about 1–2 weeks (no later news found).

@@ -60,7 +60,7 @@ In mid-May 2022 a short, old clip of Bharti Singh circulated on social media. In
 | 2022-05-15 | YouTube reuploads titled "...Sikh Beard" and "Bharti Singh Insulted Sikh' ??" | individual | confirmed (primary) | YouTube metadata |
 | 2022-05-15/16 | Bharti posts an apology video (Hindi/Punjabi) on Instagram: no religion named; "I apologise with folded hands" | comedian | confirmed | [3][5][1]; transcript fL9vTzlb65U |
 | 2022-05-16 | SGPC (Addl. Secretary Partap Singh) complains to the Amritsar Police Commissioner. Protests in Amritsar, incl. the SAD women's wing, demanding a 295A case | religious_org; party_worker | confirmed (complaint, protests) | [1][2][6][10] |
-| 2022-05-16 | FIR at Kotwali police station, Amritsar, on the SGPC complaint (DCP Parminder Singh Bhandal) | police | reported (Tribune; [6] relies on it) | [1][2][6] |
+| 2022-05-16 | FIR at Kotwali police station, Amritsar, on the SGPC complaint (DCP Parminder Singh Bhandal) | police | confirmed (Tribune quotes DCP Bhandal; also DNA Hindi, Gulf News; section reported as 295A) | [1][2][6]; DNA Hindi; Gulf News |
 | 2022-05-16 (Mon, 11:55 pm) | FIR at Adampur police station, Jalandhar, IPC 295A, on complaints by Jassi Tallan (Guru Ravidas Tiger Force) and Bhai Lakhbir Singh (Misl Tarna Dal) | police | confirmed | [7][8][11] |
 | c. 2022-05-16 | Punjabi singer Babbu Maan condemns the remark at a live show and asks "Kapil Sharma's team" to respond | individual | reported | [1] |
 | 2022-05-23 | NCM asks the Chief Secretaries of Punjab and Maharashtra for reports; says the joke "hurt the religious sentiment of the Sikhs in India and abroad" | commission | confirmed | [12][13] |
