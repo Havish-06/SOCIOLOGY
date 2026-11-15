@@ -73,6 +73,9 @@ Every case is scored on how far the comedian was marked, from 0 to 4 (adapted fr
 | 3 | Status loss: shows cancelled, venues lost |
 | 4 | Discrimination: bans, arrests, violence |
 
+Rule applied to all 24 cases: an FIR, a court summons or a commission's summons puts the case at **at least step 3**;
+arrest, custody, a ban, assault or venue vandalism is **step 4**.
+
 **Finding:** step 4 was reached in 8 cases (all 7 "both" cases and Pranit More 2025).
 
 **10. What is courtesy stigma?**
