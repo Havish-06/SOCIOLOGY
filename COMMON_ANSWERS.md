@@ -86,9 +86,13 @@ on the whole group, not just an opinion. It is not only gods. **Our fixed list**
 outcomes): gods and religious symbols; regional heroes (Shivaji); Ambedkar; the nation; the family and parents;
 and collective trauma (for example, the Kashmiri Pandit exodus).
 - We always ask **"whose sacred?"**: another group's, or the comedian's own group's?
-- **Finding:** in India the sacred works as a **legal weapon**. Hurt-sentiment and similar laws protect it, so
-  touching it opens the legal route. 6 of the 7 "both" cases touched the sacred; none of the 4 street-only cases
-  did (Nair, 2023, "the politics of hurt sentiments").
+- **Finding:** in India the sacred works as a **legal weapon** (Nair, 2023, "the politics of hurt sentiments").
+  Hurt-sentiment and similar laws protect it, so touching it gives groups a ready-made legal route: 6 of the 7
+  "both" cases touched the sacred, and none of the 4 street-only cases did.
+- **But it is one way into the law, not the only one:** 5 cases with nothing sacred in the joke still went legal,
+  through laws on women, caste or misrepresentation. And it is not enough on its own: Sachdeva and Mohanraj touched
+  the family and stayed online, because nobody with standing took them up. The sacred is coded **from the joke
+  only**, not from what objectors claimed.
 
 **12. What is context collapse?**
 In a comedy club, the audience chose to be there and knows it is a joke; that is the context. Online, the clip
